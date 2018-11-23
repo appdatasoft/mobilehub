@@ -10,6 +10,7 @@ import PasswordReset from '@/pages/auth/PasswordReset.vue'
 import ChangePassword from '@/pages/auth/ChangePassword.vue'
 import ConfirmPasswordReset from '@/pages/auth/ConfirmPasswordReset.vue'
 import Tasks from '@/components/Tasks'
+import Pricing from '@/pages/Pricing'
 
 import store from '@/store'
 
@@ -21,6 +22,9 @@ const routes = [
     },
     {
         path: '/tasks', name: 'tasks', component: Tasks, meta: { title: 'Tasks', auth: true }
+    },
+    {
+        path: '/pricing', name: 'pricing', component: Pricing, meta: { title: 'Pricing', auth: true }
     },
     {
         path: '/dashboard', name: 'dashboard', component: Dashboard, meta: { title: 'Dashboard', auth: true }

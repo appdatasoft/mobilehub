@@ -3,10 +3,9 @@
     toggleable="md" 
     type="dark">
     <b-navbar-toggle target="nav_collapse"/>
-    <b-navbar-brand to="/"><img src="" srcset="../assets/hohlogo.png 1x, ../assets/hohlogo.png 2x" width= "20%" alt="hackohire for happy teams"></b-navbar-brand>
+    <b-navbar-brand to="/">Hackohire</b-navbar-brand>
     <b-navbar-nav>
       <b-nav-item to="/dashboard">Dashboard</b-nav-item>
-      <b-nav-item to="/pricing">Pricing</b-nav-item>
     </b-navbar-nav>
     <b-navbar-nav class="ml-auto">
       <b-nav-item 
