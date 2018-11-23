@@ -4,7 +4,12 @@
       class="main" 
       fluid>
       <v-menu/>
-      <router-view/>
+      <div 
+        id="app" 
+        v-if="hydrated">
+        </div>
+        <router-view/>
+      
       <v-footer/>
     </b-container>
   </div>
@@ -19,7 +24,12 @@ Vue.component('v-menu', Menu)
 Vue.component('v-footer', Footer)
 
 export default {
-  name: 'App'
+  name: 'App',
+  data: () => ({ hydrated: false }),
+  async mounted() {
+    await this.$apollo.provider.defaultClient.hydrated()
+    this.hydrated = true
+}
 }
 </script>
 

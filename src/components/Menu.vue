@@ -3,7 +3,7 @@
     toggleable="md" 
     type="dark">
     <b-navbar-toggle target="nav_collapse"/>
-    <b-navbar-brand to="/">Cognito Bootstrap</b-navbar-brand>
+    <b-navbar-brand to="/">Hackohire</b-navbar-brand>
     <b-navbar-nav>
       <b-nav-item to="/dashboard">Dashboard</b-nav-item>
     </b-navbar-nav>

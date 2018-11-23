@@ -9,6 +9,7 @@ import ConfirmSignUp from '@/pages/auth/ConfirmSignUp.vue'
 import PasswordReset from '@/pages/auth/PasswordReset.vue'
 import ChangePassword from '@/pages/auth/ChangePassword.vue'
 import ConfirmPasswordReset from '@/pages/auth/ConfirmPasswordReset.vue'
+import Tasks from '@/components/Tasks'
 
 import store from '@/store'
 
@@ -17,6 +18,9 @@ Vue.use(Router)
 const routes = [
     {
         path: '/', name: 'home', component: Home, meta: { title: 'Home', auth: false }
+    },
+    {
+        path: '/tasks', name: 'tasks', component: Tasks, meta: { title: 'Tasks', auth: true }
     },
     {
         path: '/dashboard', name: 'dashboard', component: Dashboard, meta: { title: 'Dashboard', auth: true }

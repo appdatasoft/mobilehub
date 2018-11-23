@@ -11,8 +11,11 @@
   "dependencies": {
     "@aws-amplify/auth": "^1.2.3",
     "@aws-amplify/core": "^1.0.12",
+    "aws-appsync": "^1.5.1",
     "bootstrap-vue": "^2.0.0-rc.11",
+    "graphql-tag": "^2.10.0",
     "vue": "^2.5.16",
+    "vue-apollo": "^3.0.0-beta.26",
     "vue-awesome": "^2.3.7",
     "vue-resource": "^1.5.1",
     "vue-router": "^3.0.1",
