@@ -1,7 +1,7 @@
 <template>
   <b-container>
     <div class="b-main-content">
-      <h2>Stop hiring. Start Hackohiring.</h2>
+      <h2>Stop hiring. Start Hackohiring. </h2>
       <p>This site provides an example of how to use <b-link href="https://aws.amazon.com/cognito">Amazon Cognito</b-link> with <b-link href="https://vuejs.org">Vue.js</b-link></p>
       <p>To give it a try:</p>
       <ol>
