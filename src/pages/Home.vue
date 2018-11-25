@@ -36,7 +36,7 @@
     <section class="rightfit">
       <div class="cta-content">
         <div class="container1">
-          <h2>Stop waiting.<br>Start hack-o-hiring.</h2>
+          <h2>Stop hiring.<br>Start hack-o-hiring.</h2>
           <a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot!</a>
         </div>
       </div>
