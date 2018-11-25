@@ -95,7 +95,7 @@ export default {
         alert('please create a task')
         return
       }
-      this.taskname = ''
+      this.tas1kname = ''
       const task = {
         name: taskname,
         completed: false

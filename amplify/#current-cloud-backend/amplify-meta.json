@@ -1,0 +1,25 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "mobilehubwebapp-20181123111517-authRole",
+      "UnauthRoleArn": "arn:aws:iam::952688900279:role/mobilehubwebapp-20181123111517-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::952688900279:role/mobilehubwebapp-20181123111517-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "mobilehubwebapp-20181123111517-deployment",
+      "UnauthRoleName": "mobilehubwebapp-20181123111517-unauthRole",
+      "StackName": "mobilehubwebapp-20181123111517",
+      "StackId": "arn:aws:cloudformation:us-east-1:952688900279:stack/mobilehubwebapp-20181123111517/1ef9aa50-ef54-11e8-82eb-12069a319f62"
+    }
+  },
+  "api": {
+    "Task1AppSyncAPI": {
+      "service": "AppSync",
+      "output": {
+        "securityType": "AMAZON_COGNITO_USER_POOLS",
+        "GraphQLAPIIdOutput": "jbpccvg7rzdy5k4ro4fip7atti",
+        "GraphQLAPIEndpointOutput": "https://py7l3esqjfcddi2q4c5l7bofpi.appsync-api.us-east-1.amazonaws.com/graphql"
+      },
+      "lastPushTimeStamp": "2018-11-24T05:23:54.576Z"
+    }
+  }
+}

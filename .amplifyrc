@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "mobilehubwebapp-20181123111517-authRole",
+            "UnauthRoleArn": "arn:aws:iam::952688900279:role/mobilehubwebapp-20181123111517-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::952688900279:role/mobilehubwebapp-20181123111517-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "mobilehubwebapp-20181123111517-deployment",
+            "UnauthRoleName": "mobilehubwebapp-20181123111517-unauthRole",
+            "StackName": "mobilehubwebapp-20181123111517",
+            "StackId": "arn:aws:cloudformation:us-east-1:952688900279:stack/mobilehubwebapp-20181123111517/1ef9aa50-ef54-11e8-82eb-12069a319f62"
+        }
+    }
+}
