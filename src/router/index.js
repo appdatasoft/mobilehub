@@ -2,6 +2,9 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/pages/Home.vue'
 import Dashboard from '@/pages/Dashboard.vue'
+import Hiring from '@/pages/Hiring.vue'
+import Startups from '@/pages/Startups.vue'
+import SMB from '@/pages/SMB.vue'
 import SignIn from '@/pages/auth/SignIn.vue'
 import SignUp from '@/pages/auth/SignUp.vue'
 import SignOut from '@/pages/auth/SignOut.vue'
@@ -24,10 +27,19 @@ const routes = [
         path: '/tasks', name: 'tasks', component: Tasks, meta: { title: 'Tasks', auth: true }
     },
     {
-        path: '/pricing', name: 'pricing', component: Pricing, meta: { title: 'Pricing', auth: true }
+        path: '/pricing', name: 'pricing', component: Pricing, meta: { title: 'Pricing', auth: false }
     },
     {
         path: '/dashboard', name: 'dashboard', component: Dashboard, meta: { title: 'Dashboard', auth: true }
+    },
+    {
+        path: '/hiring', name: 'hiring', component: Hiring, meta: { title: 'Hiring', auth: false }
+    },
+    {
+        path: '/startups', name: 'startups', component: Startups, meta: { title: 'Startups', auth: false }
+    },
+    {
+        path: '/smb', name: 'smb', component: SMB, meta: { title: 'SMB', auth: false }
     },
     {
         path: '/signIn', name: 'signIn', component: SignIn, meta: { title: 'Sign In', auth: false }
