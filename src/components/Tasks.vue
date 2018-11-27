@@ -65,7 +65,7 @@ export default {
           id: task.id
         },
         update: (store, { data: { deleteTask } }) => {
-          const data = store.readQuery({ query: ListTasks })
+          const data = store.readQuery({ query: ListUserTasks })
           data.listTasks.items = data.listTasks.items.filter(task => task.id !== deleteTask.id)
           store.writeQuery({ query: ListTasks, data })
         },

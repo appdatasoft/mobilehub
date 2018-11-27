@@ -5,8 +5,10 @@
     <b-navbar-toggle target="nav_collapse"/>
     <b-navbar-brand to="/"><img src="" srcset="../assets/hohlogo.png 1x, ../assets/hohlogo.png 2x" width= "20%" alt="hackohire for happy teams"></b-navbar-brand>
     <b-navbar-nav>
-      <b-nav-item to="/dashboard">Dashboard</b-nav-item>
-      <b-nav-item to="/pricing">Pricing</b-nav-item>
+      <b-nav-item to="/dashboard">Home</b-nav-item>
+      <b-nav-item to="/dashboard">Startups</b-nav-item>
+      <b-nav-item to="/dashboard">SMB</b-nav-item>
+      <!--<b-nav-item to="/pricing">Pricing</b-nav-item>-->
     </b-navbar-nav>
     <b-navbar-nav class="ml-auto">
       <b-nav-item 
@@ -31,8 +33,13 @@
         href="https://twitter.com/hackohire"><icon name="twitter"/></b-nav-item>
       <b-nav-item 
         class="nav-btn" 
-        href="https://github.com/wolfeidau/cognito-vue-bootstrap"><icon name="github"/></b-nav-item>
+        href="https://github.com/appdatasoft/mobilehub/tree/origin/DEV"><icon name="github"/></b-nav-item>
+        <b-nav-item 
+        class="nav-btn" 
+        href="https://www.linkedin.com/company/hackohire/"><icon name="linkedin"/></b-nav-item>
     </b-navbar-nav>
+    
+    
   </b-navbar>    
 </template>
 
@@ -43,6 +50,7 @@ import 'vue-awesome/icons/user-circle'
 import 'vue-awesome/icons/sign-out'
 import 'vue-awesome/icons/github'
 import 'vue-awesome/icons/twitter'
+import 'vue-awesome/icons/linkedin'
 
 export default {
     name: 'Navbar',
