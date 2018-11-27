@@ -15,6 +15,7 @@ import ConfirmPasswordReset from '@/pages/auth/ConfirmPasswordReset.vue'
 import Tasks from '@/components/Tasks'
 import Pricing from '@/pages/Pricing'
 
+
 import store from '@/store'
 
 Vue.use(Router)

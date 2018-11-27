@@ -5,10 +5,10 @@
         <div class="row h-100">
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
-             <!-- <h1 class="mb-5">Connect with talent that is right <span class="fit-content">fit</span> for your innovation</h1>-->
-             <h1 class="mb-5">Connect with talent that is right
+             <!-- <h1 class="mb-5">Find Product <span class="fit-content">fit</span> for your innovation</h1>-->
+             <h1 class="mb-5">Find Product Market 
                   <img src="../assets/fit.gif" width="60 px">
-                 		 for your innovation
+                 		 for your idea
                  </h1>
               <!-- <a href="/signIn" class="btn btn-xl main-bt js-scroll-trigger">Attend "Tech Jobs Pitch Social" Event</a> -->
               <a href="https://www.eventbrite.com/e/tech-jobs-pitch-social-la-tickets-49499347882" class="btn btn-xl main-bt js-scroll-trigger">Attend "Tech Jobs Pitch Social" Event</a>
@@ -39,7 +39,7 @@
     <section class="rightfit">
       <div class="cta-content">
         <div class="container1">
-          <h2>Stop hiring.<br>Start hack-o-hiring.</h2>
+          <h2>Stop losing.<br>Start hack-o-hiring.</h2>
           <a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot!</a>
         </div>
       </div>
@@ -49,7 +49,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 mx-auto">
-            <h2 class="section-heading">Dont just fill an open position, fill it with perfect fit</h2>
+            <h2 class="section-heading">Dont just build an app. Launch a profitable business</h2>
             <p>Want to learn how to improve your current hiring practices?</p>
             <div class="badges">
                <a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot</a>
@@ -66,7 +66,7 @@
          			 </b-col>
          			 <b-col>
            				 <div class="col-md-8 mx-auto">
-              				<h2 class="section-heading">Dont just fill an open position but fill it with perfect fit</h2>
+              				<h2 class="section-heading">Dont just build an ap, launch a profitable business</h2>
               				<p>Want to learn how to improve your current hiring practices?</p>
               				<div class="badges">
                					<a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot</a>
@@ -79,8 +79,8 @@
     <section class="features" id="features">
       <div class="container">
         <div class="section-heading text-center">
-          <h2>Skill Set + Cultural Fit</h2>
-          <p class="text-muted">Cut down the hiring time</p>
+          <h2>Prototype + Customer Development</h2>
+          <p class="text-muted">Cut down the $ and time spent to launch</p>
           <hr>
         </div>
         <div class="row">
@@ -107,15 +107,15 @@
                 <div class="col-lg-6">
                   <div class="feature-item">
                     <i class="icon-screen-smartphone text-primary"></i>
-                    <h3>Post Jobs</h3>
-                    <p class="text-muted">Create and Post Job Description with full details</p>
+                    <h3>Customer Development</h3>
+                    <p class="text-muted">Develop 10 potential customers that care about the problem</p>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="feature-item">
                     <i class="icon-camera text-primary"></i>
-                    <h3>Select Candidates</h3>
-                    <p class="text-muted">Shortlist candidates that apply for the job</p>
+                    <h3>Minimum Viable Product (MVP)</h3>
+                    <p class="text-muted">Gather MVP requirements from the 10 potential customers</p>
                   </div>
                 </div>
               </div>
@@ -123,15 +123,15 @@
                 <div class="col-lg-6">
                   <div class="feature-item">
                     <i class="icon-present text-primary"></i>
-                    <h3>Host Interview Hackathon</h3>
-                    <p class="text-muted">Select the date for the interview hackathon and send invites to the shortlist candidates</p>
+                    <h3>Build Prototype</h3>
+                    <p class="text-muted">Build and launch prototype for MVP</p>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="feature-item">
                     <i class="icon-lock-open text-primary"></i>
-                    <h3>Hire </h3>
-                    <p class="text-muted">Follow the steps to access each candidate in one-on-one sessions, group sessions to evaluate both technical skills and cultural fit </p>
+                    <h3>Validate</h3>
+                    <p class="text-muted">Validate the prototype with the customers </p>
                   </div>
                 </div>
               </div>
