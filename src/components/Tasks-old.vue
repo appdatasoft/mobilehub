@@ -1,36 +1,37 @@
 <template>
   <div class="tasks">
-    <h1>Task Manager</h1><br>
-    <p>welcome {{ user.username }}.</p>
+    <h1>Task Manager</h1>
     <input v-model="taskname" placeholder="Task Name" class="input">
-    <button @click="createTask()" class="taskButton">Create Task</button>
+    <button
+      @click="createTask()"
+      class="taskButton"
+    >Create Task</button>
     <ul>
       <li
         class="task"
         v-for="(task, index) in tasks" :key="index"
       >
         <p class="text">{{ task.name }}</p>
-        <p @click="toggleComplete(task)" class="text button">{{ task.completed ? 'completed' : 'not completed' }}</p>
-        <p @click="deleteTask(task)" class="text button delete">Delete task</p>
+        <p
+          @click="toggleComplete(task)"
+          class="text button"
+        >
+          {{ task.completed ? 'completed' : 'not completed' }}
+        </p>
+        <p
+          @click="deleteTask(task)"
+          class="text button delete"
+        >Delete task</p>
       </li>
     </ul>
   </div>
 </template>
-
 <script>
 import ListTasks from '../queries/ListTasks'
 import CreateTask from '../mutations/CreateTask'
 import DeleteTask from '../mutations/DeleteTask'
 import UpdateTask from '../mutations/UpdateTask'
-import uuidV4 from 'uuid/v4'
-import { mapState } from 'vuex'
-
 export default {
-  computed: {
-        ...mapState({
-            user: state => state.auth.user,
-        })
-    },
   name: 'Tasks',
   methods: {
     toggleComplete(task) {
@@ -55,8 +56,12 @@ export default {
           }
         },
       })
-      .then(data => console.log(data))
-      .catch(error => console.error(error))
+      .then(data => {
+        console.log(data)
+      })
+      .catch(error => {
+        console.error(error)
+        })
     },
     deleteTask(task) {
       this.$apollo.mutate({
@@ -77,29 +82,29 @@ export default {
           }
         },
       })
-      .then(data => console.log(data))
-      .catch(error => console.error(error))
+      .then(data => {
+        console.log(data)
+      })
+      .catch(error => {
+        console.error(error)
+      })
     },
     createTask() {
       const taskname = this.taskname
-      const username = this.user.username
       if ((taskname) === '') {
         alert('please create a task')
         return
       }
-      this.taskname = ''
-      const id = uuidV4()
+      this.tas1kname = ''
       const task = {
-        username:username,
         name: taskname,
-        id,
         completed: false
       }
       this.$apollo.mutate({
         mutation: CreateTask,
         variables: task,
         update: (store, { data: { createTask } }) => {
-          const data = store.readQuery({ query: ListTasks })
+            const data = store.readQuery({ query: ListTasks })
           data.listTasks.items.push(createTask)
           store.writeQuery({ query: ListTasks, data })
         },
@@ -111,8 +116,12 @@ export default {
           }
         },
       })
-      .then(data => console.log(data))
-      .catch(error => console.error("error!!!: ", error))
+      .then(data => {
+        console.log(data)
+      })
+      .catch(error => {
+        console.error("error!!!: ", error)
+      })
     },
   },
   data () {
@@ -124,7 +133,10 @@ export default {
   apollo: {
     tasks: {
       query: () => ListTasks,
-       update: data => data.listTasks.items
+      update: data => {
+        console.log('data: ', data)
+        return data.listTasks.items
+      }
     }
   },
 }
@@ -183,6 +195,6 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+     color: #42b983;
 }
 </style>

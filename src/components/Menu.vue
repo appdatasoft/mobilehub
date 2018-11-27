@@ -28,7 +28,7 @@
       </b-nav-item-dropdown>
       <b-nav-item 
         class="nav-btn" 
-        href="https://twitter.com/wolfeidau"><icon name="twitter"/></b-nav-item>
+        href="https://twitter.com/hackohire"><icon name="twitter"/></b-nav-item>
       <b-nav-item 
         class="nav-btn" 
         href="https://github.com/wolfeidau/cognito-vue-bootstrap"><icon name="github"/></b-nav-item>

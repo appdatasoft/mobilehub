@@ -1,15 +1,16 @@
-// mutations/AddTask.js
 import gql from 'graphql-tag'
-  export default gql`
-  mutation addTask($name: String!, $completed: Boolean!) {
+
+export default gql`
+  mutation createTask($username:String $name: String!, $completed: Boolean!) {
     createTask(
       input: {
-        name: $name, completed: $completed
+       username:$username  name: $name, completed: $completed
       }
     ) {
-        id
-        name
-        completed
-      }
+      username
+      id
+      name
+      completed
+    }
   }
-  `
+`

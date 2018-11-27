@@ -5,7 +5,11 @@
         <div class="row h-100">
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
-              <h1 class="mb-5">Connect with talent that is right <span class="fit-content">fit</span> for your innovation</h1>
+             <!-- <h1 class="mb-5">Connect with talent that is right <span class="fit-content">fit</span> for your innovation</h1>-->
+             <h1 class="mb-5">Connect with talent that is right
+                  <img src="../assets/fit.gif" width="60 px">
+                 		 for your innovation
+                 </h1>
               <!-- <a href="/signIn" class="btn btn-xl main-bt js-scroll-trigger">Attend "Tech Jobs Pitch Social" Event</a> -->
               <a href="https://www.eventbrite.com/e/tech-jobs-pitch-social-la-tickets-49499347882" class="btn btn-xl main-bt js-scroll-trigger">Attend "Tech Jobs Pitch Social" Event</a>
             </div>
@@ -22,7 +26,6 @@
                 <img src="../assets/emulator_file1.gif" class="img-fluid" alt="">                    
                 <img src="../assets/emulator_file2.gif" class="img-fluid" alt="">
                  </div>
-                 
                   <div class="button">
                     <!-- You can hook the "home button" to some JavaScript events or just remove it -->
                   </div>
@@ -42,11 +45,11 @@
       </div>
       <div class="overlay"></div>
     </section>
-    <section class="rightfit bg-primary2 text-center" id="download">
+    <!--<section class="rightfit bg-primary2 text-center" id="download">
       <div class="container">
         <div class="row">
           <div class="col-md-8 mx-auto">
-            <h2 class="section-heading">Dont just fill an open position but fill it with perfect fit</h2>
+            <h2 class="section-heading">Dont just fill an open position, fill it with perfect fit</h2>
             <p>Want to learn how to improve your current hiring practices?</p>
             <div class="badges">
                <a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot</a>
@@ -54,7 +57,25 @@
           </div>
         </div>
       </div>
-    </section>
+    </section>-->
+    <section>
+     		 <b-container >
+       			 <b-row>
+         			 <b-col>
+           				 <img src="../assets/innovation.gif" class="img-fluid" alt="">
+         			 </b-col>
+         			 <b-col>
+           				 <div class="col-md-8 mx-auto">
+              				<h2 class="section-heading">Dont just fill an open position but fill it with perfect fit</h2>
+              				<p>Want to learn how to improve your current hiring practices?</p>
+              				<div class="badges">
+               					<a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot</a>
+             			 	</div>
+           				 </div>
+         			 </b-col>
+         		 </b-row>
+     		 </b-container>
+    	</section> 
     <section class="features" id="features">
       <div class="container">
         <div class="section-heading text-center">
@@ -128,7 +149,6 @@
       </div>
       <div class="overlay"></div>
     </section>
-
     <section class="contact bg-primary1" id="contact">
       <div class="container1">
         <h2>We
