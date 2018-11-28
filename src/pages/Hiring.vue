@@ -66,7 +66,7 @@
          			 </b-col>
          			 <b-col>
            				 <div class="col-md-8 mx-auto">
-              				<h2 class="section-heading">Dont just fill an open position but fill it with perfect fit</h2>
+              				<h2 class="section-heading">Don't just fill an open position but fill it with perfect fit</h2>
               				<p>Want to learn how to improve your current hiring practices?</p>
               				<div class="badges">
                					<a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot</a>
