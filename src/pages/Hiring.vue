@@ -108,14 +108,14 @@
                   <div class="feature-item">
                     <i class="icon-screen-smartphone text-primary"></i>
                     <h3>Post Jobs</h3>
-                    <p class="text-muted">Create and Post Job Description with full details</p>
+                    <p class="text-muted">Create Job Post</p>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="feature-item">
                     <i class="icon-camera text-primary"></i>
                     <h3>Select Candidates</h3>
-                    <p class="text-muted">Shortlist candidates that apply for the job</p>
+                    <p class="text-muted">Shortlist candidates from applications</p>
                   </div>
                 </div>
               </div>
@@ -123,15 +123,15 @@
                 <div class="col-lg-6">
                   <div class="feature-item">
                     <i class="icon-present text-primary"></i>
-                    <h3>Host Interview Hackathon</h3>
-                    <p class="text-muted">Select the date for the interview hackathon and send invites to the shortlist candidates</p>
+                    <h3>Interview Hackathon</h3>
+                    <p class="text-muted">Conduct Hackathon Interview</p>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="feature-item">
                     <i class="icon-lock-open text-primary"></i>
                     <h3>Hire </h3>
-                    <p class="text-muted">Follow the steps to access each candidate in one-on-one sessions, group sessions to evaluate both technical skills and cultural fit </p>
+                    <p class="text-muted"> Hire candidates that meet technical skills and cultural fit </p>
                   </div>
                 </div>
               </div>
