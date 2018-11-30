@@ -17,10 +17,11 @@
                 <div class="device">
                  <!-- <div class="screen">-->
                     <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                   <!-- <img src="../assets/hackathon_team.jpg" class="img-fluid" alt="">-->
+                    <img src="../assets/dream_job.jpg" class="img-fluid" alt="">
                   <!-- <video ref="videoRef" src="../assets/video.mp4" id="video-container" width="100%" autoplay loop ></video>-->
                  <div class="screen" id="foot">
-               <!-- <img src="../assets/emulator_file1.gif" class="img-fluid" alt="">                    
+               <!-- <img src="../assets/emulator_file1.gif" class="img-fluid" alt="">
+               <img src="../assets/dream_job.jpg" class="img-fluid" alt="">                    
                 <img src="../assets/emulator_file2.gif" class="img-fluid" alt="">
                 <img src="../assets/animation1.gif" class="img-fluid" alt="">
                 <img src="../assets/animation2.gif" class="img-fluid" alt="">-->
@@ -61,7 +62,7 @@
      		 <b-container >
        			 <b-row>
          			 <b-col>
-           			<!--	 <img src="../assets/innovation.gif" class="img-fluid" alt="">-->
+           			<img src="../assets/slip.jpg" class="img-fluid" alt="">
          			 </b-col>
          			 <b-col>
            				 <div class="col-md-8 mx-auto">
@@ -91,7 +92,7 @@
                     <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
                    <!-- <img src="../assets/resume.jpg" class="img-fluid" alt="">-->
                     <div class="screen" id="foot">
-                  <!--<img src="../assets/resume.gif" class="img-fluid" alt="">         -->           
+                  <img src="../assets/growth.jpg" class="img-fluid" alt="">            
                   </div>
                   <div class="button">
                     <!-- You can hook the "home button" to some JavaScript events or just remove it -->
