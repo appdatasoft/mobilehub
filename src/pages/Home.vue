@@ -6,7 +6,7 @@
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
              <!-- <h1 class="mb-5">Get ready for your  <span class="fit-content">next move</span></h1>-->
-             <h1 class="mb-5">Get ready for your next <span class="fit-content">dream </span></h1>
+             <h1 class="mb-5">Prepare for your next <span class="fit-content">dream</span> job</h1>
               <!-- <a href="/signIn" class="btn btn-xl main-bt js-scroll-trigger">Attend "Tech Jobs Pitch Social" Event</a> -->
               <a href="https://www.eventbrite.com/e/tech-jobs-pitch-social-la-tickets-49499347882" class="btn btn-xl main-bt js-scroll-trigger">Attend "Tech Jobs Pitch Social" Event</a>
             </div>
@@ -20,8 +20,10 @@
                    <!-- <img src="../assets/hackathon_team.jpg" class="img-fluid" alt="">-->
                   <!-- <video ref="videoRef" src="../assets/video.mp4" id="video-container" width="100%" autoplay loop ></video>-->
                  <div class="screen" id="foot">
-                <img src="../assets/emulator_file1.gif" class="img-fluid" alt="">                    
+               <!-- <img src="../assets/emulator_file1.gif" class="img-fluid" alt="">                    
                 <img src="../assets/emulator_file2.gif" class="img-fluid" alt="">
+                <img src="../assets/animation1.gif" class="img-fluid" alt="">
+                <img src="../assets/animation2.gif" class="img-fluid" alt="">-->
                  </div>
                   <div class="button">
                     <!-- You can hook the "home button" to some JavaScript events or just remove it -->
@@ -59,7 +61,7 @@
      		 <b-container >
        			 <b-row>
          			 <b-col>
-           				 <img src="../assets/innovation.gif" class="img-fluid" alt="">
+           			<!--	 <img src="../assets/innovation.gif" class="img-fluid" alt="">-->
          			 </b-col>
          			 <b-col>
            				 <div class="col-md-8 mx-auto">
@@ -89,7 +91,7 @@
                     <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
                    <!-- <img src="../assets/resume.jpg" class="img-fluid" alt="">-->
                     <div class="screen" id="foot">
-                <img src="../assets/resume.gif" class="img-fluid" alt="">                    
+                  <!--<img src="../assets/resume.gif" class="img-fluid" alt="">         -->           
                   </div>
                   <div class="button">
                     <!-- You can hook the "home button" to some JavaScript events or just remove it -->
