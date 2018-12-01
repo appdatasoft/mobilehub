@@ -7,6 +7,7 @@ import gql from 'graphql-tag'
           id
           name
           completed
+          username
         }
       }
     }

@@ -9,7 +9,7 @@
         class="task"
         v-for="(task, index) in tasks" :key="index"
       >
-        <p class="text">{{ task.name }}</p>
+        <p class="text">{{ task.name }} created by username {{ task.username }}.</p>
         <p @click="toggleComplete(task)" class="text button">{{ task.completed ? 'completed' : 'not completed' }}</p>
         <p @click="deleteTask(task)" class="text button delete">Delete task</p>
       </li>

@@ -1,6 +1,7 @@
 <template>
   <div class="tasks">
-    <h1>Task Manager</h1>
+    <h1>Task Manager</h1><br>
+    
     <input v-model="taskname" placeholder="Task Name" class="input">
     <button
       @click="createTask()"
@@ -11,7 +12,7 @@
         class="task"
         v-for="(task, index) in tasks" :key="index"
       >
-        <p class="text">{{ task.name }}</p>
+        <p class="text">{{ task.name }} </p>
         <p
           @click="toggleComplete(task)"
           class="text button"
