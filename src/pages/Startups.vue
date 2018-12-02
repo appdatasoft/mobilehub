@@ -140,8 +140,8 @@
         </div>
       </div>
     </section>
-    <section class="cta1">
-      <div class="cta1-content">
+    <section class="scale">
+      <div class="cta-content">
         <div class="container1">
           <h2>Stop waiting.<br>Start hack-o-hiring.</h2>
           <a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot!</a>

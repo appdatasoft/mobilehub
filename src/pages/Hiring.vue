@@ -143,7 +143,7 @@
         </div>
       </div>
     </section>
-    <section class="cta">
+    <section class="hiring">
       <div class="cta-content">
         <div class="container1">
           <h2>Stop waiting.<br>Start hack-o-hiring.</h2>

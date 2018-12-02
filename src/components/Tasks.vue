@@ -1,6 +1,6 @@
 <template>
   <div class="tasks">
-    <h1>Task Manager</h1><br>
+    <h1>All Task Manager</h1><br>
     <p>welcome {{ user.username }}.</p>
     <input v-model="taskname" placeholder="Task Name" class="input">
     <button @click="createTask()" class="taskButton">Create Task</button>
@@ -9,16 +9,34 @@
         class="task"
         v-for="(task, index) in tasks" :key="index"
       >
-        <p class="text">{{ task.name }} created by username {{ task.username }}.</p>
+        <p class="text">{{ task.name }} created by username  {{ task.username }}.</p>
         <p @click="toggleComplete(task)" class="text button">{{ task.completed ? 'completed' : 'not completed' }}</p>
         <p @click="deleteTask(task)" class="text button delete">Delete task</p>
       </li>
     </ul>
+    
+    <h1>User Task Manager</h1><br>
+    <p>welcome {{ user.username }}.</p>
+    <input v-model="taskname" placeholder="Task Name" class="input">
+    <button @click="createTask()" class="taskButton">Create Task</button>
+    <ul>
+      <li
+        class="task"
+        v-for="(task, index) in userTasks" :key="index"
+      >
+        <p class="text">{{ task.name }} created by username  {{ task.username }}.</p>
+        <p @click="toggleComplete(task)" class="text button">{{ task.completed ? 'completed' : 'not completed' }}</p>
+        <p @click="deleteTask(task)" class="text button delete">Delete task</p>
+      </li>
+    </ul>
+  
   </div>
+  
 </template>
 
 <script>
 import ListTasks from '../queries/ListTasks'
+import ListUserTasks from '../queries/ListUserTasks'
 import CreateTask from '../mutations/CreateTask'
 import DeleteTask from '../mutations/DeleteTask'
 import UpdateTask from '../mutations/UpdateTask'
@@ -125,8 +143,13 @@ export default {
     tasks: {
       query: () => ListTasks,
        update: data => data.listTasks.items
+    },
+    userTasks: {
+      query: () => ListUserTasks,
+       update: data => data.listTasks.items
     }
   },
+  
 }
 </script>
 

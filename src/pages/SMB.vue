@@ -140,15 +140,14 @@
         </div>
       </div>
     </section>
-    <section class="cta">
+    <section class="smb">
       <div class="cta-content">
         <div class="container1">
           <h2>Stop waiting.<br>Start hack-o-hiring.</h2>
           <a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot!</a>
         </div>
       </div>
-      <div class="overlay"></div>
-    </section>
+      </section>
     <section class="contact bg-primary1" id="contact">
       <div class="container1">
         <h2>We
