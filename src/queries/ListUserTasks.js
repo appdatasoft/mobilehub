@@ -3,6 +3,7 @@ import gql from 'graphql-tag'
   export default gql`
     query listUserTasks {
       listTasks(filter: {username: "sumi"})
+      {
         items {
           id
           name
@@ -10,4 +11,5 @@ import gql from 'graphql-tag'
           username
       }
     }
+  }
     `

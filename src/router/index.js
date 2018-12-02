@@ -14,6 +14,7 @@ import ChangePassword from '@/pages/auth/ChangePassword.vue'
 import ConfirmPasswordReset from '@/pages/auth/ConfirmPasswordReset.vue'
 import Tasks from '@/components/Tasks'
 import Pricing from '@/pages/Pricing'
+import Privacy from '@/pages/Privacy.vue'
 
 
 import store from '@/store'
@@ -62,6 +63,11 @@ const routes = [
     },
     {
         path: '/confirmPasswordReset', name: 'confirmPasswordReset', component: ConfirmPasswordReset, meta: { title: 'Confirm Password Reset', auth: false }
+    },
+    {
+      
+        path: '/privacy', name: 'privacy', component: Privacy, meta: { title: 'Privacy', auth: false }
+        
     },
 ]
 
