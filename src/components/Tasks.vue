@@ -47,11 +47,12 @@ export default {
   computed: {
         ...mapState({
             user: state => state.auth.user,
-        })
+        }),
+        
     },
   name: 'Tasks',
   methods: {
-    toggleComplete(task) {
+        toggleComplete(task) {
       const updatedTask = {
         ...task,
         completed: !task.completed
@@ -146,6 +147,9 @@ export default {
     },
     userTasks: {
       query: () => ListUserTasks,
+      variables: {
+          username: "sumithra2"
+        },
        update: data => data.listTasks.items
     }
   },
