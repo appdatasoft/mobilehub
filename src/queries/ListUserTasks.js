@@ -1,9 +1,9 @@
 // queries/ListTasks.js
 import gql from 'graphql-tag'
   export default gql`
-    query listUserTasks {
+    query listUserTasks{
       listTasks(filter: {username:{
-        contains:"sumithra"
+        contains:"sumithra2"
     }}) 
       {
         items {

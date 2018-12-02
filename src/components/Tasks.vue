@@ -15,7 +15,7 @@
       </li>
     </ul>
     
-    <h1>User Task Manager</h1><br>
+    <h1>User= "sumithra2" Task Manager</h1><br>
     <p>welcome {{ user.username }}.</p>
     <input v-model="taskname" placeholder="Task Name" class="input">
     <button @click="createTask()" class="taskButton">Create Task</button>
