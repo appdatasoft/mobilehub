@@ -107,14 +107,16 @@
               <div class="row">
                 <div class="col-lg-6">
                   <div class="feature-item">
-                    <i class="icon-screen-smartphone text-primary"></i>
+                    <!--<i class="icon-screen-smartphone text-primary"></i>-->
+                    <img class="dj_icon" src="../assets/home_1_icon.png">
                     <h3>Dream Job</h3>
                     <p class="text-muted">Define your dream job</p>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="feature-item">
-                    <i class="icon-camera text-primary"></i>
+                    <!--<i class="icon-camera text-primary"></i>-->
+                    <img class="bd_icon" src="../assets/home_2_icon.png">
                     <h3>Build Daily</h3>
                     <p class="text-muted">Post your daily work accomplishments</p>
                   </div>
@@ -123,14 +125,17 @@
               <div class="row">
                 <div class="col-lg-6">
                   <div class="feature-item">
-                    <i class="icon-present text-primary"></i>
+                    <!--<i class="icon-present text-primary"></i>-->
+                    <img class="n_icon" src="../assets/home_3_icon.png">
                     <h3>"Inter + Intra" Networking</h3>
                     <p class="text-muted">Networking events for your next move</p>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="feature-item">
-                    <i class="icon-lock-open text-primary"></i>
+                    <!--<i class="icon-lock-open text-primary"></i>-->
+                    <img class="s_icon" src="../assets/home_4_icon.png">
+
                     <h3>Startups </h3>
                     <p class="text-muted">Engage with innovation </p>
                   </div>

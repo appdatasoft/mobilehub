@@ -39,7 +39,7 @@
     <section class="rightfit">
       <div class="cta-content">
         <div class="container1">
-          <h2>Stop working"hard".<br>Start smart-working.</h2>
+          <h2>Stop working "hard".<br>Start working "smart".</h2>
           <a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot!</a>
         </div>
       </div>
