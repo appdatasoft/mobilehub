@@ -42,7 +42,7 @@ import DeleteTask from '../mutations/DeleteTask'
 import UpdateTask from '../mutations/UpdateTask'
 import uuidV4 from 'uuid/v4'
 import { mapState } from 'vuex'
-
+var USERNAME = "sumithra2"
 export default {
   computed: {
         ...mapState({
@@ -51,9 +51,6 @@ export default {
     },
   name: 'Tasks',
   methods: {
-    getUserName(){
-      return this.user.username
-    },
         toggleComplete(task) {
       const updatedTask = {
         ...task,
@@ -149,8 +146,10 @@ export default {
     },
     userTasks: {
       query: () => ListUserTasks,
-      variables: {
-          username:"sumithra2"
+      variables() {
+        return {
+          username: this.user.username
+        }
         },
        update: data => data.listTasks.items
     }

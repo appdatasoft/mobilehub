@@ -106,14 +106,16 @@
               <div class="row">
                 <div class="col-lg-6">
                   <div class="feature-item">
-                    <i class="icon-screen-smartphone text-primary"></i>
+                    <!--<i class="icon-screen-smartphone text-primary"></i>-->
+                    <img class="startups_1_icon" src="../assets/startups_1_icon.png">
                     <h3>Customer Development</h3>
                     <p class="text-muted">Develop 10 potential customers that care about the problem</p>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="feature-item">
-                    <i class="icon-camera text-primary"></i>
+                    <!--<i class="icon-camera text-primary"></i>-->
+                    <img class="startups_2_icon" src="../assets/startups_2_icon.png">
                     <h3>Minimum Viable Product (MVP)</h3>
                     <p class="text-muted">Gather MVP requirements from the 10 potential customers</p>
                   </div>
@@ -122,14 +124,16 @@
               <div class="row">
                 <div class="col-lg-6">
                   <div class="feature-item">
-                    <i class="icon-present text-primary"></i>
+                   <!-- <i class="icon-present text-primary"></i>-->
+                    <img class="startups_3_icon" src="../assets/startups_3_icon.png">
                     <h3>Build Prototype</h3>
                     <p class="text-muted">Build and launch prototype for MVP</p>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="feature-item">
-                    <i class="icon-lock-open text-primary"></i>
+                   <!-- <i class="icon-lock-open text-primary"></i> -->
+                    <img class="startups_4_icon" src="../assets/startups_4_icon.png">
                     <h3>Validate</h3>
                     <p class="text-muted">Validate the prototype with the customers </p>
                   </div>

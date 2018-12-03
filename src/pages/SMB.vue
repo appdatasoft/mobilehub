@@ -106,14 +106,16 @@
               <div class="row">
                 <div class="col-lg-6">
                   <div class="feature-item">
-                    <i class="icon-screen-smartphone text-primary"></i>
+                    <!--<i class="icon-screen-smartphone text-primary"></i>-->
+                    <img class="smb_1_icon" src="../assets/smb_1_icon.png">
                     <h3>Business Process</h3>
                     <p class="text-muted">Conduct Business Process Analysis</p>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="feature-item">
-                    <i class="icon-camera text-primary"></i>
+                    <!--<i class="icon-camera text-primary"></i>-->
+                    <img class="smb_2_icon" src="../assets/smb_2_icon.png">
                     <h3>Map Tech Solutions</h3>
                     <p class="text-muted">Map tech solutions for business processes</p>
                   </div>
@@ -122,14 +124,16 @@
               <div class="row">
                 <div class="col-lg-6">
                   <div class="feature-item">
-                    <i class="icon-present text-primary"></i>
+                    <!--<i class="icon-present text-primary"></i>-->
+                    <img class="smb_3_icon" src="../assets/smb_3_icon.png">
                     <h3>Implementation</h3>
                     <p class="text-muted">Implement the solution</p>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="feature-item">
-                    <i class="icon-lock-open text-primary"></i>
+                    <!--<i class="icon-lock-open text-primary"></i>-->
+                    <img class="smb_4_icon" src="../assets/smb_4_icon.png">
                     <h3>Training </h3>
                     <p class="text-muted">Train your team to use the new solution  </p>
                   </div>
