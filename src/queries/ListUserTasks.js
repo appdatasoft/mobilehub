@@ -3,7 +3,7 @@ import gql from 'graphql-tag'
 //import { mapState } from 'vuex'
 //const username1 = this.user.username
 
-var username="sumithra2"
+//var username="sumithra2"
 //var username=$username
 //const username = state.auth.user.username
 //contains:"${username}"

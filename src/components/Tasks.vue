@@ -48,10 +48,12 @@ export default {
         ...mapState({
             user: state => state.auth.user,
         }),
-        
     },
   name: 'Tasks',
   methods: {
+    getUserName(){
+      return this.user.username
+    },
         toggleComplete(task) {
       const updatedTask = {
         ...task,
@@ -148,7 +150,7 @@ export default {
     userTasks: {
       query: () => ListUserTasks,
       variables: {
-          username: "sumithra2"
+          username:"sumithra2"
         },
        update: data => data.listTasks.items
     }
