@@ -1,223 +1,90 @@
 <template>
-  <b-container> 
-    <header class="masthead_smb">
-      <div class="container h-100">
-        <div class="row h-100">
-          <div class="col-lg-7 my-auto">
-            <div class="header-content mx-auto">
-             <!-- <h1 class="mb-5">Connect with talent that is right <span class="fit-content">fit</span> for your innovation </h1>-->
-             <h1 class="mb-5">Leverage technology to <span class="fit-content">grow</span>
-                 <!-- <img src="../assets/fit.gif" width="60 px">-->
-                 		 your business
-                 </h1>
-              <!-- <a href="/signIn" class="btn btn-xl main-bt js-scroll-trigger">Attend "Tech Jobs Pitch Social" Event</a> -->
-              <a href="https://www.eventbrite.com/e/tech-jobs-pitch-social-la-tickets-49499347882" class="btn btn-xl main-bt js-scroll-trigger">Attend "Tech Jobs Pitch Social" Event</a>
-            </div>
-          </div>
-          <div class="col-lg-5 my-auto">
-            <div class="device-container">
-              <div class="device-mockup iphone6_plus portrait white">
-                <div class="device">
-                 <!-- <div class="screen">-->
-                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                   <!-- <img src="../assets/hackathon_team.jpg" class="img-fluid" alt="">-->
-                  <!-- <video ref="videoRef" src="../assets/video.mp4" id="video-container" width="100%" autoplay loop ></video>-->
-                 <div class="screen" id="foot">
-               <!-- <img src="../assets/emulator_file1.gif" class="img-fluid" alt="">   -->                 
-                <img src="../assets/smb1.jpg" class="img-fluid" alt="">
-                 </div>
-                  <div class="button">
-                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+  <b-container>
+    <div class="b-main-content">
+      <h2>Welcome to Hiring</h2>
+      <div class="tasks">
+      <p>{{ user.username }}, What would you like to automate?</p>
+      <input v-model="taskname" placeholder="Enter what process you would like to automate" class="input">
+    <button
+      @click="createTask()"
+      class="taskButton"
+    >Save</button>
+    </div>
+    </div>
+    <div class="row justify-content-center">
+       <form-component></form-component>
+        <div class="col-md-8">
+            TimeLines
         </div>
-      </div>
-    </header>
-    <section class="rightfit">
-      <div class="cta-content">
-        <div class="container1">
-          <h2>Stop working "hard".<br>Start working "smart".</h2>
-          <a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot!</a>
-        </div>
-      </div>
-      <div class="overlay"></div>
-    </section>
-    <!--<section class="rightfit bg-primary2 text-center" id="download">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 mx-auto">
-            <h2 class="section-heading">Techonology is not just for big corporations and for fancy startups</h2>
-            <p>Want to learn how to improve your current hiring practices?</p>
-            <div class="badges">
-               <a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>-->
-    <section>
-     		 <b-container >
-       			 <b-row>
-         			 <b-col>
-           				 <img src="../assets/automation.jpg" class="img-fluid" alt="">
-         			 </b-col>
-         			 <b-col>
-           				 <div class="col-md-8 mx-auto">
-              				<h2 class="section-heading">Grow your small and local business using tech</h2>
-              				<p>Want to learn how?</p>
-              				<div class="badges">
-               					<a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot</a>
-             			 	</div>
-           				 </div>
-         			 </b-col>
-         		 </b-row>
-     		 </b-container>
-    	</section> 
-    <section class="features" id="features">
-      <div class="container">
-        <div class="section-heading text-center">
-          <h2>Small Business + Technology</h2>
-          <p class="text-muted">Grow your business</p>
-          <hr>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 my-auto">
-            <div class="device-container">
-              <div class="device-mockup iphone6_plus portrait white">
-                <div class="device">
-                  <!--<div class="screen">-->
-                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                   <!-- <img src="../assets/resume.jpg" class="img-fluid" alt="">-->
-                    <div class="screen" id="foot">
-                  <img src="../assets/robot.jpg" class="img-fluid" alt="">                 
-                  </div>
-                  <div class="button">
-                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-8 my-auto">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                    <!--<i class="icon-screen-smartphone text-primary"></i>-->
-                    <img class="smb_1_icon" src="../assets/smb_1_icon.png">
-                    <h3>Business Process</h3>
-                    <p class="text-muted">Conduct Business Process Analysis</p>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                    <!--<i class="icon-camera text-primary"></i>-->
-                    <img class="smb_2_icon" src="../assets/smb_2_icon.png">
-                    <h3>Map Tech Solutions</h3>
-                    <p class="text-muted">Map tech solutions for business processes</p>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                    <!--<i class="icon-present text-primary"></i>-->
-                    <img class="smb_3_icon" src="../assets/smb_3_icon.png">
-                    <h3>Implementation</h3>
-                    <p class="text-muted">Implement the solution</p>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                    <!--<i class="icon-lock-open text-primary"></i>-->
-                    <img class="smb_4_icon" src="../assets/smb_4_icon.png">
-                    <h3>Training </h3>
-                    <p class="text-muted">Train your team to use the new solution  </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="smb">
-      <div class="cta-content">
-        <div class="container1">
-          <h2>Stop waiting.<br>Start hack-o-hiring.</h2>
-          <a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot!</a>
-        </div>
-      </div>
-      </section>
-    <section class="contact bg-primary1" id="contact">
-      <div class="container1">
-        <h2>We
-          <i class="fa fa-heart"></i>
-          new friends!</h2>
-        <ul class="list-inline list-social">
-          <li class="list-inline-item social-twitter">
-            <a href="https://twitter.com/@hackohire">
-              <i class="fa fa-twitter"></i>
-            </a>
-          </li>
-          <li class="list-inline-item social-facebook">
-            <a href="https://www.facebook.com/groups/2004861469565107/">
-              <i class="fa fa-facebook"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </section>
- </b-container>
+    </div>
+  </b-container> 
 </template>
-<link src='../css/detectify.css'/>
-<link src='../../css/new-age.min.css'/>
-<link src='../../css/cataraman.css'/>
-<link src='../../css/lato.css'/>
-<link src='../../css/multi.css'/>
-<link src='../../device-mockups/device-mockups.min.css'/>
-<link src='../../vendor/bootstrap/css/bootstrap.min.css'/>
-<link src='../../vendor/font-awesome/css/font-awesome.min.css'/>
-<link src='../../vendor/simple-line-icons/css/simple-line-icons.css'/>
-<style>
-.fit-content{
-    color: #f9f900;
-    font-weight: 600;
-    text-decoration: underline;
-  }
-  .main-bt{
-    border-radius: 2.25rem;
-    font-size:13px !important;
-    color: #d72534 !important;
-    text-shadow: 0px 0px 1px black;
-    background-color: white;
-    font-weight: bolder !important;
-    box-shadow: 0px 2px 2px black;
-}
-  .main-bt:hover{
-    background-color: #fbb813;
-    color: #000000c9 !important;
-    clip-path: polygon(100% 0, 95% 50%, 100% 100%, 0% 100%, 0% 50%, 0% 0%);
-    font-weight:bold;
-    border-radius: 2.25rem;
-    box-shadow: 0px 1px 2px white;
-
-  }
-  .bg-primary1{
-    background-color: #fbb813;
-  }
- .container1{
-  padding: 20px;
-  text-align: center;
-}
-</style>
 
 <script>
+import { mapState } from 'vuex'
+
 export default {
-    name: 'SMB'
+   name: 'SMB',
+    computed: {
+        ...mapState({
+            user: state => state.auth.user,
+        })
+    }
 }
 </script>
 
+<style scoped>
+* {
+  box-sizing: border-box;
+}
+.taskButton {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #2196F3;
+  border: none;
+  color: white;
+  outline: none;
+}
+.input {
+  width: 100%;
+  padding: 8px;
+  font-size: 18px;
+  border: none;
+  border-bottom: 2px solid #2196F3;
+  outline: none;
+}
+.button {
+  cursor: pointer;
+}
+.button:hover {
+  opacity: 0.5
+}
+.text {
+  margin-top: 4px;
+  margin-bottom: 0px;
+}
+.delete {
+  color: #2196F3;
+}
+.task {
+  display: block;
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+  padding-top: 8px;
+  padding-bottom: 9px;
+}
+h1, h2 {
+  font-weight: normal;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+a {
+     color: #42b983;
+}
+</style>

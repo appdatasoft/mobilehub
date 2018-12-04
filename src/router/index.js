@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/pages/Home.vue'
+import HiringHome from '@/pages/HiringHome.vue'
+import StartupsHome from '@/pages/StartupsHome.vue'
+import SMBHome from '@/pages/SMBHome.vue'
 import Dashboard from '@/pages/Dashboard.vue'
 import Hiring from '@/pages/Hiring.vue'
 import Startups from '@/pages/Startups.vue'
@@ -24,6 +27,15 @@ Vue.use(Router)
 const routes = [
     {
         path: '/', name: 'home', component: Home, meta: { title: 'Home', auth: false }
+    },
+    {
+        path: '/hiring_home', name: 'hiring_home', component: HiringHome, meta: { title: 'Hiring Home', auth: false }
+    },
+    {
+        path: '/startups_home', name: 'startups_home', component: StartupsHome, meta: { title: 'Startups Home', auth: false }
+    },
+    {
+        path: '/SMB_home', name: 'SMB_home', component: SMBHome, meta: { title: 'SMB Home', auth: false }
     },
     {
         path: '/tasks', name: 'tasks', component: Tasks, meta: { title: 'Tasks', auth: true }

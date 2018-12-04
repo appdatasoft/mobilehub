@@ -24,6 +24,7 @@
 import { mapState } from 'vuex'
 
 export default {
+   name: 'dashboard',
     computed: {
         ...mapState({
             user: state => state.auth.user,

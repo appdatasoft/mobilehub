@@ -1,0 +1,114 @@
+﻿schema {
+  query: Query
+  mutation: Mutation
+  subscription: Subscription
+}
+
+type Mutation {
+  createTask(input: CreateTaskInput!): Task
+  deleteTask(input: DeleteTaskInput!): Task
+  updateTask(input: UpdateTaskInput!): Task
+}
+
+type Query {
+  fetchTask(id: ID): Task
+  getTask(id: ID!): Task
+  listTasks(filter: TableTaskFilterInput, limit: Int, nextToken: String): TaskConnection
+}
+
+type Subscription {
+  onCreateTask(completed: Boolean, id: ID, name: String, username: String): Task @aws_subscribe(mutations : ["createTask"])
+  onDeleteTask(completed: Boolean, id: ID, name: String, username: String): Task @aws_subscribe(mutations : ["deleteTask"])
+  onUpdateTask(completed: Boolean, id: ID, name: String, username: String): Task @aws_subscribe(mutations : ["updateTask"])
+}
+
+type Task {
+  completed: Boolean!
+  id: ID!
+  name: String!
+  username: String
+}
+
+type TaskConnection {
+  items: [Task]
+  nextToken: String
+}
+
+input CreateTaskInput {
+  completed: Boolean!
+  name: String!
+  username: String
+}
+
+input DeleteTaskInput {
+  id: ID!
+}
+
+input TableBooleanFilterInput {
+  eq: Boolean
+  ne: Boolean
+}
+
+input TableFloatFilterInput {
+  between: [Float]
+  contains: Float
+  eq: Float
+  ge: Float
+  gt: Float
+  le: Float
+  lt: Float
+  ne: Float
+  notContains: Float
+}
+
+input TableIDFilterInput {
+  beginsWith: ID
+  between: [ID]
+  contains: ID
+  eq: ID
+  ge: ID
+  gt: ID
+  le: ID
+  lt: ID
+  ne: ID
+  notContains: ID
+}
+
+input TableIntFilterInput {
+  between: [Int]
+  contains: Int
+  eq: Int
+  ge: Int
+  gt: Int
+  le: Int
+  lt: Int
+  ne: Int
+  notContains: Int
+}
+
+input TableStringFilterInput {
+  beginsWith: String
+  between: [String]
+  contains: String
+  eq: String
+  ge: String
+  gt: String
+  le: String
+  lt: String
+  ne: String
+  notContains: String
+}
+
+input TableTaskFilterInput {
+  completed: TableBooleanFilterInput
+  id: TableIDFilterInput
+  name: TableStringFilterInput
+  username: TableStringFilterInput
+}
+
+input UpdateTaskInput {
+  completed: Boolean
+  id: ID!
+  name: String
+  username: String
+}

@@ -1,14 +1,17 @@
 <template>
   <b-container> 
-    <header class="masthead">
+    <header class="masthead_startups">
       <div class="container h-100">
         <div class="row h-100">
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
-             <!-- <h1 class="mb-5">Get ready for your  <span class="fit-content">next move</span></h1>-->
-             <h1 class="mb-5">Prepare for your next <span class="fit-content">dream</span> job</h1>
-             <a href="/signIn" class="btn btn-xl main-bt js-scroll-trigger">JOIN</a>
-              <!--<a href="https://www.eventbrite.com/e/tech-jobs-pitch-social-la-tickets-49499347882" class="btn btn-xl main-bt js-scroll-trigger">Attend "Tech Jobs Pitch Social" Event</a>-->
+             <!-- <h1 class="mb-5">Find Product <span class="fit-content">fit</span> for your innovation</h1>-->
+             <h1 class="mb-5">Find Product Market 
+                  <img src="../assets/fit.gif" width="60 px">
+                 		 for your idea
+                 </h1>
+              <!-- <a href="/signIn" class="btn btn-xl main-bt js-scroll-trigger">Attend "Tech Jobs Pitch Social" Event</a> -->
+              <a href="https://www.eventbrite.com/e/tech-jobs-pitch-social-la-tickets-49499347882" class="btn btn-xl main-bt js-scroll-trigger">Attend "Tech Jobs Pitch Social" Event</a>
             </div>
           </div>
           <div class="col-lg-5 my-auto">
@@ -17,15 +20,11 @@
                 <div class="device">
                  <!-- <div class="screen">-->
                     <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                   <!-- <img src="../assets/dream_job.jpg" class="img-fluid" alt="">-->
+                   <!-- <img src="../assets/hackathon_team.jpg" class="img-fluid" alt="">-->
                   <!-- <video ref="videoRef" src="../assets/video.mp4" id="video-container" width="100%" autoplay loop ></video>-->
                  <div class="screen" id="foot">
-                 <img src="../assets/dream_job.jpg" class="img-fluid" alt="">
-               <!-- <img src="../assets/emulator_file1.gif" class="img-fluid" alt="">
-               <img src="../assets/dream_job.jpg" class="img-fluid" alt="">                    
-                <img src="../assets/emulator_file2.gif" class="img-fluid" alt="">
-                <img src="../assets/animation1.gif" class="img-fluid" alt="">
-                <img src="../assets/animation2.gif" class="img-fluid" alt="">-->
+                <img src="../assets/pmf.jpg" class="img-fluid" alt="">                    
+                <!--<img src="../assets/emulator_file2.gif" class="img-fluid" alt="">-->
                  </div>
                   <div class="button">
                     <!-- You can hook the "home button" to some JavaScript events or just remove it -->
@@ -40,7 +39,7 @@
     <section class="rightfit">
       <div class="cta-content">
         <div class="container1">
-          <h2>Stop waiting.<br><a href="/signIn">Start preparing.</a></h2>
+          <h2>Stop losing.<br>Start hack-o-hiring.</h2>
           <a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot!</a>
         </div>
       </div>
@@ -50,8 +49,8 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 mx-auto">
-            <h2 class="section-heading">Don't let your dream job slip by</h2>
-            <a href="/signIn"><p>Want to learn how to improve your current hiring practices?</p></a>
+            <h2 class="section-heading">Dont just build an app. Launch a profitable business</h2>
+            <p>Want to learn how to improve your current hiring practices?</p>
             <div class="badges">
                <a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot</a>
             </div>
@@ -63,12 +62,12 @@
      		 <b-container >
        			 <b-row>
          			 <b-col>
-           			<img src="../assets/slip.jpg" class="img-fluid" alt="">
+           				 <img src="../assets/profit.jpg" class="img-fluid" alt="">
          			 </b-col>
          			 <b-col>
            				 <div class="col-md-8 mx-auto">
-              				<h2 class="section-heading">Don't let your dream position slip by.</h2>
-              				<p>Prepare for your next move</p>
+              				<h2 class="section-heading">Dont just build an app, launch a profitable business</h2>
+              				<p>Want to learn how to improve your current hiring practices?</p>
               				<div class="badges">
                					<a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot</a>
              			 	</div>
@@ -80,8 +79,8 @@
     <section class="features" id="features">
       <div class="container">
         <div class="section-heading text-center">
-          <h2>"Professional + Personal" Growth</h2>
-          <p class="text-muted">Make your dreams reality</p>
+          <h2>Prototype + Customer Development</h2>
+          <p class="text-muted">Cut down the $ and time spent to launch</p>
           <hr>
         </div>
         <div class="row">
@@ -93,7 +92,7 @@
                     <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
                    <!-- <img src="../assets/resume.jpg" class="img-fluid" alt="">-->
                     <div class="screen" id="foot">
-                  <img src="../assets/growth.jpg" class="img-fluid" alt="">            
+                  <img src="../assets/customers.jpg" class="img-fluid" alt="">                   
                   </div>
                   <div class="button">
                     <!-- You can hook the "home button" to some JavaScript events or just remove it -->
@@ -108,36 +107,35 @@
                 <div class="col-lg-6">
                   <div class="feature-item">
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
-                    <img class="dj_icon" src="../assets/home_1_icon.png">
-                    <h3>Dream Job</h3>
-                    <p class="text-muted">Define your dream job</p>
+                    <img class="startups_1_icon" src="../assets/startups_1_icon.png">
+                    <h3>Customer Development</h3>
+                    <p class="text-muted">Develop 10 potential customers that care about the problem</p>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="feature-item">
                     <!--<i class="icon-camera text-primary"></i>-->
-                    <img class="bd_icon" src="../assets/home_2_icon.png">
-                    <h3>Build Daily</h3>
-                    <p class="text-muted">Post your daily work accomplishments</p>
+                    <img class="startups_2_icon" src="../assets/startups_2_icon.png">
+                    <h3>Minimum Viable Product (MVP)</h3>
+                    <p class="text-muted">Gather MVP requirements from the 10 potential customers</p>
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="col-lg-6">
                   <div class="feature-item">
-                    <!--<i class="icon-present text-primary"></i>-->
-                    <img class="n_icon" src="../assets/home_3_icon.png">
-                    <h3>"Inter + Intra" Networking</h3>
-                    <p class="text-muted">Networking events for your next move</p>
+                   <!-- <i class="icon-present text-primary"></i>-->
+                    <img class="startups_3_icon" src="../assets/startups_3_icon.png">
+                    <h3>Build Prototype</h3>
+                    <p class="text-muted">Build and launch prototype for MVP</p>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="feature-item">
-                    <!--<i class="icon-lock-open text-primary"></i>-->
-                    <img class="s_icon" src="../assets/home_4_icon.png">
-
-                    <h3>Startups </h3>
-                    <p class="text-muted">Engage with innovation </p>
+                   <!-- <i class="icon-lock-open text-primary"></i> -->
+                    <img class="startups_4_icon" src="../assets/startups_4_icon.png">
+                    <h3>Validate</h3>
+                    <p class="text-muted">Validate the prototype with the customers </p>
                   </div>
                 </div>
               </div>
@@ -146,7 +144,7 @@
         </div>
       </div>
     </section>
-    <section class="cta">
+    <section class="scale">
       <div class="cta-content">
         <div class="container1">
           <h2>Stop waiting.<br>Start hack-o-hiring.</h2>
@@ -220,7 +218,7 @@
 
 <script>
 export default {
-     name: 'home'
+    name: 'startups_home'
 }
 </script>
 
