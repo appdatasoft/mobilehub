@@ -5,16 +5,10 @@
     <b-navbar-toggle target="nav_collapse"/>
     <b-navbar-brand to="/"><img src="" srcset="../assets/hohlogo.png 1x" width= "20%" alt="hackohire for happy teams"></b-navbar-brand>
     <b-navbar-nav>
-      <b-nav-item v-if="!isAuthenticated" to="/hiring_home">Hiring</b-nav-item>
-      <b-nav-item v-if="!isAuthenticated" to="/startups_home">Startups</b-nav-item>
-      <b-nav-item v-if="!isAuthenticated" to="/SMB_home">SMB</b-nav-item>
+      <b-nav-item to="/hiring_home">Hiring</b-nav-item>
+      <b-nav-item to="/startups_home">Startups</b-nav-item>
+      <b-nav-item to="/SMB_home">SMB</b-nav-item>
       <!--<b-nav-item to="/pricing">Pricing</b-nav-item>-->
-    </b-navbar-nav>
-     <b-navbar-nav>
-      <b-nav-item v-if="isAuthenticated" to="/hiring">Hiring</b-nav-item>
-      <b-nav-item v-if="isAuthenticated" to="/startups">Startups</b-nav-item>
-      <b-nav-item v-if="isAuthenticated" to="/smb">SMB</b-nav-item>
-      <!-- <b-nav-item v-if="isAuthenticated" to="/dashboard">Dashboard</b-nav-item>   -->
     </b-navbar-nav>
     <b-navbar-nav class="ml-auto">
       <b-nav-item 

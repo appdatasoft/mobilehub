@@ -1,24 +1,81 @@
 <template>
-  <b-container>
-    <div class="b-main-content">
-      <h2>Welcome to Hiring</h2>
-      <div class="tasks">
-      <p>{{ user.username }}, Describe the open position</p>
-      <input v-model="taskname" placeholder="Enter your dream job" class="input">
-    <button
-      @click="createTask()"
-      class="taskButton"
-    >Save</button>
-    </div>
-    </div>
-    <div class="row justify-content-center">
-       <form-component></form-component>
-        <div class="col-md-8">
-            TimeLines
-        </div>
-    </div>
-  </b-container> 
+ <b-container> 
+<b-row class="justify-content-center">
+  <div class="hiring">
+    <!-- <b-form @submit="onSubmit" @reset="onReset" v-if="show"> -->
+      <b-form class="form_hiring">
+         <b-card >
+           <h3 class="Hp">Create Job Opening </h3>
+           <b-form-group id="exampleInputGroup2"
+                    label="Full Name:"
+                    label-for="exampleInput2">
+        <b-form-input id="exampleInput2"
+                      type="text"
+                      required
+                      placeholder="Enter Full name">
+        </b-form-input>
+      </b-form-group>
+
+      <b-form-group id="exampleInputGroup2"
+                    label="UserName:"
+                    label-for="exampleInput2">
+        <b-form-input id="exampleInput2"
+                      type="text"
+                      required
+                      placeholder="Enter Username">
+        </b-form-input>
+      </b-form-group>
+      <b-form-group id="exampleInputGroup1"
+                    label="Email address:"
+                    label-for="exampleInput1"
+                    description="We'll never share your email with anyone else.">
+        <b-form-input id="exampleInput1"
+                      type="email"
+                      required
+                      placeholder="Enter email">
+        </b-form-input>
+      </b-form-group>
+        <b-form-group id="exampleInputGroup4"
+                    label="Bio"
+                    label-for="exampleInput4">
+        <b-form-textarea id="textarea1"
+                     v-model="text"
+                     placeholder="Enter something"
+                     :rows="3"
+                     :max-rows="6">
+        </b-form-textarea>
+      </b-form-group>
+<b-form-group id="exampleInputGroup3"
+                    label="Location:"
+                    label-for="exampleInput3">
+        <b-form-select id="exampleInput3"
+                      :options="foods"
+                      required
+                     >
+        </b-form-select>
+      </b-form-group>
+      <b-form-group id="exampleInputGroup2"
+                    label="Website Url:"
+                    label-for="exampleInput2">
+        <b-form-input id="exampleInput2"
+                      type="text"
+                      required
+                      placeholder="Enter name">
+        </b-form-input>
+      </b-form-group>
+      
+    
+      <b-button type="submit" variant="primary">Submit</b-button>
+      <!-- <b-button type="reset" variant="danger">Reset</b-button> -->
+       </b-card>
+    </b-form>
+   
+  </div>
+  </b-row>
+   </b-container> 
 </template>
+ 
+
 
 <script>
 import { mapState } from 'vuex'
@@ -36,6 +93,19 @@ export default {
 <style scoped>
 * {
   box-sizing: border-box;
+}
+/* .row{
+border: 
+} */
+.Hp{
+border-bottom:1px solid rgba(34,36,38,.15);
+}
+.form_hiring{
+  /* padding: 20px; */
+  width: 650px;
+}
+.hiring{
+  padding:50px;
 }
 .taskButton {
   width: 100%;

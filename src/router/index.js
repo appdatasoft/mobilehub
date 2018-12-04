@@ -35,7 +35,7 @@ const routes = [
         path: '/startups_home', name: 'startups_home', component: StartupsHome, meta: { title: 'Startups Home', auth: false }
     },
     {
-        path: '/SMB_home', name: 'SMB_home', component: SMBHome, meta: { title: 'SMB Home', auth: false }
+        path: '/SMB_home', name: 'SMB_home', component: SMBHome, meta: { title: 'SMB Home', auth:false }
     },
     {
         path: '/tasks', name: 'tasks', component: Tasks, meta: { title: 'Tasks', auth: true }
@@ -47,13 +47,13 @@ const routes = [
         path: '/dashboard', name: 'dashboard', component: Dashboard, meta: { title: 'Dashboard', auth: true }
     },
     {
-        path: '/hiring', name: 'hiring', component: Hiring, meta: { title: 'Hiring', auth: false }
+        path: '/hiring', name: 'hiring', component: Hiring, meta: { title: 'Hiring', auth: true }
     },
     {
-        path: '/startups', name: 'startups', component: Startups, meta: { title: 'Startups', auth: false }
+        path: '/startups', name: 'startups', component: Startups, meta: { title: 'Startups', auth: true }
     },
     {
-        path: '/smb', name: 'smb', component: SMB, meta: { title: 'SMB', auth: false }
+        path: '/smb', name: 'smb', component: SMB, meta: { title: 'SMB', auth: true }
     },
     {
         path: '/signIn', name: 'signIn', component: SignIn, meta: { title: 'Sign In', auth: false }
@@ -110,7 +110,8 @@ router.beforeEach((to, from, next) => {
         // otherwise are we already authenticated?
         if (store.getters['auth/isAuthenticated']) {
             // yes we are, so off to dashboard
-            router.push({ name: 'dashboard' })
+            // router.push({ name: 'smb' })
+                 router.push({ name: 'smb' }) 
             return
         }
         next() // route normally
