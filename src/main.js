@@ -9,6 +9,7 @@ import AuthConfig from '@/aws-exports'
 import AWSAppSyncClient from "aws-appsync"
 import VueApollo from 'vue-apollo'
 import appSyncConfig from './AppSync'
+import VueSemantic from 'vuejs-semantic-ui'
 
 const client = new AWSAppSyncClient({
   url: appSyncConfig.graphqlEndpoint,
@@ -32,6 +33,7 @@ Auth.configure(AuthConfig)
 
 Vue.use(BootstrapVue)
 Vue.use(VueApollo)
+Vue.use(VueSemantic);
 Vue.component('icon', Icon)
 
 Vue.config.productionTip = false

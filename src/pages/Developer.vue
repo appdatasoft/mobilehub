@@ -45,7 +45,7 @@
 import { mapState } from 'vuex'
 
 export default {
-   name: 'startups',
+   name: 'developer',
     computed: {
         ...mapState({
             user: state => state.auth.user,

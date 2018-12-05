@@ -5,6 +5,7 @@ import HiringHome from '@/pages/HiringHome.vue'
 import StartupsHome from '@/pages/StartupsHome.vue'
 import SMBHome from '@/pages/SMBHome.vue'
 import Dashboard from '@/pages/Dashboard.vue'
+import Developer from '@/pages/Developer.vue'
 import Hiring from '@/pages/Hiring.vue'
 import Startups from '@/pages/Startups.vue'
 import SMB from '@/pages/SMB.vue'
@@ -45,6 +46,9 @@ const routes = [
     },
     {
         path: '/dashboard', name: 'dashboard', component: Dashboard, meta: { title: 'Dashboard', auth: true }
+    },
+    {
+        path: '/developer', name: 'developer', component: Developer, meta: { title: 'Developer', auth: true }
     },
     {
         path: '/hiring', name: 'hiring', component: Hiring, meta: { title: 'Hiring', auth: true }
