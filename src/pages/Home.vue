@@ -20,9 +20,9 @@
                    <!-- <img src="../assets/dream_job.jpg" class="img-fluid" alt="">-->
                   <!-- <video ref="videoRef" src="../assets/video.mp4" id="video-container" width="100%" autoplay loop ></video>-->
                  <div class="screen" id="foot">
-                 <img src="../assets/dream_job.jpg" class="img-fluid" alt="">
-               <!-- <img src="../assets/emulator_file1.gif" class="img-fluid" alt="">
-               <img src="../assets/dream_job.jpg" class="img-fluid" alt="">                    
+                 <!--<img src="../assets/dream_job.jpg" class="img-fluid" alt="">-->
+                <img src="../assets/dream_job.gif" class="img-fluid" alt="">
+               <!--<img src="../assets/dream_job.jpg" class="img-fluid" alt="">                    
                 <img src="../assets/emulator_file2.gif" class="img-fluid" alt="">
                 <img src="../assets/animation1.gif" class="img-fluid" alt="">
                 <img src="../assets/animation2.gif" class="img-fluid" alt="">-->
@@ -63,7 +63,8 @@
      		 <b-container >
        			 <b-row>
          			 <b-col>
-           			<img src="../assets/slip.jpg" class="img-fluid" alt="">
+           			<!--<img src="../assets/slip.jpg" class="img-fluid" alt="">-->
+                <img src="../assets/slip.gif" class="img-fluid" alt="">
          			 </b-col>
          			 <b-col>
            				 <div class="col-md-8 mx-auto">
