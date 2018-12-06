@@ -11,7 +11,7 @@
                  		 for your idea
                  </h1>
               <!-- <a href="/signIn" class="btn btn-xl main-bt js-scroll-trigger">Attend "Tech Jobs Pitch Social" Event</a> -->
-              <a href="https://www.eventbrite.com/e/tech-jobs-pitch-social-la-tickets-49499347882" class="btn btn-xl main-bt js-scroll-trigger">Attend "Tech Jobs Pitch Social" Event</a>
+              <a href="/signIn" class="btn btn-xl main-bt js-scroll-trigger">JOIN</a>
             </div>
           </div>
           <div class="col-lg-5 my-auto">
@@ -45,19 +45,7 @@
       </div>
       <div class="overlay"></div>
     </section>
-    <!--<section class="rightfit bg-primary2 text-center" id="download">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 mx-auto">
-            <h2 class="section-heading">Dont just build an app. Launch a profitable business</h2>
-            <p>Want to learn how to improve your current hiring practices?</p>
-            <div class="badges">
-               <a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>-->
+    
     <section>
      		 <b-container >
        			 <b-row>
@@ -80,7 +68,7 @@
       <div class="container">
         <div class="section-heading text-center">
           <h2>Prototype + Customer Development</h2>
-          <p class="text-muted">Cut down the $ and time spent to launch</p>
+          <p class="text-muted"><a href="/signIn">Cut down the $ and time spent to launch</a></p>
           <hr>
         </div>
         <div class="row">
@@ -108,7 +96,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
                     <img class="startups_1_icon" src="../assets/startups_1_icon.png">
-                    <h3>Customer Development</h3>
+                    <h3><a href="/signIn">Customer Development</a></h3>
                     <p class="text-muted">Develop 10 potential customers that care about the problem</p>
                   </div>
                 </div>
@@ -116,7 +104,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-camera text-primary"></i>-->
                     <img class="startups_2_icon" src="../assets/startups_2_icon.png">
-                    <h3>Minimum Viable Product (MVP)</h3>
+                    <h3><a href="/signIn">Minimum Viable Product (MVP)</a></h3>
                     <p class="text-muted">Gather MVP requirements from the 10 potential customers</p>
                   </div>
                 </div>
@@ -126,7 +114,7 @@
                   <div class="feature-item">
                    <!-- <i class="icon-present text-primary"></i>-->
                     <img class="startups_3_icon" src="../assets/startups_3_icon.png">
-                    <h3>Build Prototype</h3>
+                    <h3><a href="/signIn">Build Prototype</a></h3>
                     <p class="text-muted">Build and launch prototype for MVP</p>
                   </div>
                 </div>
@@ -134,7 +122,7 @@
                   <div class="feature-item">
                    <!-- <i class="icon-lock-open text-primary"></i> -->
                     <img class="startups_4_icon" src="../assets/startups_4_icon.png">
-                    <h3>Validate</h3>
+                    <h3><a href="/signIn">Validate</a></h3>
                     <p class="text-muted">Validate the prototype with the customers </p>
                   </div>
                 </div>

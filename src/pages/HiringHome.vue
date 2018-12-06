@@ -11,7 +11,7 @@
                  		 for your innovation
                  </h1>
               <!-- <a href="/signIn" class="btn btn-xl main-bt js-scroll-trigger">Attend "Tech Jobs Pitch Social" Event</a> -->
-              <a href="https://www.eventbrite.com/e/tech-jobs-pitch-social-la-tickets-49499347882" class="btn btn-xl main-bt js-scroll-trigger">Attend "Tech Jobs Pitch Social" Event</a>
+              <a href="/signIn" class="btn btn-xl main-bt js-scroll-trigger">JOIN</a>
             </div>
           </div>
           <div class="col-lg-5 my-auto">
@@ -111,7 +111,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
                     <img class="1_icon" src="../assets/hiring_1_icon.png">
-                    <h3>Post Jobs</h3>
+                    <h3><a href="/signIn">Post Jobs</a></h3>
                     <p class="text-muted">Create Job Post</p>
                   </div>
                 </div>
@@ -119,7 +119,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-camera text-primary"></i>-->
                     <img class="2_icon" src="../assets/hiring_2_icon.png">
-                    <h3>Select Candidates</h3>
+                    <h3><a href="/signIn">Select Candidates</a></h3>
                     <p class="text-muted">Shortlist candidates from applications</p>
                   </div>
                 </div>
@@ -129,7 +129,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-present text-primary"></i>-->
                     <img class="3_icon" src="../assets/hiring_3_icon.png">
-                    <h3>Interview Hackathon</h3>
+                    <h3><a href="/signIn">Interview Hackathon</a></h3>
                     <p class="text-muted">Conduct Hackathon Interview</p>
                   </div>
                 </div>
@@ -137,7 +137,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-lock-open text-primary"></i>-->
                     <img class="4_icon" src="../assets/hiring_4_icon.png">
-                    <h3>Hire </h3>
+                    <h3><a href="/signIn">Hire </a></h3>
                     <p class="text-muted"> Hire candidates that meet technical skills and cultural fit </p>
                   </div>
                 </div>

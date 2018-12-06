@@ -69,7 +69,7 @@
          			 <b-col>
            				 <div class="col-md-8 mx-auto">
               				<h2 class="section-heading">Don't let your dream position slip by.</h2>
-              				<p>Prepare for your next move</p>
+              				<p><a href="/signIn">Prepare for your next move</a></p>
               				<div class="badges">
                					<a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot</a>
              			 	</div>
@@ -81,8 +81,8 @@
     <section class="features" id="features">
       <div class="container">
         <div class="section-heading text-center">
-          <h2>"Professional + Personal" Growth</h2>
-          <p class="text-muted">Make your dreams reality</p>
+          <h2>Professonal Growth Support</h2>
+          <p class="text-muted"><a href="/signIn">Make your dreams reality</a></p>
           <hr>
         </div>
         <div class="row">
@@ -110,7 +110,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
                     <img class="dj_icon" src="../assets/home_1_icon.png">
-                    <h3>Dream Job</h3>
+                    <h3><a href="/signIn">Dream Job</a></h3>
                     <p class="text-muted">Define your dream job</p>
                   </div>
                 </div>
@@ -118,7 +118,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-camera text-primary"></i>-->
                     <img class="bd_icon" src="../assets/home_2_icon.png">
-                    <h3>Build Daily</h3>
+                    <h3><a href="/signIn">Build Daily</a></h3>
                     <p class="text-muted">Post your daily work accomplishments</p>
                   </div>
                 </div>
@@ -128,7 +128,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-present text-primary"></i>-->
                     <img class="n_icon" src="../assets/home_3_icon.png">
-                    <h3>Bug Fix Market</h3>
+                    <h3><a href="/signIn">Bug Fix Market</a></h3>
                     <p class="text-muted">Networking events for your next move</p>
                   </div>
                 </div>
@@ -137,7 +137,7 @@
                     <!--<i class="icon-lock-open text-primary"></i>-->
                     <img class="s_icon" src="../assets/home_4_icon.png">
 
-                    <h3>Startups </h3>
+                    <h3><a href="/signIn">Startups </a></h3>
                     <p class="text-muted">Engage as advisors with startups </p>
                   </div>
                 </div>
@@ -150,7 +150,7 @@
     <section class="cta">
       <div class="cta-content">
         <div class="container1">
-          <h2>Stop waiting.<br>Start hack-o-hiring.</h2>
+          <h2>Stop waiting.<br>Start <br>hack-o-hiring.</h2>
           <a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot!</a>
         </div>
       </div>
