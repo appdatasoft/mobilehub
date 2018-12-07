@@ -22,6 +22,7 @@ import Footer from '@/components/Footer.vue'
 import FormComponent from '@/components/FormComponent.vue'
 
 Vue.component('v-menu', Menu)
+
 Vue.component('v-footer', Footer)
 Vue.component('v-formcomponent', FormComponent)
 export default {

@@ -19,10 +19,7 @@ import ConfirmPasswordReset from '@/pages/auth/ConfirmPasswordReset.vue'
 import Tasks from '@/components/Tasks'
 import Pricing from '@/pages/Pricing'
 import Privacy from '@/pages/Privacy.vue'
-import Timeline from '@/pages/Feed_page.vue'
-import CD from '@/components/startups/cd.vue'
-import Problem from '@/components/startups/Problem.vue'
-//import Feed from '@/components/feed.vue'
+
 
 import store from '@/store'
 
@@ -60,12 +57,6 @@ const routes = [
         path: '/startups', name: 'startups', component: Startups, meta: { title: 'Startups', auth: true }
     },
     {
-        path: '/cd', name: 'cd', component: CD, meta: { title: 'Customer Development', auth: true }
-    },
-    {
-        path: '/problem', name: 'problem', component: Problem, meta: { title: 'Problem', auth: true }
-    },
-    {
         path: '/smb', name: 'smb', component: SMB, meta: { title: 'SMB', auth: true }
     },
     {
@@ -94,12 +85,6 @@ const routes = [
         path: '/privacy', name: 'privacy', component: Privacy, meta: { title: 'Privacy', auth: false }
         
     },
-    {
-        path:'/timeline' ,name: 'Timeline',component:Timeline,meta:{title:'Timeline',auth:true }
-    },
-    {
-        path:'/feed' ,name: 'Feed',component:Timeline,meta:{title:'Feed',auth:true }
-    }
 ]
 
 const router = new Router({ mode: "history", routes })
@@ -130,7 +115,7 @@ router.beforeEach((to, from, next) => {
         if (store.getters['auth/isAuthenticated']) {
             // yes we are, so off to dashboard
             // router.push({ name: 'smb' })
-                 router.push({ name: 'Timeline' }) 
+                 router.push({ name: 'smb' }) 
             return
         }
         next() // route normally

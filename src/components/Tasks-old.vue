@@ -9,17 +9,13 @@
         class="task"
         v-for="(task, index) in tasks" :key="index"
       >
-        <p class="text">{{ task.name }} created by username 
-          <b-nav-item to='/Timeline'>  {{ task.username }}.</b-nav-item></p>
-          <p class="text">{{ task.name }} created by username
-          <b-nav-item to="/Timeline">{{ task.username }}.</b-nav-item>
-        </p>
+        <p class="text">{{ task.name }} created by username  {{ task.username }}.</p>
         <p @click="toggleComplete(task)" class="text button">{{ task.completed ? 'completed' : 'not completed' }}</p>
         <p @click="deleteTask(task)" class="text button delete">Delete task</p>
       </li>
     </ul>
     
-    <!-- <h1>User= "sumithra2" Task Manager</h1><br>
+    <h1>User= "sumithra2" Task Manager</h1><br>
     <p>welcome {{ user.username }}.</p>
     <input v-model="taskname" placeholder="Task Name" class="input">
     <button @click="createTask()" class="taskButton">Create Task</button>
@@ -32,7 +28,7 @@
         <p @click="toggleComplete(task)" class="text button">{{ task.completed ? 'completed' : 'not completed' }}</p>
         <p @click="deleteTask(task)" class="text button delete">Delete task</p>
       </li>
-    </ul> -->
+    </ul>
   
   </div>
   

@@ -16,7 +16,7 @@
       <b-nav-item v-if="isAuthenticated" to="/hiring">Hiring</b-nav-item>
       <b-nav-item v-if="isAuthenticated" to="/startups">Startups</b-nav-item>
       <b-nav-item v-if="isAuthenticated" to="/smb">SMB</b-nav-item>
-      <!-- <b-nav-item v-if="isAuthenticated" to="/dashboard">Dashboard</b-nav-item>   -->
+      <!-- <b-nav-item v-if="isAuthenticated" to="/Timeline">Timeline</b-nav-item>   -->
     </b-navbar-nav>
     <b-navbar-nav class="ml-auto">
       <b-nav-item 

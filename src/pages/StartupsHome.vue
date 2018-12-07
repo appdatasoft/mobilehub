@@ -23,7 +23,7 @@
                    <!-- <img src="../assets/hackathon_team.jpg" class="img-fluid" alt="">-->
                   <!-- <video ref="videoRef" src="../assets/video.mp4" id="video-container" width="100%" autoplay loop ></video>-->
                  <div class="screen" id="foot">
-                <img src="../assets/pmf.jpg" class="img-fluid" alt="">                    
+                <img src="../assets/pmf.gif" class="img-fluid" alt="">                    
                 <!--<img src="../assets/emulator_file2.gif" class="img-fluid" alt="">-->
                  </div>
                   <div class="button">

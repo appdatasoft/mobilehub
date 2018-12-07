@@ -14,7 +14,7 @@
             </div>
   
             <div class="active teal item">
-              <div class="header">Timeline</div>
+              <div class="header">Deveoper</div>
               <div class="menu">
                 <a class="item">Dream Job</a>
                 <a class="item">Daily Build</a>
@@ -38,7 +38,7 @@
                 <a href="/cd" class="item">Problem</a>
                 <a href="/cd" class="item">Solution</a>
                 <a href="/cd" class="item">Customer Personas</a>
-                <a href="/cd" class="item">Customer Development</a>
+                <a class="item">Customer Development</a>
                 <a class="item">MVP</a>
                 <a class="item">Prototype</a>
                 <a class="item">Validate</a>
@@ -64,6 +64,44 @@
       <!--    Main Menu & text box      -->
       <div class="column" id="column_2">
         <div class="ui stackable grid container"></div>
+        <div class="ui steps">
+  <div class="step">
+    <i class="bug icon"></i>
+    <div class="content">
+      <div class="title">Problem</div>
+      <div class="description">Solution</div>
+    </div>
+  </div>
+  <div class="active step">
+    <i class="paint brush icon"></i>
+    <div class="content">
+      <div class="title">Customer</div>
+      <div class="description">Personas</div>
+    </div>
+  </div>
+  <div class="active step">
+    <i class="id badge outline icon"></i>
+    <div class="content">
+      <div class="title">Customer</div>
+      <div class="description">Development</div>
+    </div>
+  </div>
+  <div class="active step">
+    <i class="flask icon"></i>
+    <div class="content">
+      <div class="title">Prototype</div>
+      <div class="description">MVP</div>
+    </div>
+  </div>
+  <div class="active step">
+    <i class="binoculars icon"></i>
+    <div class="content">
+      <div class="title">Validate</div>
+      <div class="description">Viable</div>
+    </div>
+  </div>
+  
+</div>
         <div class="twelve wide column">
           <div class="ui segment">
             <div class="ui pointing menu active">
@@ -89,12 +127,16 @@
   
           <!--    Form Filling      -->
           <div class="ui segment">
-            <h2 class="ui dividing header">Give Details of your business automation requirements </h2>
+            <h2 class="ui dividing header">Customer Development </h2>
             <form class="ui form">
               <div class="field">
-                <label>Full Name</label>
+                <label>Add Emails</label>
                 <input type="text" name="name" v-validate="'required'">
                 <span class="is-danger"></span>
+              </div>
+              <div class="field">
+              <label>Email Message</label>
+                <textarea></textarea>
               </div>
               <div class="field">
                 <label>Username</label>
@@ -140,7 +182,7 @@
   } from 'vuex'
   
   export default {
-    name: 'smb',
+    name: 'cb',
     computed: {
       ...mapState({
         user: state => state.auth.user,

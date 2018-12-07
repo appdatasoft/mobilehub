@@ -94,7 +94,7 @@
                     <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
                    <!-- <img src="../assets/resume.jpg" class="img-fluid" alt="">-->
                     <div class="screen" id="foot">
-                  <img src="../assets/growth.jpg" class="img-fluid" alt="">            
+                  <img src="../assets/growth.gif" class="img-fluid" alt="">            
                   </div>
                   <div class="button">
                     <!-- You can hook the "home button" to some JavaScript events or just remove it -->
