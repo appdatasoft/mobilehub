@@ -74,7 +74,7 @@
   </div>
 </div>
  <h3>Select Job Opening</h3>
-      <div class="ui fluid search selection dropdown">
+      <!-- <div class="ui fluid search selection dropdown">
         <input type="hidden" name="country">
         <i class="dropdown icon"></i>
         <div class="default text">Select Country</div>
@@ -85,7 +85,14 @@
     <div class="item" data-value="dz"><i class="dz flag"></i>Algeria</div>
     
      </div>
-       </div>
+       </div> -->
+       <div class="field">
+          <select class="ui search dropdown">
+            <option value>Select</option>
+            <option value>New</option>
+            <option value>Old</option>
+          </select>
+          </div>
 </form>
       </div>
       <div class="ui segment">
@@ -113,7 +120,8 @@
             <label>Rules & Guidelines</label>
             <input type="text"  placeholder="Rules & Guidelines">
           </div>
-          <button class="ui button primary">Submit</button>
+          <button class="ui button primary">Save</button>
+          <button class="ui button primary">Publish</button>
         </form>
               </div>
           </div>

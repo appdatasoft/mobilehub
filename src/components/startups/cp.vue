@@ -1,11 +1,11 @@
 <template>
-  <div class="ui five wide grid">
-    <div class="ui three wide column" id="column_2">
+  <div class="ui five wide  grid">
+    <div class="ui three wide column " id="column_2">
       <v-menuleft/>
     </div>
 
     <!-- First Steps -->
-    <div class="twelve wide column" id="column_2">
+      <div class="twelve wide column" id="column_2">
         <div class="ui tiny six steps">
           <a href="/Startups" class="active step">
             <i class="bug icon"></i>
@@ -55,54 +55,30 @@
             </div>
           </a>
         </div>
-      <!-- End of Steps -->
-      <!--    Form Filling and Image upload  -->
-      <div class="ui segment">
-        <div class="twelve wide column">
-          <div class="ui two column vertically stackable ui grid">
-            <h2 class="header">Solution</h2>
-            <div class="two column row">
-              <div class="column">
-                <div class="ui segment">
-                 <img class="ui small image" src="/img/hiring.jpg">
-                </div>
-              </div>
-              <div class="column">
-                <div class="ui segment">
-                  <div class="Seven wide column">
-                    <form class="ui form">
-                      <div class="field">
-                        <textarea>Describe your solution</textarea>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+      
 
+      <!-- End of Steps -->
+      <!--    Form Filling      -->
+        <div class="ui segment">
+          <h2 class="ui dividing header">Customer Personas</h2>
           <form class="ui form">
             <div class="field">
-              <label>Who uses your solution</label>
-              <input type="text">
-            </div>
-            <div class="field">
-              <label>Who pays for your solution</label>
+              <label>Customer name</label>
               <input type="text">
             </div>
 
             <div class="field">
-              <label>What are the alternative solutions ?</label>
+              <label>Customer Occupation/Title</label>
               <input type="text">
             </div>
 
             <div class="field">
-              <label>How will your customers know about your solution?</label>
+              <label>Company Name</label>
               <input type="text">
             </div>
 
             <div class="field">
-              <label>What is the buying process for your solution?</label>
+              <label>When will this customer pay for your solution?</label>
               <input type="text">
             </div>
 
@@ -112,7 +88,8 @@
         </div>
       </div>
     </div>
-  </div>
+  <!-- </div> -->
+  <!-- </div> -->
 </template>
 
 
@@ -134,8 +111,8 @@ export default {
 * {
   box-sizing: border-box;
 }
+#column_2{
+  padding-top:25px; 
 
-#column_2 {
-  padding-top: 25px;
 }
 </style>

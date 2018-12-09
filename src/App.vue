@@ -3,10 +3,14 @@
     <b-container 
       class="main" 
       fluid>
-      <!--<v-menu/>-->
+      <span v-if="isAuthenticated">
+      <v-menu1/>
+      </span>
       <div 
         id="app" 
         v-if="hydrated">
+        
+       <!-- <v-sidemenu/> --> 
         </div>
         <router-view/>
       
@@ -14,20 +18,31 @@
     </b-container>
   </div>
 </template>
-
 <script>
 import Vue from 'vue'
 import Menu from '@/components/Menu.vue'
-import MenuLeft from '@/components/MenuLeft.vue'
+import Menu1 from '@/components/Menu1.vue'
+
 import Footer from '@/components/Footer.vue'
+import MenuLeft from '@/components/MenuLeft.vue'
 import FormComponent from '@/components/FormComponent.vue'
+import { mapState } from 'vuex'
+
 
 Vue.component('v-menu', Menu)
+Vue.component('v-menu1', Menu1)
 Vue.component('v-menuleft', MenuLeft)
+
 Vue.component('v-footer', Footer)
 Vue.component('v-formcomponent', FormComponent)
 export default {
   name: 'App',
+   computed: {
+        ...mapState({
+            user: state => state.auth.user,
+            isAuthenticated: state => state.auth.isAuthenticated,
+        })
+        },
   data: () => ({ hydrated: false }),
   async mounted() {
     await this.$apollo.provider.defaultClient.hydrated()

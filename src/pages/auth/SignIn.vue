@@ -1,4 +1,7 @@
 <template>
+<div>
+    <v-menu1/>
+
   <b-container>
     <b-row class="justify-content-md-center">
       <b-col cols="4">
@@ -46,6 +49,7 @@
       </b-col>
     </b-row>
   </b-container>
+</div>
 </template>
 
 <script>

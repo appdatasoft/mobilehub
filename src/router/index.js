@@ -28,7 +28,15 @@ import Candidates from '@/components/Hiring/Candidates.vue'
 import Dream_Job from '@/components/developer/Dream_Job.vue'
 import Daily_Build from '@/components/developer/Daily_Build.vue'
 import Bugfix_Market from '@/components/developer/Bugfix_Market.vue'
+import Bug from '@/components/developer/Bug.vue'
 import Startups_Developer from '@/components/developer/Startups_Developer.vue'
+import MVP from '@/components/startups/MVP.vue'
+import cp from '@/components/startups/cp.vue'
+//import prototype from '@/components/startups/prototype.vue'
+import Solution from '@/components/startups/Solution.vue'
+import Validate from '@/components/startups/Validate.vue'
+import MarketResearch from '@/components/startups/MarketResearch.vue'
+import AllPosts from '@/components/startups/Allposts.vue'
 //import Feed from '@/components/feed.vue'
 
 import store from '@/store'
@@ -127,7 +135,23 @@ const routes = [
     },
     {
         path:'/startupsDeveloper' ,name: 'Startups_Developer',component:Startups_Developer,meta:{title:'Startups_Developer',auth:true }
+    },
+    {
+        path:'/solution' ,name: 'Solution',component:Solution,meta:{title:'Startup Solution',auth:true }
+    },
+    {
+        path:'/validate' ,name: 'Validate',component:Validate,meta:{title:'Idea Validation',auth:true }
+    },
+    {
+        path:'/mr' ,name: 'MarketResearch',component:MarketResearch,meta:{title:'Market Validaion',auth:true }
+    },
+    {
+        path:'/posts' ,name: 'AllPosts',component:AllPosts,meta:{title:'All Posts',auth:true }
+    },
+    {
+        path:'/bug' ,name: 'Bug',component:Bug,meta:{title:'Bug',auth:true }
     }
+    
 ]
 
 const router = new Router({ mode: "history", routes })
