@@ -1,5 +1,6 @@
 <template>
-  <b-container> 
+  <!-- <b-container>  -->
+    <div class="head_1">
     <header class="masthead_hiring">
       <div class="container h-100">
         <div class="row h-100">
@@ -38,6 +39,7 @@
         </div>
       </div>
     </header>
+    <b-container>
     <section class="rightfit">
       <div class="cta-content">
         <div class="container1">
@@ -176,6 +178,7 @@
       </div>
     </section>
  </b-container>
+    </div>
 </template>
 <link src='../css/detectify.css'/>
 <link src='../../css/new-age.min.css'/>
@@ -224,4 +227,3 @@ export default {
     name: 'hiring_home'
 }
 </script>
-

@@ -1,5 +1,6 @@
 <template>
-  <b-container> 
+  <!-- <b-container>  -->
+    <div class="head_1">
     <header class="masthead_startups">
       <div class="container h-100">
         <div class="row h-100">
@@ -36,6 +37,7 @@
         </div>
       </div>
     </header>
+    <b-container>
     <section class="rightfit">
       <div class="cta-content">
         <div class="container1">
@@ -80,7 +82,7 @@
                     <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
                    <!-- <img src="../assets/resume.jpg" class="img-fluid" alt="">-->
                     <div class="screen" id="foot">
-                  <img src="../assets/customers.jpg" class="img-fluid" alt="">                   
+                  <img src="../assets/customers.gif" class="img-fluid" alt="">                   
                   </div>
                   <div class="button">
                     <!-- You can hook the "home button" to some JavaScript events or just remove it -->
@@ -161,6 +163,7 @@
       </div>
     </section>
  </b-container>
+    </div>
 </template>
 <link src='../css/detectify.css'/>
 <link src='../../css/new-age.min.css'/>
@@ -209,4 +212,3 @@ export default {
     name: 'startups_home'
 }
 </script>
-

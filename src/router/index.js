@@ -22,6 +22,13 @@ import Privacy from '@/pages/Privacy.vue'
 import Timeline from '@/pages/Feed_page.vue'
 import CD from '@/components/startups/cd.vue'
 import Problem from '@/components/startups/Problem.vue'
+import Job_Posts from '@/components/Hiring/Job_Posts.vue'
+import Int_Hackathon from '@/components/Hiring/Interview_Hackathon.vue'
+import Candidates from '@/components/Hiring/Candidates.vue'
+import Dream_Job from '@/components/developer/Dream_Job.vue'
+import Daily_Build from '@/components/developer/Daily_Build.vue'
+import Bugfix_Market from '@/components/developer/Bugfix_Market.vue'
+import Startups_Developer from '@/components/developer/Startups_Developer.vue'
 //import Feed from '@/components/feed.vue'
 
 import store from '@/store'
@@ -99,6 +106,27 @@ const routes = [
     },
     {
         path:'/feed' ,name: 'Feed',component:Timeline,meta:{title:'Feed',auth:true }
+    },
+    {
+        path:'/Candidates' ,name: 'candidates',component:Candidates,meta:{title:'candidates',auth:true }
+    },
+    {
+        path:'/Int_Hackathon' ,name: 'Int_Hackathon',component:Int_Hackathon,meta:{title:'Int_Hackathon',auth:true }
+    },
+    {
+        path:'/Job_Posts' ,name: 'Job_Posts',component:Job_Posts,meta:{title:'Job_Posts',auth:true }
+    },
+    {
+        path:'/dreamJob' ,name: 'Dream_Job',component:Dream_Job,meta:{title:'Dream_Job',auth:true }
+    },
+    {
+        path:'/dailyBuild' ,name: 'Daily_Build',component:Daily_Build,meta:{title:'Daily_Build',auth:true }
+    },
+    {
+        path:'/bugfixMarket' ,name: 'Bugfix_Market',component:Bugfix_Market,meta:{title:'Bugfix_Market',auth:true }
+    },
+    {
+        path:'/startupsDeveloper' ,name: 'Startups_Developer',component:Startups_Developer,meta:{title:'Startups_Developer',auth:true }
     }
 ]
 
