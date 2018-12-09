@@ -1,7 +1,7 @@
 <template>
   <b-navbar 
     toggleable="md" 
-    type="dark">
+    type="dark" class="navbar-inner">
     <b-navbar-toggle target="nav_collapse"/>
     <b-navbar-brand to="/"><img src="" srcset="../assets/hohlogo.png 1x" width= "20%" alt="hackohire for happy teams"></b-navbar-brand>
     <b-navbar-nav>
@@ -86,5 +86,8 @@ export default {
 .nav-username {
   padding-left: .5em;
   padding-right: .5em;
+}
+.navbar-inner{
+   background-color:transparent;
 }
 </style>

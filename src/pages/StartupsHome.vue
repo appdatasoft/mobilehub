@@ -2,6 +2,9 @@
   <!-- <b-container>  -->
     <div class="head_1">
     <header class="masthead_startups">
+    <div>
+    <v-menu/>
+    </div>
       <div class="container h-100">
         <div class="row h-100">
           <div class="col-lg-7 my-auto">

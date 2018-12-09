@@ -3,7 +3,7 @@
     <b-container 
       class="main" 
       fluid>
-      <v-menu/>
+      <!--<v-menu/>-->
       <div 
         id="app" 
         v-if="hydrated">
