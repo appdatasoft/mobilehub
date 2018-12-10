@@ -7,17 +7,12 @@
  <!-- column -2 -->
  
 <div class="column" id="column_2">
-<!-- <div class="ui compact segment" id="column_2_segment"> -->
- 
+<!-- <div class="ui compact segment" id="column_2_segment"> --> 
   <div class="ui stackable grid container ">
     <div class="fourteen wide column">
-
-
-
 <div class="ui four steps">
   <a  class="active step">
     <i class="paste icon"></i>
-    
     <div class="content">
       <div class="title">Job Posts</div>
       <div class="description">Job related posts</div>
@@ -45,52 +40,52 @@
        </div>
      </a>
   </div>
-         <!-- <div class="ui segment">
-       <div class="ui pointing menu">
-  <a class="item active">Hiring</a>
-  <a class="item">Job-post</a>
-  <a class="item"> Candidates</a>
-  <a class="item">Interview Hackathon</a>
-</div>
-           <div class="ui form">
-            <textarea  class="field" rows="6" placeholder="A breif bio of you"></textarea>
-           
-            </div>
-       </div> -->
       <div class="ui segment">
         <h2 class="ui dividing header">Job Posting</h2>
         <form class="ui form">
           <div class="field">
             <label>Title</label>
-            <input type="text" name="name"  v-validate="'required'">
+            <input v-model="title" type="text">
             <span  class="is-danger"></span>
           </div>
            <div class="field">
             <label>Job Description</label>
-            <textarea  rows="5" placeholder="Describe Your Job"></textarea>
+            <textarea v-model="Job_Description"  rows="5" placeholder="Describe Your Job"></textarea>
           </div>
           <div class="field" >
             <label>Technologies used</label>
-            <input type="text" name="username" placeholder="Technologies You Used" v-validate="'required'">
-          </div>
-          <!-- <div class="field">
-            <label>Email</label>
-            <input type="email" name="email"  v-validate="'required|email'" placeholder="Email">
-          </div> -->        
+             <input v-model="Technologies_used" type="text"  placeholder="Technologies You Used">
+          </div>        
           <div class="field">
             <label>Tools Used</label>
-            <input type="text"  placeholder="Tools You Used">
+            <input v-model="Tools_Used" type="text" placeholder="Tools You Used">
           </div>
           <div class="field">
-            <label>Team Description</label>
-            <input type="url"  placeholder="About YourTeam ">
+            <label>Team Description</label> 
+            <input v-model="Team_Description" type="text" placeholder="About YourTeam ">
           </div>
           <div class="field">
             <label>Salary</label>
-            <input type="url"  placeholder="Expected Salary">
+            <input v-model="Salary" type="text" placeholder="Expected Salary">
           </div>
-          <button class="ui button primary">Submit</button>
+          <button @click="createJobPost()" class="ui submit button">Save</button>
         </form>
+        <!-- <ul>
+      <li v-for="(JobPost, index) in JobPosts" :key="index">
+        <p class="text">{{ JobPost.title }}  
+        </p>
+        <p class="text">{{ JobPost.Salary }}  
+        </p>
+        <p class="text">{{ JobPost.Tools_Used }}  
+        </p>
+        <p class="text">{{ JobPost.Team_Description }}  
+        </p>
+         <p class="text">{{ JobPost.Job_Description }}  
+        </p>
+        <p class="text">{{ JobPost. Technologies_used}}  
+        </p>
+         </li>
+    </ul> -->
               </div>
           </div>
        </div>      
@@ -98,25 +93,84 @@
   </div>
 <!-- </div> -->
 </template>
-
 <script>
+import ListJobPosts from '../../queries/ListJobPosts'
+import CreateJobPost from '../../mutations/CreateJobPost'
+import uuidV4 from 'uuid/v4'
 import { mapState } from 'vuex'
-
 export default {
-   name: 'hiring',
+   name: 'jobPosts',
     computed: {
         ...mapState({
             user: state => state.auth.user,
         })
     },
-  data:{
-  active_el:0
+    methods: {
+      createJobPost() {
+      const title = this.title
+      const Job_Description = this.Job_Description
+      const Technologies_used = this.Technologies_used
+      const Tools_Used = this.Tools_Used
+      const Team_Description = this.Team_Description
+      const Salary = this.Salary
+     
+      if ((title) === '' || (Job_Description === '') || (Technologies_used === '') || (Tools_Used === '') || (Team_Description === '') ||(Salary === '') ) {
+        alert('please enter all fields')
+        return
+      }
+      this.title = ''
+      this.Job_Description = ''
+      this.Technologies_used = ''
+      this.Tools_Used = ''
+      this.Team_Description = ''
+      this.Salary = ''
+      const id = uuidV4()
+      const JobPost = {
+        title:title,
+        Job_Description: Job_Description,
+        id,
+        Technologies_used :Technologies_used,
+        Tools_Used:Tools_Used,
+        Team_Description:Team_Description,
+        Salary:Salary
+      }
+      this.$apollo.mutate({
+        mutation: CreateJobPost,
+        variables: JobPost,
+        update: (store, { data: { createJobPost } }) => {
+          const data = db.readQuery({ query: ListJobPosts })
+          data.listJobPosts.items.push(createJobPost)
+          store.writeQuery({ query: ListJobPosts, data })
+        },
+        optimisticResponse: {
+          __typename: 'Mutation',
+          createJobPost: {
+            __typename: 'JobPost',
+            ...JobPost
+          }
+        },
+      })
+      .then(data => console.log(data))
+      .catch(error => console.error("error!!!:", error))
+    },
   },
-  methods:{
-  activate:function(el){
-    this.active_el = el;
+  data () {
+    return {
+          title:'',
+          Job_Description:'',
+          Technologies_used:'',
+          Tools_Used:'',
+          Team_Description:'',
+          Salary :'',
+          JobPosts: []
     }
-  }
+  },
+     apollo: {
+    JobPosts: {
+      query: () => ListJobPosts,
+       update: data => data.listJobPosts.items
+    }
+  },
 }
 </script>
 

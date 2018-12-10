@@ -1,210 +1,164 @@
-<template>
-          <!-- using Semantic Class -->
-    <div class="ui stackable six column grid">
-      <!--   Left Menu     -->
-      <div class="column" id="column_1">
-        <div class="ui vertical menu">
-          <div class="ui">
-  
-            <div class="item">
-              <div class="ui transparent icon input">
-                <input type="text" placeholder="Search Website...">
-                <i class="search icon"></i>
-              </div>
-            </div>
-  
-            <div class="active teal item">
-              <div class="header">Deveoper</div>
-              <div class="menu">
-                <a class="item">Dream Job</a>
-                <a class="item">Daily Build</a>
-                <a class="item"> Bug Fix Market</a>
-                <a class="item">Startups </a>
-              </div>
-            </div>
-  
-            <div class="active teal item">
-              <div class="header">Hiring</div>
-              <div class="menu">
-                <a class="item">Job Posts</a>
-                <a class="item">Candidates</a>
-                <a class="item"> Interview Hackathon</a>
-              </div>
-            </div>
-  
-            <div class="active teal item">
-              <div class="header">Startups</div>
-              <div class="menu">
-                <a href="/cd" class="item">Problem</a>
-                <a href="/cd" class="item">Solution</a>
-                <a href="/cd" class="item">Customer Personas</a>
-                <a class="item">Customer Development</a>
-                <a class="item">MVP</a>
-                <a class="item">Prototype</a>
-                <a class="item">Validate</a>
-              </div>
-            </div>
-  
-            <div class="active teal item">
-              <div class="header">SMB</div>
-              <div class="menu">
-                <a class="item">Business Process</a>
-                <a class="item">Mapping</a>
-                <a class="item">Implementation</a>
-                <a class="item">Training</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-  
-      <!--    End of Left Menu     -->
-  
-  
-      <!--    Main Menu & text box      -->
-      <div class="column" id="column_2">
-        <div class="ui stackable grid container"></div>
-        <div class="ui steps">
-  <div class="step">
-    <i class="bug icon"></i>
-    <div class="content">
-      <div class="title">Problem</div>
-      <div class="description">Solution</div>
-    </div>
-  </div>
-  <div class="active step">
-    <i class="paint brush icon"></i>
-    <div class="content">
-      <div class="title">Customer</div>
-      <div class="description">Personas</div>
-    </div>
-  </div>
-  <div class="active step">
-    <i class="id badge outline icon"></i>
-    <div class="content">
-      <div class="title">Customer</div>
-      <div class="description">Development</div>
-    </div>
-  </div>
-  <div class="active step">
-    <i class="flask icon"></i>
-    <div class="content">
-      <div class="title">Prototype</div>
-      <div class="description">MVP</div>
-    </div>
-  </div>
-  <div class="active step">
-    <i class="binoculars icon"></i>
-    <div class="content">
-      <div class="title">Validate</div>
-      <div class="description">Viable</div>
-    </div>
-  </div>
-  
+  <template>
+<div class="ui six column grid" >
+  <div class="column" id="side_bar">   
+   <v-menuleft/>
 </div>
-        <div class="twelve wide column">
-          <div class="ui segment">
-            <div class="ui pointing menu active">
-              <a href="" class="item">Home </a>
-              <a class="item">Dashboard</a>
-              <a class="item ">Dream Job</a>
-              <a class="item"> Daily Build</a>
-            </div>
-<a href="https://google.com" class="ui medium image">
-  <img src="../../assets/wireframe/image.png">
-</a>
-            <form class="ui reply form">
-              <div class="field">
-                <textarea></textarea>
-              </div>
 
-              <div class="ui blue labeled submit  icon button">
-                <i class="icon arrow circle right"></i> Next 
-              </div>
-            </form>
 
+  <div class="ui grid" id="column_1">
+    <div class="ui ten wide column">
+      <div class="ui segment">
+        <h1 class="ui dividing header">Add New Problems:</h1>
+        <br>
+        <form class="ui form">
+
+          <div class="field">
+          <label>Problem Title</label>
+            <input v-model="title" type="text" placeholder="Input Your Current Problem here:">
           </div>
-  
-  
-  
-          <!--    Form Filling      -->
-          <div class="ui segment">
-            <h2 class="ui dividing header">Customer Development </h2>
-            <form class="ui form">
-              <div class="field">
-                <label>Add Emails</label>
-                <input type="text" name="name" v-validate="'required'">
-                <span class="is-danger"></span>
-              </div>
-              <div class="field">
-              <label>Email Message</label>
-                <textarea></textarea>
-              </div>
-              <div class="field">
-                <label>Username</label>
-                <input type="text" name="username" v-validate="'required'">
-                <!-- <span v-show="errors.has('username')" class="is-danger">{{ errors.first('username') }}</span> -->
-              </div>
-              <div class="field">
-                <label>Email</label>
-                <input type="email" name="email" v-validate="'required|email'" placeholder="Email">
-                <!-- <span v-show="errors.has('email')" class="is-danger">{{ errors.first('email') }}</span> -->
-              </div>
-  
-              <div class="field">
-                <label>Bio</label>
-                <textarea rows="5" placeholder="A breif bio of you"></textarea>
-              </div>
-  
-              <div class="field">
-                <label>Location</label>
-                <input type="text" placeholder="Your location">
-              </div>
-  
-              <div class="field">
-                <label>Website URL</label>
-                <input type="url" placeholder="Website URL">
-              </div>
-  
-              <button class="ui button primary">Update profile</button>
-            </form>
+
+           <div class="field">
+          <label>Problem Description</label>
+            <input v-model="description" type="text" placeholder="Input Your Problem Description here:">
           </div>
-        </div>
+
+          <div class="field">
+            <label>Priority</label>
+            <input v-model="priority" type="text" placeholder="Input Your Priority  here:">
+          </div>
+
+          <div class="field">
+            <label>Date</label>
+            <input v-model="date" type="text" placeholder="Input date  here:" >
+          </div>
+
+          <div class="field">
+            <label>Comments</label>
+            <input v-model="comments" type="text" placeholder="Input Your Comments  here:">
+          </div>
+          <div class="field">
+            <label>Problem Status</label>
+            <input v-model="status" type="text"  placeholder="Input Your Problem Status:" >
+          </div>
+        </form>
+
+        <button @click="createProblem()" class="ui primary button">Submit</button>
       </div>
-  
+    </div>
+
+    <div class="ui six wide column">
+      <div class="ui segment">
+        <h1 class="ui dividing header">Existing Problems List:</h1>
+        <br>
+        <ul>
+          <li class="Problem" v-for="(Problem, index) in Problems" :key="index">
+            <p class="Problem">
+              {{ Problem.title }} created by username
+              <b-nav-item to="/ProblemsList">{{ user.username }}.</b-nav-item>
+            </p>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
+</div>
 </template>
-
-
-
+ 
 <script>
-  import {
-    mapState
-  } from 'vuex'
-  
-  export default {
-    name: 'problem',
-    computed: {
-      ...mapState({
-        user: state => state.auth.user,
-      })
+import ListProblem from "../../queries/ListProblem";
+import CreateProblem from "../../mutations/CreateProblem";
+import uuidV4 from "uuid/v4";
+import { mapState } from "vuex";
+export default {
+  computed: {
+    ...mapState({
+      user: state => state.auth.user
+    })
+  },
+  name: "Problem",
+  methods: {
+    createProblem() {
+      const title = this.title;
+      const description = this.description;
+      if (title === "") {
+        alert("Please add your a Problem!!");
+        return;
+      }
+      this.title = "";
+      this.description = "";
+      const id = uuidV4();
+      const Problem = {
+        title: title,
+        description: description,
+        // priority: Problem_Priority,
+        // comments: Problem_Comments,
+        // status: Problem_Status,
+        // date: Problem_date,
+        id
+      };
+      this.$apollo
+        .mutate({
+          mutation: CreateProblem,
+          variables: Problem,
+          update: (store, { data: { createProblem } }) => {
+            const data = store.readQuery({ query: ListProblems });
+            data.listProblems.items.push(createProblem);
+            store.writeQuery({ query: ListProblems, data });
+          },
+          optimisticResponse: {
+            __typename: "Mutation",
+            createProblem: {
+              __typename: "Problem",
+              ...Problem
+            }
+          },
+        })
+        .then(data => console.log(data))
+        .catch(error => console.error("error!!!: ", error));
     }
+  },
+
+  data() {
+    return {
+      title: "",
+      description: "",
+      // ProblemPriority: "",
+      // ProblemComments: "",
+      // ProblemStatus: "",
+      // Problemdate: "",
+      Problems: []
+    };
+  },
+  apollo: {
+    Problems: {
+      query: () => ListProblems,
+      update: data => data.listProblems.items
+    }
+    // userProblems: {
+    //   query: () => ListUserProblems,
+    //   variables() {
+    //     return {
+    //       username: this.user.username
+    //     };
+    //   },
+    //   update: data => data.listProblems.items
+    // }
   }
+};
 </script>
 
 <style scoped>
-  * {
-    box-sizing: border-box;
-  }
-  
-  #column_1 {
-    padding-top: 20px;
-  }
-  
-  #column_2 {
-    padding-top: 50px;
-    padding-left: 8%;
-    width: 60%;
-  }
+* {
+  box-sizing: border-box;
+}
+
+#column_1 {
+  padding-top: 25px;
+  padding-left: 2%;
+}
 </style>
+  
+
+
+
+
