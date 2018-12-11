@@ -38,6 +38,8 @@ import Validate from '@/components/startups/Validate.vue'
 import MarketResearch from '@/components/startups/MarketResearch.vue'
 import AllPosts from '@/components/startups/Allposts.vue'
 //import Feed from '@/components/feed.vue'
+import Bug_Title from '@/components/developer/Bug_Title.vue'
+
 
 import store from '@/store'
 
@@ -131,7 +133,8 @@ const routes = [
         path:'/dailyBuild' ,name: 'Daily_Build',component:Daily_Build,meta:{title:'Daily_Build',auth:true }
     },
     {
-        path:'/bugfixMarket' ,name: 'Bugfix_Market',component:Bugfix_Market,meta:{title:'Bugfix_Market',auth:true }
+        path:'/bug_title' ,name: 'Bug_Title',component:Bug_Title,meta:{title:'Bug_Title',auth:true }
+        
     },
     {
         path:'/startupsDeveloper' ,name: 'Startups_Developer',component:Startups_Developer,meta:{title:'Startups_Developer',auth:true }
