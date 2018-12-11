@@ -70,7 +70,7 @@
           </div>
           <button @click="createJobPost()" class="ui submit button">Save</button>
         </form>
-        <!-- <ul>
+        <ul>
       <li v-for="(JobPost, index) in JobPosts" :key="index">
         <p class="text">{{ JobPost.title }}  
         </p>
@@ -85,7 +85,7 @@
         <p class="text">{{ JobPost. Technologies_used}}  
         </p>
          </li>
-    </ul> -->
+    </ul>
               </div>
           </div>
        </div>      
