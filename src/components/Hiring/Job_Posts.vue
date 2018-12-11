@@ -138,7 +138,7 @@ export default {
         mutation: CreateJobPost,
         variables: JobPost,
         update: (store, { data: { createJobPost } }) => {
-          const data = db.readQuery({ query: ListJobPosts })
+          const data = store.readQuery({ query: ListJobPosts })
           data.listJobPosts.items.push(createJobPost)
           store.writeQuery({ query: ListJobPosts, data })
         },
