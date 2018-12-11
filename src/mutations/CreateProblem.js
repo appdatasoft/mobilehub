@@ -1,21 +1,20 @@
 import gql from 'graphql-tag'
 
 export default gql`
-  mutation createProblem($title: String!, $description: String, $priority: String, $comments: String,  $status: String, $date: Int) {
+  mutation createProblem($title: String!, $description: String, $priority: String, $date: String!, $comments: String,  $status: String!) {
     createProblem(
       input: {
-      title: $title, description: $description,  priority: $priority, comments:$comments, status:$status, date: $int,
-      
+      title: $title, description: $description,  priority: $priority, date: $date, comments:$comments, status:$status
+
       }
     ) {
       title
-      id
       description
+      id
       priority 
-      date
       comments
       status
-     
-    }
+      date
+    } 
   }
 `

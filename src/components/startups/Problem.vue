@@ -1,4 +1,4 @@
-  <template>
+<template>
 <div class="ui six column grid" >
   <div class="column" id="side_bar">   
    <v-menuleft/>
@@ -42,7 +42,7 @@
           </div>
         </form>
 
-        <button @click="createProblem()" class="ui primary button">Submit</button>
+        <button @click="submit()" class="ui primary button">Submit</button>
       </div>
     </div>
 
@@ -50,101 +50,107 @@
       <div class="ui segment">
         <h1 class="ui dividing header">Existing Problems List:</h1>
         <br>
-        <ul>
-          <li class="Problem" v-for="(Problem, index) in Problems" :key="index">
-            <p class="Problem">
-              {{ Problem.title }} created by username
-              <b-nav-item to="/ProblemsList">{{ user.username }}.</b-nav-item>
+          <div class="Problem" v-for="(Problem, index) in Problems" :key="index">
+            <div class="ui segment" to="/ListProblems">
+            <p class="Problem"> Problem Title: {{ Problem.title }} <br>
+            Description: {{Problem.description}} <br>
+            Priority: {{Problem.priority}}  <br>
+            Date: {{Problem.date}}    <br>
+            Comments: {{Problem.comments}}    <br>
+            Problem Status: {{Problem.status}}    <br>
+              
             </p>
-          </li>
-        </ul>
+            </div>
+          </div>
       </div>
     </div>
+
+
   </div>
 </div>
 </template>
  
 <script>
-import ListProblem from "../../queries/ListProblem";
-import CreateProblem from "../../mutations/CreateProblem";
-import uuidV4 from "uuid/v4";
-import { mapState } from "vuex";
+import ListProblems from "../../queries/ListProblems"
+import CreateProblem from "../../mutations/CreateProblem"
+import uuidV4 from "uuid/v4"
+import { mapState } from "vuex"
 export default {
   computed: {
-    ...mapState({
+    ...mapState({ 
       user: state => state.auth.user
     })
   },
   name: "Problem",
   methods: {
-    createProblem() {
-      const title = this.title;
-      const description = this.description;
-      if (title === "") {
-        alert("Please add your a Problem!!");
-        return;
+    submit() {
+      const title = this.title
+      const description = this.description
+      const priority = this.priority
+      const date = this.date
+      const comments = this.comments
+      const status = this.status
+      
+      if ((title) === '') {
+        alert("Please enter details of your Problem!!")
+        return
       }
-      this.title = "";
-      this.description = "";
-      const id = uuidV4();
+      this.title = ''
+      this.description = ''
+      this.priority = ''
+      this.date = ''
+      this.comments = ''
+      this.status = ''  
+      const id = uuidV4()
+       
       const Problem = {
         title: title,
         description: description,
-        // priority: Problem_Priority,
-        // comments: Problem_Comments,
-        // status: Problem_Status,
-        // date: Problem_date,
-        id
-      };
-      this.$apollo
-        .mutate({
+        priority: priority,
+        date: date,
+        comments: comments,
+        status: status,
+        id,
+      }
+      this.$apollo.mutate({
           mutation: CreateProblem,
           variables: Problem,
           update: (store, { data: { createProblem } }) => {
-            const data = store.readQuery({ query: ListProblems });
-            data.listProblems.items.push(createProblem);
-            store.writeQuery({ query: ListProblems, data });
+            const data = store.readQuery({ query: ListProblems })
+            data.listProblems.items.push(createProblem)
+            store.writeQuery({ query: ListProblems, data })
           },
           optimisticResponse: {
-            __typename: "Mutation",
+            __typename: 'Mutation',
             createProblem: {
-              __typename: "Problem",
+              __typename: 'Problem',
               ...Problem
-            }
+            } 
           },
         })
         .then(data => console.log(data))
-        .catch(error => console.error("error!!!: ", error));
-    }
+        .catch(error => console.error("error!!!: ", error))
+    },
   },
 
-  data() {
+  data() { 
     return {
-      title: "",
-      description: "",
-      // ProblemPriority: "",
-      // ProblemComments: "",
-      // ProblemStatus: "",
-      // Problemdate: "",
+      title: '',
+      description: '',
+      priority: '',
+      comments: '',
+      status: '',
+      date: '',
       Problems: []
-    };
+    }
   },
   apollo: {
     Problems: {
       query: () => ListProblems,
       update: data => data.listProblems.items
     }
-    // userProblems: {
-    //   query: () => ListUserProblems,
-    //   variables() {
-    //     return {
-    //       username: this.user.username
-    //     };
-    //   },
-    //   update: data => data.listProblems.items
-    // }
-  }
-};
+    },
+}
 </script>
 
 <style scoped>
@@ -157,8 +163,3 @@ export default {
   padding-left: 2%;
 }
 </style>
-  
-
-
-
-

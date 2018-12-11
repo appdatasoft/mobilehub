@@ -153,6 +153,9 @@ const routes = [
     },
     {
         path:'/bug' ,name: 'Bug',component:Bug,meta:{title:'Bug',auth:true }
+    },
+    {
+        path:'/bugfixMarket' ,name: 'Bugfix_Market',component:Bugfix_Market,meta:{title:'Bugfix_Market',auth:true }
     }
     
 ]
