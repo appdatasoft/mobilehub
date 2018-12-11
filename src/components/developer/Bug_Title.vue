@@ -1,3 +1,5 @@
+<!--Bug_Title.vue file changes source path is "src/components/developer/Bug_Title.vue"  -->
+
 <template>
           <!-- using Semantic Class -->
     <div class="ui stackable six column grid">
@@ -60,18 +62,6 @@
                   <div class="ui six wide grid">
                 <div class="eleven wide column">
                     <!-- <div class="eight wide column"> -->
-                    <!-- <span  id="error_color">
-                        error: Property name "hiring" is not PascalCase
-                         (vue/name-property-casing)
-                         at src\components\Hiring\Job_Posts.vue:106:10:<br>
-                            104 |<br>
-                             105 | export default {<br>
-                            >106 |    name: 'hiring',<br>
-                            |          ^<br>
-                             107 |     computed: {<br>
-                             108 |         ...mapState({<br>
-                             109 |             user: state => state.auth.user,<br>
-                    </span> -->
                     <div class="ui form">
                       <div class="ui field" >
                         <label>error</label>
@@ -82,22 +72,20 @@
                         <textarea  v-model="code" rows="10" id="textArea"></textarea>
                       </div>
                       <button @click="createBugs()" class="ui button primary right floated">fix</button>
-                    
-                    <!-- <span>
-                        const router = new Router({ mode: "history", routes })<br>
-                        // this routine will ensure that any pages marked as `auth` in the `meta` section are<br>
-                        // protected from access by unauthenticated users.<br>
-                            router.beforeEach((to, from, next) => {<br>
-                        // Use the page's router title to name the page<br>
-                        if (to.meta && to.meta.title) {<br>
-                        document.title = to.meta.title<br>
-                        }
-                    </span> -->
-                    
+                                        
+                    <!-- get list from aws-->
+                    <div v-for="(bug, index) in bugs" :key="index">
+                      <a>
+                        <strong>{{ bug.error  }}</strong><br>
+                        <strong>{{ bug.code  }}</strong>
+                      </a>:
+                        <br>              
+                        <br>
+                        <div class="ui dividing"></div>
+                      </div>
+
                     </div>
                     </div>
-                
-               
                 <div class="column">
                     <div class="ui vertical menu">
                         <div class="item">
@@ -136,92 +124,94 @@
 
 
 <script>
-import uuidV4 from 'uuid/v4'
-import {mapState} from 'vuex'
-import CreateBugs from '../../mutations/CreateBugs';
-import ListBugs from '../../queries/ListBugs';
-  
-  export default {
-    name: 'Bugfix_Market',
-    computed: {
-      ...mapState({
-        user: state => state.auth.user,
-      })
-    },
-                /* create bug strat from here */
-      methods:{
-                createBugs() {
-      const error = this.error
-      const code = this.code
-      const username = this.user.username
-      if ((error) === ''|| (code) === '') {
-        alert('please enter all fields')
-        return
-      }
-      this.error = ''
-      this.code = ''
-      const id = uuidV4()
-      const bugfix = {
-        username:username,
-        error:error,
-        code:code,
-        id        
-      }
-      this.$apollo.mutate({
-        mutation: CreateBugs,
-        variables: bugfix,
-        update: (store, { data: { createBugs } }) => {
-          const data = store.readQuery({ query: ListBugs })
-          data.listBugs.items.push(createBugs)
-          store.writeQuery({ query: ListBugs, data })
-        },
-        optimisticResponse: {
-          __typename: 'Mutation',
-          createBugs: {
-            __typename: 'Bugs',
-            ...bugfix
-          }
-        },
-      })
-      .then(data => console.log(data))
-      .catch(error => console.error("error!!!: ", error))
-    },
+import uuidV4 from "uuid/v4";
+import { mapState } from "vuex";
+import CreateBugs from "../../mutations/CreateBugs";
+import ListBugs from "../../queries/ListBugs";
+
+export default {
+  name: "Bugfix_Market",
+  computed: {
+    ...mapState({
+      user: state => state.auth.user
+    })
   },
-   data () {
-    return {
-      error: '',
-      code:'',
-      username:'',
-      bugs: []
+  /* create bug strat from here */
+  methods: {
+    createBugs() {
+      const error = this.error;
+      const code = this.code;
+      const username = this.user.username;
+      if (error === "" || code === "") {
+        alert("please enter all fields");
+        return;
+      }
+      this.error = "";
+      this.code = "";
+      const id = uuidV4();
+      const bugfix = {
+        username: username,
+        error: error,
+        code: code,
+        id
+      };
+      this.$apollo
+        .mutate({
+          mutation: CreateBugs,
+          variables: bugfix,
+          update: (store, { data: { createBugs } }) => {
+            const data = store.readQuery({ query: ListBugs });
+            data.listBugs.items.push(createBugs);
+            store.writeQuery({ query: ListBugs, data });
+          },
+          optimisticResponse: {
+            __typename: "Mutation",
+            createBugs: {
+              __typename: "Bugs",
+              ...bugfix
+            }
+          }
+        })
+        .then(data => console.log(data))
+        .catch(error => console.error("error!!!: ", error));
     }
   },
-  apollo:{
-    bugs:{
-          query:()=> ListBugs,
-          update: data => data.listBugs.items
-    },
+  data() {
+    return {
+      error: "",
+      code: "",
+      username: "",
+      bugs: []
+    };
+  },
 
+  /* To get list bugs code start from here */
+  apollo: {
+    bugs: {
+      query: () => ListBugs,
+      update: data => data.listBugs.items
+    }
+   
   }
-
-  }
+};
 </script>
 
 <style scoped>
-  * {
-    box-sizing: border-box;
-  }
-  
-  #column_1 {
-    padding-top: 20px;
-  }
-  
-  #column_2 {
-    padding-top: 25px;
-  }
-  #textArea{
-    width: 100%
-  }
-  #error_color{
-      color:red;
-  }
+* {
+  box-sizing: border-box;
+}
+
+#column_1 {
+  padding-top: 20px;
+}
+
+#column_2 {
+  padding-top: 25px;
+}
+#textArea {
+  width: 100%;
+}
+#error_color {
+  color: red;
+}
 </style>
