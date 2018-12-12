@@ -47,6 +47,40 @@
         <div class="container1">
           <h2>Stop waiting.<br><a href="/signIn">Start preparing.</a></h2>
           <a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot!</a>
+          <div class="row">
+                <div class="col-lg-3">
+                  <div class="feature-item">
+                    <!--<i class="icon-screen-smartphone text-primary"></i>-->
+                    <img class="dj_icon" src="../assets/home_1_icon.png">
+                    <h3><a href="/signIn">Dream Job</a></h3>
+                    <p class="text-muted">Define your dream job</p>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="feature-item">
+                    <!--<i class="icon-camera text-primary"></i>-->
+                    <img class="bd_icon" src="../assets/home_2_icon.png">
+                    <h3><a href="/signIn">Build Daily</a></h3>
+                    <p class="text-muted">Post your daily work accomplishments</p>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="feature-item">
+                    <!--<i class="icon-present text-primary"></i>-->
+                    <img class="n_icon" src="../assets/home_3_icon.png">
+                    <h3><a href="/signIn">Bug Fix Market</a></h3>
+                    <p class="text-muted">Networking events for your next move</p>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="feature-item">
+                    <!--<i class="icon-lock-open text-primary"></i>-->
+                    <img class="s_icon" src="../assets/home_4_icon.png">
+                    <h3><a href="/signIn">Startups </a></h3>
+                    <p class="text-muted">Engage as advisors with startups </p>
+                  </div>
+                </div>
+              </div>
         </div>
       </div>
       <div class="overlay"></div>
@@ -114,17 +148,17 @@
                 <div class="col-lg-6">
                   <div class="feature-item">
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
-                    <img class="dj_icon" src="../assets/home_1_icon.png">
+                    
                     <h3><a href="/signIn">Dream Job</a></h3>
-                    <p class="text-muted">Define your dream job</p>
+                    <p class="text-muted">Define the companies you would like to work for, the technologies and projects you would like to be part of, along with the salary requirements.</p>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="feature-item">
                     <!--<i class="icon-camera text-primary"></i>-->
-                    <img class="bd_icon" src="../assets/home_2_icon.png">
+                    
                     <h3><a href="/signIn">Build Daily</a></h3>
-                    <p class="text-muted">Post your daily work accomplishments</p>
+                    <p class="text-muted">Don't let your daily accomplishment be lost, instead use them as building blocks to build your knowledge base and showcase it.</p>
                   </div>
                 </div>
               </div>
@@ -132,18 +166,18 @@
                 <div class="col-lg-6">
                   <div class="feature-item">
                     <!--<i class="icon-present text-primary"></i>-->
-                    <img class="n_icon" src="../assets/home_3_icon.png">
+                    
                     <h3><a href="/signIn">Bug Fix Market</a></h3>
-                    <p class="text-muted">Networking events for your next move</p>
+                    <p class="text-muted">Your time is valuable. When you are stuck with a bug and are constrained for time,you can find an additional pair of eyes from a skilled programmer to look at your code.</p>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="feature-item">
                     <!--<i class="icon-lock-open text-primary"></i>-->
-                    <img class="s_icon" src="../assets/home_4_icon.png">
+                    
 
                     <h3><a href="/signIn">Startups </a></h3>
-                    <p class="text-muted">Engage as advisors with startups </p>
+                    <p class="text-muted">Startups can benefit from  your advise. You can keep yourself involved with the latest innovations as an advisor to a startup.</p>
                   </div>
                 </div>
               </div>

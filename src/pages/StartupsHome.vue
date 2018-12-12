@@ -46,6 +46,42 @@
         <div class="container1">
           <h2>Stop losing.<br>Start hack-o-hiring.</h2>
           <a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot!</a>
+         
+    
+                <div class="row">
+                <div class="col-lg-3">
+                  <div class="feature-item">
+                    <!--<i class="icon-screen-smartphone text-primary"></i>-->
+                    <img class="startups_1_icon" src="../assets/startups_1_icon.png">
+                    <h3><a href="/signIn">Customer Development</a></h3>
+                    <p class="text-muted">Develop 10 potential customers</p>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="feature-item">
+                    <!--<i class="icon-camera text-primary"></i>-->
+                    <img class="startups_2_icon" src="../assets/startups_2_icon.png">
+                    <h3><a href="/signIn">Minimum Viable Product (MVP)</a></h3>
+                    <p class="text-muted">Requirements for MVP</p>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="feature-item">
+                   <!-- <i class="icon-present text-primary"></i>-->
+                    <img class="startups_3_icon" src="../assets/startups_3_icon.png">
+                    <h3><a href="/signIn">Build Prototype</a></h3>
+                    <p class="text-muted">Launch prototype for MVP</p>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="feature-item">
+                   <!-- <i class="icon-lock-open text-primary"></i> -->
+                    <img class="startups_4_icon" src="../assets/startups_4_icon.png">
+                    <h3><a href="/signIn">Validate</a></h3>
+                    <p class="text-muted">Validate the prototype</p>
+                  </div>
+                </div>
+              </div>
         </div>
       </div>
       <div class="overlay"></div>
@@ -55,7 +91,7 @@
      		 <b-container >
        			 <b-row>
          			 <b-col>
-           				 <img src="../assets/profit.jpg" class="img-fluid" alt="">
+           				 <img src="../assets/profit.gif" class="img-fluid" alt="">
          			 </b-col>
          			 <b-col>
            				 <div class="col-md-8 mx-auto">
@@ -100,17 +136,17 @@
                 <div class="col-lg-6">
                   <div class="feature-item">
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
-                    <img class="startups_1_icon" src="../assets/startups_1_icon.png">
+                    
                     <h3><a href="/signIn">Customer Development</a></h3>
-                    <p class="text-muted">Develop 10 potential customers that care about the problem</p>
+                    <p class="text-muted">Identify and work with 10 customers that would pay for your solution</p>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="feature-item">
                     <!--<i class="icon-camera text-primary"></i>-->
-                    <img class="startups_2_icon" src="../assets/startups_2_icon.png">
+                    
                     <h3><a href="/signIn">Minimum Viable Product (MVP)</a></h3>
-                    <p class="text-muted">Gather MVP requirements from the 10 potential customers</p>
+                    <p class="text-muted">Gather requirements for MVP from the customers</p>
                   </div>
                 </div>
               </div>
@@ -118,15 +154,15 @@
                 <div class="col-lg-6">
                   <div class="feature-item">
                    <!-- <i class="icon-present text-primary"></i>-->
-                    <img class="startups_3_icon" src="../assets/startups_3_icon.png">
+                    
                     <h3><a href="/signIn">Build Prototype</a></h3>
-                    <p class="text-muted">Build and launch prototype for MVP</p>
+                    <p class="text-muted">Build the prototype and launch the MVP to the potential customers. </p>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="feature-item">
                    <!-- <i class="icon-lock-open text-primary"></i> -->
-                    <img class="startups_4_icon" src="../assets/startups_4_icon.png">
+                    
                     <h3><a href="/signIn">Validate</a></h3>
                     <p class="text-muted">Validate the prototype with the customers </p>
                   </div>

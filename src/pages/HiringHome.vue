@@ -48,6 +48,41 @@
         <div class="container1">
           <h2>Stop hiring.<br>Start hack-o-hiring.</h2>
           <a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot!</a>
+          <div class="row">
+                <div class="col-lg-3">
+                  <div class="feature-item">
+                    <!--<i class="icon-screen-smartphone text-primary"></i>-->
+                    <img class="1_icon" src="../assets/hiring_1_icon.png">
+                    <h3><a href="/signIn">Post Jobs</a></h3>
+                    <p class="text-muted">Create Job Post</p>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="feature-item">
+                    <!--<i class="icon-camera text-primary"></i>-->
+                    <img class="2_icon" src="../assets/hiring_2_icon.png">
+                    <h3><a href="/signIn">Select Candidates</a></h3>
+                    <p class="text-muted">Shortlist candidates from applications</p>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="feature-item">
+                    <!--<i class="icon-present text-primary"></i>-->
+                    <img class="3_icon" src="../assets/hiring_3_icon.png">
+                    <h3><a href="/signIn">Interview Hackathon</a></h3>
+                    <p class="text-muted">Conduct Hackathon Interview</p>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="feature-item">
+                    <!--<i class="icon-lock-open text-primary"></i>-->
+                    <img class="4_icon" src="../assets/hiring_4_icon.png">
+                    <h3><a href="/signIn">Hire </a></h3>
+
+ <p class="text-muted"> Hire candidates that meet technical skills and cultural fit </p>
+                  </div>
+                </div>
+              </div>
         </div>
       </div>
       <div class="overlay"></div>
@@ -115,17 +150,17 @@
                 <div class="col-lg-6">
                   <div class="feature-item">
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
-                    <img class="1_icon" src="../assets/hiring_1_icon.png">
+                   
                     <h3><a href="/signIn">Post Jobs</a></h3>
-                    <p class="text-muted">Create Job Post</p>
+                    <p class="text-muted">Create Job Post and convert your job posts as a place for learning and engagement by adding Q & A plugin on all your job posts. </p>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="feature-item">
                     <!--<i class="icon-camera text-primary"></i>-->
-                    <img class="2_icon" src="../assets/hiring_2_icon.png">
+                    
                     <h3><a href="/signIn">Select Candidates</a></h3>
-                    <p class="text-muted">Shortlist candidates from applications</p>
+                    <p class="text-muted">Select candidates based on the engagement created on your job posting.</p>
                   </div>
                 </div>
               </div>
@@ -133,17 +168,17 @@
                 <div class="col-lg-6">
                   <div class="feature-item">
                     <!--<i class="icon-present text-primary"></i>-->
-                    <img class="3_icon" src="../assets/hiring_3_icon.png">
+                  
                     <h3><a href="/signIn">Interview Hackathon</a></h3>
-                    <p class="text-muted">Conduct Hackathon Interview</p>
+                    <p class="text-muted">Cut down the time spent on interviewing candidates by organizing interview hackathon where you can  evaluate all the candidates in 2 days.</p>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="feature-item">
                     <!--<i class="icon-lock-open text-primary"></i>-->
-                    <img class="4_icon" src="../assets/hiring_4_icon.png">
+                   
                     <h3><a href="/signIn">Hire </a></h3>
-                    <p class="text-muted"> Hire candidates that meet technical skills and cultural fit </p>
+                    <p class="text-muted"> Use the 360 degree view from the interview hackathon to hire the right candidates. </p>
                   </div>
                 </div>
               </div>

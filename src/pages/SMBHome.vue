@@ -38,8 +38,42 @@
     <section class="rightfit">
       <div class="cta-content">
         <div class="container1">
-          <h2>Stop working "hard".<br>Start working "smart".</h2>
+          <h2>Stop working hard<br>Start working smart</h2>
           <a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot!</a>
+          <div class="row">
+                <div class="col-lg-3">
+                  <div class="feature-item">
+                    <!--<i class="icon-screen-smartphone text-primary"></i>-->
+                    <img class="1_icon" src="../assets/hiring_1_icon.png">
+                    <h3><a href="/signIn">Business Process</a></h3>
+                    <p class="text-muted">Conduct Business Process Analysis</p>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="feature-item">
+                    <!--<i class="icon-camera text-primary"></i>-->
+                    <img class="2_icon" src="../assets/hiring_2_icon.png">
+                    <h3><a href="/signIn">Map Tech Solutions</a></h3>
+                    <p class="text-muted">Map tech solutions for business processes</p>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="feature-item">
+                    <!--<i class="icon-present text-primary"></i>-->
+                    <img class="3_icon" src="../assets/hiring_3_icon.png">
+                    <h3><a href="/signIn">Implement</a></h3>
+                    <p class="text-muted">Implement the solution </p>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="feature-item">
+                    <!--<i class="icon-lock-open text-primary"></i>-->
+                    <img class="4_icon" src="../assets/hiring_4_icon.png">
+                    <h3><a href="/signIn">Training </a></h3>
+                    <p class="text-muted"> Train your team to use the new solution  </p>
+                  </div>
+                </div>
+              </div>
         </div>
       </div>
       <div class="overlay"></div>
@@ -61,7 +95,7 @@
      		 <b-container >
        			 <b-row>
          			 <b-col>
-           				 <img src="../assets/automation.jpg" class="img-fluid" alt="">
+           				 <img src="../assets/automation.gif" class="img-fluid" alt="">
          			 </b-col>
          			 <b-col>
            				 <div class="col-md-8 mx-auto">
@@ -88,7 +122,7 @@
               <div class="device-mockup iphone6_plus portrait white">
                 <div class="device">
                     <div class="screen" id="foot">
-                  <img src="../assets/robot.jpg" class="img-fluid" alt="">                 
+                  <img src="../assets/robot.gif" class="img-fluid" alt="">                 
                   </div>
                   <div class="button">
                    </div>
@@ -101,14 +135,14 @@
               <div class="row">
                 <div class="col-lg-6">
                   <div class="feature-item">
-                    <img class="smb_1_icon" src="../assets/smb_1_icon.png">
+                    
                     <h3><a href="/signIn">Business Process</a></h3>
                     <p class="text-muted">Conduct Business Process Analysis</p>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="feature-item">
-                    <img class="smb_2_icon" src="../assets/smb_2_icon.png">
+                    
                     <h3><a href="/signIn">Map Tech Solutions</a></h3>
                     <p class="text-muted">Map tech solutions for business processes</p>
                   </div>
@@ -118,7 +152,7 @@
                 <div class="col-lg-6">
                   <div class="feature-item">
                     <!--<i class="icon-present text-primary"></i>-->
-                    <img class="smb_3_icon" src="../assets/smb_3_icon.png">
+                    
                     <h3><a href="/signIn">Implementation</a></h3>
                     <p class="text-muted">Implement the solution</p>
                   </div>
@@ -126,7 +160,7 @@
                 <div class="col-lg-6">
                   <div class="feature-item">
                     <!--<i class="icon-lock-open text-primary"></i>-->
-                    <img class="smb_4_icon" src="../assets/smb_4_icon.png">
+                    
                     <h3><a href="/signIn">Training</a> </h3>
                     <p class="text-muted">Train your team to use the new solution  </p>
                   </div>
