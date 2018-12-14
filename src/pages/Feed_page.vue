@@ -63,9 +63,9 @@
       <!-- fourth column -->
       <div class="four wide column" id="column_3">
         <div class="ui segment">
-          <h2 class="ui medium dividing header">Consultant Marketplace</h2>
+          <h2 class="ui medium dividing header">Job Hackathons</h2>
           <div class="task" v-for="(task, index) in tasks" :key="index">
-            <p class="text"> Consultant {{ index }} by {{ task.username }} ${{ index }}0</p>
+            <p class="text"> Job {{ index }} by {{ task.username }} ${{ index }}0</p>
             <button class="fluid ui blue button">interested</button>
           </div>
         </div>
