@@ -42,6 +42,7 @@ import Bug_Title from '@/components/developer/Bug_Title.vue'
 import Job_Allposts from '@/components/Hiring/Job_Allposts.vue'  //for all posts
 import ItemProfile from '@/components/Hiring/itemprofile.vue'  //it is for dynamic pages
 import Bug_Item from '@/components/developer/Bug_Item.vue'
+import problem_allposts from '@/components/startups/problem_allposts.vue'
 
 
 
@@ -162,11 +163,14 @@ const routes = [
     {
         path:'/Job_Allposts' ,name: 'Job_Allposts',component:Job_Allposts,meta:{title:'Job_Allposts',auth:true}
     },
+    //{
+    //    path:'/:title', name: 'ItemProfile',component:ItemProfile,meta:{title:'ItemProfile',auth:true}   
+    //},
+    //{
+    //    path:'/:error', name:'Bug_Item',component:Bug_Item,meta:{title:'Bug_Item',auth:true}
+    //},
     {
-        path:'/:title', name: 'ItemProfile',component:ItemProfile,meta:{title:'ItemProfile',auth:true}   
-    },
-    {
-        path:'/:error', name:'Bug_Item',component:Bug_Item,meta:{title:'Bug_Item',auth:true}
+        path:'/:Problem' ,name: 'problem_allposts',component:problem_allposts, meta:{title:'problem_allposts',auth:true }
     }
     
 ]

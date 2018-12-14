@@ -17,9 +17,9 @@
                   </div>
                 </div>
               <!-- </div> -->
-              <textarea placeholder="Compose your tweet here"></textarea> 
+              <textarea placeholder="Upload your picture"></textarea> 
             </div>
-         <b-nav-item to='/tasks'>  <button class="fluid ui blue button">back to home</button>.</b-nav-item>   
+         <b-nav-item to='/tasks'>  <button class="fluid ui blue button">$50</button>.</b-nav-item>   
           </form>
           <div class="ui pointing menu active">
             <a class="item">
@@ -40,30 +40,37 @@
       </div>
 
       <!-- Middle column -->
-       <div class="eight wide column">
-      
-            <div class="ui segment">
-             <form class="ui reply form"><div class="field"><textarea placeholder="Compose your tweet here"></textarea></div></form>
-    <p>welcome {{ user.username }}.  <button class="ui primary button right floated">
-  Follow
-</button> </p>
-
-       <li class="task"
-        v-for="(task, index) in userTasks" :key="index">
-        <p class="text">  {{ task.username }}.</p>
-        <p>{{ task.name }} </p>
-       </li>  
-       </div>
-    </div>
-      <!-- Third column -->
-      <div class="four wide column" id="column_3">
+       <!-- second column -->
+      <div class="four wide column" id="column_2">
         <div class="ui segment">
-          <h2 class="ui medium dividing header">Whom To Follow</h2>
+          <h2 class="ui medium dividing header">Bug Fix Marketplace</h2>
           <div class="task" v-for="(task, index) in tasks" :key="index">
-            <p class="text">{{ task.username }}</p>
+            <p class="text"> Bug {{ index }} by {{ task.username }} ${{ index }}0</p>
+            <button class="fluid ui blue button">fix</button>
           </div>
         </div>
       </div>
+      <!-- Third column -->
+      <div class="four wide column" id="column_3">
+        <div class="ui segment">
+          <h2 class="ui medium dividing header">Startup Marketplace</h2>
+          <div class="task" v-for="(task, index) in tasks" :key="index">
+            <p class="text"> Startup {{ index }} by {{ task.username }} ${{ index }}0</p>
+            <button class="fluid ui blue button">interested</button>
+          </div>
+        </div>
+      </div>
+      <!-- fourth column -->
+      <div class="four wide column" id="column_3">
+        <div class="ui segment">
+          <h2 class="ui medium dividing header">Consultant Marketplace</h2>
+          <div class="task" v-for="(task, index) in tasks" :key="index">
+            <p class="text"> Consultant {{ index }} by {{ task.username }} ${{ index }}0</p>
+            <button class="fluid ui blue button">interested</button>
+          </div>
+        </div>
+      </div>
+      
       </div>
   </b-container>
 </template>                            
