@@ -29,23 +29,24 @@
             <div class="active teal item">
               <div class="header">Startups</div>
               <div class="menu">
-                <a href="/cd" class="item">Problem</a>
-                <a href="/cd" class="item">Solution</a>
-                <a href="/cd" class="item">Customer Personas</a>
-                <a href="/cd" class="item">Customer Development</a>
-                <a class="item">MVP</a>
-                <a class="item">Prototype</a>
-                <a class="item">Validate</a>
+                <a href="/problem" class="item">Problem</a>
+          <a href="/solution" class="item">Solution</a>
+          <a href="/cp" class="item">Customer Personas</a>
+          <a href="/cd" class="item">Customer Development</a>
+          <a href="/marketresearch" class="item">Market Research</a>
+          <a href="/MVP" class="item">MVP</a>
+          <a href="/Prototype" class="item">Prototype</a>
+          <a href="/validate" class="item">Validate</a>
               </div>
             </div>
   
             <div class="active teal item">
               <div class="header">SMB</div>
               <div class="menu">
-                <a class="item">Business Process</a>
-                <a class="item">Mapping</a>
-                <a class="item">Implementation</a>
-                <a class="item">Training</a>
+                <a href="/Process" class="item">Process Analysis</a>
+          <a href="/Mapping" class="item">Mapping</a>
+          <a href="/Implementation" class="item">Implementation</a>
+          <a href="/Training" class="item">Training</a>
               </div>
             </div>
           </div>
