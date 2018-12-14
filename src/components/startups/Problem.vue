@@ -1,7 +1,7 @@
 <template>
 <div class="ui six column grid" >
   <div class="column" id="side_bar">   
-   <v-menuleft/>
+   <v-menuleft/> 
 </div>
 
 
@@ -48,24 +48,29 @@
 
     <div class="ui six wide column">
       <div class="ui segment">
-        <h1 class="ui dividing header">Existing Problems List:</h1>
-        <br>
+        <h1 class="ui dividing header">Existing All Problems List:</h1>
           <div class="Problem" v-for="(Problem, index) in Problems" :key="index">
             <div class="ui segment" to="/ListProblems">
-            <p class="Problem"> Problem Title: {{ Problem.title }} <br>
-            Description: {{Problem.description}} <br>
-            Priority: {{Problem.priority}}  <br>
-            Date: {{Problem.date}}    <br>
-            Comments: {{Problem.comments}}    <br>
-            Problem Status: {{Problem.status}}    <br>
-              
-            </p>
+            <router-link v-model="problem_allposts" :to="`/title=${Problem.title}`" append>
+            {{Problem.title}} </router-link>
+            <br> by  
+            <a href=""> <small>{{ `@${Problem.username}` }}</small> </a>
             </div>
           </div>
       </div>
+
+      <!-- Filter Only by current user/ title -->
+      
+     <!-- <div class="ui segment">
+        <h1 class="ui dividing header">Existing Few Problems List:</h1>
+          <div class="Problem" v-for="(Problem, index) in ProblemTitles" :key="index">
+            <div class="ui segment">
+            <router-link :to="`/${Problem.title}`">{{Problem.title}} <br> by <small>{{ `@${Problem.username}` }}</small></router-link>
+            </div>
+          </div>
+      </div>  -->
+     
     </div>
-
-
   </div>
 </div>
 </template>
@@ -73,6 +78,7 @@
 <script>
 import ListProblems from "../../queries/ListProblems"
 import CreateProblem from "../../mutations/CreateProblem"
+import ListProblemTitle from "../../queries/ListProblemTitle"
 import uuidV4 from "uuid/v4"
 import { mapState } from "vuex"
 export default {
@@ -90,7 +96,8 @@ export default {
       const date = this.date
       const comments = this.comments
       const status = this.status
-      
+      const username = this.user.username
+
       if ((title) === '') {
         alert("Please enter details of your Problem!!")
         return
@@ -101,6 +108,7 @@ export default {
       this.date = ''
       this.comments = ''
       this.status = ''  
+      this.username = ''
       const id = uuidV4()
        
       const Problem = {
@@ -110,6 +118,7 @@ export default {
         date: date,
         comments: comments,
         status: status,
+        username: username,
         id,
       }
       this.$apollo.mutate({
@@ -117,6 +126,7 @@ export default {
           variables: Problem,
           update: (store, { data: { createProblem } }) => {
             const data = store.readQuery({ query: ListProblems })
+            // const index = data.listTasks.items.findIndex(item => item.id)
             data.listProblems.items.push(createProblem)
             store.writeQuery({ query: ListProblems, data })
           },
@@ -141,16 +151,32 @@ export default {
       comments: '',
       status: '',
       date: '',
+      username: '',
       Problems: []
     }
   },
   apollo: {
+
     Problems: {
       query: () => ListProblems,
       update: data => data.listProblems.items
-    }
     },
+
+     ProblemTitles: {
+      query: () => ListProblemTitle,
+      variables() {
+        return {
+          title: TrailProblem
+          //title: this.title
+        }
+        },
+
+      update: data => data.listProblems.items
+    }
+  },
+  
 }
+
 </script>
 
 <style scoped>

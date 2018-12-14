@@ -39,6 +39,10 @@ import MarketResearch from '@/components/startups/MarketResearch.vue'
 import AllPosts from '@/components/startups/Allposts.vue'
 //import Feed from '@/components/feed.vue'
 import Bug_Title from '@/components/developer/Bug_Title.vue'
+import Job_Allposts from '@/components/Hiring/Job_Allposts.vue'  //for all posts
+import ItemProfile from '@/components/Hiring/itemprofile.vue'  //it is for dynamic pages
+import Bug_Item from '@/components/developer/Bug_Item.vue'
+
 
 
 import store from '@/store'
@@ -107,9 +111,7 @@ const routes = [
         path: '/confirmPasswordReset', name: 'confirmPasswordReset', component: ConfirmPasswordReset, meta: { title: 'Confirm Password Reset', auth: false }
     },
     {
-      
-        path: '/privacy', name: 'privacy', component: Privacy, meta: { title: 'Privacy', auth: false }
-        
+        path: '/privacy', name: 'privacy', component: Privacy, meta: { title: 'Privacy', auth: false } 
     },
     {
         path:'/timeline' ,name: 'Timeline',component:Timeline,meta:{title:'Timeline',auth:true }
@@ -156,6 +158,15 @@ const routes = [
     },
     {
         path:'/bugfixMarket' ,name: 'Bugfix_Market',component:Bugfix_Market,meta:{title:'Bugfix_Market',auth:true }
+    },
+    {
+        path:'/Job_Allposts' ,name: 'Job_Allposts',component:Job_Allposts,meta:{title:'Job_Allposts',auth:true}
+    },
+    {
+        path:'/:title', name: 'ItemProfile',component:ItemProfile,meta:{title:'ItemProfile',auth:true}   
+    },
+    {
+        path:'/:error', name:'Bug_Item',component:Bug_Item,meta:{title:'Bug_Item',auth:true}
     }
     
 ]

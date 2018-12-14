@@ -1,7 +1,9 @@
 import gql from 'graphql-tag'
 export default gql`
-  query listProblems {
-    listProblems {
+query listProblemTitle($title: String){
+  
+  listProblems(filter: {
+    title:{contains:$title}})   {
       items {
         title
         description

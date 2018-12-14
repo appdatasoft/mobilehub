@@ -1,6 +1,3 @@
-//Bugfix_Market.vue file full code 
-
-
 <template>
           <!-- using Semantic Class -->
     <div class="ui stackable six column grid">
@@ -53,13 +50,18 @@
 
           <div class="ui grid">  
             <div class="eight wide column">
-              <h1 class="header">Bugs</h1>
+              <h1 class="header">Bugs List</h1>
             </div>
             <div class="eight wide column">
-              <i>error</i>
+              <!-- <i>error</i> -->
+                <b-nav>
+                <b-nav-item to="/Bug_Title">
+                  <button  class="ui button primary ">found new bug?</button>
+                </b-nav-item>
+                </b-nav>
             </div>
           </div>
-          <div class="ui grid">
+          <!-- <div class="ui grid">
               <a href="/Bug_Title">
             <div class="five wide column">
               
@@ -71,9 +73,29 @@
             <div class="four wide column">
               <p><i class="dollar sign icon"></i>20 </p>
             </div>
-          </div>
+          </div> -->
           
-          <div class="ui grid">
+          <div v-for="(bug, index) in bugs" :key="index">
+              <div class="ui header dividing">
+                <p >
+                  <strong>Error :</strong><br>
+                    <!-- <a href="/Bug_Item">{{ bug.error  }}</a> -->
+                  <router-link :to="`/${bug.error}`" @click="variables(bugs.error)">{{ bug.error  }}</router-link>  
+                </p>
+                <p>
+                  <strong>Code :</strong><br>
+                    {{ bug.code  }}
+                </p>
+                <p>
+                  <strong>&emsp;by 
+                  </strong><i>{{bug.username}}</i>
+                </p>                        
+              </div>
+              <br>              
+              <br>
+              <div class="ui dividing"></div>
+          </div>
+          <!-- <div class="ui grid">
               <a href="/Bug_Title">
             <div class="five wide column">
               <p>Vue,GraphQL error</p>
@@ -83,7 +105,7 @@
             <div class="four wide column">
               <p><i class="dollar sign icon"></i>15 </p>
             </div>
-          </div>
+          </div> -->
           <!-- end of the form -->
 
         </div>
@@ -96,6 +118,9 @@
 
 
 <script>
+import CreateBugs from "../../mutations/CreateBugs";
+import ListBugs from "../../queries/ListBugs";
+import ListTitleBugs from"../../queries/ListTitleBugs"
   import {
     mapState
   } from 'vuex'
@@ -105,8 +130,27 @@
     computed: {
       ...mapState({
         user: state => state.auth.user,
-      })
+      }),/*, statement */
+      /* path url code start here*/
+      
+    },
+    apollo: {
+    bugs: {
+      query: () => ListBugs,
+      update: data => data.listBugs.items
+    },
+    bugsTitle:{
+      // query:() => ListTitleBugs,
+      query:() => ListTitleBugs,     
+     variables(error){
+        return{
+          error:"chai",
+        }
+      },
+      
+      update: data => data.listBugs.items 
     }
+  }
   }
 </script>
 

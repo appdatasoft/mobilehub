@@ -46,7 +46,7 @@
           <div class="field">
             <label>Title</label>
             <input v-model="title" type="text">
-            <span  class="is-danger"></span>
+            <!-- <span  class="is-danger"></span> -->
           </div>
            <div class="field">
             <label>Job Description</label>
@@ -68,10 +68,14 @@
             <label>Salary</label>
             <input v-model="Salary" type="text" placeholder="Expected Salary">
           </div>
-          <button @click="createJobPost()" class="ui submit button">Save</button>
+         <b-nav>
+               <button @click="createJobPost()" class="ui submit button">Save</button>
+      <b-nav-item  to="/Job_Allposts"><button class="ui submit button">Allposts</button></b-nav-item>
+             </b-nav>
+
         </form>
-        <ul>
-      <li v-for="(JobPost, index) in JobPosts" :key="index">
+        <!-- <ul> -->
+      <!-- <li v-for="(JobPost, index) in JobtitlePosts" :key="index">
         <p class="text">{{ JobPost.title }}  
         </p>
         <p class="text">{{ JobPost.Salary }}  
@@ -82,10 +86,10 @@
         </p>
          <p class="text">{{ JobPost.Job_Description }}  
         </p>
-        <p class="text">{{ JobPost. Technologies_used}}  
+        <p class="text">{{ JobPost.Technologies_used}}  
         </p>
          </li>
-    </ul>
+    </ul> -->
               </div>
           </div>
        </div>      
@@ -96,6 +100,7 @@
 <script>
 import ListJobPosts from '../../queries/ListJobPosts'
 import CreateJobPost from '../../mutations/CreateJobPost'
+import ListTitleJobPosts from '../../queries/ListTitleJobs'
 import uuidV4 from 'uuid/v4'
 import { mapState } from 'vuex'
 export default {
@@ -107,12 +112,14 @@ export default {
     },
     methods: {
       createJobPost() {
+
       const title = this.title
       const Job_Description = this.Job_Description
       const Technologies_used = this.Technologies_used
       const Tools_Used = this.Tools_Used
       const Team_Description = this.Team_Description
       const Salary = this.Salary
+      const username = this.user.username  
      
       if ((title) === '' || (Job_Description === '') || (Technologies_used === '') || (Tools_Used === '') || (Team_Description === '') ||(Salary === '') ) {
         alert('please enter all fields')
@@ -126,6 +133,7 @@ export default {
       this.Salary = ''
       const id = uuidV4()
       const JobPost = {
+        username:username,
         title:title,
         Job_Description: Job_Description,
         id,
@@ -162,15 +170,26 @@ export default {
           Tools_Used:'',
           Team_Description:'',
           Salary :'',
-          JobPosts: []
+          username:'',
+          JobPosts: [],
+
     }
   },
      apollo: {
     JobPosts: {
       query: () => ListJobPosts,
-       update: data => data.listJobPosts.items
-    }
-  },
+      update: data => data.listJobPosts.items
+    },
+    //  JobtitlePosts: {
+    //   query:() => ListTitleJobPosts,
+    //   variables() {
+    //     return {
+    //       title: this.JobPost.title
+    //       }
+    //     },
+    //    update: data => data.listJobPosts.items
+    // }
+  }
 }
 </script>
 
