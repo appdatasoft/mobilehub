@@ -9,8 +9,7 @@
         <div class="row h-100">
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
-             <!-- <h1 class="mb-5">Get ready for your  <span class="fit-content">next move</span></h1>-->
-             <h1 class="mb-5">Prepare for your next <span class="fit-content">dream</span> job</h1>
+             <h1 class="mb-5">Expand your <span class="fit-content">impact</span></h1>
              <a href="/signIn" class="btn btn-xl main-bt js-scroll-trigger">JOIN</a>
               <!--<a href="https://www.eventbrite.com/e/tech-jobs-pitch-social-la-tickets-49499347882" class="btn btn-xl main-bt js-scroll-trigger">Attend "Tech Jobs Pitch Social" Event</a>-->
             </div>
@@ -19,18 +18,9 @@
             <div class="device-container">
               <div class="device-mockup iphone6_plus portrait white">
                 <div class="device">
-                 <!-- <div class="screen">-->
-                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                   <!-- <img src="../assets/dream_job.jpg" class="img-fluid" alt="">-->
-                  <!-- <video ref="videoRef" src="../assets/video.mp4" id="video-container" width="100%" autoplay loop ></video>-->
                  <div class="screen" id="foot">
-                 <!--<img src="../assets/dream_job.jpg" class="img-fluid" alt="">-->
-                <img src="../assets/dream_job.gif" class="img-fluid" alt="">
-               <!--<img src="../assets/dream_job.jpg" class="img-fluid" alt="">                    
-                <img src="../assets/emulator_file2.gif" class="img-fluid" alt="">
-                <img src="../assets/animation1.gif" class="img-fluid" alt="">
-                <img src="../assets/animation2.gif" class="img-fluid" alt="">-->
-                 </div>
+                 <img src="../assets/dream_job.gif" class="img-fluid" alt="">
+               </div>
                   <div class="button">
                     <!-- You can hook the "home button" to some JavaScript events or just remove it -->
                   </div>
@@ -53,7 +43,7 @@
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
                     <img class="dj_icon" src="../assets/home_1_icon.png">
                     <h3><a href="/signIn">Dream Job</a></h3>
-                    <p class="text-muted">Define your dream job</p>
+                    <p class="text-muted">Get your dream job</p>
                   </div>
                 </div>
                 <div class="col-lg-3">
@@ -61,7 +51,7 @@
                     <!--<i class="icon-camera text-primary"></i>-->
                     <img class="bd_icon" src="../assets/home_2_icon.png">
                     <h3><a href="/signIn">Build Daily</a></h3>
-                    <p class="text-muted">Post your daily work accomplishments</p>
+                    <p class="text-muted">Share your daily work accomplishments</p>
                   </div>
                 </div>
                 <div class="col-lg-3">
@@ -69,7 +59,7 @@
                     <!--<i class="icon-present text-primary"></i>-->
                     <img class="n_icon" src="../assets/home_3_icon.png">
                     <h3><a href="/signIn">Bug Fix Market</a></h3>
-                    <p class="text-muted">Networking events for your next move</p>
+                    <p class="text-muted">Find someone to fix bugs</p>
                   </div>
                 </div>
                 <div class="col-lg-3">
@@ -77,7 +67,7 @@
                     <!--<i class="icon-lock-open text-primary"></i>-->
                     <img class="s_icon" src="../assets/home_4_icon.png">
                     <h3><a href="/signIn">Startups </a></h3>
-                    <p class="text-muted">Engage as advisors with startups </p>
+                    <p class="text-muted">Advise startups </p>
                   </div>
                 </div>
               </div>
@@ -85,29 +75,16 @@
       </div>
       <div class="overlay"></div>
     </section>
-    <!--<section class="rightfit bg-primary2 text-center" id="download">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 mx-auto">
-            <h2 class="section-heading">Don't let your dream job slip by</h2>
-            <a href="/signIn"><p>Want to learn how to improve your current hiring practices?</p></a>
-            <div class="badges">
-               <a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>-->
+    
     <section>
      		 <b-container >
        			 <b-row>
          			 <b-col>
-           			<!--<img src="../assets/slip.jpg" class="img-fluid" alt="">-->
-                <img src="../assets/slip.gif" class="img-fluid" alt="">
+           		 <img src="../assets/slip.gif" class="img-fluid" alt="">
          			 </b-col>
          			 <b-col>
            				 <div class="col-md-8 mx-auto">
-              				<h2 class="section-heading">Don't let your dream position slip by.</h2>
+              				<h2 class="section-heading">Maximize your potential.</h2>
               				<p><a href="/signIn">Prepare for your next move</a></p>
               				<div class="badges">
                					<a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot</a>

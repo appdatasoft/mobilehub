@@ -73,19 +73,7 @@
       </div>
       <div class="overlay"></div>
     </section>
-    <!--<section class="rightfit bg-primary2 text-center" id="download">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 mx-auto">
-            <h2 class="section-heading">Don't let your dream job slip by</h2>
-            <a href="/signIn"><p>Want to learn how to improve your current hiring practices?</p></a>
-            <div class="badges">
-               <a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>-->
+    
     <section>
      		 <b-container >
        			 <b-row>
@@ -95,7 +83,7 @@
          			 </b-col>
          			 <b-col>
            				 <div class="col-md-8 mx-auto">
-              				<h2 class="section-heading">Don't let your dream position slip by.</h2>
+              				<h2 class="section-heading">Connect with people that move you forward.</h2>
               				<p><a href="/signIn">Prepare for your next move</a></p>
               				<div class="badges">
                					<a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot</a>
@@ -108,7 +96,7 @@
     <section class="features" id="features">
       <div class="container">
         <div class="section-heading text-center">
-          <h2>Professonal Growth Support</h2>
+          <h2>Right connection at the right time</h2>
           <p class="text-muted"><a href="/signIn">Make your dreams reality</a></p>
           <hr>
         </div>
@@ -117,15 +105,11 @@
             <div class="device-container">
               <div class="device-mockup iphone6_plus portrait white">
                 <div class="device">
-                  <!--<div class="screen">-->
-                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                   <!-- <img src="../assets/resume.jpg" class="img-fluid" alt="">-->
-                    <div class="screen" id="foot">
+                  <div class="screen" id="foot">
                   <img src="../assets/growth.gif" class="img-fluid" alt="">            
                   </div>
                   <div class="button">
-                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                  </div>
+                   </div>
                 </div>
               </div>
             </div>
@@ -135,9 +119,8 @@
               <div class="row">
                 <div class="col-lg-6">
                   <div class="feature-item">
-                    <!--<i class="icon-screen-smartphone text-primary"></i>-->
-                    <div class="ui segment">
-                    <h3><a href="/signIn">Dream Job</a></h3>
+                     <div class="ui segment">
+                    <h3><a href="/signIn">Developers</a></h3>
                     <p class="text-muted">Define the companies you would like to work for, the technologies and projects you would like to be part of, along with the salary requirements.</p>
                   </div>
                   </div>
@@ -146,7 +129,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-camera text-primary"></i>-->
                     <div class="ui segment">
-                    <h3><a href="/signIn">Build Daily</a></h3>
+                    <h3><a href="/signIn">Hiring Managers</a></h3>
                     <p class="text-muted">Don't let your daily accomplishment be lost, instead use them as building blocks to build your knowledge base and showcase it.</p>
                   </div>
                   </div>
@@ -157,7 +140,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-present text-primary"></i>-->
                     <div class="ui segment">
-                    <h3><a href="/signIn">Bug Fix Market</a></h3>
+                    <h3><a href="/signIn">Startups</a></h3>
                     <p class="text-muted">Your time is valuable. When you are stuck with a bug and are constrained for time,you can find an additional pair of eyes from a skilled programmer to look at your code.</p>
                   </div>
                   </div>
@@ -167,7 +150,7 @@
                     <!--<i class="icon-lock-open text-primary"></i>-->
                     
                     <div class="ui segment">
-                    <h3><a href="/signIn">Startups </a></h3>
+                    <h3><a href="/signIn">Small Business Owners </a></h3>
                     <p class="text-muted">Startups can benefit from  your advise. You can keep yourself involved with the latest innovations as an advisor to a startup.</p>
                   </div>
                   </div>
