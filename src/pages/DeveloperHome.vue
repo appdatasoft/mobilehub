@@ -9,19 +9,31 @@
         <div class="row h-100">
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
-             <h1 class="mb-5">Connect with developers & decision makers</h1>
+             <!-- <h1 class="mb-5">Get ready for your  <span class="fit-content">next move</span></h1>-->
+             <h1 class="mb-5">Prepare for your next <span class="fit-content">dream</span> job</h1>
              <a href="/signIn" class="btn btn-xl main-bt js-scroll-trigger">JOIN</a>
-              </div>
+              <!--<a href="https://www.eventbrite.com/e/tech-jobs-pitch-social-la-tickets-49499347882" class="btn btn-xl main-bt js-scroll-trigger">Attend "Tech Jobs Pitch Social" Event</a>-->
+            </div>
           </div>
           <div class="col-lg-5 my-auto">
             <div class="device-container">
               <div class="device-mockup iphone6_plus portrait white">
                 <div class="device">
-                  <div class="screen" id="foot">
-                 <img src="../assets/dream_job.gif" class="img-fluid" alt="">
+                 <!-- <div class="screen">-->
+                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                   <!-- <img src="../assets/dream_job.jpg" class="img-fluid" alt="">-->
+                  <!-- <video ref="videoRef" src="../assets/video.mp4" id="video-container" width="100%" autoplay loop ></video>-->
+                 <div class="screen" id="foot">
+                 <!--<img src="../assets/dream_job.jpg" class="img-fluid" alt="">-->
+                <img src="../assets/dream_job.gif" class="img-fluid" alt="">
+               <!--<img src="../assets/dream_job.jpg" class="img-fluid" alt="">                    
+                <img src="../assets/emulator_file2.gif" class="img-fluid" alt="">
+                <img src="../assets/animation1.gif" class="img-fluid" alt="">
+                <img src="../assets/animation2.gif" class="img-fluid" alt="">-->
                  </div>
                   <div class="button">
-                   </div>
+                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                  </div>
                 </div>
               </div>
             </div>
@@ -33,39 +45,39 @@
     <section class="rightfit">
       <div class="cta-content">
         <div class="container1">
-          <h2>Build Your Career.<br><a href="/signIn">Grow Your Business.</a></h2>
+          <h2>Stop waiting.<br><a href="/signIn">Start preparing.</a></h2>
           <a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot!</a>
           <div class="row">
                 <div class="col-lg-3">
                   <div class="feature-item">
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
                     <img class="dj_icon" src="../assets/home_1_icon.png">
-                    <h3><a href="/signIn">Developers</a></h3>
-                    <p class="text-muted">Get bugs fixed, advise startups, connect with hiring managers</p>
+                    <h3><a href="/signIn">Dream Job</a></h3>
+                    <p class="text-muted">Define your dream job</p>
                   </div>
                 </div>
                 <div class="col-lg-3">
                   <div class="feature-item">
                     <!--<i class="icon-camera text-primary"></i>-->
                     <img class="bd_icon" src="../assets/home_2_icon.png">
-                    <h3><a href="/signIn">Hiring Managers</a></h3>
-                    <p class="text-muted">Cut cost & time in hiring developers </p>
+                    <h3><a href="/signIn">Build Daily</a></h3>
+                    <p class="text-muted">Post your daily work accomplishments</p>
                   </div>
                 </div>
                 <div class="col-lg-3">
                   <div class="feature-item">
                     <!--<i class="icon-present text-primary"></i>-->
                     <img class="n_icon" src="../assets/home_3_icon.png">
-                    <h3><a href="/signIn">Startups</a></h3>
-                    <p class="text-muted">Find technical and sales advisors</p>
+                    <h3><a href="/signIn">Bug Fix Market</a></h3>
+                    <p class="text-muted">Networking events for your next move</p>
                   </div>
                 </div>
                 <div class="col-lg-3">
                   <div class="feature-item">
                     <!--<i class="icon-lock-open text-primary"></i>-->
                     <img class="s_icon" src="../assets/home_4_icon.png">
-                    <h3><a href="/signIn">Business Owners </a></h3>
-                    <p class="text-muted">Connect with technical and business consultants  </p>
+                    <h3><a href="/signIn">Startups </a></h3>
+                    <p class="text-muted">Engage as advisors with startups </p>
                   </div>
                 </div>
               </div>

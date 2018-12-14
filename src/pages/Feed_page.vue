@@ -77,13 +77,13 @@
 
 
 <script>
-import ListTasks from "../queries/ListTasks";
-import ListUserTasks from "../queries/ListUserTasks";
-import CreateTask from "../mutations/CreateTask";
-import DeleteTask from "../mutations/DeleteTask";
-import UpdateTask from "../mutations/UpdateTask";
-import uuidV4 from "uuid/v4";
-import { mapState } from "vuex";
+import ListTasks from "../queries/ListTasks"
+import ListUserTasks from "../queries/ListUserTasks"
+import CreateTask from "../mutations/CreateTask"
+import DeleteTask from "../mutations/DeleteTask"
+import UpdateTask from "../mutations/UpdateTask"
+import uuidV4 from "uuid/v4"
+import { mapState } from "vuex"
 
 export default {
   name: "feed",
@@ -104,12 +104,12 @@ export default {
       variables() {
         return {
           username: this.user.username
-        };
+        }
       },
       update: data => data.listTasks.items
     }
   }
-};
+}
 </script>
 
 
