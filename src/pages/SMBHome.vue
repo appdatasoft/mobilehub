@@ -135,16 +135,18 @@
               <div class="row">
                 <div class="col-lg-6">
                   <div class="feature-item">
-                    
+                    <div class="ui segment">
                     <h3><a href="/signIn">Business Process</a></h3>
                     <p class="text-muted">Conduct Business Process Analysis</p>
+                  </div>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="feature-item">
-                    
+                    <div class="ui segment">
                     <h3><a href="/signIn">Map Tech Solutions</a></h3>
                     <p class="text-muted">Map tech solutions for business processes</p>
+                  </div>
                   </div>
                 </div>
               </div>
@@ -152,17 +154,19 @@
                 <div class="col-lg-6">
                   <div class="feature-item">
                     <!--<i class="icon-present text-primary"></i>-->
-                    
+                    <div class="ui segment">
                     <h3><a href="/signIn">Implementation</a></h3>
                     <p class="text-muted">Implement the solution</p>
+                  </div>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="feature-item">
                     <!--<i class="icon-lock-open text-primary"></i>-->
-                    
+                    <div class="ui segment">
                     <h3><a href="/signIn">Training</a> </h3>
                     <p class="text-muted">Train your team to use the new solution  </p>
+                  </div>
                   </div>
                 </div>
               </div>
