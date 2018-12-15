@@ -5,6 +5,8 @@ import DeveloperHome from '@/pages/DeveloperHome.vue'
 import HiringHome from '@/pages/HiringHome.vue'
 import StartupsHome from '@/pages/StartupsHome.vue'
 import SMBHome from '@/pages/SMBHome.vue'
+import HackathonInterview from '@/pages/HackathonInterview.vue'
+import CustomerDevelopment from '@/pages/CustomerDevelopment.vue'
 import Dashboard from '@/pages/Dashboard.vue'
 import Developer from '@/pages/Developer.vue'
 import Hiring from '@/pages/Hiring.vue'
@@ -66,6 +68,12 @@ const routes = [
     },
     {
         path: '/SMB_home', name: 'SMB_home', component: SMBHome, meta: { title: 'SMB Home', auth:false }
+    },
+    {
+        path: '/hackathonInterview', name: 'hackathon_interview', component: HackathonInterview, meta: { title: 'Hackathon Interview', auth:false }
+    },
+    {
+        path: '/customerdevelopment', name: 'customer_development', component: CustomerDevelopment, meta: { title: 'Customer Development', auth:false }
     },
     {
         path: '/tasks', name: 'tasks', component: Tasks, meta: { title: 'Tasks', auth: true }

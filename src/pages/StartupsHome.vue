@@ -109,7 +109,8 @@
       <div class="container">
         <div class="section-heading text-center">
           <h2>Prototype + Customer Development</h2>
-          <p class="text-muted"><a href="/signIn">Cut down the $ and time spent to launch</a></p>
+          <p class="text-muted"><a href="/signIn">Cut down the cost and time spent to launch</a></p>
+          
           <hr>
         </div>
         <div class="row">
@@ -139,6 +140,7 @@
                     <div class="ui segment">
                     <h3><a href="/signIn">Customer Development</a></h3>
                     <p class="text-muted">Identify and work with 10 customers that would pay for your solution</p>
+                    <h4><a href="/customer_development">Learn More</a></h4>
                   </div>
                   </div>
                 </div>
@@ -148,6 +150,7 @@
                     <div class="ui segment">
                     <h3><a href="/signIn">Minimum Viable Product (MVP)</a></h3>
                     <p class="text-muted">Gather requirements for MVP from the customers</p>
+                    <h4><a href="/customer_development">Learn More</a></h4>
                   </div>
                   </div>
                 </div>
@@ -159,6 +162,7 @@
                     <div class="ui segment">
                     <h3><a href="/signIn">Build Prototype</a></h3>
                     <p class="text-muted">Build the prototype and launch the MVP to the potential customers. </p>
+                    <h4><a href="/customer_development">Learn More</a></h4>
                   </div>
                   </div>
                 </div>
@@ -168,6 +172,7 @@
                     <div class="ui segment">
                     <h3><a href="/signIn">Validate</a></h3>
                     <p class="text-muted">Validate the prototype with the customers </p>
+                    <h4><a href="/customer_development">Learn More</a></h4>
                   </div>
                   </div>
                 </div>
