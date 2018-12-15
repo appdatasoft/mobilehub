@@ -1,7 +1,8 @@
 <template>
   <!-- <b-container>  -->
     <div class="head_1">
-    <header class="masthead_hiring">
+    <!--<header class="masthead_hiring">-->
+    <header>
     <div>
     <v-menu/>
     </div>
@@ -154,7 +155,7 @@
                    <div class="ui segment">
                     <h3><a href="/signIn">Post Jobs</a></h3>
                     <p class="text-muted">Create Job Post and convert your job posts as a place for learning and engagement by adding Q & A plugin on all your job posts. </p>
-                  <h4><a href="/customer_development">Learn More</a></h4>
+                  
                   </div>
                   </div>
                 </div>
@@ -186,7 +187,6 @@
                    <div class="ui segment">
                     <h3><a href="/signIn">Hire </a></h3>
                     <p class="text-muted"> Use the 360 degree view from the interview hackathon to hire the right candidates. </p>
-                    <h4><a href="/customer_development">Learn More</a></h4>
                   </div>
                   </div>
                 </div>

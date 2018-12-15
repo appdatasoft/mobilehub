@@ -70,7 +70,20 @@
     </div>
   </b-container>
 </template>  
+<script>
+import uuidV4 from "uuid/v4"
+import { mapState } from "vuex"
 
+export default {
+  name: "FirstPage",
+
+  computed: {
+    ...mapState({
+      user: state => state.auth.user
+    })
+  }
+};
+</script>
 <style scoped>
 #mainbox {
   padding-top: 25px;

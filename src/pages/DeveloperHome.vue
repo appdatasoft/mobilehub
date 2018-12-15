@@ -1,7 +1,8 @@
 <template>
   <!-- <b-container>  -->
-<div class="head_1">
-    <header class="masthead">
+  <div class="head_1">
+    <!--<header class="masthead">-->
+    <header>
     <div>
     <v-menu/>
     </div>
