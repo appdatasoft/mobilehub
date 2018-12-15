@@ -132,7 +132,7 @@ const routes = [
         path:'/timeline' ,name: 'Timeline',component :Timeline, meta: { title: 'Timeline', auth:true }
     },
     {
-        path:'/FirstPage' ,name: 'FirstPage',component: FirstPage, meta: {title: 'First Page', auth:true }
+        path:'/FirstPage' ,name: 'FirstPage',component:FirstPage, meta:{title:'FirstPage',auth:true }
     },
     {
         path:'/feed' ,name: 'Feed',component:Timeline,meta:{title:'Feed',auth:true }

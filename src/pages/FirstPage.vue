@@ -60,7 +60,7 @@
       </div>
     <div class="ui six wide column">
       <div class="ui segment">
-        <h1 class="ui dividing header">Current User Type is:</h1>
+        <h1 class="ui dividing header">Current User selected Type(s):</h1>
           <div class="UserType" v-for="(UserType, index) in UserTypes" :key="index">
             {{UserType.username}} has selected following fields:
              {{UserType.usertype}}  
