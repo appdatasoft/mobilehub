@@ -7,16 +7,22 @@
       <div class="four wide column" id="column_1">
         <div class="ui segment">
           <form class="ui reply form">
+          <select name="I am a " multiple="" class="ui fluid dropdown">
+  <option value="">I am a </option>
+<option value="angular">Developer</option>
+<option value="css">Hiring Manager</option>
+<option value="design">Startup</option>
+<option value="ember">Small Business Owner</option>
+</select>
             <div class="field">
-              <!-- <div class="ui cube shape"> -->
+              
                 <div class="sides">
                   <div class="active side">
-                    <!-- <div class="content">
-                      <div class="center"><i class="user circle icon"></i></div>
-                    </div> -->
+                    
                   </div>
                 </div>
-              <!-- </div> -->
+              
+              
               <textarea placeholder="Upload your picture"></textarea> 
             </div>
          <b-nav-item to='/tasks'>  <button class="fluid ui blue button">$50</button>.</b-nav-item>   

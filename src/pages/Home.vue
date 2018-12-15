@@ -33,7 +33,7 @@
     <section class="rightfit">
       <div class="cta-content">
         <div class="container1">
-          <h2>Build Your Career.<br><a href="/signIn">Grow Your Business.</a></h2>
+          <h2>Right connections,<br><a href="/signIn">at the right time.</a></h2>
           <a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot!</a>
           <div class="row">
                 <div class="col-lg-3">
@@ -96,7 +96,7 @@
     <section class="features" id="features">
       <div class="container">
         <div class="section-heading text-center">
-          <h2>Right connection at the right time</h2>
+          <h2>Experinced, knowledgeable connections</h2>
           <p class="text-muted"><a href="/signIn">Make your dreams reality</a></p>
           <hr>
         </div>
