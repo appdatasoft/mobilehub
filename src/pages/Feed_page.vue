@@ -28,10 +28,14 @@
             <a class="item">
               <i class="user setting icon"></i>
             </a>
-            <a class="item">
-              <i class="user circle icon"></i>
-            </a>
             
+            <!--user bugs details router link given here -->
+            <!-- <router-link :to="`/${bug.username}`" @click="variables(bugs.username)">{{ bug.username  }}               -->
+              <a class="item" href="/UserLists">  
+                <i class="user circle icon"></i>
+              </a>
+            <!-- </router-link> -->
+            <!--changes end here -->
             <a class="item">
               <i class="sign out alternate icon"></i>
             </a>

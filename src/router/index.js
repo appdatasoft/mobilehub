@@ -46,6 +46,8 @@ import Job_Allposts from '@/components/Hiring/Job_Allposts.vue'  //for all posts
 import ItemProfile from '@/components/Hiring/itemprofile.vue'  //it is for dynamic pages
 import Bug_Item from '@/components/developer/Bug_Item.vue'
 import problem_allposts from '@/components/startups/problem_allposts.vue'
+import UserLists from '@/components/UserLists.vue'
+import FirstPage from '@/pages/FirstPage.vue'
 
 
 
@@ -127,10 +129,16 @@ const routes = [
         path: '/privacy', name: 'privacy', component: Privacy, meta: { title: 'Privacy', auth: false } 
     },
     {
-        path:'/timeline' ,name: 'Timeline',component:Timeline,meta:{title:'Timeline',auth:true }
+        path:'/timeline' ,name: 'Timeline',component :Timeline, meta: { title: 'Timeline', auth:true }
+    },
+    {
+        path:'/FirstPage' ,name: 'FirstPage',component: FirstPage, meta: {title: 'First Page', auth:true }
     },
     {
         path:'/feed' ,name: 'Feed',component:Timeline,meta:{title:'Feed',auth:true }
+    },
+    {
+        path:'/UserLists', name:'UserLists',component:UserLists,meta:{title:'UserLists',auth:true}
     },
     {
         path:'/Candidates' ,name: 'candidates',component:Candidates,meta:{title:'candidates',auth:true }
