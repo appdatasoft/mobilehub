@@ -10,7 +10,7 @@
         <div class="row h-100">
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
-             <h1 class="mb-5">Connect with developers & decision makers</h1>
+             <h1 class="mb-5" id= "textsize">Connect with developers & decision makers</h1>
              <a href="/signIn" class="btn btn-xl main-bt js-scroll-trigger">JOIN</a>
               </div>
           </div>
@@ -236,6 +236,11 @@
  .container1{
   padding: 20px;
   text-align: center;
+}
+#textsize{
+  font-size: 64px;
+  font-weight: 600;
+
 }
 </style>
 

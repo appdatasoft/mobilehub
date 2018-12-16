@@ -4,7 +4,7 @@
     <!--<header class="masthead">-->
     <header>
     <div>
-    <v-menu/>
+    <v-menu1/>
     </div>
       <div class="container h-100">
         <div class="row h-100">
@@ -17,16 +17,18 @@
           </div>
           <div class="col-lg-5 my-auto">
             <div class="device-container">
-              <div class="device-mockup iphone6_plus portrait white">
-                <div class="device">
+              <!-- <div class="device-mockup iphone6_plus portrait white">
+                <div class="device"> -->
+
                  <div class="screen" id="foot">
                  <img src="../assets/dream_job.gif" class="img-fluid" alt="">
                </div>
                   <div class="button">
                     <!-- You can hook the "home button" to some JavaScript events or just remove it -->
                   </div>
-                </div>
-              </div>
+                  
+                <!-- </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -98,7 +100,7 @@
     <section class="features" id="features">
       <div class="container">
         <div class="section-heading text-center">
-          <h2>Professonal Growth Support</h2>
+          <h2>Professional Growth Support</h2>
           <p class="text-muted"><a href="/signIn">Make your dreams reality</a></p>
           <hr>
         </div>
@@ -126,10 +128,17 @@
                 <div class="col-lg-6">
                   <div class="feature-item">
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
-                    <div class="ui segment">
-                    <h3><a href="/signIn">Dream Job</a></h3>
+                    <div class="ui card">
+                      <div>
+                        <div class="ui slide masked reveal image">
+                      <div class="visible content"> <i class="paper plane icon"></i>
+                    <h3><a href="/signIn">Dream Job</a></h3> 
+                      </div>
+                      <div class="hidden content">
                     <p class="text-muted">Define the companies you would like to work for, the technologies and projects you would like to be part of, along with the salary requirements.</p>
-                 <h4><a href="/dreamJob">Learn More</a></h4>
+                 <h4><a href="/dreamJob">Learn More</a></h4></div>
+                  </div>
+                    </div>
                   </div>
                   </div>
                 </div>

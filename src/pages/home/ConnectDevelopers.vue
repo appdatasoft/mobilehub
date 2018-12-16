@@ -1,7 +1,7 @@
 <template>
   <!-- <b-container>  -->
     <div class="head_1">
-    <header class="masthead_hiring">
+    <!-- <header class="masthead_hiring"> -->
     <div>
     <v-menu/>
     </div>
@@ -18,8 +18,9 @@
           </div>
           <div class="col-lg-5 my-auto">
             <div class="device-container">
-              <div class="device-mockup iphone6_plus portrait white">
-                <div class="device">
+              <!-- <div class="device-mockup iphone6_plus portrait white">
+                <div class="device"> -->
+                  
                  <!-- <div class="screen">-->
                     <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
                    <!-- <img src="../assets/hackathon_team.jpg" class="img-fluid" alt="">-->
@@ -33,13 +34,13 @@
                   <div class="button">
                     <!-- You can hook the "home button" to some JavaScript events or just remove it -->
                   </div>
-                </div>
-              </div>
+                <!-- </div>
+              </div> -->
             </div>
           </div>
         </div>
       </div>
-    </header>
+    <!-- </header> -->
     <b-container>
     <section class="rightfit">
       <div class="cta-content">
@@ -151,7 +152,6 @@
                    <div class="ui segment">
                     <h3><a href="/signIn">Post Jobs</a></h3>
                     <p class="text-muted">Create Job Post and convert your job posts as a place for learning and engagement by adding Q & A plugin on all your job posts. </p>
-                  <h4><a href="/connectStartups">Learn More</a></h4>
                   </div>
                   </div>
                 </div>
@@ -161,7 +161,6 @@
                     <div class="ui segment">
                     <h3><a href="/signIn">Select Candidates</a></h3>
                     <p class="text-muted">Select candidates based on the engagement created on your job posting.</p>
-                    <h4><a href="/connectStartups">Learn More</a></h4>
                   </div>
                   </div>
                 </div>
@@ -173,7 +172,6 @@
                   <div class="ui segment">
                     <h3><a href="/signIn">Interview Hackathon</a></h3>
                     <p class="text-muted">Cut down the time spent on interviewing candidates by organizing interview hackathon where you can  evaluate all the candidates in 2 days.</p>
-                  <h4><a href="/connectStartups">Learn More</a></h4>
                   </div>
                   </div>
                 </div>
@@ -183,7 +181,6 @@
                    <div class="ui segment">
                     <h3><a href="/signIn">Hire </a></h3>
                     <p class="text-muted"> Use the 360 degree view from the interview hackathon to hire the right candidates. </p>
-                  <h4><a href="/connectStartups">Learn More</a></h4>
                   </div>
                   </div>
                 </div>
