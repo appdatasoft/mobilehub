@@ -129,7 +129,7 @@
                     <div class="ui segment">
                     <h3><a href="/signIn">Dream Job</a></h3>
                     <p class="text-muted">Define the companies you would like to work for, the technologies and projects you would like to be part of, along with the salary requirements.</p>
-                 <h4><a href="/customer_development">Learn More</a></h4>
+                 <h4><a href="/dreamJob">Learn More</a></h4>
                   </div>
                   </div>
                 </div>
@@ -139,7 +139,7 @@
                     <div class="ui segment">
                     <h3><a href="/signIn">Build Daily</a></h3>
                     <p class="text-muted">Don't let your daily accomplishment be lost, instead use them as building blocks to build your knowledge base and showcase it.</p>
-                  <h4><a href="/customer_development">Learn More</a></h4>
+                  <h4><a href="/dailyBuild">Learn More</a></h4>
                   </div>
                   </div>
                 </div>
@@ -151,7 +151,7 @@
                     <div class="ui segment">
                     <h3><a href="/signIn">Bug Fix Market</a></h3>
                     <p class="text-muted">Your time is valuable. When you are stuck with a bug and are constrained for time,you can find an additional pair of eyes from a skilled programmer to look at your code.</p>
-                  <h4><a href="/customer_development">Learn More</a></h4>
+                  <h4><a href="/bugFixMarket">Learn More</a></h4>
                   </div>
                   </div>
                 </div>
@@ -162,7 +162,7 @@
                     <div class="ui segment">
                     <h3><a href="/signIn">Startups </a></h3>
                     <p class="text-muted">Startups can benefit from  your advise. You can keep yourself involved with the latest innovations as an advisor to a startup.</p>
-                  <h4><a href="/customer_development">Learn More</a></h4>
+                  <h4><a href="/startupConnect">Learn More</a></h4>
                   </div>
                   </div>
                 </div>

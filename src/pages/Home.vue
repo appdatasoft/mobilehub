@@ -123,7 +123,7 @@
                      <div class="ui segment">
                     <h3><a href="/signIn">Developers</a></h3>
                     <p class="text-muted">Define the companies you would like to work for, the technologies and projects you would like to be part of, along with the salary requirements.</p>
-                  <h4><a href="/customer_development">Learn More</a></h4>
+                  <h4><a href="/connectDevelopers">Learn More</a></h4>
                   </div>
                   </div>
                 </div>
@@ -133,7 +133,7 @@
                     <div class="ui segment">
                     <h3><a href="/signIn">Hiring Managers</a></h3>
                     <p class="text-muted">Don't let your daily accomplishment be lost, instead use them as building blocks to build your knowledge base and showcase it.</p>
-                  <h4><a href="/customer_development">Learn More</a></h4>
+                  <h4><a href="/connectHiringManagers">Learn More</a></h4>
                   </div>
                   </div>
                 </div>
@@ -145,7 +145,7 @@
                     <div class="ui segment">
                     <h3><a href="/signIn">Startups</a></h3>
                     <p class="text-muted">Your time is valuable. When you are stuck with a bug and are constrained for time,you can find an additional pair of eyes from a skilled programmer to look at your code.</p>
-                  <h4><a href="/customer_development">Learn More</a></h4>
+                  <h4><a href="/connectStartups">Learn More</a></h4>
                   </div>
                   </div>
                 </div>
@@ -156,7 +156,7 @@
                     <div class="ui segment">
                     <h3><a href="/signIn">Small Business Owners </a></h3>
                     <p class="text-muted">Startups can benefit from  your advise. You can keep yourself involved with the latest innovations as an advisor to a startup.</p>
-                  <h4><a href="/customer_development">Learn More</a></h4>
+                  <h4><a href="/connectDecisionMakers">Learn More</a></h4>
                   </div>
                   </div>
                 </div>

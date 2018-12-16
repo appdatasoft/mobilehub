@@ -139,7 +139,7 @@
                     <div class="ui segment">
                     <h3><a href="/signIn">Business Process</a></h3>
                     <p class="text-muted">Conduct Business Process Analysis</p>
-                    <h4><a href="/customer_development">Learn More</a></h4>
+                    <h4><a href="/businessProcess">Learn More</a></h4>
                   </div>
                   </div>
                 </div>
@@ -148,7 +148,7 @@
                     <div class="ui segment">
                     <h3><a href="/signIn">Map Tech Solutions</a></h3>
                     <p class="text-muted">Map tech solutions for business processes</p>
-                    <h4><a href="/customer_development">Learn More</a></h4>
+                    <h4><a href="/mapping">Learn More</a></h4>
                   </div>
                   </div>
                 </div>
@@ -160,7 +160,7 @@
                     <div class="ui segment">
                     <h3><a href="/signIn">Implementation</a></h3>
                     <p class="text-muted">Implement the solution</p>
-                    <h4><a href="/customer_development">Learn More</a></h4>
+                    <h4><a href="/implementation">Learn More</a></h4>
                   </div>
                   </div>
                 </div>
@@ -170,7 +170,7 @@
                     <div class="ui segment">
                     <h3><a href="/signIn">Training</a> </h3>
                     <p class="text-muted">Train your team to use the new solution  </p>
-                    <h4><a href="/customer_development">Learn More</a></h4>
+                    <h4><a href="/training">Learn More</a></h4>
                   </div>
                   </div>
                 </div>

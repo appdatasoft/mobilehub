@@ -5,8 +5,35 @@ import DeveloperHome from '@/pages/DeveloperHome.vue'
 import HiringHome from '@/pages/HiringHome.vue'
 import StartupsHome from '@/pages/StartupsHome.vue'
 import SMBHome from '@/pages/SMBHome.vue'
-import HackathonInterview from '@/pages/HackathonInterview.vue'
-import CustomerDevelopment from '@/pages/CustomerDevelopment.vue'
+
+//import CustomerDevelopment from '@/pages/CustomerDevelopment.vue'
+
+import ConnectDevelopers from '@/pages/home/ConnectDevelopers.vue'
+import ConnectDecisionMakers from '@/pages/home/ConnectDecisionMakers.vue'
+import ConnectHiringManagers from '@/pages/home/ConnectHiringManagers.vue'
+import ConnectStartups from '@/pages/home/ConnectStartups.vue'
+
+import DreamJob from '@/pages/developer/DreamJob.vue'
+import DailyBuild from '@/pages/developer/DailyBuild.vue'
+import BugFixMarket from '@/pages/developer/BugFixMarket.vue'
+import StartupConnect from '@/pages/developer/StartupConnect.vue'
+
+import HackathonInterview from '@/pages/hiring/HackathonInterview.vue'
+import JobPost from '@/pages/hiring/JobPost.vue'
+import OnBoarding from '@/pages/hiring/OnBoarding.vue'
+import EmployeeTraining from '@/pages/hiring/EmployeeTraining.vue'
+
+import CustomerDevelopment from '@/pages/startups/CustomerDevelopment.vue'
+import Idea from '@/pages/startups/Idea.vue'
+import MVP from '@/pages/startups/MVP.vue'
+import Prototype from '@/pages/startups/Prototype.vue'
+
+import BusinessProcess from '@/pages/SMB/BusinessProcess.vue'
+import Mapping from '@/pages/SMB/Mapping.vue'
+import Implementation from '@/pages/SMB/Implementation.vue'
+import Training from '@/pages/SMB/Training.vue'
+
+
 import Dashboard from '@/pages/Dashboard.vue'
 import Developer from '@/pages/Developer.vue'
 import Hiring from '@/pages/Hiring.vue'
@@ -33,7 +60,7 @@ import Daily_Build from '@/components/developer/Daily_Build.vue'
 import Bugfix_Market from '@/components/developer/Bugfix_Market.vue'
 import Bug from '@/components/developer/Bug.vue'
 import Startups_Developer from '@/components/developer/Startups_Developer.vue'
-import MVP from '@/components/startups/MVP.vue'
+//import MVP from '@/components/startups/MVP.vue'
 import cp from '@/components/startups/cp.vue'
 //import prototype from '@/components/startups/prototype.vue'
 import Solution from '@/components/startups/Solution.vue'
@@ -72,10 +99,64 @@ const routes = [
         path: '/SMB_home', name: 'SMB_home', component: SMBHome, meta: { title: 'SMB Home', auth:false }
     },
     {
-        path: '/hackathonInterview', name: 'hackathon_interview', component: HackathonInterview, meta: { title: 'Hackathon Interview', auth:false }
+        path: '/connectDevelopers', name: 'connect-developers', component: ConnectDevelopers, meta: { title: 'Connect Developers', auth:false }
     },
     {
-        path: '/customerdevelopment', name: 'customer_development', component: CustomerDevelopment, meta: { title: 'Customer Development', auth:false }
+        path: '/connectDecisionMakers', name: 'connect-decision-makers', component: ConnectDevelopers, meta: { title: 'Connect Decision Makers', auth:false }
+    },
+    {
+        path: '/connectStartups', name: 'connect-startups', component: ConnectDevelopers, meta: { title: 'Connect Startups', auth:false }
+    },
+    {
+        path: '/connectHiringManagers', name: 'connect-hiring-managers', component: ConnectDevelopers, meta: { title: 'Connect Hiring Managers', auth:false }
+    },
+    {
+        path: '/bugFixMarket', name: 'bug-fix-market', component: BugFixMarket, meta: { title: 'Bug Fix Market', auth:false }
+    },
+    {
+        path: '/dailyBuild', name: 'daily-build', component: DailyBuild, meta: { title: 'Daily Build', auth:false }
+    },
+    {
+        path: '/dreamJob', name: 'dream-job', component: DreamJob, meta: { title: 'Dream Job', auth:false }
+    },
+    {
+        path: '/startupConnect', name: 'startup-connect', component: StartupConnect, meta: { title: 'Startup Connect', auth:false }
+    },
+    {
+        path: '/jobPost', name: 'job-post', component: BugFixMarket, meta: { title: 'Job Post', auth:false }
+    },
+    {
+        path: '/hackathonInterview', name: 'hackathon-interview', component: DailyBuild, meta: { title: 'Hackathon Interview', auth:false }
+    },
+    {
+        path: '/onBoarding', name: 'onboarding', component: OnBoarding, meta: { title: 'OnBoarding', auth:false }
+    },
+    {
+        path: '/employeeTraining', name: 'employee-training', component: EmployeeTraining, meta: { title: 'Employee Training', auth:false }
+    },
+    {
+        path: '/Idea', name: 'idea', component: Idea, meta: { title: 'Idea', auth:false }
+    },
+    {
+        path: '/customerDevelopment', name: 'customerDevelopment', component: CustomerDevelopment, meta: { title: 'Customer Development', auth:false }
+    },
+    {
+        path: '/MVP', name: 'MVP', component: MVP, meta: { title: 'MVP', auth:false }
+    },
+    {
+        path: '/prototype', name: 'prototype', component: Prototype, meta: { title: 'Prototype', auth:false }
+    },
+    {
+        path: '/businessProcess', name: 'Business Process', component: BusinessProcess, meta: { title: 'Business Process', auth:false }
+    },
+    {
+        path: '/mapping', name: 'Mapping', component: Mapping, meta: { title: 'Mapping', auth:false }
+    },
+    {
+        path: '/implementation', name: 'implementation', component: Implementation, meta: { title: 'implementation', auth:false }
+    },
+    {
+        path: '/Training', name: 'training', component: Training, meta: { title: 'Training', auth:false }
     },
     {
         path: '/tasks', name: 'tasks', component: Tasks, meta: { title: 'Tasks', auth: true }

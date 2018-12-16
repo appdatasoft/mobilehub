@@ -139,9 +139,9 @@
                   <div class="feature-item">
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
                     <div class="ui segment">
-                    <h3><a href="/signIn">Customer Development</a></h3>
+                    <h3><a href="/signIn">Idea</a></h3>
                     <p class="text-muted">Identify and work with 10 customers that would pay for your solution</p>
-                    <h4><a href="/customer_development">Learn More</a></h4>
+                    <h4><a href="/idea">Learn More</a></h4>
                   </div>
                   </div>
                 </div>
@@ -149,9 +149,9 @@
                   <div class="feature-item">
                     <!--<i class="icon-camera text-primary"></i>-->
                     <div class="ui segment">
-                    <h3><a href="/signIn">Minimum Viable Product (MVP)</a></h3>
+                    <h3><a href="/signIn">Customer Development</a></h3>
                     <p class="text-muted">Gather requirements for MVP from the customers</p>
-                    <h4><a href="/customer_development">Learn More</a></h4>
+                    <h4><a href="/customerDevelopment">Learn More</a></h4>
                   </div>
                   </div>
                 </div>
@@ -161,9 +161,9 @@
                   <div class="feature-item">
                    <!-- <i class="icon-present text-primary"></i>-->
                     <div class="ui segment">
-                    <h3><a href="/signIn">Build Prototype</a></h3>
+                    <h3><a href="/signIn">Minimum Viable Product (MVP)</a></h3>
                     <p class="text-muted">Build the prototype and launch the MVP to the potential customers. </p>
-                    <h4><a href="/customer_development">Learn More</a></h4>
+                    <h4><a href="/MVPt">Learn More</a></h4>
                   </div>
                   </div>
                 </div>
@@ -171,9 +171,9 @@
                   <div class="feature-item">
                    <!-- <i class="icon-lock-open text-primary"></i> -->
                     <div class="ui segment">
-                    <h3><a href="/signIn">Validate</a></h3>
+                    <h3><a href="/signIn">Prototype</a></h3>
                     <p class="text-muted">Validate the prototype with the customers </p>
-                    <h4><a href="/customer_development">Learn More</a></h4>
+                    <h4><a href="/prototype">Learn More</a></h4>
                   </div>
                   </div>
                 </div>

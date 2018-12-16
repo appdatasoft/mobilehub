@@ -27,8 +27,8 @@
                  <div class="screen" id="foot">
                <!-- <img src="../assets/emulator_file1.gif" class="img-fluid" alt="">                    
                 <img src="../assets/emulator_file2.gif" class="img-fluid" alt="">-->
-                 <img src="../assets/animation1.gif" class="img-fluid" alt="">
-                <img src="../assets/animation2.gif" class="img-fluid" alt="">
+                 <img src="../../assets/animation1.gif" class="img-fluid" alt="">
+                <img src="../../assets/animation2.gif" class="img-fluid" alt="">
                  </div>
                   <div class="button">
                     <!-- You can hook the "home button" to some JavaScript events or just remove it -->
@@ -50,7 +50,7 @@
                 <div class="col-lg-3">
                   <div class="feature-item">
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
-                    <img class="1_icon" src="../assets/hiring_1_icon.png">
+                    <img class="1_icon" src="../../assets/hiring_1_icon.png">
                     <h3><a href="/signIn">Create Event</a></h3>
                     <p class="text-muted">Create hackathon interview event</p>
                   </div>
@@ -58,7 +58,7 @@
                 <div class="col-lg-3">
                   <div class="feature-item">
                     <!--<i class="icon-camera text-primary"></i>-->
-                    <img class="2_icon" src="../assets/hiring_2_icon.png">
+                    <img class="2_icon" src="../../assets/hiring_2_icon.png">
                     <h3><a href="/signIn">Invite candidates</a></h3>
                     <p class="text-muted">Invite candidates to the hackathon interview event</p>
                   </div>
@@ -66,7 +66,7 @@
                 <div class="col-lg-3">
                   <div class="feature-item">
                     <!--<i class="icon-present text-primary"></i>-->
-                    <img class="3_icon" src="../assets/hiring_3_icon.png">
+                    <img class="3_icon" src="../../assets/hiring_3_icon.png">
                     <h3><a href="/signIn">360 degree evaluation</a></h3>
                     <p class="text-muted">Get full evaluation of the candidates</p> 
                   </div>
@@ -74,7 +74,7 @@
                 <div class="col-lg-3">
                   <div class="feature-item">
                     <!--<i class="icon-lock-open text-primary"></i>-->
-                    <img class="4_icon" src="../assets/hiring_4_icon.png">
+                    <img class="4_icon" src="../../assets/hiring_4_icon.png">
                     <h3><a href="/signIn">Hire </a></h3>
 
  <p class="text-muted"> Hire candidates that meet technical skills and cultural fit </p>
@@ -102,7 +102,7 @@
      		 <b-container >
        			 <b-row>
          			 <b-col>
-           				 <img src="../assets/innovation.gif" class="img-fluid" alt="">
+           				 <img src="../../assets/innovation.gif" class="img-fluid" alt="">
          			 </b-col>
          			 <b-col>
            				 <div class="col-md-8 mx-auto">
@@ -132,8 +132,8 @@
                     <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
                    <!-- <img src="../assets/resume.jpg" class="img-fluid" alt="">-->
                     <div class="screen" id="foot">
-                <img src="../assets/resume.gif" class="img-fluid" alt="">  
-                <img src="../assets/emulator_file2.gif" class="img-fluid" alt="">                  
+                <img src="../../assets/resume.gif" class="img-fluid" alt="">  
+                <img src="../../assets/emulator_file2.gif" class="img-fluid" alt="">                  
                   </div>
                   <div class="button">
                     <!-- You can hook the "home button" to some JavaScript events or just remove it -->
@@ -220,15 +220,15 @@
  </b-container>
     </div>
 </template>
-<link src='../css/detectify.css'/>
-<link src='../../css/new-age.min.css'/>
-<link src='../../css/cataraman.css'/>
-<link src='../../css/lato.css'/>
-<link src='../../css/multi.css'/>
-<link src='../../device-mockups/device-mockups.min.css'/>
-<link src='../../vendor/bootstrap/css/bootstrap.min.css'/>
-<link src='../../vendor/font-awesome/css/font-awesome.min.css'/>
-<link src='../../vendor/simple-line-icons/css/simple-line-icons.css'/>
+<link src='../../css/detectify.css'/>
+<link src='../../../css/new-age.min.css'/>
+<link src='../../../css/cataraman.css'/>
+<link src=../'../../css/lato.css'/>
+<link src='../../../css/multi.css'/>
+<link src='../../../device-mockups/device-mockups.min.css'/>
+<link src='../../../vendor/bootstrap/css/bootstrap.min.css'/>
+<link src='../../../vendor/font-awesome/css/font-awesome.min.css'/>
+<link src='../../../vendor/simple-line-icons/css/simple-line-icons.css'/>
 <style>
 .fit-content{
     color: #f9f900;

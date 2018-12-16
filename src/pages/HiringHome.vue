@@ -155,7 +155,7 @@
                    <div class="ui segment">
                     <h3><a href="/signIn">Post Jobs</a></h3>
                     <p class="text-muted">Create Job Post and convert your job posts as a place for learning and engagement by adding Q & A plugin on all your job posts. </p>
-                  
+                  <h4><a href="/postJob">Learn More</a></h4>
                   </div>
                   </div>
                 </div>
@@ -163,9 +163,9 @@
                   <div class="feature-item">
                     <!--<i class="icon-camera text-primary"></i>-->
                     <div class="ui segment">
-                    <h3><a href="/signIn">Select Candidates</a></h3>
+                    <h3><a href="/signIn">Hackathon Interview</a></h3>
                     <p class="text-muted">Select candidates based on the engagement created on your job posting.</p>
-                    <h4><a href="/customer_development">Learn More</a></h4>
+                    <h4><a href="/hackathonInterview">Learn More</a></h4>
                   </div>
                   </div>
                 </div>
@@ -175,9 +175,9 @@
                   <div class="feature-item">
                     <!--<i class="icon-present text-primary"></i>-->
                   <div class="ui segment">
-                    <h3><a href="/signIn">Interview Hackathon</a></h3>
+                    <h3><a href="/signIn">OnBoarding</a></h3>
                     <p class="text-muted">Cut down the time spent on interviewing candidates by organizing interview hackathon where you can  evaluate all the candidates in 2 days.</p>
-                  <h4><a href="/HackathonInterview">Learn More</a></h4>
+                  <h4><a href="/onBoarding">Learn More</a></h4>
                   </div>
                   </div>
                 </div>
@@ -185,8 +185,9 @@
                   <div class="feature-item">
                     <!--<i class="icon-lock-open text-primary"></i>-->
                    <div class="ui segment">
-                    <h3><a href="/signIn">Hire </a></h3>
+                    <h3><a href="/signIn">Employee Training </a></h3>
                     <p class="text-muted"> Use the 360 degree view from the interview hackathon to hire the right candidates. </p>
+                    <h4><a href="/employeeTraining">Learn More</a></h4>
                   </div>
                   </div>
                 </div>
