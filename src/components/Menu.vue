@@ -87,7 +87,7 @@ export default {
   padding-left: .5em;
   padding-right: .5em;
 }
-.navbar-inner{
+/*.navbar-inner{
    background-color:transparent;
-}
+}*/
 </style>

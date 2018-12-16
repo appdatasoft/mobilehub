@@ -219,7 +219,7 @@ const routes = [
         path:'/feed' ,name: 'Feed',component:Timeline,meta:{title:'Feed',auth:true }
     },
     {
-        path:'/UserLists', name:'UserLists',component:UserLists,meta:{title:'UserLists',auth:true}
+        path:'/userlists/:username', name:'UserLists',component:UserLists,meta:{title:'UserLists',auth:true}
     },
     {
         path:'/Candidates' ,name: 'candidates',component:Candidates,meta:{title:'candidates',auth:true }

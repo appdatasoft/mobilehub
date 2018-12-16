@@ -31,9 +31,11 @@
             
             <!--user bugs details router link given here -->
             <!-- <router-link :to="`/${bug.username}`" @click="variables(bugs.username)">{{ bug.username  }}               -->
-              <a class="item" href="/UserLists">  
+              <router-link :to="`userlists/${user.username}`">                                
+              <a class="item" >
                 <i class="user circle icon"></i>
               </a>
+          </router-link> 
             <!-- </router-link> -->
             <!--changes end here -->
             <a class="item">
