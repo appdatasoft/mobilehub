@@ -34,14 +34,14 @@
     <section class="rightfit">
       <div class="cta-content">
         <div class="container1">
-          <h2>Share your knowledge.</a></h2>
+          <h2>Knowledge is power.</a></h2>
           <a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot!</a>
           <div class="row">
                 <div class="col-lg-3">
                   <div class="feature-item">
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
                     <img class="dj_icon" src="../assets/home_1_icon.png">
-                    <h3><a href="/signIn">Developers</a></h3>
+                    <h3 id="textsize2">Developers</h3>
                     <p class="text-muted">Fix bugs, advise startups, connect with hiring managers</p>
                   </div>
                 </div>
@@ -49,7 +49,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-camera text-primary"></i>-->
                     <img class="bd_icon" src="../assets/home_2_icon.png">
-                    <h3><a href="/signIn">Hiring Managers</a></h3>
+                    <h3 id="textsize2">Hiring Managers</h3>
                     <p class="text-muted">Cut cost & time in hiring developers </p>
                   </div>
                 </div>
@@ -57,7 +57,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-present text-primary"></i>-->
                     <img class="n_icon" src="../assets/home_3_icon.png">
-                    <h3><a href="/signIn">Startups</a></h3>
+                    <h3 id="textsize2">Startups</h3>
                     <p class="text-muted">Find technical and sales advisors</p>
                   </div>
                 </div>
@@ -65,7 +65,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-lock-open text-primary"></i>-->
                     <img class="s_icon" src="../assets/home_4_icon.png">
-                    <h3><a href="/signIn">Business Owners </a></h3>
+                    <h3 id="textsize2">Business Owners</h3>
                     <p class="text-muted">Connect with technical and business consultants  </p>
                   </div>
                 </div>
@@ -121,7 +121,7 @@
                 <div class="col-lg-6">
                   <div class="feature-item">
                      <div class="ui segment">
-                    <h3><a href="/signIn">Developers</a></h3>
+                    <h3>Developers</h3>
                     <p class="text-muted">Connect with experinced product developers that can fix your bugs, give advise and mentoring you need for your career and business.</p>
                   <h4><a href="/connectDevelopers">Learn More</a></h4>
                   </div>
@@ -131,7 +131,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-camera text-primary"></i>-->
                     <div class="ui segment">
-                    <h3><a href="/signIn">Hiring Managers</a></h3>
+                    <h3>Hiring Managers</h3>
                     <p class="text-muted">Connect with hiring managers at your dream companies and get advise on your dream job.</p>
                   <h4><a href="/connectHiringManagers">Learn More</a></h4>
                   </div>
@@ -143,7 +143,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-present text-primary"></i>-->
                     <div class="ui segment">
-                    <h3><a href="/signIn">Startups</a></h3>
+                    <h3>Startups</h3>
                     <p class="text-muted">Connect with startups that are looking for your experitise and advise.</p>
                   <h4><a href="/connectStartups">Learn More</a></h4>
                   </div>
@@ -154,7 +154,7 @@
                     <!--<i class="icon-lock-open text-primary"></i>-->
                     
                     <div class="ui segment">
-                    <h3><a href="/signIn">Small Business Owners </a></h3>
+                    <h3>Business Owners</h3>
                     <p class="text-muted">Connect with business owners and decision makers to move your product forward.</p>
                   <h4><a href="/connectDecisionMakers">Learn More</a></h4>
                   </div>

@@ -90,6 +90,9 @@ export default {
 #textsize{
   font-size: 64px;
   font-weight: 600;
-
+}
+#textsize2{
+  font-size: 28px;
+  font-weight: 400;
 }
 </style>
