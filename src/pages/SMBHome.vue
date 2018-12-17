@@ -11,7 +11,7 @@
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
              <!-- <h1 class="mb-5">Connect with talent that is right <span class="fit-content">fit</span> for your innovation </h1>-->
-             <h1 class="mb-5">Leverage technology to <span class="fit-content">grow</span>
+             <h1 class="mb-5" id="textsize">Leverage technology to <span class="fit-content">grow</span>
                  <!-- <img src="../assets/fit.gif" width="60 px">-->
                  		 your business
                  </h1>
@@ -247,10 +247,13 @@
   .bg-primary1{
     background-color: #fbb813;
   }
+  
  .container1{
   padding: 20px;
   text-align: center;
 }
+
+
 </style>
 
 <script>

@@ -9,7 +9,7 @@
         <div class="row h-100">
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
-                         <h1 class="mb-5">Start with customer development to make your business idea a success.
+                         <h1 class="mb-5" id="textsize">Start with customer development to make your business idea a success.
                   
                  </h1>
               <!-- <a href="/signIn" class="btn btn-xl main-bt js-scroll-trigger">Attend "Tech Jobs Pitch Social" Event</a> -->
@@ -262,6 +262,7 @@
   padding: 20px;
   text-align: center;
 }
+
 </style>
 
 <script>

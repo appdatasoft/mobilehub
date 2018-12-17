@@ -87,5 +87,9 @@ export default {
   margin-left: 0;
   border-width: .2rem;
 }
+#textsize{
+  font-size: 64px;
+  font-weight: 600;
 
+}
 </style>

@@ -11,7 +11,7 @@
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
              <!-- <h1 class="mb-5">Find Product <span class="fit-content">fit</span> for your innovation</h1>-->
-             <h1 class="mb-5">Find Product Market 
+             <h1 class="mb-5" id="textsize">Find Product Market 
                   <img src="../assets/fit.gif" width="60 px">
                  		 for your idea
                  </h1>
@@ -251,10 +251,12 @@
   .bg-primary1{
     background-color: #fbb813;
   }
+  
  .container1{
   padding: 20px;
   text-align: center;
 }
+
 </style>
 
 <script>

@@ -10,8 +10,7 @@
         <div class="row h-100">
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
-             <!-- <h1 class="mb-5">Connect with talent that is right <span class="fit-content">fit</span> for your innovation</h1>-->
-             <h1 class="mb-5">Connect with talent that is right
+             <h1 class="mb-5" id="textsize">Connect with talent that is right
                   <img src="../assets/fit.gif" width="60 px">
                  		 for your innovation
                  </h1>
@@ -269,6 +268,7 @@
   padding: 20px;
   text-align: center;
 }
+
 </style>
 
 <script>
