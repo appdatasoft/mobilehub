@@ -95,4 +95,7 @@ export default {
   font-size: 28px;
   font-weight: 400;
 }
+.device-container{
+  padding-top: 30px;
+}
 </style>

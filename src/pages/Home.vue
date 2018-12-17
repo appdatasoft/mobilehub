@@ -105,15 +105,15 @@
         <div class="row">
           <div class="col-lg-4 my-auto">
             <div class="device-container">
-              <div class="device-mockup iphone6_plus portrait white">
-                <div class="device">
+              <!--<div class="device-mockup iphone6_plus portrait white">-->
+               <!-- <div class="device">-->
                   <div class="screen" id="foot">
                   <img src="../assets/growth.gif" class="img-fluid" alt="">            
                   </div>
                   <div class="button">
                    </div>
-                </div>
-              </div>
+                <!--</div>-->
+              <!--</div>-->
             </div>
           </div>
           <div class="col-lg-8 my-auto">
@@ -123,7 +123,7 @@
                   <div class="feature-item">
                      <div class="ui segment">
                     <h3>Developers</h3>
-                    <p class="text-muted">Connect with experinced product developers that can fix your bugs, give advise and mentoring you need for your career and business.</p>
+                    <p class="text-muted">Get help on fixing bugs, mentoring on your job hunt and advise on your startup.</p>
                   <h4><a href="/connectDevelopers">Learn More</a></h4>
                   </div>
                   </div>

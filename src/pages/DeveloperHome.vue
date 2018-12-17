@@ -44,7 +44,7 @@
                 <div class="col-lg-3">
                   <div class="feature-item">
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
-                    <img class="dj_icon" src="../assets/home_1_icon.png">
+                    <img class="dj_icon" src="../assets/developer_1_icon.png">
                     <h3><a href="/signIn">Dream Job</a></h3>
                     <p class="text-muted">Get your dream job</p>
                   </div>
@@ -52,7 +52,7 @@
                 <div class="col-lg-3">
                   <div class="feature-item">
                     <!--<i class="icon-camera text-primary"></i>-->
-                    <img class="bd_icon" src="../assets/home_2_icon.png">
+                    <img class="bd_icon" src="../assets/developer_2_icon.png">
                     <h3><a href="/signIn">Build Daily</a></h3>
                     <p class="text-muted">Share your daily work accomplishments</p>
                   </div>
@@ -60,7 +60,7 @@
                 <div class="col-lg-3">
                   <div class="feature-item">
                     <!--<i class="icon-present text-primary"></i>-->
-                    <img class="n_icon" src="../assets/home_3_icon.png">
+                    <img class="n_icon" src="../assets/developer_3_icon.png">
                     <h3><a href="/signIn">Bug Fix Market</a></h3>
                     <p class="text-muted">Find someone to fix bugs</p>
                   </div>
@@ -68,7 +68,7 @@
                 <div class="col-lg-3">
                   <div class="feature-item">
                     <!--<i class="icon-lock-open text-primary"></i>-->
-                    <img class="s_icon" src="../assets/home_4_icon.png">
+                    <img class="s_icon" src="../assets/developer_4_icon.png">
                     <h3><a href="/signIn">Startups </a></h3>
                     <p class="text-muted">Advise startups </p>
                   </div>
