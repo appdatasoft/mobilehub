@@ -12,7 +12,7 @@
             <div class="header-content mx-auto">
              <h1 class="mb-5" id= "textsize">Make money with your technical knowledge.</h1>
              <!--<a href="/signIn" class="btn btn-xl main-bt js-scroll-trigger">JOIN</a>-->
-             <a href="/signIn" class="ui blue inverted black button">JOIN</a>
+             <a href="/signIn" class="button button1">JOIN</a>
               </div>
           </div>
           <div class="col-lg-5 my-auto">
