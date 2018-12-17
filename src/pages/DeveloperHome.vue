@@ -4,13 +4,13 @@
     <!--<header class="masthead">-->
     <header>
     <div>
-    <v-menu1/>
+    <v-menu/>
     </div>
       <div class="container h-100">
         <div class="row h-100">
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
-             <h1 class="mb-5" id="textsize">Expand your opportunity <br>& impact</h1>
+             <h1 class="mb-5" id= "textsize">Expand your <span class="fit-content">impact</span></h1>
              <a href="/signIn" class="btn btn-xl main-bt js-scroll-trigger">JOIN</a>
               <!--<a href="https://www.eventbrite.com/e/tech-jobs-pitch-social-la-tickets-49499347882" class="btn btn-xl main-bt js-scroll-trigger">Attend "Tech Jobs Pitch Social" Event</a>-->
             </div>
@@ -107,8 +107,8 @@
         <div class="row">
           <div class="col-lg-4 my-auto">
             <div class="device-container">
-              <div class="device-mockup iphone6_plus portrait white">
-                <div class="device">
+              <!-- <div class="device-mockup iphone6_plus portrait white">
+                <div class="device"> -->
                   <!--<div class="screen">-->
                     <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
                    <!-- <img src="../assets/resume.jpg" class="img-fluid" alt="">-->
@@ -118,8 +118,8 @@
                   <div class="button">
                     <!-- You can hook the "home button" to some JavaScript events or just remove it -->
                   </div>
-                </div>
-              </div>
+                <!-- </div>
+              </div> -->
             </div>
           </div>
           <div class="col-lg-8 my-auto">
@@ -252,7 +252,6 @@
   padding: 20px;
   text-align: center;
 }
-
 </style>
 
 <script>

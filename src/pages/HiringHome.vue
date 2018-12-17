@@ -10,7 +10,8 @@
         <div class="row h-100">
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
-             <h1 class="mb-5" id="textsize">Connect with talent that is right
+             <!-- <h1 class="mb-5">Connect with talent that is right <span class="fit-content">fit</span> for your innovation</h1>-->
+             <h1 class="mb-5" id= "textsize">Connect with talent that is right
                   <img src="../assets/fit.gif" width="60 px">
                  		 for your innovation
                  </h1>
@@ -130,8 +131,8 @@
         <div class="row">
           <div class="col-lg-4 my-auto">
             <div class="device-container">
-              <div class="device-mockup iphone6_plus portrait white">
-                <div class="device">
+              <!-- <div class="device-mockup iphone6_plus portrait white">
+                <div class="device"> -->
                   <!--<div class="screen">-->
                     <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
                    <!-- <img src="../assets/resume.jpg" class="img-fluid" alt="">-->
@@ -142,8 +143,8 @@
                   <div class="button">
                     <!-- You can hook the "home button" to some JavaScript events or just remove it -->
                   </div>
-                </div>
-              </div>
+                <!-- </div>
+              </div> -->
             </div>
           </div>
           <div class="col-lg-8 my-auto">
@@ -268,7 +269,6 @@
   padding: 20px;
   text-align: center;
 }
-
 </style>
 
 <script>

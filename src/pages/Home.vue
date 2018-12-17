@@ -10,8 +10,9 @@
         <div class="row h-100">
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
-             <h1 class="mb-5" id= "textsize">Make money with your knowledge.</h1>
-             <a href="/signIn" class="btn btn-xl main-bt js-scroll-trigger">JOIN</a>
+             <h1 class="mb-5" id= "textsize">Make money with your technical knowledge.</h1>
+             <!--<a href="/signIn" class="btn btn-xl main-bt js-scroll-trigger">JOIN</a>-->
+             <a href="/signIn" class="ui blue inverted black button">JOIN</a>
               </div>
           </div>
           <div class="col-lg-5 my-auto">

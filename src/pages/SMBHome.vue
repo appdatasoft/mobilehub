@@ -11,7 +11,7 @@
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
              <!-- <h1 class="mb-5">Connect with talent that is right <span class="fit-content">fit</span> for your innovation </h1>-->
-             <h1 class="mb-5" id="textsize">Leverage technology to <span class="fit-content">grow</span>
+             <h1 class="mb-5" id= "textsize">Leverage technology to <span class="fit-content">grow</span>
                  <!-- <img src="../assets/fit.gif" width="60 px">-->
                  		 your business
                  </h1>
@@ -121,15 +121,15 @@
         <div class="row">
           <div class="col-lg-4 my-auto">
             <div class="device-container">
-              <div class="device-mockup iphone6_plus portrait white">
-                <div class="device">
+              <!-- <div class="device-mockup iphone6_plus portrait white">
+                <div class="device"> -->
                     <div class="screen" id="foot">
                   <img src="../assets/robot.gif" class="img-fluid" alt="">                 
                   </div>
                   <div class="button">
                    </div>
-                </div>
-              </div>
+                <!-- </div>
+              </div> -->
             </div>
           </div>
           <div class="col-lg-8 my-auto">
@@ -247,13 +247,10 @@
   .bg-primary1{
     background-color: #fbb813;
   }
-  
  .container1{
   padding: 20px;
   text-align: center;
 }
-
-
 </style>
 
 <script>
