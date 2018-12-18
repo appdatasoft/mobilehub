@@ -75,6 +75,7 @@ import Bug_Item from '@/components/developer/Bug_Item.vue'
 import problem_allposts from '@/components/startups/problem_allposts.vue'
 import UserLists from '@/components/UserLists.vue'
 import FirstPage from '@/pages/FirstPage.vue'
+import UserProfile from '@/components/UserProfile.vue'
 
 
 
@@ -264,15 +265,18 @@ const routes = [
     {
         path:'/Job_Allposts' ,name: 'Job_Allposts',component:Job_Allposts,meta:{title:'Job_Allposts',auth:true}
     },
-    //{
-    //    path:'/:title', name: 'ItemProfile',component:ItemProfile,meta:{title:'ItemProfile',auth:true}   
-    //},
-    //{
-    //    path:'/:error', name:'Bug_Item',component:Bug_Item,meta:{title:'Bug_Item',auth:true}
-    //},
     {
-        path:'/:Problem' ,name: 'problem_allposts',component:problem_allposts, meta:{title:'problem_allposts',auth:true }
-    }
+        path:'/Job_Allposts/:title', name: 'ItemProfile',component:ItemProfile,meta:{title:'ItemProfile',auth:true}   
+     },
+     {
+         path:'/bugfixMarket/:error', name:'Bug_Item',component:Bug_Item,meta:{title:'Bug_Item',auth:true}
+      },
+     {
+         path:'/Problem/:title' ,name: 'problem_allposts',component:problem_allposts, meta:{title:'problem_allposts',auth:true }
+     },
+     {
+         path: '/UserProfile/:username' ,name: 'UserProfile',component:UserProfile, meta:{title:'UserProfile',auth:true }
+     },
     
 ]
 

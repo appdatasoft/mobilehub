@@ -30,9 +30,8 @@
                  <img src="../assets/animation1.gif" class="img-fluid" alt="">
                 <img src="../assets/animation2.gif" class="img-fluid" alt="">
                  </div>
-                  <div class="button">
-                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                  </div>
+                  
+                   
                 <!-- </div>
               </div> -->
             </div>
@@ -45,7 +44,7 @@
       <div class="cta-content">
         <div class="container1">
           <h2>Stop hiring.<br>Start hack-o-hiring.</h2>
-          <a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot!</a>
+          
           <div class="row">
                 <div class="col-lg-3">
                   <div class="feature-item">
@@ -135,9 +134,7 @@
                 <img src="../assets/resume.gif" class="img-fluid" alt="">  
                 <img src="../assets/emulator_file2.gif" class="img-fluid" alt="">                  
                   </div>
-                  <div class="button">
-                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                  </div>
+                  
                 <!-- </div>
               </div> -->
             </div>

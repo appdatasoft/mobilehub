@@ -16,7 +16,7 @@
                  		 your business
                  </h1>
               <!-- <a href="/signIn" class="btn btn-xl main-bt js-scroll-trigger">Attend "Tech Jobs Pitch Social" Event</a> -->
-              <a href="/signIn" class="btn btn-xl main-bt js-scroll-trigger">JOIN</a>
+              <a href="/signIn" class="ui massive blue inverted black button">JOIN</a>
             </div>
           </div>
           <div class="col-lg-5 my-auto">
@@ -27,8 +27,7 @@
                     <div class="screen" id="foot">
                 <img src="../assets/smb1.gif" class="img-fluid" alt="">
                  </div>
-                  <div class="button">
-                   </div>
+                 
                 <!-- </div>
               </div> -->
             </div>
@@ -41,13 +40,13 @@
       <div class="cta-content">
         <div class="container1">
           <h2>Stop working hard<br>Start working smart</h2>
-          <a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot!</a>
+          
           <div class="row">
                 <div class="col-lg-3">
                   <div class="feature-item">
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
                     <img class="1_icon" src="../assets/hiring_1_icon.png">
-                    <h3><a href="/signIn">Business Process</a></h3>
+                    <h3 id="textsize2">Business Process</h3>
                     <p class="text-muted">Conduct Business Process Analysis</p>
                   </div>
                 </div>
@@ -55,7 +54,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-camera text-primary"></i>-->
                     <img class="2_icon" src="../assets/hiring_2_icon.png">
-                    <h3><a href="/signIn">Map Tech Solutions</a></h3>
+                    <h3 id="textsize2">Map Tech Solutions</h3>
                     <p class="text-muted">Map tech solutions for business processes</p>
                   </div>
                 </div>
@@ -63,7 +62,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-present text-primary"></i>-->
                     <img class="3_icon" src="../assets/hiring_3_icon.png">
-                    <h3><a href="/signIn">Implement</a></h3>
+                    <h3 id="textsize2">Implement</h3>
                     <p class="text-muted">Implement the solution </p>
                   </div>
                 </div>
@@ -71,7 +70,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-lock-open text-primary"></i>-->
                     <img class="4_icon" src="../assets/hiring_4_icon.png">
-                    <h3><a href="/signIn">Training </a></h3>
+                    <h3 id="textsize2">Training </h3>
                     <p class="text-muted"> Train your team to use the new solution  </p>
                   </div>
                 </div>
@@ -126,8 +125,7 @@
                     <div class="screen" id="foot">
                   <img src="../assets/robot.gif" class="img-fluid" alt="">                 
                   </div>
-                  <div class="button">
-                   </div>
+                  
                 <!-- </div>
               </div> -->
             </div>
@@ -138,7 +136,7 @@
                 <div class="col-lg-6">
                   <div class="feature-item">
                     <div class="ui segment">
-                    <h3><a href="/signIn">Business Process</a></h3>
+                    <h3>Business Process</h3>
                     <p class="text-muted">Conduct Business Process Analysis</p>
                     <h4><a href="/businessProcess">Learn More</a></h4>
                   </div>
@@ -147,7 +145,7 @@
                 <div class="col-lg-6">
                   <div class="feature-item">
                     <div class="ui segment">
-                    <h3><a href="/signIn">Map Tech Solutions</a></h3>
+                    <h3>Map Tech Solutions</h3>
                     <p class="text-muted">Map tech solutions for business processes</p>
                     <h4><a href="/mapping">Learn More</a></h4>
                   </div>
@@ -159,7 +157,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-present text-primary"></i>-->
                     <div class="ui segment">
-                    <h3><a href="/signIn">Implementation</a></h3>
+                    <h3>Implementation</h3>
                     <p class="text-muted">Implement the solution</p>
                     <h4><a href="/implementation">Learn More</a></h4>
                   </div>
@@ -169,7 +167,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-lock-open text-primary"></i>-->
                     <div class="ui segment">
-                    <h3><a href="/signIn">Training</a> </h3>
+                    <h3>Training</h3>
                     <p class="text-muted">Train your team to use the new solution  </p>
                     <h4><a href="/training">Learn More</a></h4>
                   </div>

@@ -14,7 +14,7 @@
 
            <div class="ui segment">
         <h1 class="ui dividing header">Existing Few Problems List:</h1>
-          <div class="Problem" v-for="(Problem, index) in Problems" :key="index">
+          <div class="Problem" v-for="(Problem, index) in ProblemTitles" :key="index">
             <div class="ui segment">
             <router-link :to="`/${Problem.title}`">{{Problem.title}} by <small>{{ `@${Problem.username}` }}</small></router-link> <br>
             <p> Problem  Description: {{Problem.description}} <br>
@@ -54,17 +54,15 @@ export default {
       update: data => data.listProblems.items
     },
 
-    //  ProblemTitles: {
-    //   query: () => ListProblemTitle,
-    //   variables() {
-    //     return {
-    //       //title: TrailProblem
-    //       title: this.title
-    //     }
-    //     },
-
-    //   update: data => data.listProblems.items
-    // }
+     ProblemTitles: {
+      query: () => ListProblemTitle,
+      variables() {
+        return {
+          title: this.$route.params.title
+        }
+        },
+      update: data => data.listProblems.items
+    }
   },
 }
   </script>

@@ -12,7 +12,7 @@
             <div class="header-content mx-auto">
              <h1 class="mb-5" id= "textsize">Make money with your technical knowledge.</h1>
              <!--<a href="/signIn" class="btn btn-xl main-bt js-scroll-trigger">JOIN</a>-->
-             <a href="/signIn" class="button button1">JOIN</a>
+             <a href="/signIn" class="ui massive blue inverted black button">JOIN</a>
               </div>
           </div>
           <div class="col-lg-5 my-auto">
@@ -22,8 +22,7 @@
                   <div class="screen" id="foot">
                  <img src="../assets/dream_job.gif" class="img-fluid" alt="">
                  </div>
-                  <div class="button">
-                   </div>
+                  
                <!-- </div>-->
              <!-- </div>-->
             </div>
@@ -35,8 +34,8 @@
     <section class="rightfit">
       <div class="cta-content">
         <div class="container1">
-          <h2>Knowledge is power.</a></h2>
-          <a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot!</a>
+          <h2>Knowledge is power.</h2>
+          
           <div class="row">
                 <div class="col-lg-3">
                   <div class="feature-item">
@@ -105,15 +104,14 @@
         <div class="row">
           <div class="col-lg-4 my-auto">
             <div class="device-container">
-              <!--<div class="device-mockup iphone6_plus portrait white">-->
-               <!-- <div class="device">-->
+              <!-- <div class="device-mockup iphone6_plus portrait white">
+                <div class="device"> -->
                   <div class="screen" id="foot">
                   <img src="../assets/growth.gif" class="img-fluid" alt="">            
                   </div>
-                  <div class="button">
-                   </div>
-                <!--</div>-->
-              <!--</div>-->
+                 
+                <!-- </div>
+              </div> -->
             </div>
           </div>
           <div class="col-lg-8 my-auto">
@@ -123,7 +121,7 @@
                   <div class="feature-item">
                      <div class="ui segment">
                     <h3>Developers</h3>
-                    <p class="text-muted">Get help on fixing bugs, mentoring on your job hunt and advise on your startup.</p>
+                    <p class="text-muted">Connect with experinced product developers that can fix your bugs, give advise and mentoring you need for your career and business.</p>
                   <h4><a href="/connectDevelopers">Learn More</a></h4>
                   </div>
                   </div>
@@ -213,24 +211,7 @@
     font-weight: 600;
     text-decoration: underline;
   }
-  .main-bt{
-    border-radius: 2.25rem;
-    font-size:13px !important;
-    color: #d72534 !important;
-    text-shadow: 0px 0px 1px black;
-    background-color: white;
-    font-weight: bolder !important;
-    box-shadow: 0px 2px 2px black;
-}
-  .main-bt:hover{
-    background-color: #fbb813;
-    color: #000000c9 !important;
-    clip-path: polygon(100% 0, 95% 50%, 100% 100%, 0% 100%, 0% 50%, 0% 0%);
-    font-weight:bold;
-    border-radius: 2.25rem;
-    box-shadow: 0px 1px 2px white;
-
-  }
+  
   .bg-primary1{
     background-color: #fbb813;
   }
@@ -238,7 +219,9 @@
   padding: 20px;
   text-align: center;
 }
-
+.device-container{
+  padding-top: 30px;
+}
 </style>
 
 <script>

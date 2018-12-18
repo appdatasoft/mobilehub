@@ -13,7 +13,7 @@
                   
                  </h1>
               <!-- <a href="/signIn" class="btn btn-xl main-bt js-scroll-trigger">Attend "Tech Jobs Pitch Social" Event</a> -->
-              <a href="/signIn" class="btn btn-xl main-bt js-scroll-trigger">JOIN</a>
+              <a href="/signIn" class="ui massive blue inverted black button">JOIN</a>
             </div>
           </div>
           <div class="col-lg-5 my-auto">
@@ -30,9 +30,7 @@
                  <img src="../../assets/animation1.gif" class="img-fluid" alt="">
                 <img src="../../assets/animation2.gif" class="img-fluid" alt="">
                  </div>
-                  <div class="button">
-                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                  </div>
+                 
                 <!-- </div>
               </div> -->
             </div>
@@ -45,13 +43,13 @@
       <div class="cta-content">
         <div class="container1">
           <h2>Stop hiring.<br>Start hack-o-hiring.</h2>
-          <a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot!</a>
+          
           <div class="row">
                 <div class="col-lg-3">
                   <div class="feature-item">
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
                     <img class="1_icon" src="../../assets/hiring_1_icon.png">
-                    <h3><a href="/signIn">Create Event</a></h3>
+                    <h3 id="textsize2">Create Event</h3>
                     <p class="text-muted">Create hackathon interview event</p>
                   </div>
                 </div>
@@ -59,7 +57,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-camera text-primary"></i>-->
                     <img class="2_icon" src="../../assets/hiring_2_icon.png">
-                    <h3><a href="/signIn">Invite candidates</a></h3>
+                    <h3 id="textsize2">Invite candidates</h3>
                     <p class="text-muted">Invite candidates to the hackathon interview event</p>
                   </div>
                 </div>
@@ -67,7 +65,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-present text-primary"></i>-->
                     <img class="3_icon" src="../../assets/hiring_3_icon.png">
-                    <h3><a href="/signIn">360 degree evaluation</a></h3>
+                    <h3 id="textsize2">360 degree evaluation</h3>
                     <p class="text-muted">Get full evaluation of the candidates</p> 
                   </div>
                 </div>
@@ -75,7 +73,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-lock-open text-primary"></i>-->
                     <img class="4_icon" src="../../assets/hiring_4_icon.png">
-                    <h3><a href="/signIn">Hire </a></h3>
+                    <h3 id="textsize2">Hire</h3>
 
  <p class="text-muted"> Hire candidates that meet technical skills and cultural fit </p>
                   </div>
@@ -135,9 +133,7 @@
                 <img src="../../assets/resume.gif" class="img-fluid" alt="">  
                 <img src="../../assets/emulator_file2.gif" class="img-fluid" alt="">                  
                   </div>
-                  <div class="button">
-                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                  </div>
+                  
                 <!-- </div>
               </div> -->
             </div>
@@ -149,7 +145,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
                    <div class="ui segment">
-                    <h3><a href="/signIn">Post Jobs</a></h3>
+                    <h3>Post Jobs</h3>
                     <p class="text-muted">Create Job Post and convert your job posts as a place for learning and engagement by adding Q & A plugin on all your job posts. </p>
                   </div>
                   </div>
@@ -158,7 +154,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-camera text-primary"></i>-->
                     <div class="ui segment">
-                    <h3><a href="/signIn">Select Candidates</a></h3>
+                    <h3>Select Candidates</h3>
                     <p class="text-muted">Select candidates based on the engagement created on your job posting.</p>
                   </div>
                   </div>
@@ -169,7 +165,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-present text-primary"></i>-->
                   <div class="ui segment">
-                    <h3><a href="/signIn">Interview Hackathon</a></h3>
+                    <h3>Interview Hackathon</h3>
                     <p class="text-muted">Cut down the time spent on interviewing candidates by organizing interview hackathon where you can  evaluate all the candidates in 2 days.</p>
                   </div>
                   </div>
@@ -178,7 +174,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-lock-open text-primary"></i>-->
                    <div class="ui segment">
-                    <h3><a href="/signIn">Hire </a></h3>
+                    <h3>Hire </h3>
                     <p class="text-muted"> Use the 360 degree view from the interview hackathon to hire the right candidates. </p>
                   </div>
                   </div>

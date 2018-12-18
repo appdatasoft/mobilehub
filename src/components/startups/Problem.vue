@@ -51,8 +51,7 @@
         <h1 class="ui dividing header">Existing All Problems List:</h1>
           <div class="Problem" v-for="(Problem, index) in Problems" :key="index">
             <div class="ui segment" to="/ListProblems">
-            <router-link v-model="problem_allposts" :to="`/title=${Problem.title}`" append>
-            {{Problem.title}} </router-link>
+            <router-link :to="`/Problem/${Problem.title}`" append>{{Problem.title}} </router-link>
             <br> by  
             <a href=""> <small>{{ `@${Problem.username}` }}</small> </a>
             </div>
