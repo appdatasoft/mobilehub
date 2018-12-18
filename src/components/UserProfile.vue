@@ -148,7 +148,8 @@ export default {
       query: () => ListUserBugs,
       variables(username) {
         return {
-        username: this.user.username
+        //username: this.user.username
+        username: this.$route.params.username
                };
       },
       update: data => data.listBugs.items
@@ -157,7 +158,8 @@ export default {
       query: () => ListUserProblems,
       variables(username) {
         return {
-          username: this.user.username
+         // username: this.user.username
+         username: this.$route.params.username
         };
       },
       update: data => data.listProblems.items
@@ -166,7 +168,8 @@ export default {
       query: () => ListUserJobPosts,
       variables(username) {
         return {
-          username: this.user.username
+         // username: this.user.username
+          username: this.$route.params.username
         };
       },
       update: data => data.listJobPosts.items

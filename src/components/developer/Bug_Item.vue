@@ -42,9 +42,9 @@ export default {
     bugsTitle:{
       
       query:() => ListTitleBugs,     
-      variables(error){
+      variables(){
         return{
-           error:"chai",
+           error:this.$route.params.error
          
         }
       },

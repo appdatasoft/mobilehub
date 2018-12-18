@@ -1,5 +1,3 @@
-<!--Bug_Title.vue file changes source path is "src/components/developer/Bug_Title.vue"  -->
-
 <template>
           <!-- using Semantic Class -->
     <div class="ui stackable six column grid">
@@ -43,25 +41,24 @@
                 </div>
             </a>
           </div>
-
             <!--- form -->
+            <div class="ui form">
                 <div class="ui grid">  
-
                     <div class="eight wide column">
-                        <h1 class="header">error <button class="ui button primary">follow</button></h1>
-                        
+                        <h1 class="header">error
+                          <button class="ui button primary">follow</button>
+                        </h1>  
                     </div>
                     <div class="eight wide column">
                         <p>
                             <i class="dollar sign icon">
-                            </i>20 <button class="ui button primary">fix</button>
+                            </i>20 <!--<button class="ui button primary">fix</button>-->
+                            <!-- <button @click="createBugDetails()" class="ui button primary ">fix</button>                             -->
                         </p>
-                        
                     </div>
                 </div>
                   <div class="ui six wide grid">
                 <div class="eleven wide column">
-                    <!-- <div class="eight wide column"> -->
                     <div class="ui form">
                       <div class="ui field" >
                         <label>error</label>
@@ -71,21 +68,28 @@
                         <label>code</label>
                         <textarea  v-model="code" rows="10" id="textArea"></textarea>
                       </div>
-                      <button @click="createBugs()" class="ui button primary right floated">fix</button>
-                                        
-                    <!-- get list from aws-->
-                    <div v-for="(bug, index) in bugs" :key="index">
-                      <a>
-                        <strong>{{ bug.error  }}</strong><br>
-                        <strong>{{ bug.code  }}</strong>
-                      </a>:
-                        <br>              
-                        <br>
-                        <div class="ui dividing"></div>
+                      <div class="ui field">
+                          <label>Language</label>
+                          <input v-model="language" type="text">
                       </div>
-
+                      <div class="ui field">
+                        <label>Price</label>
+                        <input v-model="price" type="text">
+                      </div>
+                       <button @click="createBugDetails()" class="ui button primary right floated">fix</button> 
+                     </div>                   
+                    <!-- get list from aws-->
+                    <div  v-for="(bug, index) in bugDetails" :key="index">
+                      <a>
+                        <h3 class="header">Error :</h3><p>{{ bug.error  }}</p>
+                        <h3 class="header">Code :</h3><p>{{ bug.code  }}</p>
+                        <h3 class="header">Language :</h3><p>{{ bug.language}}</p>
+                        <h3 class="header">Price :</h3><p>{{ bug.price}}<i class="dollar sign icon"></i></p>
+                        <div class=" ui dividing header"></div>
+                      </a>
                     </div>
-                    </div>
+                  </div>
+                  <!-- right side menu-->
                 <div class="column">
                     <div class="ui vertical menu">
                         <div class="item">
@@ -112,23 +116,21 @@
                         </div>
                     </div>
                 </div> 
-                </div>
-          <!-- end of the form -->
+              </div>
+            </div>
           </div>
         </div>
-      <!-- </div> -->
-  
-  
 </template>
 
 
 
 <script>
-import uuidV4 from "uuid/v4";
-import { mapState } from "vuex";
-import CreateBugs from "../../mutations/CreateBugs";
-import ListBugs from "../../queries/ListBugs";
-
+import uuidV4 from "uuid/v4"
+import { mapState } from "vuex"
+// import CreateBugs from "../../mutations/CreateBugs";
+// import ListBugs from "../../queries/ListBugs";
+import CreateBugDetails from "../../mutations/CreateBugDetails"
+import ListBugDetails from "../../queries/ListBugDetails"
 export default {
   name: "Bugfix_Market",
   computed: {
@@ -138,36 +140,44 @@ export default {
   },
   /* create bug strat from here */
   methods: {
-    createBugs() {
+    createBugDetails() {
       const error = this.error;
       const code = this.code;
+      const language = this.language;
+      const price = this.price;
       const username = this.user.username;
-      if (error === "" || code === "") {
+      if (error === "" || code === "" || language === "" || price === "") {
         alert("please enter all fields");
         return;
       }
       this.error = "";
       this.code = "";
+      this.language = "";
+      this.price = "";
       const id = uuidV4();
       const bugfix = {
         username: username,
         error: error,
         code: code,
+        language: language,
+        price: price,
         id
       };
       this.$apollo
         .mutate({
-          mutation: CreateBugs,
+          mutation: CreateBugDetails,
           variables: bugfix,
-          update: (store, { data: { createBugs } }) => {
-            const data = store.readQuery({ query: ListBugs });
-            data.listBugs.items.push(createBugs);
-            store.writeQuery({ query: ListBugs, data });
+          /* update method  */
+          update: (store, { data: { createBugDetails } }) => {
+            const data = store.readQuery({ query: ListBugDetails });
+            data.listBugs.items.push(createBugDetails);
+            store.writeQuery({ query: ListBugDetails, data });
           },
+          /* Optimestic Response */
           optimisticResponse: {
             __typename: "Mutation",
             createBugs: {
-              __typename: "Bugs",
+              __typename: "BugDetails",
               ...bugfix
             }
           }
@@ -180,18 +190,19 @@ export default {
     return {
       error: "",
       code: "",
+      language: "",
+      price: "",
       username: "",
-      bugs: []
+      bugDetails: []
     };
   },
 
   /* To get list bugs code start from here */
   apollo: {
-    bugs: {
-      query: () => ListBugs,
-      update: data => data.listBugs.items
+    bugDetails: {
+      query: () => ListBugDetails,
+      update: data => data.listBugDetails.items
     }
-   
   }
 };
 </script>
@@ -211,7 +222,5 @@ export default {
 #textArea {
   width: 100%;
 }
-#error_color {
-  color: red;
-}
+
 </style>

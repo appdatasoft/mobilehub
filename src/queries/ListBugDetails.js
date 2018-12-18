@@ -1,15 +1,14 @@
 import gql from 'graphql-tag'
   export default gql`
-    query ListTitleBugs($error:String){
-        listBugs(filter: {error:{
-        contains: $error
-    }}) 
-      {
+    query listBugDetails {
+      listBugDetails {
         items {
           error
           code
+          language
+          price
           username
         }
+      }
     }
-  }
-  `
+    `

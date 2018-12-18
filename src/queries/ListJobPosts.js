@@ -9,7 +9,8 @@ import gql from 'graphql-tag'
           Technologies_used
           Tools_Used
           Team_Description
-          Salary  
+          Salary 
+          username 
         }
       }
     }

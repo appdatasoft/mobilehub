@@ -55,7 +55,6 @@ import Problem from '@/components/startups/Problem.vue'
 import Job_Posts from '@/components/Hiring/Job_Posts.vue'
 import Int_Hackathon from '@/components/Hiring/Interview_Hackathon.vue'
 import Candidates from '@/components/Hiring/Candidates.vue'
-import Dream_Job from '@/components/developer/Dream_Job.vue'
 import Daily_Build from '@/components/developer/Daily_Build.vue'
 import Bugfix_Market from '@/components/developer/Bugfix_Market.vue'
 import Bug from '@/components/developer/Bug.vue'
@@ -112,9 +111,6 @@ const routes = [
         path: '/connectHiringManagers', name: 'connect-hiring-managers', component: ConnectDevelopers, meta: { title: 'Connect Hiring Managers', auth:false }
     },
     {
-        path: '/bugFixMarket', name: 'bug-fix-market', component: BugFixMarket, meta: { title: 'Bug Fix Market', auth:false }
-    },
-    {
         path: '/dailyBuild', name: 'daily-build', component: DailyBuild, meta: { title: 'Daily Build', auth:false }
     },
     {
@@ -124,7 +120,7 @@ const routes = [
         path: '/startupConnect', name: 'startup-connect', component: StartupConnect, meta: { title: 'Startup Connect', auth:false }
     },
     {
-        path: '/jobPost', name: 'job-post', component: BugFixMarket, meta: { title: 'Job Post', auth:false }
+        path: '/jobPost', name: 'job-post', component: JobPost, meta: { title: 'Job Post', auth:false }
     },
     {
         path: '/hackathonInterview', name: 'hackathon-interview', component: DailyBuild, meta: { title: 'Hackathon Interview', auth:false }
@@ -231,9 +227,7 @@ const routes = [
     {
         path:'/Job_Posts' ,name: 'Job_Posts',component:Job_Posts,meta:{title:'Job_Posts',auth:true }
     },
-    {
-        path:'/dreamJob' ,name: 'Dream_Job',component:Dream_Job,meta:{title:'Dream_Job',auth:true }
-    },
+    
     {
         path:'/dailyBuild' ,name: 'Daily_Build',component:Daily_Build,meta:{title:'Daily_Build',auth:true }
     },

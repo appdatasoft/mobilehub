@@ -13,7 +13,7 @@
           <!-- Card 1  -->
           <a class="green card">
             <div class="content">
-              <div class="header">Developer
+              <div class="header">{{userType1}}
                 <div class="ui right floated fitted checkbox">
                   <input v-model="developer" type="checkbox">
                   <label></label>
@@ -35,7 +35,7 @@
           
           <a class="blue card">
             <div class="content">
-              <div class="header">Startup
+              <div class="header">
                 <div class="ui right floated fitted checkbox">
                   <input v-model="startup" type="checkbox">
                   <label></label>
@@ -45,7 +45,7 @@
           </a>
           <a class="violet card">
             <div class="content">
-              <div class="header">Business Owner
+              <div class="header">BuStartupsiness Owner
                 <div class="ui right floated fitted checkbox">
                   <input v-model="business" type="checkbox" value="business">
                   <label></label>
