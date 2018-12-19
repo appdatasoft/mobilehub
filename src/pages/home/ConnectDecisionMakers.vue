@@ -49,7 +49,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
                     <img class="1_icon" src="../../assets/hiring_1_icon.png">
-                    <h3 id="textsize2">Create Even</h3>
+                    <h3  id="textsize3">Create Even</h3>
                     <p class="text-muted">Create hackathon interview event</p>
                   </div>
                 </div>
@@ -57,7 +57,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-camera text-primary"></i>-->
                     <img class="2_icon" src="../../assets/hiring_2_icon.png">
-                    <h3 id="textsize2">Invite candidates</h3>
+                    <h3  id="textsize3">Invite candidates</h3>
                     <p class="text-muted">Invite candidates to the hackathon interview event</p>
                   </div>
                 </div>
@@ -65,7 +65,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-present text-primary"></i>-->
                     <img class="3_icon" src="../../assets/hiring_3_icon.png">
-                    <h3 id="textsize2">360 degree evaluation</h3>
+                    <h3  id="textsize3">360 degree evaluation</h3>
                     <p class="text-muted">Get full evaluation of the candidates</p> 
                   </div>
                 </div>
@@ -73,7 +73,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-lock-open text-primary"></i>-->
                     <img class="4_icon" src="../../assets/hiring_4_icon.png">
-                    <h3 id="textsize2">Hire </h3>
+                    <h3  id="textsize3">Hire </h3>
 
  <p class="text-muted"> Hire candidates that meet technical skills and cultural fit </p>
                   </div>

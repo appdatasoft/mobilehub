@@ -46,7 +46,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
                     <img class="1_icon" src="../assets/hiring_1_icon.png">
-                    <h3 id="textsize2">Business Process</h3>
+                    <h3  id="textsize3">Business Process</h3>
                     <p class="text-muted">Conduct Business Process Analysis</p>
                   </div>
                 </div>
@@ -54,7 +54,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-camera text-primary"></i>-->
                     <img class="2_icon" src="../assets/hiring_2_icon.png">
-                    <h3 id="textsize2">Map Tech Solutions</h3>
+                    <h3  id="textsize3">Map Tech Solutions</h3>
                     <p class="text-muted">Map tech solutions for business processes</p>
                   </div>
                 </div>
@@ -62,7 +62,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-present text-primary"></i>-->
                     <img class="3_icon" src="../assets/hiring_3_icon.png">
-                    <h3 id="textsize2">Implement</h3>
+                    <h3  id="textsize3">Implement</h3>
                     <p class="text-muted">Implement the solution </p>
                   </div>
                 </div>
@@ -70,7 +70,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-lock-open text-primary"></i>-->
                     <img class="4_icon" src="../assets/hiring_4_icon.png">
-                    <h3 id="textsize2">Training </h3>
+                    <h3  id="textsize3">Training </h3>
                     <p class="text-muted"> Train your team to use the new solution  </p>
                   </div>
                 </div>

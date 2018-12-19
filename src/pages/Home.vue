@@ -39,7 +39,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
                     <img class="dj_icon" src="../assets/home_1_icon.png">
-                    <h3 id="textsize2">Developers</h3>
+                    <h3  id="textsize3">Developers</h3>
                     <p class="text-muted">Fix bugs, advise startups, connect with hiring managers</p>
                   </div>
                 </div>
@@ -47,7 +47,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-camera text-primary"></i>-->
                     <img class="bd_icon" src="../assets/home_2_icon.png">
-                    <h3 id="textsize2">Hiring Managers</h3>
+                    <h3 id="textsize3">Hiring Managers</h3>
                     <p class="text-muted">Cut cost & time in hiring developers </p>
                   </div>
                 </div>
@@ -55,7 +55,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-present text-primary"></i>-->
                     <img class="n_icon" src="../assets/home_3_icon.png">
-                    <h3 id="textsize2">Startups</h3>
+                    <h3  id="textsize3">Startups</h3>
                     <p class="text-muted">Find technical and sales advisors</p>
                   </div>
                 </div>
@@ -63,7 +63,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-lock-open text-primary"></i>-->
                     <img class="s_icon" src="../assets/home_4_icon.png">
-                    <h3 id="textsize2">Business Owners</h3>
+                    <h3  id="textsize3">Business Owners</h3>
                     <p class="text-muted">Connect with technical and business consultants  </p>
                   </div>
                 </div>

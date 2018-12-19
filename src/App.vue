@@ -119,6 +119,12 @@ export default {
   background-color: black;
   color: white;
 }
+#textsize3{
+  font-size: 32px;
+line-height: 40px;
+  font-weight: 600;
+  color: #000000
+}
 .device-container{
   padding-top: 30px;
 }

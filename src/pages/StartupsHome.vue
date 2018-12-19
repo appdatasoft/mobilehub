@@ -51,7 +51,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
                     <img class="startups_1_icon" src="../assets/startups_1_icon.png">
-                    <h3 id="textsize2">Customer Development</h3>
+                    <h3  id="textsize3">Customer Development</h3>
                     <p class="text-muted">Develop 10 potential customers</p>
                   </div>
                 </div>
@@ -59,7 +59,7 @@
                   <div class="feature-item">
                     <!--<i class="icon-camera text-primary"></i>-->
                     <img class="startups_2_icon" src="../assets/startups_2_icon.png">
-                    <h3 id="textsize2">Minimum Viable Product (MVP)</h3>
+                    <h3  id="textsize3">Minimum Viable Product (MVP)</h3>
                     <p class="text-muted">Requirements for MVP</p>
                   </div>
                 </div>
@@ -67,7 +67,7 @@
                   <div class="feature-item">
                    <!-- <i class="icon-present text-primary"></i>-->
                     <img class="startups_3_icon" src="../assets/startups_3_icon.png">
-                    <h3 id="textsize2">Build Prototype</h3>
+                    <h3  id="textsize3">Build Prototype</h3>
                     <p class="text-muted">Launch prototype for MVP</p>
                   </div>
                 </div>
@@ -75,7 +75,7 @@
                   <div class="feature-item">
                    <!-- <i class="icon-lock-open text-primary"></i> -->
                     <img class="startups_4_icon" src="../assets/startups_4_icon.png">
-                    <h3 id="textsize2">Validate</h3>
+                    <h3  id="textsize3">Validate</h3>
                     <p class="text-muted">Validate the prototype</p>
                   </div>
                 </div>
