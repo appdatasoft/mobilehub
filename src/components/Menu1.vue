@@ -51,13 +51,11 @@
 
 <script>
 import { mapState } from 'vuex'
-
 import 'vue-awesome/icons/user-circle'
 import 'vue-awesome/icons/sign-out'
 import 'vue-awesome/icons/github'
 import 'vue-awesome/icons/twitter'
 import 'vue-awesome/icons/linkedin'
-
 export default {
     name: 'Navbar',
     computed: {

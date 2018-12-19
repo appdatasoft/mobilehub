@@ -17,14 +17,12 @@
           </div>
           <div class="col-lg-5 my-auto">
             <div class="device-container">
-             <!-- <div class="device-mockup iphone6_plus portrait white">-->
-               <!-- <div class="device">-->
+            
                   <div class="screen" id="foot">
-                 <img src="../assets/dream_job.gif" class="img-fluid" alt="">
+                 <img src="../assets/makemoney.gif" class="img-fluid" alt="">
                  </div>
                   
-               <!-- </div>-->
-             <!-- </div>-->
+              
             </div>
           </div>
         </div>

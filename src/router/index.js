@@ -78,6 +78,7 @@ import UserProfile from '@/components/UserProfile.vue'
 
 
 
+
 import store from '@/store'
 
 Vue.use(Router)
@@ -271,6 +272,9 @@ const routes = [
      {
          path: '/UserProfile/:username' ,name: 'UserProfile',component:UserProfile, meta:{title:'UserProfile',auth:true }
      },
+     {
+        path:'/developer/dailyBuild' ,name: 'Daily_Build',component:Daily_Build,meta:{title:'Daily_Build',auth:true }
+    }
     
 ]
 
