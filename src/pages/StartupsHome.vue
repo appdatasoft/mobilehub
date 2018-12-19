@@ -179,9 +179,10 @@
       </div>
     </section>
     <section class="scale">
-      <div class="cta-content">
+      
         <div class="container1">
           <h2>Stop waiting.<br>Start hack-o-hiring.</h2>
+          <div class="cta-content">
           <a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot!</a>
         </div>
       </div>
