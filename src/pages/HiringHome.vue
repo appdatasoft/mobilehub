@@ -134,7 +134,7 @@
                    <!-- <img src="../assets/resume.jpg" class="img-fluid" alt="">-->
                     <div class="screen" id="foot">
                 <img src="../assets/resume.gif" class="img-fluid" alt="">  
-                <img src="../assets/emulator_file2.gif" class="img-fluid" alt="">                  
+                <!--<img src="../assets/emulator_file2.gif" class="img-fluid" alt="">     -->             
                   </div>
                  
                 <!-- </div>
