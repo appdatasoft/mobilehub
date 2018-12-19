@@ -11,9 +11,7 @@
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
              <!-- <h1 class="mb-5">Connect with talent that is right <span class="fit-content">fit</span> for your innovation</h1>-->
-             <h1 class="mb-5" id= "textsize">Connect with talent that is right
-                  <img src="../assets/fit.gif" width="60 px">
-                 		 for your innovation
+             <h1 class="mb-5" id= "textsize">Connect with talent that is right fit for your innovation
                  </h1>
               <!-- <a href="/signIn" class="btn btn-xl main-bt js-scroll-trigger">Attend "Tech Jobs Pitch Social" Event</a> -->
               <a href="/signIn" class="ui massive blue inverted black button">JOIN</a>
@@ -32,7 +30,7 @@
                <!-- <img src="../assets/emulator_file1.gif" class="img-fluid" alt="">                    
                 <img src="../assets/emulator_file2.gif" class="img-fluid" alt="">-->
                  <img src="../assets/animation1.gif" class="ui medium image fluid" alt="">
-                <img src="../assets/animation2.gif" class="img-fluid" alt="">
+               <!-- <img src="../assets/animation2.gif" class="img-fluid" alt="">-->
                  </div>
                  
                 <!-- </div>

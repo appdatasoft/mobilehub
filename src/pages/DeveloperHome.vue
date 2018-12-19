@@ -81,7 +81,8 @@
      		 <b-container >
        			 <b-row>
          			 <b-col>
-           		 <img src="../assets/slip.gif" class="img-fluid" alt="">
+           		 <!--<img src="../assets/slip.gif" class="img-fluid" alt="">-->
+                <img src="../assets/animation2.gif" class="img-fluid" alt="">
          			 </b-col>
          			 <b-col>
            				 <div class="col-md-8 mx-auto">
@@ -111,7 +112,8 @@
                     <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
                    <!-- <img src="../assets/resume.jpg" class="img-fluid" alt="">-->
                     <div class="screen" id="foot">
-                  <img src="../assets/growth.gif" class="img-fluid" alt="">            
+                  <!--<img src="../assets/growth.gif" class="img-fluid" alt=""> -->
+                  <img src="../assets/emulator_file2.gif" class="img-fluid" alt="">           
                   </div>
                   
                 <!-- </div>
