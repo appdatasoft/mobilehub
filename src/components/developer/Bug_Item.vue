@@ -1,6 +1,5 @@
 <template>
 <div class="container">
-    <h3 class="header center"> welcome {{user.username}}</h3>
     <div v-for="(bug, index) in bugsTitle" :key="index">
         <div class="ui header dividing">
           <p >
@@ -10,6 +9,18 @@
           <p>
             <strong>Code</strong><br>
               {{ bug.code  }}
+          </p>
+          <p>
+            <strong>Language</strong><br>
+              {{ bug.language  }}
+          </p>
+          <p>
+            <strong>Price</strong><br>
+              {{ bug.price  }}
+          </p>
+          <p>
+            <strong>Created by user </strong><br>
+              {{ bug.username  }}
           </p>                        
         </div>
         <br>              
@@ -20,9 +31,10 @@
 </template>
 
 <script>
-import CreateBugs from "../../mutations/CreateBugs";
-import ListBugs from "../../queries/ListBugs";
-import ListTitleBugs from"../../queries/ListTitleBugs"
+
+import ListBugDetails from "../../queries/ListBugDetails"
+import ListBugTitleDetails from"../../queries/ListBugTitleDetails"
+
 import {
     mapState
   } from 'vuex'
@@ -36,19 +48,17 @@ export default {
     },
     apollo: {
     bugs: {
-      query: () => ListBugs,
-      update: data => data.listBugs.items
+      query: () => ListBugDetails,
+      update: data => data.listBugDetails.items
     },
     bugsTitle:{
-      
-      query:() => ListTitleBugs,     
+      query:() => ListBugTitleDetails,     
       variables(){
         return{
            error:this.$route.params.error
-         
         }
       },
-      update: data => data.listBugs.items 
+      update: data => data.listBugDetails.items 
       }
     }
 }

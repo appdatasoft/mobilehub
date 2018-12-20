@@ -48,35 +48,43 @@
     
                 <div class="row">
                 <div class="col-lg-3">
+                <div style="text-align:left">
                   <div class="feature-item">
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
                     <img class="startups_1_icon" src="../assets/startups_1_icon.png">
                     <h3  id="textsize3">Customer Development</h3>
                     <p class="text-muted">Develop 10 potential customers</p>
+                    </div>
                   </div>
                 </div>
                 <div class="col-lg-3">
                   <div class="feature-item">
+                  <div style="text-align:left">
                     <!--<i class="icon-camera text-primary"></i>-->
                     <img class="startups_2_icon" src="../assets/startups_2_icon.png">
                     <h3  id="textsize3">Minimum Viable Product (MVP)</h3>
                     <p class="text-muted">Requirements for MVP</p>
+                    </div>
                   </div>
                 </div>
                 <div class="col-lg-3">
                   <div class="feature-item">
+                  <div style="text-align:left">
                    <!-- <i class="icon-present text-primary"></i>-->
                     <img class="startups_3_icon" src="../assets/startups_3_icon.png">
                     <h3  id="textsize3">Build Prototype</h3>
                     <p class="text-muted">Launch prototype for MVP</p>
+                    </div>
                   </div>
                 </div>
                 <div class="col-lg-3">
                   <div class="feature-item">
+                  <div style="text-align:left">
                    <!-- <i class="icon-lock-open text-primary"></i> -->
                     <img class="startups_4_icon" src="../assets/startups_4_icon.png">
                     <h3  id="textsize3">Validate</h3>
                     <p class="text-muted">Validate the prototype</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -132,21 +140,25 @@
               <div class="row">
                 <div class="col-lg-6">
                   <div class="feature-item">
+                  <div style="text-align:left">
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
                     <div class="ui segment">
                     <h3>Idea</h3>
                     <p class="text-muted">Identify and work with 10 customers that would pay for your solution</p>
                     <h4><a href="/idea">Learn More</a></h4>
+                    </div>
                   </div>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="feature-item">
+                  <div style="text-align:left">
                     <!--<i class="icon-camera text-primary"></i>-->
                     <div class="ui segment">
                     <h3>Customer Development</h3>
                     <p class="text-muted">Gather requirements for MVP from the customers</p>
                     <h4><a href="/customerDevelopment">Learn More</a></h4>
+                    </div>
                   </div>
                   </div>
                 </div>
@@ -154,21 +166,25 @@
               <div class="row">
                 <div class="col-lg-6">
                   <div class="feature-item">
+                  <div style="text-align:left">
                    <!-- <i class="icon-present text-primary"></i>-->
                     <div class="ui segment">
                     <h3>Minimum Viable Product (MVP)</h3>
                     <p class="text-muted">Build the prototype and launch the MVP to the potential customers. </p>
                     <h4><a href="/MVPt">Learn More</a></h4>
+                    </div>
                   </div>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="feature-item">
+                  <div style="text-align:left">
                    <!-- <i class="icon-lock-open text-primary"></i> -->
                     <div class="ui segment">
                     <h3>Prototype</h3>
                     <p class="text-muted">Validate the prototype with the customers </p>
                     <h4><a href="/prototype">Learn More</a></h4>
+                    </div>
                   </div>
                   </div>
                 </div>

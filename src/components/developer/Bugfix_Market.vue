@@ -7,8 +7,6 @@
       </div>
   
       <!--    End of Left Menu     -->
-  
-  
       <!--    Main Menu & text box      -->
       <div class="column" id="column_2">
         <div class="ui stackable grid container">
@@ -45,9 +43,7 @@
                 </div>
             </a>
           </div>
-
             <!--- form -->
-
           <div class="ui grid">  
             <div class="eight wide column">
               <h1 class="header">Bugs List</h1>
@@ -56,58 +52,24 @@
               <!-- <i>error</i> -->
                 <b-nav>
                 <b-nav-item to="/Bug_Title">
-                  <button  class="ui button primary ">found new bug?</button>
+                  <button  class="ui button primary ">Create new bug?</button>
                 </b-nav-item>
                 </b-nav>
             </div>
           </div>
-          <!-- <div class="ui grid">
-              <a href="/Bug_Title">
-            <div class="five wide column">
-              
-              <p>Vue,GraphQL error</p>
-              <i>&emsp;by {{user.username}}</i><i>&emsp;&nbsp;1 day ago</i>
-                                          
-            </div>
-              </a>
-            <div class="four wide column">
-              <p><i class="dollar sign icon"></i>20 </p>
-            </div>
-          </div> -->
-          
-          <div v-for="(bug, index) in bugs" :key="index">
-              <div class="ui header dividing">
-                <p >
-                  <strong>Error :</strong><br>
-                    <!-- <a href="/Bug_Item">{{ bug.error  }}</a> -->
-                  <router-link :to="`/${bug.error}`" @click="variables(bugs.error)">{{ bug.error  }}</router-link>  
-                </p>
-                <p>
-                  <strong>Code :</strong><br>
-                    {{ bug.code  }}
-                </p>
-                <p>
-                  <strong>&emsp;by 
-                  </strong><i>{{bug.username}}</i>
-                </p>                        
-              </div>
-              <br>              
-              <br>
-              <div class="ui dividing"></div>
-          </div>
-          <!-- <div class="ui grid">
-              <a href="/Bug_Title">
-            <div class="five wide column">
-              <p>Vue,GraphQL error</p>
-              <i>&emsp;by {{user.username}}</i><i>&emsp;&nbsp;2 days ago</i>                            
-            </div>
+    <div class="ui six wide column">
+      <div class="ui segment">
+          <div  v-for="(bug, index) in bugDetails" :key="index">
+            <a>
+              <router-link :to="`/bugfixMarket/${bug.error}`" append>{{bug.error}} </router-link>
+              <br>created by  
+              <router-link :to="`/UserProfile/${bug.username}`"> <i class="small">@{{ bug.username  }}</i></router-link>  
+              <div class=" ui dividing header"></div>
             </a>
-            <div class="four wide column">
-              <p><i class="dollar sign icon"></i>15 </p>
-            </div>
-          </div> -->
+          </div>
+      </div>
+    </div> 
           <!-- end of the form -->
-
         </div>
       </div>
     </div>
@@ -118,9 +80,9 @@
 
 
 <script>
-import CreateBugs from "../../mutations/CreateBugs";
-import ListBugs from "../../queries/ListBugs";
-import ListTitleBugs from"../../queries/ListTitleBugs"
+
+import ListBugDetails from "../../queries/ListBugDetails"
+
   import {
     mapState
   } from 'vuex'
@@ -135,21 +97,11 @@ import ListTitleBugs from"../../queries/ListTitleBugs"
       
     },
     apollo: {
-    bugs: {
-      query: () => ListBugs,
-      update: data => data.listBugs.items
+    bugDetails: {
+      query: () => ListBugDetails,
+      update: data => data.listBugDetails.items
     },
-    bugsTitle:{
-      // query:() => ListTitleBugs,
-      query:() => ListTitleBugs,     
-     variables(error){
-        return{
-          error:"chai",
-        }
-      },
-      
-      update: data => data.listBugs.items 
-    }
+    
   }
   }
 </script>

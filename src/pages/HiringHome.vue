@@ -49,36 +49,43 @@
           <div class="row">
                 <div class="col-lg-3">
                   <div class="feature-item">
+                  <div style="text-align:left">
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
                     <img class="1_icon" src="../assets/hiring_1_icon.png">
                     <h3  id="textsize3">Post Jobs</h3>
                     <p class="text-muted">Create Job Post</p>
+                    </div>
                   </div>
                 </div>
                 <div class="col-lg-3">
                   <div class="feature-item">
+                  <div style="text-align:left">
                     <!--<i class="icon-camera text-primary"></i>-->
                     <img class="2_icon" src="../assets/hiring_2_icon.png">
                     <h3  id="textsize3">Select Candidates</h3>
                     <p class="text-muted">Shortlist candidates from applications</p>
+                    </div>
                   </div>
                 </div>
                 <div class="col-lg-3">
                   <div class="feature-item">
+                  <div style="text-align:left">
                     <!--<i class="icon-present text-primary"></i>-->
                     <img class="3_icon" src="../assets/hiring_3_icon.png">
                     <h3  id="textsize3">Interview Hackathon</h3>
                     <p class="text-muted">Conduct Hackathon Interview</p>
-                     
+                     </div>
                   </div>
                 </div>
                 <div class="col-lg-3">
                   <div class="feature-item">
+                  <div style="text-align:left">
                     <!--<i class="icon-lock-open text-primary"></i>-->
                     <img class="4_icon" src="../assets/hiring_4_icon.png">
                     <h3  id="textsize3">Hire </h3>
 
  <p class="text-muted"> Hire candidates that meet technical skills and cultural fit </p>
+ </div>
                   </div>
                 </div>
               </div>
@@ -146,6 +153,7 @@
               <div class="row">
                 <div class="col-lg-6">
                   <div class="feature-item">
+                  <div style="text-align:left">
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
                    <div class="ui segment">
                     <h3>Post Jobs</h3>
@@ -153,14 +161,17 @@
                   <h4><a href="/postJob">Learn More</a></h4>
                   </div>
                   </div>
+                  </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="feature-item">
+                  <div style="text-align:left">
                     <!--<i class="icon-camera text-primary"></i>-->
                     <div class="ui segment">
                     <h3>Hackathon Interview</h3>
                     <p class="text-muted">Select candidates based on the engagement created on your job posting.</p>
                     <h4><a href="/hackathonInterview">Learn More</a></h4>
+                    </div>
                   </div>
                   </div>
                 </div>
@@ -168,6 +179,7 @@
               <div class="row">
                 <div class="col-lg-6">
                   <div class="feature-item">
+                  <div style="text-align:left">
                     <!--<i class="icon-present text-primary"></i>-->
                   <div class="ui segment">
                     <h3>OnBoarding</h3>
@@ -175,14 +187,17 @@
                   <h4><a href="/onBoarding">Learn More</a></h4>
                   </div>
                   </div>
+                  </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="feature-item">
+                  <div style="text-align:left">
                     <!--<i class="icon-lock-open text-primary"></i>-->
                    <div class="ui segment">
                     <h3>Employee Training </h3>
                     <p class="text-muted"> Use the 360 degree view from the interview hackathon to hire the right candidates. </p>
                     <h4><a href="/employeeTraining">Learn More</a></h4>
+                    </div>
                   </div>
                   </div>
                 </div>

@@ -1,18 +1,21 @@
 <template>
-          <!-- using Semantic Class -->
-    <div class="ui stackable six column grid">
-      <!--   Left Menu     -->
-      <div class="column" id="column_1">
-        <v-menuleft/>
-      </div>
-      <!--    End of Left Menu     -->
+<!-- changes changes changes -->
 
-      <!--    Main Menu & text box      -->
-        <div class="ten wide column" id="column_2">
-          
-          <div class="ui tiny four steps">
-            
-            <a href="/dreamJob" class="active step">
+<div class="ui six column grid" >
+  <div class="column" id="side_bar">   
+   <v-menuleft/> 
+</div>
+<!-- steps -->
+ 
+  <div class="ui twelve wide column" >   
+
+
+ <!-- form begin -->
+  <div class="ui two wide grid" id="column_1">
+ <div class="ui nine wide column">
+   <!-- ....first row..... -->
+      <div class="ui teal four steps">
+        <a href="/dreamJob" class="active step">
               <i class="paper plane icon"></i>
                 <div class="content">
                   <div class="title">Dream job</div>
@@ -40,27 +43,18 @@
                   <div class="description">Choose your startups options</div>
                 </div>
             </a>
-          </div>
-            <!--- form -->
-            <div class="ui form">
-                <div class="ui grid">  
-                    <div class="eight wide column">
-                        <h1 class="header">error
-                          <button class="ui button primary">follow</button>
-                        </h1>  
-                    </div>
-                    <div class="eight wide column">
-                        <p>
-                            <i class="dollar sign icon">
-                            </i>20 <!--<button class="ui button primary">fix</button>-->
-                            <!-- <button @click="createBugDetails()" class="ui button primary ">fix</button>                             -->
-                        </p>
-                    </div>
-                </div>
-                  <div class="ui six wide grid">
-                <div class="eleven wide column">
-                    <div class="ui form">
-                      <div class="ui field" >
+      </div>
+
+
+<!-- first row ends here -->
+
+
+      <div class="ui segment">
+        <span class="ui header">Title
+          <button  class="ui button primary right floated">follow</button>                                            
+        </span>
+        <form class="ui form">
+          <div class="ui field" >
                         <label>error</label>
                         <textarea v-model="error" rows="10" id="textArea"></textarea>
                       </div>
@@ -76,50 +70,38 @@
                         <label>Price</label>
                         <input v-model="price" type="text">
                       </div>
-                       <button @click="createBugDetails()" class="ui button primary right floated">fix</button> 
-                     </div>                   
-                    <!-- get list from aws-->
-                    <div  v-for="(bug, index) in bugDetails" :key="index">
-                      <a>
-                        <h3 class="header">Error :</h3><p>{{ bug.error  }}</p>
-                        <h3 class="header">Code :</h3><p>{{ bug.code  }}</p>
-                        <h3 class="header">Language :</h3><p>{{ bug.language}}</p>
-                        <h3 class="header">Price :</h3><p>{{ bug.price}}<i class="dollar sign icon"></i></p>
-                        <div class=" ui dividing header"></div>
-                      </a>
-                    </div>
-                  </div>
-                  <!-- right side menu-->
-                <div class="column">
-                    <div class="ui vertical menu">
-                        <div class="item">
-                            <div class="ui small dividing header">
-                                <div class="header">Invitations sent</div>
-                                    <div class="menu">
-                                    <p  class="item">Bill</p>
-                                    <p  class="item dividing">Kenny</p>
-                                </div>
-                            </div>
-                            <div class="ui small dividing header">
-                                <div class="header">Invitations Recieved</div>
-                                    <div class="menu">
-                                    <p  class="item">Dave</p>
-                                    <p  class="item dividing">Frank</p>
-                                </div>
-                            </div>
-                            <div class="ui small header">
-                                <div class="header">Invitations accept</div>
-                                    <div class="menu">
-                                    <p  class="item ">Sophie</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
-              </div>
-            </div>
+                      <div class="ui field">
+                        <button @click="createBugDetails()" class="ui primary button">fix</button>
+                      </div>
+                      
+        </form>
+        <!-- <div> -->
+          <!-- <button @click="createBugDetails()" class="ui button primary right floated">fix</button>  -->
+          <!-- </div> -->
+        <!-- <button @click="createBugDetails()" class="ui primary button">Submit</button> -->
+      </div>
+    </div>
+
+    <div class="ui six wide column">
+      <div class="ui segment">
+        <h1 class="ui header">Existing All Bug Titles:</h1>
+          <div  v-for="(bug, index) in bugDetails" :key="index">
+            <!-- <div class="ui segment"> -->
+                <a>
+                  <router-link :to="`/bugfixMarket/${bug.error}`" append>{{bug.error}} </router-link>
+                  <br> by  
+                  <router-link :to="`/UserProfile/${bug.username}`"> <i class="small">@{{ bug.username  }}</i></router-link>
+                  <div class=" ui dividing header"></div>
+                </a>
+            <!-- </div> -->
           </div>
-        </div>
+      </div>
+    </div>      
+ </div>
+  </div>
+</div>
+
+
 </template>
 
 
@@ -204,11 +186,11 @@ export default {
       update: data => data.listBugDetails.items
     }
   }
-};
+}
 </script>
 
 <style scoped>
-* {
+/* * {
   box-sizing: border-box;
 }
 
@@ -218,9 +200,10 @@ export default {
 
 #column_2 {
   padding-top: 25px;
+  padding-left: 14%
 }
 #textArea {
   width: 100%;
-}
+} */
 
 </style>

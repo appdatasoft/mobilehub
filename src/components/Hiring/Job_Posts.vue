@@ -1,15 +1,18 @@
 <template>
 <div class="ui six column grid" >
   <div class="column" id="side_bar">   
-   <v-menuleft/>
+   <v-menuleft/> 
 </div>
+<!-- steps -->
  
- <!-- column -2 -->
+  <div class="ui twelve wide column" >   
+
+
+ <!-- form begin -->
+  <div class="ui two wide grid" id="column_1">
+ <div class="ui nine wide column">
+   <!-- ....first row..... -->
  
-<div class="column" id="column_2">
-<!-- <div class="ui compact segment" id="column_2_segment"> --> 
-  <div class="ui stackable grid container ">
-    <div class="fourteen wide column">
 <div class="ui four steps">
   <a  class="active step">
     <i class="paste icon"></i>
@@ -40,62 +43,67 @@
        </div>
      </a>
   </div>
+
+
+<!-- first row ends here -->
+
+
       <div class="ui segment">
-        <h2 class="ui dividing header">Job Posting</h2>
+        <h1 class="ui dividing header">Job Posting:</h1>
+        <br>
         <form class="ui form">
           <div class="field">
-            <label>Title</label>
-            <input v-model="title" type="text">
-            <!-- <span  class="is-danger"></span> -->
+          <label>Title</label>
+            <input v-model="title" type="text" placeholder="Input Your Current Problem here:">
           </div>
+
            <div class="field">
-            <label>Job Description</label>
-            <textarea v-model="Job_Description"  rows="5" placeholder="Describe Your Job"></textarea>
+          <label>Job Description</label>
+            <input v-model="Job_Description" type="text" placeholder="Input Your Problem Description here:">
           </div>
-          <div class="field" >
+
+          <div class="field">
             <label>Technologies used</label>
-             <input v-model="Technologies_used" type="text"  placeholder="Technologies You Used">
-          </div>        
+            <input v-model="Technologies_used" type="text" placeholder="Input Your Priority  here:">
+          </div>
+
           <div class="field">
             <label>Tools Used</label>
-            <input v-model="Tools_Used" type="text" placeholder="Tools You Used">
+            <input v-model="Tools_Used" type="text" placeholder="Input date  here:" >
           </div>
+
           <div class="field">
-            <label>Team Description</label> 
-            <input v-model="Team_Description" type="text" placeholder="About YourTeam ">
+            <label>Team Description</label>
+            <input v-model="Team_Description" type="text" placeholder="Input Your Comments  here:">
           </div>
           <div class="field">
             <label>Salary</label>
-            <input v-model="Salary" type="text" placeholder="Expected Salary">
+            <input v-model="Salary" type="text"  placeholder="Input Your Problem Status:" >
           </div>
-         <b-nav>
-               <button @click="createJobPost()" class="ui submit button">Save</button>
-      <b-nav-item  to="/Job_Allposts"><button class="ui submit button">Allposts</button></b-nav-item>
-             </b-nav>
-
         </form>
-        <!-- <ul> -->
-      <!-- <li v-for="(JobPost, index) in JobtitlePosts" :key="index">
-        <p class="text">{{ JobPost.title }}  
-        </p>
-        <p class="text">{{ JobPost.Salary }}  
-        </p>
-        <p class="text">{{ JobPost.Tools_Used }}  
-        </p>
-        <p class="text">{{ JobPost.Team_Description }}  
-        </p>
-         <p class="text">{{ JobPost.Job_Description }}  
-        </p>
-        <p class="text">{{ JobPost.Technologies_used}}  
-        </p>
-         </li>
-    </ul> -->
-              </div>
-          </div>
-       </div>      
+        <button @click="submit()" class="ui primary button">Submit</button>
+      </div>
     </div>
+
+    <div class="ui six wide column">
+      <div class="ui segment">
+        <h1 class="ui header">Existing All JobPosts:</h1>
+          <div class="/Job_Allposts/title" v-for="(Problem, index) in JobPosts" :key="index">
+            <!-- <div class="ui segment" to="/ListProblems"> -->
+            <div class="ui dividing header"></div>
+
+            <router-link :to="`/Job_Allposts/${Problem.title}`" append>{{Problem.title}} </router-link>
+            <br> by  
+                <router-link :to="`/UserProfile/${Problem.username}`"> <i class="small">@{{ Problem.username  }}</i>
+                </router-link>            <!-- <div class="ui dividing header"></div> -->
+            
+            </div>
+          </div>
+      </div>    
+  
+ </div>
   </div>
-<!-- </div> -->
+</div>
 </template>
 <script>
 import ListJobPosts from '../../queries/ListJobPosts'
@@ -111,7 +119,7 @@ export default {
         })
     },
     methods: {
-      createJobPost() {
+      submit() {
 
       const title = this.title
       const Job_Description = this.Job_Description
@@ -180,15 +188,6 @@ export default {
       query: () => ListJobPosts,
       update: data => data.listJobPosts.items
     },
-    //  JobtitlePosts: {
-    //   query:() => ListTitleJobPosts,
-    //   variables() {
-    //     return {
-    //       title: this.JobPost.title
-    //       }
-    //     },
-    //    update: data => data.listJobPosts.items
-    // }
   }
 }
 </script>
@@ -197,20 +196,9 @@ export default {
 * {
   box-sizing: border-box;
 }
-.Hiring{
-  padding-left:30% ;
-  margin-top:50px;
 
-}
-#column_2{
- width: 80%;
- padding-top:20px ;
-}
-#column_2_segment{
-  width: 0%;
-}
-#side_bar{
-  padding-top:20px ;
-  padding-left:20px; 
+#column_1 {
+  padding-top: 20px;
+  /* padding-left: 2%; */
 }
 </style>
