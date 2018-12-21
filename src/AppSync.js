@@ -7,7 +7,8 @@ export default {
   "authenticationType": "API_KEY",
   //"apiKey": "da2-qinrersl2vfxxezbix4sxdow24",
   //"apiKey": "da2-77qx25wdyjbpxh2ioftthcnhgi",
-  "apiKey": "da2-3gupccncn5alhmhhspixyj5mg4", 
+  //"apiKey": "da2-3gupccncn5alhmhhspixyj5mg4", 
+  "apiKey": "da2-24nwwlnduvajpfsl3aeo4aezfe",
  
   
 }

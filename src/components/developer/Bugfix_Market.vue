@@ -46,7 +46,7 @@
             <!--- form -->
           <div class="ui grid">  
             <div class="eight wide column">
-              <h1 class="header">Bugs List</h1>
+              <h1 class="header">Bugs</h1>
             </div>
             <div class="eight wide column">
               <!-- <i>error</i> -->

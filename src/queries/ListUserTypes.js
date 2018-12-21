@@ -1,13 +1,10 @@
 import gql from 'graphql-tag'
     export default gql`
-      query listUsertypes {
-        listUsertypes {
+      query listUSERtypes {
+        listUSERtypes
+         {
           items {
-            username
-            developer
-            hiring
-            startup
-            business
+            usertype
           }
         }
       }

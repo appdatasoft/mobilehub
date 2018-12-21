@@ -48,7 +48,7 @@
 
     <div class="ui six wide column">
       <div class="ui segment">
-        <h1 class="ui dividing header">Existing All Problems List:</h1>
+        <h1 class="ui dividing header">Ideas:</h1>
           <div class="Problem" v-for="(Problem, index) in Problems" :key="index">
             <div class="ui segment" to="/ListProblems">
             <router-link :to="`/Problem/${Problem.title}`" append>{{Problem.title}} </router-link>
@@ -61,7 +61,7 @@
       <!-- Filter Only by current user/ title -->
       
      <!-- <div class="ui segment">
-        <h1 class="ui dividing header">Existing Few Problems List:</h1>
+        <h1 class="ui dividing header">Ideas:</h1>
           <div class="Problem" v-for="(Problem, index) in ProblemTitles" :key="index">
             <div class="ui segment">
             <router-link :to="`/${Problem.title}`">{{Problem.title}} <br> by <small>{{ `@${Problem.username}` }}</small></router-link>

@@ -87,7 +87,7 @@
 
     <div class="ui six wide column">
       <div class="ui segment">
-        <h1 class="ui header">Existing All JobPosts:</h1>
+        <h1 class="ui header">Job Posts:</h1>
           <div class="/Job_Allposts/title" v-for="(Problem, index) in JobPosts" :key="index">
             <!-- <div class="ui segment" to="/ListProblems"> -->
             <div class="ui dividing header"></div>

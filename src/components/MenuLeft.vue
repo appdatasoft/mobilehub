@@ -12,7 +12,7 @@
               <div class="menu">
                 <a href="/dreamJob" class="item">Dream Job</a>
                 <a href="/developer/dailyBuild" class="item">Daily Build</a>
-               
+               <a href="/bugfixMarket" class="item">Bug Fix Market </a>
                 <a href="/startupsDeveloper" class="item">Startups </a>
               </div>
             </div>

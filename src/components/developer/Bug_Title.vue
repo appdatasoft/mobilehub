@@ -9,7 +9,6 @@
  
   <div class="ui twelve wide column" >   
 
-
  <!-- form begin -->
   <div class="ui two wide grid" id="column_1">
  <div class="ui nine wide column">
@@ -45,9 +44,7 @@
             </a>
       </div>
 
-
 <!-- first row ends here -->
-
 
       <div class="ui segment">
         <span class="ui header">Title
@@ -91,6 +88,9 @@
                   <router-link :to="`/bugfixMarket/${bug.error}`" append>{{bug.error}} </router-link>
                   <br> by  
                   <router-link :to="`/UserProfile/${bug.username}`"> <i class="small">@{{ bug.username  }}</i></router-link>
+                  <a  v-if="canDeleteBugDetails(bug)" @click="deleteBugDetails(bug)" class="text blue"><h6 class="ui red header">delete</h6></a>                
+                  <!-- <a href=""  @click="deleteBugDetails(bug)" class="text blue">Delete</a>                  -->
+                  
                   <div class=" ui dividing header"></div>
                 </a>
             <!-- </div> -->
@@ -101,25 +101,24 @@
   </div>
 </div>
 
-
 </template>
-
-
 
 <script>
 import uuidV4 from "uuid/v4"
 import { mapState } from "vuex"
-// import CreateBugs from "../../mutations/CreateBugs";
-// import ListBugs from "../../queries/ListBugs";
+
 import CreateBugDetails from "../../mutations/CreateBugDetails"
+import DeleteBugDetails from "../../mutations/DeleteBugDetails"
 import ListBugDetails from "../../queries/ListBugDetails"
 export default {
   name: "Bugfix_Market",
   computed: {
     ...mapState({
       user: state => state.auth.user
-    })
+    }),
   },
+   
+    
   /* create bug strat from here */
   methods: {
     createBugDetails() {
@@ -166,7 +165,36 @@ export default {
         })
         .then(data => console.log(data))
         .catch(error => console.error("error!!!: ", error));
+    },
+    canDeleteBugDetails (bug) {
+        return bug.username === this.user.username
+      },
+    /* Delete bug start from here */
+    deleteBugDetails(bug) {
+      this.$apollo.mutate({
+        mutation: DeleteBugDetails,
+        variables: {
+          id: bug.id
+        },
+        update: (store, { data: { deleteBugDetails } }) => {
+          const data = store.readQuery({ query: ListBugDetails });
+          data.listBugDetails.items = data.listBugDetails.items.filter(bug => bug.id !== deleteBugDetails.id)
+          store.writeQuery({ query: ListBugDetails, data })
+        },
+        /* optimistic response for delete start here */
+
+        // optimisticResponse: {
+        //   __typename: 'Mutation',
+        //   deleteBugDetails: {
+        //     __typename: 'BugDetails',
+        //     ...bugDetails
+        //   }
+        // },
+      })
+      .then(data => console.log(data))
+      .catch(error => console.error(error))
     }
+    /* delete bug ends here */
   },
   data() {
     return {

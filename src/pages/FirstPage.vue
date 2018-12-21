@@ -6,14 +6,16 @@
           <div class="ui dividing header">Welcome {{ user.username }}:</div>
           <p class="ui small pointing below label">Please select your role here</p>
           <div class="ui dividing header">I am a</div>
+          <br/>
         </div>
-        <!-- A row of four column semantic cards -->
         <form>
-        <div class="ui four cards">
+          <div class="ui four cards">
+          <div class="UserType" v-for="(UserType, index) in usertypes" :key="index">         
           <!-- Card 1  -->
-          <a class="green card">
-            <div class="content">
-              <div class="header">{{userType1}}
+           <div class="ui cards">
+          <a class="green  card">
+            <div class="content">              
+              <div class="header">{{UserType.usertype}}
                 <div class="ui right floated fitted checkbox">
                   <input v-model="developer" type="checkbox">
                   <label></label>
@@ -21,40 +23,13 @@
               </div>
             </div>
           </a>
-          <!-- card 2 -->
-          <a class="teal card">
-            <div class="content">
-              <div class="header">Hiring Manager
-                <div class="ui right floated fitted checkbox">
-                  <input v-model="hiring" type="checkbox">
-                  <label></label>
-                </div>
-              </div>
-            </div>
-          </a>
-          
-          <a class="blue card">
-            <div class="content">
-              <div class="header">
-                <div class="ui right floated fitted checkbox">
-                  <input v-model="startup" type="checkbox">
-                  <label></label>
-                </div>
-              </div>
-            </div>
-          </a>
-          <a class="violet card">
-            <div class="content">
-              <div class="header">BuStartupsiness Owner
-                <div class="ui right floated fitted checkbox">
-                  <input v-model="business" type="checkbox" value="business">
-                  <label></label>
-                </div>
-              </div>
-            </div>
-          </a>
+           &nbsp;
+           &nbsp;
+           </div>
+           &nbsp;
         </div>
-        <br>
+          </div>
+          
         <!-- <button @click="createJobPost()" class="ui right floated circular primary button">Save</button> -->
         <button @click="createJobPost()" class="ui right floated circular primary submit button">Save</button>
         <br>
@@ -64,13 +39,6 @@
     <div class="ui six wide column">
       <div class="ui segment">
         <h1 class="ui dividing header">Current User selected Type(s):</h1>
-          <!-- <div class="UserType" v-for="(UserType, index) in oneusertypes" :key="index">
-           <h1> You are selected following fields:<br/></h1>
-          <h5 v-if="UserType.hiring">hiring</h5>  <br/>  
-          <h5 v-if="UserType.developer">developer</h5>  <br/>  
-          <h5 v-if="UserType.startup">startup</h5>  <br/>  
-          <h5 v-if="UserType.business">business</h5>  <br/>  
-            </div>  -->
           <div class="UserType" v-for="(UserType, index) in oneusertypes" :key="index">
              <div class="ui container">
 
@@ -133,7 +101,7 @@ export default {
         variables: JobPost,
         update: (store, { data: { createUsertype } }) => {
           const data = store.readQuery({ query: ListUserType })
-          data.listUsertypes.items.push(createUsertype)
+          data.listUserTypes.items.push(createUsertype)
           store.writeQuery({ query: ListUserType, data })
         },
         optimisticResponse: {
@@ -155,6 +123,7 @@ export default {
          startup:'',
          business:'',
          username:'',
+         usertype:'',
           usertypes: [],
           oneusertypes:[],
 
@@ -163,7 +132,7 @@ export default {
      apollo: {
     usertypes: {
       query: () => ListUserType,
-      update: data => data.listUsertypes.items
+      update: data => data.listUSERtypes.items
     },
      oneusertypes: {
       query:() => ListoneUserType,
@@ -172,7 +141,7 @@ export default {
           username: this.user.username
           }
         },
-       update: data => data.listUsertypes.items
+       update: data => data.listUSERtypes.items
     }
   }
 }
@@ -182,20 +151,20 @@ export default {
 * {
   box-sizing: border-box;
 }
-.Hiring{
+/* .Hiring{
   padding-left:30% ;
   margin-top:50px;
 
-}
-#column_2{
+} */
+/* #column_2{
  width: 80%;
  padding-top:20px ;
-}
-#column_2_segment{
+} */
+/* #column_2_segment{
   width: 0%;
 }
 #side_bar{
   padding-top:20px ;
   padding-left:20px; 
-}
+} */
 </style>

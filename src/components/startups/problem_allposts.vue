@@ -13,7 +13,7 @@
           </h6>
 
            <div class="ui segment">
-        <h1 class="ui dividing header">Existing Few Problems List:</h1>
+        <h1 class="ui dividing header">Ideas:</h1>
           <div class="Problem" v-for="(Problem, index) in ProblemTitles" :key="index">
             <div class="ui segment">
             <router-link :to="`/${Problem.title}`">{{Problem.title}} by <small>{{ `@${Problem.username}` }}</small></router-link> <br>
