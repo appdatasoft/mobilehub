@@ -16,7 +16,7 @@
 <div class="ui cards">
 <a class="green card">
 <div class="content"> 
-<div class="header">{{Usertypes.usertypes}}
+<div class="header">{{Usertypes.usertype}}
 <div class="ui right floated fitted checkbox">
 <input v-model="usertypes" type="checkbox">
 <label></label>
@@ -119,7 +119,7 @@ userdetails:[],
 apollo: {
 allusertypes: {
 query: () => ListUserTypes,
-update: data => data.listUsertypes.items
+update: data => data.listUSERtypes.items 
 },
 oneusertypes: {
 query:() => ListUserdetails,
