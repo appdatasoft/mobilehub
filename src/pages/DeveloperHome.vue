@@ -195,7 +195,7 @@
         </div>
       </div>
     </section>
-    <section class="cta">
+    <section class="cta2">
       
         <div class="container1">
           <h2>Stop waiting.<br>Start <br>hack-o-hiring.</h2>

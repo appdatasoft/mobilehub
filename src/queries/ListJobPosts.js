@@ -11,6 +11,7 @@ import gql from 'graphql-tag'
           Team_Description
           Salary 
           username 
+          date
         }
       }
     }

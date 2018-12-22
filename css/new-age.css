@@ -295,6 +295,16 @@ section.cta {
   -o-background-size: cover;
   background-size: cover;
 }
+section.cta2 {
+  position: relative;
+  padding: 250px 0;
+  background-image: url("../img/bg-cta2.gif");
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 section.cta1 {
   position: relative;
   padding: 250px 0;

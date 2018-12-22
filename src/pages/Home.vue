@@ -111,7 +111,7 @@
               <!-- <div class="device-mockup iphone6_plus portrait white">
                 <div class="device"> -->
                   <div class="screen" id="foot">
-                  <img src="../assets/growth.gif" class="img-fluid" alt="">            
+                  <img src="../assets/climbing.gif" class="img-fluid" alt="">            
                   </div>
                  
                 <!-- </div>

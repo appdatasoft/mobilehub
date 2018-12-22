@@ -25,7 +25,7 @@
                 <div class="device"> -->
                   
                     <div class="screen" id="foot">
-                <img src="../assets/smb1.gif" class="img-fluid" alt="">
+                <img src="../assets/smb.gif" class="img-fluid" alt="">
                  </div>
                  
                 <!-- </div>
