@@ -3,6 +3,7 @@ import gql from 'graphql-tag'
     query listBugDetails {
       listBugDetails {
         items {
+          id
           error
           code
           language
