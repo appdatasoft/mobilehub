@@ -5,14 +5,16 @@
     <b-navbar-toggle target="nav_collapse"/>
     <b-navbar-brand to="/"><img src="" srcset="../assets/hohlogo.png 1x" width= "20%" alt="hackohire for happy teams"></b-navbar-brand>
     <b-navbar-nav>
-      <b-nav-item v-if="!isAuthenticated" to="/developer_home">Developer</b-nav-item>
+      <b-nav-item v-if="!isAuthenticated" to="/developer_home">Stories</b-nav-item>
+      <b-nav-item v-if="!isAuthenticated" to="/developer_home">Dream Job</b-nav-item>
       <b-nav-item v-if="!isAuthenticated" to="/hiring_home">Hiring</b-nav-item>
       <b-nav-item v-if="!isAuthenticated" to="/startups_home">Startups</b-nav-item>
       <b-nav-item v-if="!isAuthenticated" to="/SMB_home">Business</b-nav-item>
       <!--<b-nav-item to="/pricing">Pricing</b-nav-item>-->
     </b-navbar-nav>
      <b-navbar-nav>
-      <b-nav-item v-if="isAuthenticated" to="/developer">Developer</b-nav-item>
+      <b-nav-item v-if="isAuthenticated" to="/developer">Stories</b-nav-item>
+      <b-nav-item v-if="isAuthenticated" to="/developer">Dream Job</b-nav-item>
       <b-nav-item v-if="isAuthenticated" to="/hiring">Hiring</b-nav-item>
       <b-nav-item v-if="isAuthenticated" to="/startups">Startups</b-nav-item>
       <b-nav-item v-if="isAuthenticated" to="/smb">Business</b-nav-item>

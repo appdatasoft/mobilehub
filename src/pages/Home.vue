@@ -10,16 +10,61 @@
         <div class="row h-100">
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
-             <h1 class="mb-5" id= "textsize">Make 'extra' money with your technical knowledge.</h1>
+            <br>
+            <br>
+            <br>
+            
+             <!--<h1 class="mb-5" id= "textsize">Make 'extra' money with your technical knowledge.</h1>-->
+             <h1 class="mb-5" id= "textsize">Growth-hack your career & business.</h1>
+             <div class="row">
+             <div class="col-lg-4">
+              <div class="ui segment">Phone, Video, Screenshare
+                    <h3>Product Experts</h3>
+                    <p class="text-muted">Get advise from product managers.</p>
+                  </div>
+                  </div>
+                  <div class="col-lg-4">
+                  <div class="ui segment">Phone, Video, Screenshare
+                    <h3>Technical Experts</h3>
+                    <p class="text-muted">Get bug fix help from developers.</p>
+                  </div>
+                  </div>
+                  <div class="col-lg-4">
+                  <div class="ui segment">Phone, Video, Screenshare
+                    <h3>Marketing Experts</h3>
+                    <p class="text-muted"> Get marketing help.</p>
+                  </div>
+                  </div>
+                  <div class="row">
+             <div class="col-lg-4">
+              <div class="ui segment">Phone, Video, Screenshare
+                    <h3>Executives</h3>
+                    <p class="text-muted">Get insights from executives.</p>
+                  </div>
+                  </div>
+                  <div class="col-lg-4">
+              <div class="ui segment">Phone, Video, Screenshare
+                    <h3>Sales Experts</h3>
+                    <p class="text-muted">Get help with sales.</p>
+                  </div>
+                  </div>
+                  <div class="col-lg-4">
+                  <div class="ui segment">Phone, Video, Screenshare
+                    <h3>Investors</h3>
+                    <p class="text-muted">Pitch to investors.</p>
+                  </div>
+                  </div>
+                  </div>
+              </div>
+              <br>
              <!--<a href="/signIn" class="btn btn-xl main-bt js-scroll-trigger">JOIN</a>-->
              <a href="/signIn" class="ui massive blue inverted black button">JOIN</a>
               </div>
           </div>
           <div class="col-lg-5 my-auto">
             <div class="device-container">
-            
                   <div class="screen" id="foot">
-                 <img src="../assets/makemoney.gif" class="img-fluid" alt="">
+                 <img src="../assets/talk.gif" class="img-fluid" alt="">
                  </div>
             </div>
           </div>
@@ -30,50 +75,10 @@
     <section class="rightfit">
       <div class="cta-content">
         <div class="container1">
-          <h2>Knowledge is power.</h2>
+          <h2>Power Connections.</h2> 
+          <p class="text-muted"><a href="/signIn">Power your dreams</a></p>
+         
           
-          <div class="row">
-                <div class="col-lg-3">
-                  <div class="feature-item">
-                  <div style="text-align:left">
-                    <!--<i class="icon-screen-smartphone text-primary"></i>-->
-                    <img class="dj_icon" src="../assets/home_1_icon.png">
-                    <h3  id="textsize3">Developers</h3>
-                    <p class="text-muted">Fix bugs, advise startups, connect with hiring managers</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-3">
-                  <div class="feature-item">
-                  <div style="text-align:left">
-                    <!--<i class="icon-camera text-primary"></i>-->
-                    <img class="bd_icon" src="../assets/home_2_icon.png">
-                    <h3 id="textsize3">Hiring Managers</h3>
-                    <p class="text-muted">Cut cost & time in hiring developers </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-3">
-                  <div class="feature-item">
-                  <div style="text-align:left">
-                    <!--<i class="icon-present text-primary"></i>-->
-                    <img class="n_icon" src="../assets/home_3_icon.png">
-                    <h3  id="textsize3">Startups</h3>
-                    <p class="text-muted">Find technical and sales advisors</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-3">
-                  <div class="feature-item">
-                  <div style="text-align:left">
-                    <!--<i class="icon-lock-open text-primary"></i>-->
-                    <img class="s_icon" src="../assets/home_4_icon.png">
-                    <h3  id="textsize3">Business Owners</h3>
-                    <p class="text-muted">Connect with technical and business consultants  </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
         </div>
       </div>
       <div class="overlay"></div>
@@ -84,7 +89,7 @@
        			 <b-row>
          			 <b-col>
            			<!--<img src="../assets/slip.jpg" class="img-fluid" alt="">-->
-                <img src="../assets/slip.gif" class="img-fluid" alt="">
+                <img src="../assets/climb.gif" class="img-fluid" alt="">
          			 </b-col>
          			 <b-col>
            				 <div class="col-md-8 mx-auto">
@@ -101,80 +106,45 @@
     <section class="features" id="features">
       <div class="container">
         <div class="section-heading text-center">
-          <h2>Power connections</h2>
-          <p class="text-muted"><a href="/signIn">Make your dreams reality</a></p>
+          <h2>Growth-hack connections</h2>
+          <p class="text-muted"><a href="/signIn">Fast track your dreams</a></p>
           <hr>
         </div>
         <div class="row">
-          <div class="col-lg-4 my-auto">
-            <div class="device-container">
-              <!-- <div class="device-mockup iphone6_plus portrait white">
-                <div class="device"> -->
-                  <div class="screen" id="foot">
-                  <img src="../assets/climbing.gif" class="img-fluid" alt="">            
-                  </div>
-                 
-                <!-- </div>
-              </div> -->
-            </div>
-          </div>
-          <div class="col-lg-8 my-auto">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-lg-6">
+                
+                <div class="col-lg-4">
                   <div class="feature-item">
-                  <div style="text-align:left">
-                     <div class="ui segment">
-                    <h3>Developers</h3>
-                    <p class="text-muted">Connect with experinced product developers that can fix your bugs, give advise and mentoring you need for your career and business.</p>
-                  <h4><a href="/connectDevelopers">Learn More</a></h4>
-                  </div>
-                  </div>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                  <div style="text-align:left">
+                  <div style="text-align:center">
                     <!--<i class="icon-camera text-primary"></i>-->
-                    <div class="ui segment">
-                    <h3>Hiring Managers</h3>
-                    <p class="text-muted">Connect with hiring managers at your dream companies and get advise on your dream job.</p>
-                  <h4><a href="/connectHiringManagers">Learn More</a></h4>
-                  </div>
-                  </div>
+                    <img class="bd_icon" src="../assets/home_2_icon.png">
+                    <h3 id="textsize3">Phone</h3>
+                    <p class="text-muted">Cut cost & time to grow your career & business </p>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-4">
                   <div class="feature-item">
-                  <div style="text-align:left">
-                    <!--<i class="icon-present text-primary"></i>-->
-                    <div class="ui segment">
-                    <h3>Startups</h3>
-                    <p class="text-muted">Connect with startups that are looking for your experitise and advise.</p>
-                  <h4><a href="/connectStartups">Learn More</a></h4>
-                  </div>
-                  </div>
+                  <div style="text-align:center">
+                    <!--<i class="icon-camera text-primary"></i>-->
+                    <img class="bd_icon" src="../assets/home_2_icon.png">
+                    <h3 id="textsize3">Video</h3>
+                    <p class="text-muted">Cut cost & time to grow your career & business </p>
+                    </div>
                   </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-4">
                   <div class="feature-item">
-                  <div style="text-align:left">
-                    <!--<i class="icon-lock-open text-primary"></i>-->
-                    
-                    <div class="ui segment">
-                    <h3>Business Owners</h3>
-                    <p class="text-muted">Connect with business owners and decision makers to move your product forward.</p>
-                  <h4><a href="/connectDecisionMakers">Learn More</a></h4>
-                  </div>
-                  </div>
+                  <div style="text-align:center">
+                    <!--<i class="icon-camera text-primary"></i>-->
+                    <img class="bd_icon" src="../assets/home_2_icon.png">
+                    <h3 id="textsize3">Screenshare</h3>
+                    <p class="text-muted">Cut cost & time to grow your career & business </p>
+                    </div>
                   </div>
                 </div>
+                
               </div>
-            </div>
-          </div>
-        </div>
+        
       </div>
     </section>
     <section class="cta">
