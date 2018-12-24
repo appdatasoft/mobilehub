@@ -10,7 +10,7 @@
         <div class="row h-100">
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
-             <h1 class="mb-5" id= "textsize">Share your work stories and expand your impact.</h1>
+             <h1 class="mb-5" id= "textsize">Share your experince and get rewarded.</h1>
              <a href="/signIn" class="ui massive blue inverted black button">JOIN</a>
               <!--<a href="https://www.eventbrite.com/e/tech-jobs-pitch-social-la-tickets-49499347882" class="btn btn-xl main-bt js-scroll-trigger">Attend "Tech Jobs Pitch Social" Event</a>-->
             </div>
@@ -19,12 +19,9 @@
             <div class="device-container">
               <!-- <div class="device-mockup iphone6_plus portrait white">
                 <div class="device"> -->
-
                  <div class="screen" id="foot">
-                 <img src="../assets/dream_job.gif" class="img-fluid" alt="">
+                 <img src="../assets/makemoney.gif" class="img-fluid" alt="">
                </div>
-                  
-                  
                 <!-- </div>
               </div> -->
             </div>
@@ -36,16 +33,15 @@
     <section class="rightfit">
       <div class="cta-content">
         <div class="container1">
-          <h2>Stop waiting.<br><a href="/signIn">Start preparing.</a></h2>
-          
+          <h2>Stop waiting.<br><a href="/signIn">Start building.</a></h2>
           <div class="row">
                 <div class="col-lg-3">
                   <div class="feature-item">
                   <div style="text-align:left">
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
                     <img class="dj_icon" src="../assets/home_1_icon.png">
-                    <h3  id="textsize3">Dream Job</h3>
-                    <p class="text-muted">Get your dream job</p>
+                    <h3  id="textsize3">Tech Hacks</h3>
+                    <p class="text-muted">Share your daily technical accomplishments</p>
                     </div>
                   </div>
                 </div>
@@ -54,8 +50,8 @@
                   <div style="text-align:left">
                     <!--<i class="icon-camera text-primary"></i>-->
                     <img class="bd_icon" src="../assets/home_2_icon.png">
-                    <h3  id="textsize3">Build Daily</h3>
-                    <p class="text-muted">Share your daily work accomplishments</p>
+                    <h3  id="textsize3">Sales Hacks</h3>
+                    <p class="text-muted">Share your daily sales accomplishments</p>
                     </div>
                   </div>
                 </div>
@@ -64,8 +60,8 @@
                   <div style="text-align:left">
                     <!--<i class="icon-present text-primary"></i>-->
                     <img class="n_icon" src="../assets/home_3_icon.png">
-                    <h3  id="textsize3">Bug Fix Market</h3>
-                    <p class="text-muted">Find someone to fix bugs</p>
+                    <h3  id="textsize3">Startup Hacks</h3>
+                    <p class="text-muted">Share your startup accomplishments</p>
                     </div>
                   </div>
                 </div>
@@ -74,8 +70,8 @@
                   <div style="text-align:left">
                     <!--<i class="icon-lock-open text-primary"></i>-->
                     <img class="s_icon" src="../assets/home_4_icon.png">
-                    <h3  id="textsize3"> Startups </h3>
-                    <p class="text-muted">Advise startups </p>
+                    <h3  id="textsize3">Investor Hacks </h3>
+                    <p class="text-muted">Share your investor hacks</p>
                     </div>
                   </div>
                 </div>
@@ -104,6 +100,7 @@
          		 </b-row>
      		 </b-container>
     	</section> 
+      
     <section class="features" id="features">
       <div class="container">
         <div class="section-heading text-center">
@@ -111,88 +108,27 @@
           <p class="text-muted"><a href="/signIn">Make your dreams reality</a></p>
           <hr>
         </div>
-        <div class="row">
-          <div class="col-lg-4 my-auto">
-            <div class="device-container">
-              <!-- <div class="device-mockup iphone6_plus portrait white">
-                <div class="device"> -->
-                  <!--<div class="screen">-->
-                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                   <!-- <img src="../assets/resume.jpg" class="img-fluid" alt="">-->
-                    <div class="screen" id="foot">
-                  <!--<img src="../assets/growth.gif" class="img-fluid" alt=""> -->
-                  <img src="../assets/emulator_file2.gif" class="img-fluid" alt="">           
-                  </div>
-                  
-                <!-- </div>
-              </div> -->
-            </div>
-          </div>
-          <div class="col-lg-8 my-auto">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                  <div style="text-align:left">
-                    <!--<i class="icon-screen-smartphone text-primary"></i>-->
-                    <div class="ui segment">
-                      <!-- <div> -->
-                        <!-- <div class="ui slide masked reveal image"> -->
-                      <!-- <div class="visible content"> <i class="paper plane icon"></i> -->
-                    <h3>Dream Job</h3> 
-                      <!-- </div> -->
-                      <!-- <div class="hidden content"> -->
-                    <p class="text-muted">Define the companies you would like to work for, the technologies and projects you would like to be part of, along with the salary requirements.</p>
-                 <h4><a href="/dreamJob">Learn More</a></h4></div>
-                  </div>
-                  </div>
-                    <!-- </div>
-                  </div> -->
-                  <!-- </div> -->
-                </div>
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                  <div style="text-align:left">
-                    <!--<i class="icon-camera text-primary"></i>-->
-                    <div class="ui segment">
-                    <h3>Build Daily</h3>
-                    <p class="text-muted">Don't let your daily accomplishment be lost, instead use them as building blocks to build your knowledge base and showcase it.</p>
-                  <h4><a href="/dailyBuild">Learn More</a></h4>
-                  </div>
-                  </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                  <div style="text-align:left">
-                    <!--<i class="icon-present text-primary"></i>-->
-                    <div class="ui segment">
-                    <h3>Bug Fix Market</h3>
-                    <p class="text-muted">Your time is valuable. When you are stuck with a bug and are constrained for time,you can find an additional pair of eyes from a skilled programmer to look at your code.</p>
-                  <h4><a href="/bugFixMarket">Learn More</a></h4>
-                  </div>
-                  </div>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                  <div style="text-align:left">
-                    <!--<i class="icon-lock-open text-primary"></i>-->
-                    
-                    <div class="ui segment">
-                    <h3>Startups </h3>
-                    <p class="text-muted">Startups can benefit from  your advise. You can keep yourself involved with the latest innovations as an advisor to a startup.</p>
-                  <h4><a href="/startupConnect">Learn More</a></h4>
-                  </div>
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <section>
+     		 <b-container >
+       			 <b-row>
+              <b-col>
+           				 <div class="col-md-8 mx-auto">
+              				<h2 class="section-heading">Maximize your potential.</h2>
+              				<p><a href="/signIn">Prepare for your next move</a></p>
+              				<div class="badges">
+               					<a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot</a>
+             			 	</div>
+           				 </div>
+         			 </b-col>
+         			 <b-col>
+           		 <!--<img src="../assets/slip.gif" class="img-fluid" alt="">-->
+                <img src="../assets/growth.gif" class="img-fluid" alt="">
+         			 </b-col>
+         			 
+         		 </b-row>
+     		 </b-container>
+    	</section>
+        
       </div>
     </section>
     <section class="cta2">
