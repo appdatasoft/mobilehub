@@ -1,10 +1,8 @@
 <template>
-<!-- changes changes changes -->
-
 <div class="ui six column grid" >
   <div class="column" id="side_bar">   
    <v-menuleft/> 
-</div>
+  </div>
 <!-- steps -->
  
   <div class="ui twelve wide column" >   
@@ -47,35 +45,30 @@
 <!-- first row ends here -->
 
       <div class="ui segment">
-        <span class="ui header">Bug
+        <span class="ui header">Title
           <button  class="ui button primary right floated">follow</button>                                            
         </span>
         <form class="ui form">
           <div class="ui field" >
-                        <label>What is the Bug?</label>
-                        <textarea v-model="error" rows="10" id="textArea"></textarea>
-                      </div>
-                       <div class="ui field" >
-                        <label>What is the code you are facing the problem with?</label>
-                        <textarea  v-model="code" rows="10" id="textArea"></textarea>
-                      </div>
-                      <div class="ui field">
-                          <label>What programming laguages are used?</label>
-                          <input v-model="language" type="text">
-                      </div>
-                      <div class="ui field">
-                        <label>How much would you pay for fixing this bug?</label>
-                        <input v-model="price" type="text">
-                      </div>
-                      <div class="ui field">
-                        <button @click="createBugDetails()" class="ui primary button">fix</button>
-                      </div>
-                      
+            <label>error</label>
+              <textarea v-model="error" rows="10" id="textArea"></textarea>
+          </div>
+          <div class="ui field" >
+            <label>code</label>
+              <textarea  v-model="code" rows="10" id="textArea"></textarea>
+          </div>
+          <div class="ui field">
+            <label>Language</label>
+              <input v-model="language" type="text">
+          </div>
+          <div class="ui field">
+            <label>Price</label>
+            <input v-model="price" type="text">
+          </div>
+          <div class="ui field">
+            <button @click="createBugDetails()" class="ui submit primary button">fix</button>
+          </div>        
         </form>
-        <!-- <div> -->
-          <!-- <button @click="createBugDetails()" class="ui button primary right floated">fix</button>  -->
-          <!-- </div> -->
-        <!-- <button @click="createBugDetails()" class="ui primary button">Submit</button> -->
       </div>
     </div>
 
@@ -87,10 +80,18 @@
                 <a>
                   <router-link :to="`/bugfixMarket/${bug.error}`" append>{{bug.error}} </router-link>
                   <br> by  
-                  <router-link :to="`/UserProfile/${bug.username}`"> <i class="small">@{{ bug.username  }}</i></router-link>
-                  <a  v-if="canDeleteBugDetails(bug)" @click="deleteBugDetails(bug)" class="text blue"><h6 class="ui red header">delete</h6></a>                
-                  <!-- <a href=""  @click="deleteBugDetails(bug)" class="text blue">Delete</a>                  -->
+                  <router-link :to="`/UserProfile/${bug.username}`"> <i class="small">@{{ bug.username  }}</i></router-link><br>
                   
+                 
+                  <a v-if="canUpdateBugDetails(bug)">
+                    <button v-b-toggle.collapse1  >edit</button>  
+                      <b-collapse id="collapse1"  class="mt-2">
+                        <input v-model="error" class="canOpenInput(bug)" type="text" placeholder="edit bug title"> 
+                        <button v-if="canUpdateBugDetails(bug)" @click="updateBugDetails(bug)" class="ui submit primary button">update</button>                 
+                      </b-collapse>
+                  </a>
+                  <button  v-if="canDeleteBugDetails(bug)" @click="deleteBugDetails(bug)" class="text blue"><h6 class="ui red header">delete</h6></button><br>                                  
+                  <!-- ends here -->
                   <div class=" ui dividing header"></div>
                 </a>
             <!-- </div> -->
@@ -108,6 +109,7 @@ import uuidV4 from "uuid/v4"
 import { mapState } from "vuex"
 
 import CreateBugDetails from "../../mutations/CreateBugDetails"
+import UpdateBugDetails from "../../mutations/UpdateBugDetails"
 import DeleteBugDetails from "../../mutations/DeleteBugDetails"
 import ListBugDetails from "../../queries/ListBugDetails"
 export default {
@@ -117,8 +119,6 @@ export default {
       user: state => state.auth.user
     }),
   },
-   
-    
   /* create bug strat from here */
   methods: {
     createBugDetails() {
@@ -169,6 +169,13 @@ export default {
     canDeleteBugDetails (bug) {
         return bug.username === this.user.username
       },
+      canUpdateBugDetails (bug) {
+        return bug.username === this.user.username 
+        return bug.id === this.bug.id
+      },
+      canOpenInput(bug){
+        return bug.id=this.bug.id
+      },
     /* Delete bug start from here */
     deleteBugDetails(bug) {
       this.$apollo.mutate({
@@ -193,8 +200,53 @@ export default {
       })
       .then(data => console.log(data))
       .catch(error => console.error(error))
-    }
+    },
     /* delete bug ends here */
+
+    /* update starts here*/
+    
+    updateBugDetails(bug) {
+      const error = this.error
+      const code = this.code
+      const language = this.language
+      const price = this.price
+      const username = this.user.username
+     
+      this.error = ""
+      // this.code = "";
+      // this.language = "";
+      // this.price = "";
+      const id = bug.id      
+      
+      const bugfix = {
+       
+        error: error,
+        
+        id
+      };
+      this.$apollo
+        .mutate({
+          mutation: UpdateBugDetails,
+          variables: bugfix,
+          /* update method  */
+          update: (store, { data: { updateBugDetails } }) => {
+            const data = store.readQuery({ query: ListBugDetails });
+            data.listBugs.items.push(updateBugDetails);
+            store.writeQuery({ query: ListBugDetails, data });
+          },
+          /* Optimestic Response */
+          optimisticResponse: {
+            __typename: "Mutation",
+            updateBugs: {
+              __typename: "BugDetails",
+              ...bugfix
+            }
+          }
+        })
+        .then(data => console.log(data))
+        .catch(error => console.error("error!!!: ", error));
+    }
+    /* update ends here */
   },
   data() {
     return {
@@ -218,20 +270,5 @@ export default {
 </script>
 
 <style scoped>
-/* * {
-  box-sizing: border-box;
-}
-
-#column_1 {
-  padding-top: 20px;
-}
-
-#column_2 {
-  padding-top: 25px;
-  padding-left: 14%
-}
-#textArea {
-  width: 100%;
-} */
 
 </style>

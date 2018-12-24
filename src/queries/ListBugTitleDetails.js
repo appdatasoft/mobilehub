@@ -3,9 +3,11 @@ import gql from 'graphql-tag'
     query ListBugTitleDetails($error:String){
         listBugDetails(filter: {error:{
         contains: $error
+
     }}) 
       {
         items {
+          id
           error
           code
           language
