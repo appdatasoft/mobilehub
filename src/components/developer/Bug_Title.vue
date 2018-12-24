@@ -47,24 +47,24 @@
 <!-- first row ends here -->
 
       <div class="ui segment">
-        <span class="ui header">Title
+        <span class="ui header">Bug
           <button  class="ui button primary right floated">follow</button>                                            
         </span>
         <form class="ui form">
           <div class="ui field" >
-                        <label>error</label>
+                        <label>What is the Bug?</label>
                         <textarea v-model="error" rows="10" id="textArea"></textarea>
                       </div>
                        <div class="ui field" >
-                        <label>code</label>
+                        <label>What is the code you are facing the problem with?</label>
                         <textarea  v-model="code" rows="10" id="textArea"></textarea>
                       </div>
                       <div class="ui field">
-                          <label>Language</label>
+                          <label>What programming laguages are used?</label>
                           <input v-model="language" type="text">
                       </div>
                       <div class="ui field">
-                        <label>Price</label>
+                        <label>How much would you pay for fixing this bug?</label>
                         <input v-model="price" type="text">
                       </div>
                       <div class="ui field">

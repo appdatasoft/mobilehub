@@ -8,36 +8,64 @@
   <div class="ui grid" id="column_1">
     <div class="ui ten wide column">
       <div class="ui segment">
-        <h1 class="ui dividing header">Add New Problems:</h1>
+        <h1 class="ui dividing header">Add New Business Idea:</h1>
         <br>
         <form class="ui form">
 
           <div class="field">
-          <label>Problem Title</label>
+          <label>What is your idea?</label>
             <input v-model="title" type="text" placeholder="Input Your Current Problem here:">
           </div>
 
            <div class="field">
-          <label>Problem Description</label>
+          <label>What problem does your idea solve?</label>
             <input v-model="description" type="text" placeholder="Input Your Problem Description here:">
           </div>
 
           <div class="field">
-            <label>Priority</label>
+            <label>Describe your solution</label>
             <input v-model="priority" type="text" placeholder="Input Your Priority  here:">
           </div>
 
           <div class="field">
-            <label>Date</label>
+            <label>Who is the customer(who pay's) for your solution?</label>
             <input v-model="date" type="text" placeholder="Input date  here:" >
           </div>
 
           <div class="field">
-            <label>Comments</label>
+            <label>Who is the user of your solution?</label>
             <input v-model="comments" type="text" placeholder="Input Your Comments  here:">
           </div>
           <div class="field">
-            <label>Problem Status</label>
+            <label>How many users are in the market for your solution?</label>
+            <input v-model="comments" type="text" placeholder="Input Your Comments  here:">
+          </div>
+          <div class="field">
+            <label>What are the alternate solutions available in the market?</label>
+            <input v-model="status" type="text"  placeholder="Input Your Problem Status:" >
+          </div>
+          <div class="field">
+            <label>What is the price of the alternative solutions?</label>
+            <input v-model="status" type="text"  placeholder="Input Your Problem Status:" >
+          </div>
+          <div class="field">
+            <label>What is current stage of your business?</label>
+            <input v-model="status" type="text"  placeholder="Input Your Problem Status:" >
+          </div>
+          <div class="field">
+            <label>What type of technical help do you need?</label>
+            <input v-model="status" type="text"  placeholder="Input Your Problem Status:" >
+          </div>
+          <div class="field">
+            <label>What type of marketing help do you need?</label>
+            <input v-model="status" type="text"  placeholder="Input Your Problem Status:" >
+          </div>
+          <div class="field">
+            <label>What type of business help do you need?</label>
+            <input v-model="status" type="text"  placeholder="Input Your Problem Status:" >
+          </div>
+          <div class="field">
+            <label>What type of financial help do you need?</label>
             <input v-model="status" type="text"  placeholder="Input Your Problem Status:" >
           </div>
         </form>

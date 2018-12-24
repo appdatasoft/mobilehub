@@ -10,7 +10,7 @@
         <div class="row h-100">
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
-             <h1 class="mb-5" id= "textsize">Expand your <span class="fit-content">impact</span></h1>
+             <h1 class="mb-5" id= "textsize">Share your work stories and expand your impact.</h1>
              <a href="/signIn" class="ui massive blue inverted black button">JOIN</a>
               <!--<a href="https://www.eventbrite.com/e/tech-jobs-pitch-social-la-tickets-49499347882" class="btn btn-xl main-bt js-scroll-trigger">Attend "Tech Jobs Pitch Social" Event</a>-->
             </div>

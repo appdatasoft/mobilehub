@@ -13,43 +13,65 @@
             <br>
             <br>
             <br>
-            
              <!--<h1 class="mb-5" id= "textsize">Make 'extra' money with your technical knowledge.</h1>-->
              <h1 class="mb-5" id= "textsize">Growth-hack your career & business.</h1>
              <div class="row">
              <div class="col-lg-4">
-              <div class="ui segment">Phone, Video, Screenshare
+              <div class="ui segment">
+              <img class="bd_icon" src="../assets/phone2.gif">
+              <img class="bd_icon" src="../assets/video2.gif">
+              <img class="bd_icon" src="../assets/screen2.gif">
                     <h3>Product Experts</h3>
                     <p class="text-muted">Get advise from product managers.</p>
                   </div>
                   </div>
                   <div class="col-lg-4">
-                  <div class="ui segment">Phone, Video, Screenshare
+                  <div class="ui segment">
+                  <img class="bd_icon" src="../assets/phone2.gif">
+              <img class="bd_icon" src="../assets/video2.gif">
+              <img class="bd_icon" src="../assets/screen2.gif">
+              
                     <h3>Technical Experts</h3>
                     <p class="text-muted">Get bug fix help from developers.</p>
                   </div>
                   </div>
                   <div class="col-lg-4">
-                  <div class="ui segment">Phone, Video, Screenshare
+                  <div class="ui segment">
+                  <img class="bd_icon" src="../assets/phone2.gif">
+              <img class="bd_icon" src="../assets/video2.gif">
+              <img class="bd_icon" src="../assets/screen2.gif">
+              
                     <h3>Marketing Experts</h3>
                     <p class="text-muted"> Get marketing help.</p>
                   </div>
                   </div>
                   <div class="row">
              <div class="col-lg-4">
-              <div class="ui segment">Phone, Video, Screenshare
+              <div class="ui segment">
+              <img class="bd_icon" src="../assets/phone2.gif">
+              <img class="bd_icon" src="../assets/video2.gif">
+              <img class="bd_icon" src="../assets/screen2.gif">
+              
                     <h3>Executives</h3>
                     <p class="text-muted">Get insights from executives.</p>
                   </div>
                   </div>
                   <div class="col-lg-4">
-              <div class="ui segment">Phone, Video, Screenshare
+              <div class="ui segment">
+              <img class="bd_icon" src="../assets/phone2.gif">
+              <img class="bd_icon" src="../assets/video2.gif">
+              <img class="bd_icon" src="../assets/screen2.gif">
+              
                     <h3>Sales Experts</h3>
                     <p class="text-muted">Get help with sales.</p>
                   </div>
                   </div>
                   <div class="col-lg-4">
-                  <div class="ui segment">Phone, Video, Screenshare
+                  <div class="ui segment">
+                  <img class="bd_icon" src="../assets/phone2.gif">
+              <img class="bd_icon" src="../assets/video2.gif">
+              <img class="bd_icon" src="../assets/screen2.gif">
+              
                     <h3>Investors</h3>
                     <p class="text-muted">Pitch to investors.</p>
                   </div>
@@ -116,9 +138,9 @@
                   <div class="feature-item">
                   <div style="text-align:center">
                     <!--<i class="icon-camera text-primary"></i>-->
-                    <img class="bd_icon" src="../assets/home_2_icon.png">
+                    <img class="bd_icon" src="../assets/phone.gif">
                     <h3 id="textsize3">Phone</h3>
-                    <p class="text-muted">Cut cost & time to grow your career & business </p>
+                    <p class="text-muted">Talk to business , technical experts </p>
                     </div>
                   </div>
                 </div>
@@ -126,9 +148,9 @@
                   <div class="feature-item">
                   <div style="text-align:center">
                     <!--<i class="icon-camera text-primary"></i>-->
-                    <img class="bd_icon" src="../assets/home_2_icon.png">
+                    <img class="bd_icon" src="../assets/video.gif">
                     <h3 id="textsize3">Video</h3>
-                    <p class="text-muted">Cut cost & time to grow your career & business </p>
+                    <p class="text-muted">Do video calls with experts </p>
                     </div>
                   </div>
                 </div>
@@ -136,9 +158,9 @@
                   <div class="feature-item">
                   <div style="text-align:center">
                     <!--<i class="icon-camera text-primary"></i>-->
-                    <img class="bd_icon" src="../assets/home_2_icon.png">
+                    <img class="bd_icon" src="../assets/screen.gif">
                     <h3 id="textsize3">Screenshare</h3>
-                    <p class="text-muted">Cut cost & time to grow your career & business </p>
+                    <p class="text-muted">Do screenshare meetings with experts </p>
                     </div>
                   </div>
                 </div>

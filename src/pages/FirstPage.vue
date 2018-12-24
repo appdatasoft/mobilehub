@@ -4,7 +4,7 @@
 <div class="ui segment">
 <div>
 <div class="ui dividing header">Welcome {{ user.username }}:</div>
-<p class="ui small pointing below label">Please select your role here</p>
+<p class="ui small pointing below label">Please select your role</p>
 <div class="ui dividing header">I am a</div>
 <br/>
 </div>

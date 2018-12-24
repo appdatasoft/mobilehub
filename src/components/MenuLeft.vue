@@ -29,14 +29,12 @@
             <div class="active teal item">
               <div class="header">Startups</div>
               <div class="menu">
-                <a href="/problem" class="item">Problem</a>
-          <a href="/solution" class="item">Solution</a>
-          <a href="/cp" class="item">Customer Personas</a>
-          <a href="/cd" class="item">Customer Development</a>
-          <a href="/marketresearch" class="item">Market Research</a>
-          <a href="/MVP" class="item">MVP</a>
-          <a href="/Prototype" class="item">Prototype</a>
-          <a href="/validate" class="item">Validate</a>
+                <a href="/problem" class="item">Business Idea</a>
+          <a href="/solution" class="item">Customers</a>
+          <a href="/cp" class="item">Tech</a>
+          <a href="/cd" class="item">Marketing</a>
+          <a href="/marketresearch" class="item">Investment</a>
+         
               </div>
             </div>
   

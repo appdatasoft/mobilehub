@@ -80,23 +80,27 @@
             <label>Salary</label>
             <input v-model="Salary" type="text"  placeholder="Input Your Problem Status:" >
           </div>
+           <!-- <div class="field">
+            <label>date</label>
+            <input v-model="date" type="text"  placeholder="Input Your Problem Status:" >
+          </div>  -->
         </form>
         <button @click="submit()" class="ui primary button">Submit</button>
       </div>
     </div>
-
     <div class="ui six wide column">
       <div class="ui segment">
-        <h1 class="ui header">Job Posts:</h1>
-          <div class="/Job_Allposts/title" v-for="(Problem, index) in JobPosts" :key="index">
+        <h1 class="ui header">Existing All JobPosts:</h1>
+          <div class="/Job_Allposts/title" v-for="(JobPost, index) in JobPosts" :key="index">
             <!-- <div class="ui segment" to="/ListProblems"> -->
             <div class="ui dividing header"></div>
 
-            <router-link :to="`/Job_Allposts/${Problem.title}`" append>{{Problem.title}} </router-link>
+            <router-link :to="`/Job_Allposts/${JobPost.title}`" append>{{JobPost.title}} </router-link>
             <br> by  
-                <router-link :to="`/UserProfile/${Problem.username}`"> <i class="small">@{{ Problem.username  }}</i>
-                </router-link>            <!-- <div class="ui dividing header"></div> -->
-            
+                <router-link :to="`/UserProfile/${JobPost.username}`"> <i class="small">@{{ JobPost.username  }}</i>
+                </router-link>  <br/> 
+                CreatedAt:         <!-- <div class="ui dividing header"></div> -->
+            <i class="small">{{ JobPost.date  }}</i>
             </div>
           </div>
       </div>    
@@ -109,6 +113,8 @@
 import ListJobPosts from '../../queries/ListJobPosts'
 import CreateJobPost from '../../mutations/CreateJobPost'
 import ListTitleJobPosts from '../../queries/ListTitleJobs'
+import VueMoment from 'vue-moment'
+import moment from 'moment-timezone'
 import uuidV4 from 'uuid/v4'
 import { mapState } from 'vuex'
 export default {
@@ -118,7 +124,15 @@ export default {
             user: state => state.auth.user,
         })
     },
+
     methods: {
+//  date: () => {
+//          return {
+//           date: new Date(),
+//           // dateTime: new Date(new Date() - 234798274),
+//       }
+//     },
+    
       submit() {
 
       const title = this.title
@@ -127,6 +141,8 @@ export default {
       const Tools_Used = this.Tools_Used
       const Team_Description = this.Team_Description
       const Salary = this.Salary
+      const a = new Date()        
+      const date = a
       const username = this.user.username  
      
       if ((title) === '' || (Job_Description === '') || (Technologies_used === '') || (Tools_Used === '') || (Team_Description === '') ||(Salary === '') ) {
@@ -138,7 +154,7 @@ export default {
       this.Technologies_used = ''
       this.Tools_Used = ''
       this.Team_Description = ''
-      this.Salary = ''
+      this.Salary = ''         
       const id = uuidV4()
       const JobPost = {
         username:username,
@@ -148,7 +164,10 @@ export default {
         Technologies_used :Technologies_used,
         Tools_Used:Tools_Used,
         Team_Description:Team_Description,
-        Salary:Salary
+        Salary:Salary,
+        // date added
+        date:date
+        //
       }
       this.$apollo.mutate({
         mutation: CreateJobPost,
@@ -180,14 +199,16 @@ export default {
           Salary :'',
           username:'',
           JobPosts: [],
-
+          //  date:'' 
     }
   },
+
      apollo: {
     JobPosts: {
       query: () => ListJobPosts,
       update: data => data.listJobPosts.items
     },
+    
   }
 }
 </script>

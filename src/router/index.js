@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/pages/Home.vue'
-import DeveloperHome from '@/pages/DeveloperHome.vue'
+import StoriesHome from '@/pages/StoriesHome.vue'
 import HiringHome from '@/pages/HiringHome.vue'
 import StartupsHome from '@/pages/StartupsHome.vue'
 import SMBHome from '@/pages/SMBHome.vue'
@@ -88,7 +88,7 @@ const routes = [
         path: '/', name: 'home', component: Home, meta: { title: 'Home', auth: false }
     },
     {
-        path: '/developer_home', name: 'developer_home', component: DeveloperHome, meta: { title: 'Developer Home', auth: false }
+        path: '/storiesHome', name: 'developer_home', component: StoriesHome, meta: { title: 'Developer Home', auth: false }
     },
     {
         path: '/hiring_home', name: 'hiring_home', component: HiringHome, meta: { title: 'Hiring Home', auth: false }
