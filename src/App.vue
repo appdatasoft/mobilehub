@@ -21,6 +21,7 @@
 <script>
 import Vue from 'vue'
 import Menu from '@/components/Menu.vue'
+import hiringMenu from '@/components/hiringMenu.vue'
 import Menu1 from '@/components/Menu1.vue'
 
 import Footer from '@/components/Footer.vue'
@@ -30,6 +31,7 @@ import { mapState } from 'vuex'
 
 
 Vue.component('v-menu', Menu)
+Vue.component('v-hiringmenu', hiringMenu)
 Vue.component('v-menu1', Menu1)
 Vue.component('v-menuleft', MenuLeft)
 

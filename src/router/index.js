@@ -5,6 +5,7 @@ import StoriesHome from '@/pages/StoriesHome.vue'
 import HiringHome from '@/pages/HiringHome.vue'
 import StartupsHome from '@/pages/StartupsHome.vue'
 import SMBHome from '@/pages/SMBHome.vue'
+import HiringTank from '@/pages/HiringTank.vue'
 
 //import CustomerDevelopment from '@/pages/CustomerDevelopment.vue'
 
@@ -89,6 +90,10 @@ const routes = [
     },
     {
         path: '/storiesHome', name: 'developer_home', component: StoriesHome, meta: { title: 'Developer Home', auth: false }
+    },
+    ,
+    {
+        path: '/hiringTank', name: 'hiring_tank', component: HiringTank, meta: { title: 'Hiring Tank', auth: false }
     },
     {
         path: '/hiring_home', name: 'hiring_home', component: HiringHome, meta: { title: 'Hiring Home', auth: false }
