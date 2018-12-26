@@ -1,29 +1,25 @@
 <template>
   <!-- <b-container>  -->
     <div class="head_1">
-    <!--<header class="masthead_hiring">-->
-    <header>
+    <header class="masthead_hiring">
     <div>
-    <v-hiringmenu/>
-    <br>
-    <br>
-    <br>
+    <v-menu/>
     </div>
       <div class="container h-100">
         <div class="row h-100">
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
-             <h1 class="mb-5" id= "textsize">Hire best fit, faster with hackathon interview.</h1>
-             <h2>Cut down the hiring time & cost.</h2>
+                         <h1 class="mb-5" id= "textsize">Hire technical talent with hackathon interview to  cut down time and cost.
+                  
+                 </h1>
               <!-- <a href="/signIn" class="btn btn-xl main-bt js-scroll-trigger">Attend "Tech Jobs Pitch Social" Event</a> -->
-              <a href="/signIn" class="ui massive blue inverted black button">JOIN</a>
+              <a href="/signIn" class="btn btn-xl main-bt js-scroll-trigger">JOIN</a>
             </div>
           </div>
           <div class="col-lg-5 my-auto">
             <div class="device-container">
               <!-- <div class="device-mockup iphone6_plus portrait white">
                 <div class="device"> -->
-                  
                  <!-- <div class="screen">-->
                     <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
                    <!-- <img src="../assets/hackathon_team.jpg" class="img-fluid" alt="">-->
@@ -31,10 +27,11 @@
                  <div class="screen" id="foot">
                <!-- <img src="../assets/emulator_file1.gif" class="img-fluid" alt="">                    
                 <img src="../assets/emulator_file2.gif" class="img-fluid" alt="">-->
-                 <img src="../assets/animation1.gif" class="ui medium image fluid" alt="">
-               <!-- <img src="../assets/animation2.gif" class="img-fluid" alt="">-->
+                 <img src="../assets/animation1.gif" class="img-fluid" alt="">
+                <img src="../assets/animation2.gif" class="img-fluid" alt="">
                  </div>
-                 
+                  
+                   
                 <!-- </div>
               </div> -->
             </div>
@@ -46,48 +43,40 @@
     <section class="rightfit">
       <div class="cta-content">
         <div class="container1">
-          <h2>Stop hiring.<br>Start hackohiring.</h2>
+          <h2>Stop hiring.<br>Start hack-o-hiring.</h2>
           
           <div class="row">
                 <div class="col-lg-3">
                   <div class="feature-item">
-                  <div style="text-align:left">
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
                     <img class="1_icon" src="../assets/hiring_1_icon.png">
-                    <h3  id="textsize3">Post Jobs</h3>
-                    <p class="text-muted">Create Job Post</p>
-                    </div>
+                    <h3><a href="/signIn">Create Event</a></h3>
+                    <p class="text-muted">Create hackathon interview event</p>
                   </div>
                 </div>
                 <div class="col-lg-3">
                   <div class="feature-item">
-                  <div style="text-align:left">
                     <!--<i class="icon-camera text-primary"></i>-->
                     <img class="2_icon" src="../assets/hiring_2_icon.png">
-                    <h3  id="textsize3">Select Candidates</h3>
-                    <p class="text-muted">Shortlist candidates from applications</p>
-                    </div>
+                    <h3><a href="/signIn">Invite candidates</a></h3>
+                    <p class="text-muted">Invite candidates to the hackathon interview event</p>
                   </div>
                 </div>
                 <div class="col-lg-3">
                   <div class="feature-item">
-                  <div style="text-align:left">
                     <!--<i class="icon-present text-primary"></i>-->
                     <img class="3_icon" src="../assets/hiring_3_icon.png">
-                    <h3  id="textsize3">Interview Hackathon</h3>
-                    <p class="text-muted">Conduct Hackathon Interview</p>
-                     </div>
+                    <h3><a href="/signIn">360 degree evaluation</a></h3>
+                    <p class="text-muted">Get full evaluation of the candidates</p> 
                   </div>
                 </div>
                 <div class="col-lg-3">
                   <div class="feature-item">
-                  <div style="text-align:left">
                     <!--<i class="icon-lock-open text-primary"></i>-->
                     <img class="4_icon" src="../assets/hiring_4_icon.png">
-                    <h3  id="textsize3">Hire </h3>
+                    <h3><a href="/signIn">Hire </a></h3>
 
  <p class="text-muted"> Hire candidates that meet technical skills and cultural fit </p>
- </div>
                   </div>
                 </div>
               </div>
@@ -143,9 +132,9 @@
                    <!-- <img src="../assets/resume.jpg" class="img-fluid" alt="">-->
                     <div class="screen" id="foot">
                 <img src="../assets/resume.gif" class="img-fluid" alt="">  
-                <!--<img src="../assets/emulator_file2.gif" class="img-fluid" alt="">     -->             
+                <img src="../assets/emulator_file2.gif" class="img-fluid" alt="">                  
                   </div>
-                 
+                  
                 <!-- </div>
               </div> -->
             </div>
@@ -155,25 +144,19 @@
               <div class="row">
                 <div class="col-lg-6">
                   <div class="feature-item">
-                  <div style="text-align:left">
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
                    <div class="ui segment">
-                    <h3>Post Jobs</h3>
+                    <h3><a href="/signIn">Post Jobs</a></h3>
                     <p class="text-muted">Create Job Post and convert your job posts as a place for learning and engagement by adding Q & A plugin on all your job posts. </p>
-                  <h4><a href="/postJob">Learn More</a></h4>
-                  </div>
                   </div>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="feature-item">
-                  <div style="text-align:left">
                     <!--<i class="icon-camera text-primary"></i>-->
                     <div class="ui segment">
-                    <h3>Hackathon Interview</h3>
+                    <h3><a href="/signIn">Select Candidates</a></h3>
                     <p class="text-muted">Select candidates based on the engagement created on your job posting.</p>
-                    <h4><a href="/hackathonInterview">Learn More</a></h4>
-                    </div>
                   </div>
                   </div>
                 </div>
@@ -181,25 +164,19 @@
               <div class="row">
                 <div class="col-lg-6">
                   <div class="feature-item">
-                  <div style="text-align:left">
                     <!--<i class="icon-present text-primary"></i>-->
                   <div class="ui segment">
-                    <h3>OnBoarding</h3>
+                    <h3><a href="/signIn">Interview Hackathon</a></h3>
                     <p class="text-muted">Cut down the time spent on interviewing candidates by organizing interview hackathon where you can  evaluate all the candidates in 2 days.</p>
-                  <h4><a href="/onBoarding">Learn More</a></h4>
-                  </div>
                   </div>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="feature-item">
-                  <div style="text-align:left">
                     <!--<i class="icon-lock-open text-primary"></i>-->
                    <div class="ui segment">
-                    <h3>Employee Training </h3>
+                    <h3><a href="/signIn">Hire </a></h3>
                     <p class="text-muted"> Use the 360 degree view from the interview hackathon to hire the right candidates. </p>
-                    <h4><a href="/employeeTraining">Learn More</a></h4>
-                    </div>
                   </div>
                   </div>
                 </div>
@@ -210,10 +187,9 @@
       </div>
     </section>
     <section class="hiring">
-      
+      <div class="cta-content">
         <div class="container1">
           <h2>Stop waiting.<br>Start hack-o-hiring.</h2>
-          <div class="cta-content">
           <a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot!</a>
         </div>
       </div>

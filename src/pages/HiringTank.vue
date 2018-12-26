@@ -10,7 +10,7 @@
         <div class="row h-100">
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
-             <h1 class="mb-5" id= "textsize">Amplify engagement with experinced technical talent.</h1>
+             <h1 class="mb-5" id= "textsize">Amplify your engagement with experienced technical talent.</h1>
              <a href="/signIn" class="ui massive blue inverted black button">JOIN</a>
               <!--<a href="https://www.eventbrite.com/e/tech-jobs-pitch-social-la-tickets-49499347882" class="btn btn-xl main-bt js-scroll-trigger">Attend "Tech Jobs Pitch Social" Event</a>-->
             </div>
@@ -33,48 +33,40 @@
     <section class="rightfit">
       <div class="cta-content">
         <div class="container1">
-          <h2>Stop waiting.<br><a href="/signIn">Start building.</a></h2>
+          <h2>Tech Hiring Tank.</h2>
+          <h4 ahref="/">Learn More</h4>
           <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-4">
                   <div class="feature-item">
                   <div style="text-align:left">
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
                     <img class="dj_icon" src="../assets/home_1_icon.png">
-                    <h3  id="textsize3">Tech Hacks</h3>
-                    <p class="text-muted">Share your daily technical accomplishments</p>
+                    <h3  id="textsize3">Hiring Managers</h3>
+                    <p class="text-muted">10 Hiring managers pitch their companies</p>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-4">
                   <div class="feature-item">
                   <div style="text-align:left">
                     <!--<i class="icon-camera text-primary"></i>-->
                     <img class="bd_icon" src="../assets/home_2_icon.png">
-                    <h3  id="textsize3">Sales Hacks</h3>
-                    <p class="text-muted">Share your daily sales accomplishments</p>
+                    <h3  id="textsize3">Judges</h3>
+                    <p class="text-muted">5 member developer panel of judges.</p>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-4">
                   <div class="feature-item">
                   <div style="text-align:left">
                     <!--<i class="icon-present text-primary"></i>-->
                     <img class="n_icon" src="../assets/home_3_icon.png">
-                    <h3  id="textsize3">Startup Hacks</h3>
-                    <p class="text-muted">Share your startup accomplishments</p>
+                    <h3  id="textsize3">Audience</h3>
+                    <p class="text-muted">Experienced developers from local companies</p>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-3">
-                  <div class="feature-item">
-                  <div style="text-align:left">
-                    <!--<i class="icon-lock-open text-primary"></i>-->
-                    <img class="s_icon" src="../assets/home_4_icon.png">
-                    <h3  id="textsize3">Investor Hacks </h3>
-                    <p class="text-muted">Share your investor hacks</p>
-                    </div>
-                  </div>
-                </div>
+                
               </div>
         </div>
       </div>
@@ -90,7 +82,7 @@
          			 </b-col>
          			 <b-col>
            				 <div class="col-md-8 mx-auto">
-              				<h2 class="section-heading">Maximize your potential.</h2>
+              				<h2 class="section-heading">Maximize engagement for optimal results.</h2>
               				<p><a href="/signIn">Prepare for your next move</a></p>
               				<div class="badges">
                					<a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot</a>

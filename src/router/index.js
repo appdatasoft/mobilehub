@@ -19,7 +19,7 @@ import DailyBuild from '@/pages/developer/DailyBuild.vue'
 import BugFixMarket from '@/pages/developer/BugFixMarket.vue'
 import StartupConnect from '@/pages/developer/StartupConnect.vue'
 
-import HackathonInterview from '@/pages/hiring/HackathonInterview.vue'
+import HackathonInterview from '@/pages/HackathonInterview.vue'
 import JobPost from '@/pages/hiring/JobPost.vue'
 import OnBoarding from '@/pages/hiring/OnBoarding.vue'
 import EmployeeTraining from '@/pages/hiring/EmployeeTraining.vue'
@@ -129,7 +129,7 @@ const routes = [
         path: '/jobPost', name: 'job-post', component: JobPost, meta: { title: 'Job Post', auth:false }
     },
     {
-        path: '/hackathonInterview', name: 'hackathon-interview', component: DailyBuild, meta: { title: 'Hackathon Interview', auth:false }
+        path: '/hackathonInterview', name: 'hackathon-interview', component: HackathonInterview, meta: { title: 'Hackathon Interview', auth:false }
     },
     {
         path: '/onBoarding', name: 'onboarding', component: OnBoarding, meta: { title: 'OnBoarding', auth:false }

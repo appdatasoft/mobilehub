@@ -13,7 +13,7 @@
             <br>
             <br>
             <br>
-             <h1 class="mb-5" id= "textsize">Growth-hack your tech hiring.</h1>
+             <h1 class="mb-5" id= "textsize">Growth hacking tech hiring.</h1>
              <div class="row">
              <div class="col-lg-4">
                 <h3>Fast, cost-effective, hassle-free.</h3>
@@ -56,8 +56,9 @@
                 <img src="../assets/emulator_file2.gif" class="img-fluid" alt="">
          			 </b-col>
          			 <b-col>
-           				 <div class="col-md-8 mx-auto">
-              				<h2 class="section-heading">Built by developers and technical product managers.</h2>
+           				 <div class="col-md-16 mx-auto">
+              				<h2 class="section-heading">Built by technical hiring  managers for 
+                      technical hiring managers.</h2>
               				<p><a href="/signIn">Learn More</a></p>
               				<div class="badges">
                					<a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot</a>
@@ -70,8 +71,8 @@
     <section class="features" id="features">
       <div class="container">
         <div class="section-heading text-center">
-          <h2>Find right fit for innovation</h2>
-          <p class="text-muted"><a href="/signIn">Technical and cultural fit</a></p>
+          <h2>Technical and cultural fit</h2>
+          <p class="text-muted"><a href="/signIn">Learn More</a></p>
           <hr>
         </div>
         <div class="row">
@@ -102,7 +103,7 @@
         
       </div>
     </section>
-    <section class="cta2">
+    <section class="img">
         <div class="container1">
           
           <div class="cta-content">
@@ -162,6 +163,16 @@
 .text-muted1{
   font-size: 12px;
   color:#ccc;
+}
+section.img {            
+  position: relative;
+  padding: 270px 0;
+  background-image: url("../../img/bg-cta2.gif");
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 </style>
 
