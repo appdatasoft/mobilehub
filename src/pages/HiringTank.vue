@@ -10,17 +10,16 @@
         <div class="row h-100">
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
-             <h1 class="mb-5" id= "textsize">Amplify your engagement with experienced technical talent.</h1>
+             <h1 class="mb-5" id= "textsize">Amplify engagement for your job post.</h1>
              <a href="/signIn" class="ui massive blue inverted black button">JOIN</a>
-              <!--<a href="https://www.eventbrite.com/e/tech-jobs-pitch-social-la-tickets-49499347882" class="btn btn-xl main-bt js-scroll-trigger">Attend "Tech Jobs Pitch Social" Event</a>-->
-            </div>
+              </div>
           </div>
           <div class="col-lg-5 my-auto">
             <div class="device-container">
               <!-- <div class="device-mockup iphone6_plus portrait white">
                 <div class="device"> -->
                  <div class="screen" id="foot">
-                 <img src="../assets/makemoney.gif" class="img-fluid" alt="">
+                 <img src="../assets/hiringtank_stage.png" class="img-fluid" alt="">
                </div>
                 <!-- </div>
               </div> -->
@@ -41,8 +40,8 @@
                   <div style="text-align:left">
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
                     <img class="dj_icon" src="../assets/home_1_icon.png">
-                    <h3  id="textsize3">Hiring Managers</h3>
-                    <p class="text-muted">10 Hiring managers pitch their companies</p>
+                    <h3  id="textsize3">Hiring Team</h3>
+                    <p class="text-muted">Hiring team from 10 pitching companies</p>
                     </div>
                   </div>
                 </div>
@@ -82,7 +81,7 @@
          			 </b-col>
          			 <b-col>
            				 <div class="col-md-8 mx-auto">
-              				<h2 class="section-heading">Maximize engagement for optimal results.</h2>
+              				<h2 class="section-heading">You, Your Team, Your Vision.</h2>
               				<p><a href="/signIn">Prepare for your next move</a></p>
               				<div class="badges">
                					<a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot</a>
@@ -96,7 +95,7 @@
     <section class="features" id="features">
       <div class="container">
         <div class="section-heading text-center">
-          <h2>Professional Growth Support</h2>
+          <h2>Growth Hack your Hiring</h2>
           <p class="text-muted"><a href="/signIn">Make your dreams reality</a></p>
           <hr>
         </div>
@@ -105,7 +104,7 @@
        			 <b-row>
               <b-col>
            				 <div class="col-md-8 mx-auto">
-              				<h2 class="section-heading">Maximize your potential.</h2>
+              				<h2 class="section-heading">Hire teams for Innovation.</h2>
               				<p><a href="/signIn">Prepare for your next move</a></p>
               				<div class="badges">
                					<a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot</a>
@@ -113,8 +112,7 @@
            				 </div>
          			 </b-col>
          			 <b-col>
-           		 <!--<img src="../assets/slip.gif" class="img-fluid" alt="">-->
-                <img src="../assets/growth.gif" class="img-fluid" alt="">
+                <img src="../assets/innovation.gif" class="img-fluid" alt="">
          			 </b-col>
          			 
          		 </b-row>

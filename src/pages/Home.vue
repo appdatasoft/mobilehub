@@ -14,11 +14,8 @@
             <br>
             <br>
              <h1 class="mb-5" id= "textsize">Growth hacking tech hiring.</h1>
-             <div class="row">
-             <div class="col-lg-4">
-                <h3>Fast, cost-effective, hassle-free.</h3>
-                     </div>
-                 
+              <h2>Fast, cost-effective, hassle-free.</h2>
+             <div class="row">                
               </div>
               <br>
              <!--<a href="/signIn" class="btn btn-xl main-bt js-scroll-trigger">JOIN</a>-->
@@ -39,10 +36,8 @@
     <section class="rightfit">
       <div class="cta-content">
         <div class="container1">
-          <h2>Cut down the time in tech hiring.</h2> 
+          <h2>Rally Engagement around You, Your Team & Your Vision.</h2> 
           <p class="text-muted"><a href="/">Learn More</a></p>
-         
-          
         </div>
       </div>
       <div class="overlay"></div>
@@ -57,8 +52,8 @@
          			 </b-col>
          			 <b-col>
            				 <div class="col-md-16 mx-auto">
-              				<h2 class="section-heading">Built by technical hiring  managers for 
-                      technical hiring managers.</h2>
+              				<h2 class="section-heading">Built for  tech hiring  managers by
+                      tech hiring managers.</h2>
               				<p><a href="/signIn">Learn More</a></p>
               				<div class="badges">
                					<a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot</a>
@@ -81,9 +76,9 @@
                   <div class="feature-item">
                   <div style="text-align:center">
                     <!--<i class="icon-camera text-primary"></i>-->
-                    <img class="bd_icon" src="../assets/phone.gif">
-                    <h3 id="textsize3">Tech Hiring Tank</h3>
-                    <p class="text-muted">Talk to business , technical experts </p>
+                    <img class="bd_icon" src="../assets/hiringtank_icon.jpg">
+                    <h3 id="textsize3">Hiring Tank</h3>
+                    <p class="text-muted">Engage with tech talent.</p>
                     </div>
                   </div>
                 </div>
@@ -91,9 +86,9 @@
                   <div class="feature-item">
                   <div style="text-align:center">
                     <!--<i class="icon-camera text-primary"></i>-->
-                    <img class="bd_icon" src="../assets/video.gif">
+                    <img class="bd_icon" src="../assets/hackathon_icon.jpg">
                     <h3 id="textsize3">Hackathon Interview</h3>
-                    <p class="text-muted">Do video calls with experts </p>
+                    <p class="text-muted">Optimize tech interviews.</p>
                     </div>
                   </div>
                 </div>
@@ -103,15 +98,17 @@
         
       </div>
     </section>
-    <section class="img">
+    <section class="cta2">
+      
         <div class="container1">
-          
+          <h2>Stop Waiting <br/>Start Hackohire</h2>
           <div class="cta-content">
-         
+         <!-- <a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot!</a>-->
         </div>
       </div>
       <div class="overlay"></div>
     </section>
+    
     <section class="contact bg-primary1" id="contact">
       <div class="container1">
         <h2>We

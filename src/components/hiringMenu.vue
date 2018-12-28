@@ -6,7 +6,7 @@
     <b-navbar-brand to="/"><img src="" srcset="../assets/hohlogo.png 1x" width= "20%" alt="hackohire for happy teams"></b-navbar-brand>
     <b-navbar-nav>
       <b-nav-item v-if="!isAuthenticated" to="/hiringTank">Hiring Tank</b-nav-item>
-      <b-nav-item v-if="!isAuthenticated" to="/hackathonInterview">Hackathon Interview</b-nav-item>
+      <!--<b-nav-item v-if="!isAuthenticated" to="/hackathonInterview">Hackathon Interview</b-nav-item>-->
       </b-navbar-nav>
      <b-navbar-nav>
       <b-nav-item v-if="isAuthenticated" to="/developer">Pitch</b-nav-item>
@@ -18,12 +18,12 @@
       <b-nav-item 
         v-if="!isAuthenticated" 
         class="nav-btn" 
-        to="/signIn"><span class="nav-username">Sign In</span></b-nav-item>
+       <!-- to="/signIn"><span class="nav-username">Sign In</span></b-nav-item>-->
       <b-nav-item-dropdown 
         v-if="isAuthenticated" 
         right>
         <template slot="button-content">
-          <icon name="user-circle"/><strong class="nav-username">{{ user.username }}</strong>
+         <!-- <icon name="user-circle"/><strong class="nav-username">{{ user.username }}</strong>-->
         </template>
         <b-row 
           class="justify-content-md-center" 

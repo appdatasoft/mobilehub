@@ -13,7 +13,7 @@
         <div class="row h-100">
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
-             <h1 class="mb-5" id= "textsize">Hire best fit, faster with hackathon interview.</h1>
+             <h1 class="mb-5" id= "textsize">Hire the best fit, faster with hackathon interview.</h1>
              <h2>Cut down the hiring time & cost.</h2>
               <!-- <a href="/signIn" class="btn btn-xl main-bt js-scroll-trigger">Attend "Tech Jobs Pitch Social" Event</a> -->
               <a href="/signIn" class="ui massive blue inverted black button">JOIN</a>
