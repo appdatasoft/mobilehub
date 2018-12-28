@@ -17,6 +17,7 @@
     "bootstrap-vue": "^2.0.0-rc.11",
     "graphql-tag": "^2.10.0",
     "moment-timezone": "^0.5.23",
+    "semantic-ui-vue": "^0.7.0",
     "vue": "^2.5.16",
     "vue-apollo": "^3.0.0-beta.26",
     "vue-awesome": "^2.3.7",

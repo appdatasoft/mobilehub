@@ -10,6 +10,7 @@ import AWSAppSyncClient from "aws-appsync"
 import VueApollo from 'vue-apollo'
 import appSyncConfig from './AppSync'
 import VueSemantic from 'vuejs-semantic-ui'
+import SuiVue from 'semantic-ui-vue'
 
 const client = new AWSAppSyncClient({
   url: appSyncConfig.graphqlEndpoint,
@@ -35,6 +36,7 @@ Vue.use(BootstrapVue)
 Vue.use(VueApollo)
 Vue.use(VueSemantic);
 Vue.component('icon', Icon)
+Vue.use(SuiVue)
 
 Vue.config.productionTip = false
 

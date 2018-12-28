@@ -1,7 +1,7 @@
 //Dream_Job.vue file from components folder full code 
 
 <template>
-          <!-- using Semantic Class -->
+
     <div class="ui stackable six column grid">
       <!--   Left Menu     -->
       <div class="column" id="column_1">
@@ -10,23 +10,21 @@
   
       <!--    End of Left Menu     -->
   
-  
       <!--    Main Menu & text box      -->
       <div class="column" id="column_2">
-          
         <div class="ui stackable grid container"></div>
         <div class="fourteen wide column">
           
+          <!-- Step links  -->
           <div class="ui tiny four steps">
-            
-            <a  class="active step">
+            <a href="/developer/dreamjob" class="active step">
               <i class="paper plane icon"></i>
                 <div class="content">
                   <div class="title">Dream job</div>
                   <div class="description">Choose your dream job</div>
                 </div>
             </a>
-            <a href="/Daily_Build" class="active step">
+            <a href="/developer/dailyBuild" class="active step">
               <i class="edit outline icon"></i>
                 <div class="content">
                   <div class="title">Daily build</div>
@@ -50,10 +48,14 @@
           </div>
 
 
-            <!---                  form Removalble                -->
+            <!---form-->
             <div class="ui segment">
-                <div class="ui form">
-                    <p class="ui header">Dream Job</p>
+                <form class="ui form">
+                    <p class="ui header">Provide details about your dream job</p>
+              <div class="field">
+                <input type="text" placeholder="Dream Job Title"  v-validate="'required'">
+              </div>
+
                     <div class="ui grid">
                         <div class="six wide column">
                             <div class="column">
@@ -67,62 +69,111 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                </div>
-                <div class="ui segment">
-                <div class="ui form">
-                    <div class="field">
+               
+                
+                <!-- <div class="ui segment"> -->
+              <div class="field">
                 <label>Enter your dream companies</label>
-                <input type="text" name="username" v-validate="'required'">
+                <input type="text" name="company" v-validate="'required'">
               </div>
+
 
               <div class="field">
                 <label>Location Preferences</label>
-                <input type="text" name="username" v-validate="'required'">
+
+  <sui-dropdown
+    multiple
+    fluid
+    :options="location"
+    placeholder="Preferred Location"
+    search
+    selection
+    allow-additions
+    v-model="current"
+  />
+
+                <!-- <input type="text" name="location" v-validate="'required'"> -->
               </div>
 
               <div class="field">
-                <label>Salary Requirement
+                <label>Salary Requirement in $
                 </label>
-                <input type="text" name="username" v-validate="'required'">
+                <input type="text" name="salary" v-validate="'required'">
               </div>
 
               <div class="field">
                 <label>Type of projects you would like to work on</label>
-                <input type="text" name="username" v-validate="'required'">
+                <input type="text" name="project" v-validate="'required'">
               </div>
 
               <div class="field">
-                <label>Timeline
+                <label>Timeline in months
                 </label>
-                <input type="text" name="username" v-validate="'required'">
+                <input type="text" name="duration" v-validate="'required'">
               </div>
-              <button class="ui button primary">Submit</button>
+             </form>
+               
+               <div align="center"> <br>
+              <button class="ui button primary">Save</button> &emsp;
+              <button class="ui button primary">Cancel</button>  &emsp;
+              <button class="ui button primary">Publish</button>
+              </div>
+
                 </div>
                 </div>
         </div>
       </div>
-  
-    </div>
-  
 </template>
 
 
 
 <script>
+ 
+import { mapState } from 'vuex'
+// import {$,jQuery} from 'jquery';
 
-  import {
-    mapState
-  } from 'vuex'
+// window.$ = $;
+// window.jQuery = jQuery;
+// window.$ = window.jQuery = 'jquery'
+
+// global.jQuery = require('jquery')
+// var $ = global.jQuery
+
+
+
   
   export default {
-    name: 'Dream_Job',
+    name: "Dream_Job",
     computed: {
       ...mapState({
         user: state => state.auth.user,
       })
+    },
+  // $(this.$el.multi-select).dropdown()
+
+  // $('#multi-select').dropdown()
+// $(multi-select).dropdown()
+      // methods: {
+
+//   location(){
+//   $(this.multi-select).dropdown()
+//   // $(this.$el).find('.dropdown').dropdown();
+// },
+
+
+      data() {
+    return {
+      current: null,
+      location: [
+        { key: 'city1', text: 'City 1', value: 'city1' },
+        { key: 'city1', text: 'City 2', value: 'city2' },
+        { key: 'city1', text: 'City 3', value: 'city3' },
+        { key: 'city1', text: 'City 4', value: 'city4' },
+      ],
     }
-  }
+  },
+}
+  
 </script>
 
 <style scoped>
@@ -139,4 +190,5 @@
     padding-left: 8%;
     width: 60%;
   }
+
 </style>
