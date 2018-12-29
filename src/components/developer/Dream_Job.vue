@@ -92,18 +92,18 @@
                 <label>Location Preferences</label>
     <div v-for="(Cities, index) in city" :key="index"> 
      <p>{{Cities.city_name}} </p>
-
- 
-  <sui-dropdown multiple fluid 
-    :options= "Cities.city_name"
-    placeholder="Preferred Location"
-    search
-    selection
-    allow-additions
-    v-model="city" />     
+      location:[{key="{{index}}", text="{{Cities.city_name}}", value="{{Cities.city_name}}"}]
             </div> 
-            </div>   
+            </div> 
+              
+ 
+  <select v-model="citiesselected">
+  <option v-for="(Cities, index) in city" :key="index">{{Cities.city_name}}</option>
+  
+</select>
 
+
+<span>Selected: {{ selected }}</span>
               <div class="field">
                 <label>Salary Requirement in $
                 </label>
