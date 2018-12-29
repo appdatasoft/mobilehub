@@ -10,7 +10,7 @@
         <div class="row h-100">
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
-             <h1 class="mb-5" id= "textsize">Amplify engagement for your job post.</h1>
+             <h1 class="mb-5" id= "textsize">Create & amplify engagement for your job post.</h1>
              <a href="/signIn" class="ui massive blue inverted black button">JOIN</a>
               </div>
           </div>
@@ -19,7 +19,7 @@
               <!-- <div class="device-mockup iphone6_plus portrait white">
                 <div class="device"> -->
                  <div class="screen" id="foot">
-                 <img src="../assets/hiringtank_stage.png" class="img-fluid" alt="">
+                 <img src="../assets/hiringtank_stage3.png" class="img-fluid" alt="">
                </div>
                 <!-- </div>
               </div> -->

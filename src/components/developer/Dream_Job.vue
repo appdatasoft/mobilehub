@@ -74,26 +74,35 @@
                 <!-- <div class="ui segment"> -->
               <div class="field">
                 <label>Enter your dream companies</label>
-                <input type="text" name="company" v-validate="'required'">
+<!--<sui-dropdown
+    multiple
+    fluid
+    :options="company"
+    placeholder="Preferred Company"
+    search
+    selection
+    allow-additions
+    v-model="current"
+  /> -->
+
               </div>
 
 
               <div class="field">
                 <label>Location Preferences</label>
+    <div v-for="(Cities, index) in city" :key="index"> 
+     <p>{{Cities.city_name}} </p>
 
-  <sui-dropdown
-    multiple
-    fluid
-    :options="location"
+ 
+  <sui-dropdown multiple fluid 
+    :options= "Cities.city_name"
     placeholder="Preferred Location"
     search
     selection
     allow-additions
-    v-model="current"
-  />
-
-                <!-- <input type="text" name="location" v-validate="'required'"> -->
-              </div>
+    v-model="city" />     
+            </div> 
+            </div>   
 
               <div class="field">
                 <label>Salary Requirement in $
@@ -103,8 +112,18 @@
 
               <div class="field">
                 <label>Type of projects you would like to work on</label>
-                <input type="text" name="project" v-validate="'required'">
-              </div>
+
+  <!-- <sui-dropdown
+    multiple
+    fluid
+    :options="project"
+    placeholder="Dream Projects"
+    search
+    selection
+    allow-additions
+    v-model="current2"
+  /> -->
+            </div>
 
               <div class="field">
                 <label>Timeline in months
@@ -129,19 +148,9 @@
 
 <script>
  
-import { mapState } from 'vuex'
-// import {$,jQuery} from 'jquery';
+import { mapState } from 'vuex' 
+import ListCities from '../../queries/ListCities'
 
-// window.$ = $;
-// window.jQuery = jQuery;
-// window.$ = window.jQuery = 'jquery'
-
-// global.jQuery = require('jquery')
-// var $ = global.jQuery
-
-
-
-  
   export default {
     name: "Dream_Job",
     computed: {
@@ -149,31 +158,15 @@ import { mapState } from 'vuex'
         user: state => state.auth.user,
       })
     },
-  // $(this.$el.multi-select).dropdown()
 
-  // $('#multi-select').dropdown()
-// $(multi-select).dropdown()
-      // methods: {
-
-//   location(){
-//   $(this.multi-select).dropdown()
-//   // $(this.$el).find('.dropdown').dropdown();
-// },
-
-
-      data() {
-    return {
-      current: null,
-      location: [
-        { key: 'city1', text: 'City 1', value: 'city1' },
-        { key: 'city1', text: 'City 2', value: 'city2' },
-        { key: 'city1', text: 'City 3', value: 'city3' },
-        { key: 'city1', text: 'City 4', value: 'city4' },
-      ],
-    }
+    
+    apollo: { 
+    city: {
+      query: () => ListCities,
+       update: data => data.listCities.items
+    },  
   },
-}
-  
+  }
 </script>
 
 <style scoped>

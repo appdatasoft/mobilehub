@@ -14,7 +14,9 @@ import ConnectDecisionMakers from '@/pages/home/ConnectDecisionMakers.vue'
 import ConnectHiringManagers from '@/pages/home/ConnectHiringManagers.vue'
 import ConnectStartups from '@/pages/home/ConnectStartups.vue'
 
-import DreamJob from '@/pages/developer/DreamJob.vue'
+//import DreamJob from '@/pages/developer/DreamJob.vue'
+import Dream_Job from '@/components/developer/Dream_Job'
+
 import DailyBuild from '@/pages/developer/DailyBuild.vue'
 import BugFixMarket from '@/pages/developer/BugFixMarket.vue'
 import StartupConnect from '@/pages/developer/StartupConnect.vue'
@@ -119,8 +121,11 @@ const routes = [
     {
         path: '/dailyBuild', name: 'daily-build', component: DailyBuild, meta: { title: 'Daily Build', auth:false }
     },
+    //{
+     //   path: '/dreamJob', name: 'dream-job', component: DreamJob, meta: { title: 'Dream Job', auth:false }
+    //},
     {
-        path: '/dreamJob', name: 'dream-job', component: DreamJob, meta: { title: 'Dream Job', auth:false }
+        path:'/dreamJob' ,name: 'Dream_Job',component:Dream_Job,meta:{title:'Dream_Job',auth:true }
     },
     {
         path: '/startupConnect', name: 'startup-connect', component: StartupConnect, meta: { title: 'Startup Connect', auth:false }
