@@ -1,5 +1,3 @@
-//Dream_Job.vue file from components folder full code 
-
 <template>
 
     <div class="ui stackable six column grid">
@@ -13,8 +11,7 @@
       <!--    Main Menu & text box      -->
       <div class="column" id="column_2">
         <div class="ui stackable grid container"></div>
-        <div class="fourteen wide column">
-          
+        <div class="fourteen wide column">          
           <!-- Step links  -->
           <div class="ui tiny four steps">
             <a href="/developer/dreamjob" class="active step">
@@ -46,8 +43,6 @@
                 </div>
             </a>
           </div>
-
-
             <!---form-->
             <div class="ui segment">
                 <form class="ui form">
@@ -68,13 +63,14 @@
                                 <textarea rows="10" placeholder="Describe your dream job"></textarea>
                             </div>
                         </div>
-                    </div>                
-                <!-- <div class="ui segment"> -->
+                    </div>   
+                    <br/>             
               <div class="field">
                 <label>Enter your dream companies</label>
                   <sui-dropdown
                     multiple
                     fluid
+                    direction="downward"
                     :options="company"
                     placeholder="Preferred Company"
                     search
@@ -83,102 +79,37 @@
                     v-model="current"  
                     />
               </div>
-              <!-- <div class="field">
-              <div data-v-115c3d82="" role="listbox" tabindex="0" class="ui fluid multiple selection search dropdown">
-                <div role="alert" aria-live="polite" class="default text">Skills</div>
-                <i aria-hidden="true" class="dropdown icon"></i>
-                <span class="sizer"></span>
-                <div tabindex="-1" multiple
-                   fluid
-                   selection
-                   allow-additions
-                   class="menu transition ui fluid multiple selection search dropdown default text sizer">
-                <input type="text" aria-autocomplete="list" autocomplete="off" tabindex="0" class="search">
-                   
-                  <div role="option" multiple
-                   fluid
-                   selection="true"
-                   allow-additions
-                   class="item" v-for="(location, index) in city" :key="index">{{location.city_name}}</div>
-                  <div role="option" class="item">Arizona</div>
-                  
-              </div>
-</div></div> -->
-
-              <div class="field">
-                <label>Location Preferences</label>
-                         <select class="selectpicker" >
-                            <option
-                              v-for="(Cities, index) in city" :key="index"
-                              value=""
-                              multiple
-                              fluid
-                              selection
-                              allow-additions
-                              placeholder = "Preferred Location">{{Cities.city_name}}
-                            </option>
-                          </select>     
-                <!-- <select class="selectpicker" multiple data-live-search="true">
-                  <option
-                   v-for="(location, index) in city" :key="index" 
-                   value="" 
-                   multiple
-                   fluid
-                   selection
-                   allow-additions
-                   placeholder = "Preferred Location">{{location.city_name}}
-                  </option>
-                </select> -->
-                <!-- <div v-for="(location, index) in city" :key="index" >
-                </div> -->
-              <!-- <multiselect v-for="(location, index) in city" :key="index"
-                value="" 
-                multiple
-                fluid
-                   selection
-                   allow-additions
-                   placeholder = "Preferred Location"></multiselect> -->
-              <!-- <sui-dropdown
-                
-                multiple
-                fluid
-                direction="downward"
-                :options = "location"
-                placeholder = "Preferred Location"
-                search
-                selection
-                allow-additions
-                v-model= "current1"
-              /> -->
-              <!--<option v-for="place in city" 
-                :key="place.id" multiple
-                fluid
-                direction="downward"
-                :options = "location"
-                placeholder = "Preferred Location"
-                search
-                selection
-                allow-additions
-                >{{place.city_name}}</option>
-              </sui-dropdown> -->
-                <!-- </div>   -->
-                   
               
-            <!-- </div>  -->
-      
-            </div>   
-
-              <div class="field">
+              <!-- multiple tag selection -->
+  <div class="field">           
+  <label >Location Preferences</label>                                                  
+  <multiselect 
+        :searchable="false"
+        :hide-selected="true" 
+        :internal-search="true"
+        open-direction="bottom" 
+        v-model="value" 
+        label="city_name" 
+        :close-on-select="false"
+        :options="city"  
+        :multiple="true"  
+        :select="true" 
+        track-by="city_name" 
+        :taggable="true"  
+        placeholder="Select Location"> 
+</multiselect>
+      </div>  
+             <div class="field">
                 <label>Salary Requirement in $
                 </label>
-                <input type="text" name="salary" >
+                <input type="text" placeholder="Enter Salary" name="salary" >
               </div>
-
-              <div class="field">
+             <div class="field">
                 <label>Type of projects you would like to work on</label>
                 <sui-dropdown
-                  multiple
+                  multiple 
                   fluid
+                  direction="downward"
                   :options="project"
                   placeholder="Dream Projects"
                   search
@@ -187,11 +118,10 @@
                   v-model="current2"
                 />
               </div>
-
-              <div class="field">
+         <div class="field">
                 <label>Timeline in months
                 </label>
-                <input type="text" name="duration" >
+                <input type="text" placeholder="Enter Timeline" name="duration" >
               </div>
              </form>
                
@@ -206,28 +136,26 @@
         </div>
       </div>
 </template>
-
 <script>
 import Vue from 'vue'
 import { mapState } from 'vuex' 
 import ListCities from '../../queries/ListCities'
-//import Multiselect from 'vue-multiselect'
-
+import Multiselect from 'vue-multiselect'
   export default {
-  
+    components: { Multiselect },
     name: "Dream_Job",
     computed: {
       ...mapState({
         user: state => state.auth.user,
       })
-    },
-    // methods:{
-    //   location(Cities){
-    //     return Cities.city_name=this.Cities.city_name
-    //   }
-    // },
-        
-      data() { 
+    }, 
+
+   city1:{
+      abc(){
+       return this.city.city_name
+      }
+    },          
+    data() { 
         return {
         current: null,
         company: [
@@ -236,15 +164,8 @@ import ListCities from '../../queries/ListCities'
         { key: 'company3', text: 'Company 3', value: 'company3' },
         { key: 'company4', text: 'Company 4', value: 'company4' },
         ],
-
-        current1: null,
-        location: [
-         {key: 'index', text:'City name1', value: 'city_name1'},
-         {key: 'index', text:'City name2', value: 'city_name2'},
-         {key: 'index', text:'city name3', value: 'city_name3'},
-         
-        ],
-
+           value:null,
+           city:[],
        current2: null,
        project: [
         { key: 'project1', text: 'Project 1', value: 'project1' },
@@ -254,17 +175,18 @@ import ListCities from '../../queries/ListCities'
        ],
 
       }
+      
     },
    
     apollo: { 
     city: {
       query: () => ListCities,
-      update: data => data.listCities.items
-    },  
+       update: data => data.listCities.items
+    },     
   },
-  }
+  } 
 </script>
-
+<style src="vue-multiselect/dist/vue-multiselect.min.css"></style>
 <style scoped>
   * {
     box-sizing: border-box;
@@ -276,8 +198,8 @@ import ListCities from '../../queries/ListCities'
   
   #column_2 {
     padding-top: 50px;
-    padding-left: 8%;
-    width: 60%;
+    padding-left: 2%;
+    width: 65%;
   }
 
 </style>

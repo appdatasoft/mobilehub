@@ -1,205 +1,265 @@
 <template>
-
-    <div class="ui stackable six column grid">
-      <!--   Left Menu     -->
-      <div class="column" id="column_1">
-        <v-menuleft/>
-      </div>
-  
-      <!--    End of Left Menu     -->
-  
-      <!--    Main Menu & text box      -->
-      <div class="column" id="column_2">
-        <div class="ui stackable grid container"></div>
-        <div class="fourteen wide column">          
-          <!-- Step links  -->
-          <div class="ui tiny four steps">
-            <a href="/developer/dreamjob" class="active step">
-              <i class="paper plane icon"></i>
-                <div class="content">
-                  <div class="title">Dream job</div>
-                  <div class="description">Choose your dream job</div>
-                </div>
-            </a>
-            <a href="/developer/dailyBuild" class="active step">
-              <i class="edit outline icon"></i>
-                <div class="content">
-                  <div class="title">Daily build</div>
-                  <div class="description">Choose your daily build options</div>
-                </div>
-            </a>
-            <a href="/Bugfix_Market" class="active step">
-              <i class="bug icon"></i>
-                <div class="content">
-                  <div class="title">Bug fix market</div>
-                  <div class="description">Choose bug fixing market options</div>
-                </div>
-            </a>
-            <a href="/Startups_Developer" class="active step">
-              <i class="building icon"></i>
-                <div class="content">
-                  <div class="title">Startups</div>
-                  <div class="description">Choose your startups options</div>
-                </div>
-            </a>
-          </div>
-            <!---form-->
-            <div class="ui segment">
-                <form class="ui form">
-                    <p class="ui header">Provide details about your dream job</p>
-              <div class="field">
-                <input type="text" placeholder="Dream Job Title"  >
-              </div>
-
-                    <div class="ui grid">
-                        <div class="six wide column">
-                            <div class="column">
-                                <!-- <i class="file massive image icon"></i> -->
-                                <img class="ui medium image" src="https://semantic-ui.com/images/wireframe/image.png">
-                            </div>
-                        </div>
-                        <div class="nine wide column">
-                            <div class="column">
-                                <textarea rows="10" placeholder="Describe your dream job"></textarea>
-                            </div>
-                        </div>
-                    </div>   
-                    <br/>             
-              <div class="field">
-                <label>Enter your dream companies</label>
-                  <sui-dropdown
-                    multiple
-                    fluid
-                    direction="downward"
-                    :options="company"
-                    placeholder="Preferred Company"
-                    search
-                    selection
-                    allow-additions
-                    v-model="current"  
-                    />
-              </div>
-              
-              <!-- multiple tag selection -->
-  <div class="field">           
-  <label >Location Preferences</label>                                                  
-  <multiselect 
-        :searchable="false"
-        :hide-selected="true" 
-        :internal-search="true"
-        open-direction="bottom" 
-        v-model="value" 
-        label="city_name" 
-        :close-on-select="false"
-        :options="city"  
-        :multiple="true"  
-        :select="true" 
-        track-by="city_name" 
-        :taggable="true"  
-        placeholder="Select Location"> 
-</multiselect>
-      </div>  
-             <div class="field">
-                <label>Salary Requirement in $
-                </label>
-                <input type="text" placeholder="Enter Salary" name="salary" >
-              </div>
-             <div class="field">
-                <label>Type of projects you would like to work on</label>
-                <sui-dropdown
-                  multiple 
-                  fluid
-                  direction="downward"
-                  :options="project"
-                  placeholder="Dream Projects"
-                  search
-                  selection
-                  allow-additions
-                  v-model="current2"
-                />
-              </div>
-         <div class="field">
-                <label>Timeline in months
-                </label>
-                <input type="text" placeholder="Enter Timeline" name="duration" >
-              </div>
-             </form>
-               
-               <div align="center"> <br>
-                <button class="ui button primary">Save</button> &emsp;
-                <button class="ui button primary">Cancel</button>  &emsp;
-                <button class="ui button primary">Publish</button>
-              </div>
-
-              </div>
+  <!-- <b-container>  -->
+    <div class="head_1">
+    <!-- <header class="masthead_hiring"> -->
+    <div>
+    <v-menu/>
+    </div>
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col-lg-7 my-auto">
+            <div class="header-content mx-auto">
+                         <h1 class="mb-5" id= "textsize">Start with customer development to make your business idea a success.
+                  
+                 </h1>
+              <!-- <a href="/signIn" class="btn btn-xl main-bt js-scroll-trigger">Attend "Tech Jobs Pitch Social" Event</a> -->
+              <a href="/signIn" class="ui massive blue inverted black button">JOIN</a>
             </div>
+          </div>
+          <div class="col-lg-5 my-auto">
+            <div class="device-container">
+              <!-- <div class="device-mockup iphone6_plus portrait white">
+                <div class="device"> -->
+                 <!-- <div class="screen">-->
+                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                   <!-- <img src="../assets/hackathon_team.jpg" class="img-fluid" alt="">-->
+                  <!-- <video ref="videoRef" src="../assets/video.mp4" id="video-container" width="100%" autoplay loop ></video>-->
+                 <div class="screen" id="foot">
+               <!-- <img src="../assets/emulator_file1.gif" class="img-fluid" alt="">                    
+                <img src="../assets/emulator_file2.gif" class="img-fluid" alt="">-->
+                 <img src="../../assets/animation1.gif" class="img-fluid" alt="">
+                <img src="../../assets/animation2.gif" class="img-fluid" alt="">
+                 </div>
+                  
+                <!-- </div>
+              </div> -->
+            </div>
+          </div>
         </div>
       </div>
+    <!-- </header> -->
+    <b-container>
+    <section class="rightfit">
+      <div class="cta-content">
+        <div class="container1">
+          <h2>Stop hiring.<br>Start hack-o-hiring.</h2>
+          
+          <div class="row">
+                <div class="col-lg-3">
+                  <div class="feature-item">
+                    <!--<i class="icon-screen-smartphone text-primary"></i>-->
+                    <img class="1_icon" src="../../assets/hiring_1_icon.png">
+                    <h3  id="textsize3">Create Event</h3>
+                    <p class="text-muted">Create hackathon interview event</p>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="feature-item">
+                    <!--<i class="icon-camera text-primary"></i>-->
+                    <img class="2_icon" src="../../assets/hiring_2_icon.png">
+                    <h3  id="textsize3">Invite candidates</h3>
+                    <p class="text-muted">Invite candidates to the hackathon interview event</p>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="feature-item">
+                    <!--<i class="icon-present text-primary"></i>-->
+                    <img class="3_icon" src="../../assets/hiring_3_icon.png">
+                    <h3  id="textsize3">360 degree evaluation</h3>
+                    <p class="text-muted">Get full evaluation of the candidates</p> 
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="feature-item">
+                    <!--<i class="icon-lock-open text-primary"></i>-->
+                    <img class="4_icon" src="../../assets/hiring_4_icon.png">
+                    <h3  id="textsize3">Hire </h3>
+
+ <p class="text-muted"> Hire candidates that meet technical skills and cultural fit </p>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+      <div class="overlay"></div>
+    </section>
+    <!--<section class="rightfit bg-primary2 text-center" id="download">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <h2 class="section-heading">Dont just fill an open position, fill it with perfect fit</h2>
+            <p>Want to learn how to improve your current hiring practices?</p>
+            <div class="badges">
+               <a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>-->
+    <section>
+     		 <b-container >
+       			 <b-row>
+         			 <b-col>
+           				 <img src="../../assets/innovation.gif" class="img-fluid" alt="">
+         			 </b-col>
+         			 <b-col>
+           				 <div class="col-md-8 mx-auto">
+              				<h2 class="section-heading">Don't just fill an open position but fill it with perfect fit</h2>
+              				<p>Want to learn how to improve your current hiring practices?</p>
+              				<div class="badges">
+               					<a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot</a>
+             			 	</div>
+           				 </div>
+         			 </b-col>
+         		 </b-row>
+     		 </b-container>
+    	</section> 
+    <section class="features" id="features">
+      <div class="container">
+        <div class="section-heading text-center">
+          <h2>Skill Set + Cultural Fit</h2>
+          <p class="text-muted">Cut down the hiring time</p>
+          <hr>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 my-auto">
+            <div class="device-container">
+              <!-- <div class="device-mockup iphone6_plus portrait white">
+                <div class="device"> -->
+                  <!--<div class="screen">-->
+                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                   <!-- <img src="../assets/resume.jpg" class="img-fluid" alt="">-->
+                    <div class="screen" id="foot">
+                <img src="../../assets/resume.gif" class="img-fluid" alt="">  
+                <img src="../../assets/emulator_file2.gif" class="img-fluid" alt="">                  
+                  </div>
+                  
+                <!-- </div>
+              </div> -->
+            </div>
+          </div>
+          <div class="col-lg-8 my-auto">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <!--<i class="icon-screen-smartphone text-primary"></i>-->
+                   <div class="ui segment">
+                    <h3>Post Jobs</h3>
+                    <p class="text-muted">Create Job Post and convert your job posts as a place for learning and engagement by adding Q & A plugin on all your job posts. </p>
+                  </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <!--<i class="icon-camera text-primary"></i>-->
+                    <div class="ui segment">
+                    <h3>Select Candidates</h3>
+                    <p class="text-muted">Select candidates based on the engagement created on your job posting.</p>
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <!--<i class="icon-present text-primary"></i>-->
+                  <div class="ui segment">
+                    <h3>Interview Hackathon</h3>
+                    <p class="text-muted">Cut down the time spent on interviewing candidates by organizing interview hackathon where you can  evaluate all the candidates in 2 days.</p>
+                  </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <!--<i class="icon-lock-open text-primary"></i>-->
+                   <div class="ui segment">
+                    <h3>Hire </h3>
+                    <p class="text-muted"> Use the 360 degree view from the interview hackathon to hire the right candidates. </p>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="hiring">
+      <div class="cta-content">
+        <div class="container1">
+          <h2>Stop waiting.<br>Start hack-o-hiring.</h2>
+          <a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot!</a>
+        </div>
+      </div>
+      <div class="overlay"></div>
+    </section>
+    <section class="contact bg-primary1" id="contact">
+      <div class="container1">
+        <h2>We
+          <i class="fa fa-heart"></i>
+          new friends!</h2>
+        <ul class="list-inline list-social">
+          <li class="list-inline-item social-twitter">
+            <a href="https://twitter.com/@hackohire">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+          <li class="list-inline-item social-facebook">
+            <a href="https://www.facebook.com/groups/2004861469565107/">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+ </b-container>
+    </div>
 </template>
-<script>
-import Vue from 'vue'
-import { mapState } from 'vuex' 
-import ListCities from '../../queries/ListCities'
-import Multiselect from 'vue-multiselect'
-  export default {
-    components: { Multiselect },
-    name: "Dream_Job",
-    computed: {
-      ...mapState({
-        user: state => state.auth.user,
-      })
-    }, 
-
-   city1:{
-      abc(){
-       return this.city.city_name
-      }
-    },          
-    data() { 
-        return {
-        current: null,
-        company: [
-        { key: 'company1', text: 'company 1', value: 'company1' },
-        { key: 'company2', text: 'Company 2', value: 'company2' },
-        { key: 'company3', text: 'Company 3', value: 'company3' },
-        { key: 'company4', text: 'Company 4', value: 'company4' },
-        ],
-           value:null,
-           city:[],
-       current2: null,
-       project: [
-        { key: 'project1', text: 'Project 1', value: 'project1' },
-        { key: 'project2', text: 'Project 2', value: 'project2' },
-        { key: 'project3', text: 'Project 3', value: 'project3' },
-        { key: 'project4', text: 'Project 4', value: 'project4' },
-       ],
-
-      }
-      
-    },
-   
-    apollo: { 
-    city: {
-      query: () => ListCities,
-       update: data => data.listCities.items
-    },     
-  },
-  } 
-</script>
-<style src="vue-multiselect/dist/vue-multiselect.min.css"></style>
-<style scoped>
-  * {
-    box-sizing: border-box;
+<link src='../../css/detectify.css'/>
+<link src='../../../css/new-age.min.css'/>
+<link src='../../../css/cataraman.css'/>
+<link src='../../../css/lato.css'/>
+<link src='../../../css/multi.css'/>
+<link src='../../../device-mockups/device-mockups.min.css'/>
+<link src='../../../vendor/bootstrap/css/bootstrap.min.css'/>
+<link src='../../../vendor/font-awesome/css/font-awesome.min.css'/>
+<link src='../../../vendor/simple-line-icons/css/simple-line-icons.css'/>
+<style>
+.fit-content{
+    color: #f9f900;
+    font-weight: 600;
+    text-decoration: underline;
   }
-  
-  #column_1 {
-    padding-top: 20px;
-  }
-  
-  #column_2 {
-    padding-top: 50px;
-    padding-left: 2%;
-    width: 65%;
-  }
+  .main-bt{
+    border-radius: 2.25rem;
+    font-size:13px !important;
+    color: #d72534 !important;
+    text-shadow: 0px 0px 1px black;
+    background-color: white;
+    font-weight: bolder !important;
+    box-shadow: 0px 2px 2px black;
+}
+  .main-bt:hover{
+    background-color: #fbb813;
+    color: #000000c9 !important;
+    clip-path: polygon(100% 0, 95% 50%, 100% 100%, 0% 100%, 0% 50%, 0% 0%);
+    font-weight:bold;
+    border-radius: 2.25rem;
+    box-shadow: 0px 1px 2px white;
 
+  }
+  .bg-primary1{
+    background-color: #fbb813;
+  }
+ .container1{
+  padding: 20px;
+  text-align: center;
+}
 </style>
+
+<script>
+export default {
+    name: 'hiring_home'
+}
+</script>
