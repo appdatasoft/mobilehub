@@ -18,8 +18,8 @@
              <div class="row">                
               </div>
               <br>
-             <!--<a href="/signIn" class="btn btn-xl main-bt js-scroll-trigger">JOIN</a>-->
-             <a href="/signIn" class="ui massive blue inverted black button">JOIN</a>
+             <!--<a href="/interviewHackathon" class="btn btn-xl main-bt js-scroll-trigger">LEARN MORE</a>-->
+             <a href="/interviewHackathon" class="ui massive blue inverted black button">LEAR MORE</a>
               </div>
           </div>
           <div class="col-lg-5 my-auto">
@@ -37,7 +37,7 @@
       <div class="cta-content">
         <div class="container1">
           <h2>Rally Engagement around You, Your Team & Your Vision.</h2> 
-          <p class="text-muted"><a href="/">Learn More</a></p>
+          <p class="text-muted"><a href="/interviewHackathon">Learn More</a></p>
         </div>
       </div>
       <div class="overlay"></div>
@@ -54,9 +54,9 @@
            				 <div class="col-md-16 mx-auto">
               				<h2 class="section-heading">Built for  tech hiring  managers by
                       tech hiring managers.</h2>
-              				<p><a href="/signIn">Learn More</a></p>
+              				<p><a href="/interviewHackathon">Learn More</a></p>
               				<div class="badges">
-               					<a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot</a>
+               					<a href="/techTank" class="btn btn-outline btn-xl js-scroll-trigger">Learn More</a>
              			 	</div>
            				 </div>
          			 </b-col>
@@ -67,7 +67,7 @@
       <div class="container">
         <div class="section-heading text-center">
           <h2>Technical and cultural fit</h2>
-          <p class="text-muted"><a href="/signIn">Learn More</a></p>
+          <p class="text-muted"><a href="/interviewHackathon">Learn More</a></p>
           <hr>
         </div>
         <div class="row">
@@ -78,7 +78,7 @@
                     <!--<i class="icon-camera text-primary"></i>-->
                     <img class="bd_icon" src="../assets/hiringtank_icon.jpg">
                     <h3 id="textsize3">Hiring Tank</h3>
-                    <p class="text-muted">Engage with tech talent.</p>
+                    <p class="text-muted"><a href="https://bit.ly/2GYHPtx">Engage with tech talent.</a></p>
                     </div>
                   </div>
                 </div>
@@ -88,14 +88,11 @@
                     <!--<i class="icon-camera text-primary"></i>-->
                     <img class="bd_icon" src="../assets/hackathon_icon.jpg">
                     <h3 id="textsize3">Hackathon Interview</h3>
-                    <p class="text-muted">Optimize tech interviews.</p>
+                    <p class="text-muted"><a href="/interviewHackathon">Optimize tech interviews.</a></p>
                     </div>
                   </div>
-                </div>
-                
-                
-              </div>
-        
+                </div>  
+              </div> 
       </div>
     </section>
     <section class="cta2">
@@ -103,7 +100,7 @@
         <div class="container1">
           <h2>Stop Waiting <br/>Start Hackohire</h2>
           <div class="cta-content">
-         <!-- <a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot!</a>-->
+         <!-- <a href="/interviewHackathon" class="btn btn-outline btn-xl js-scroll-trigger">Learn More</a>-->
         </div>
       </div>
       <div class="overlay"></div>

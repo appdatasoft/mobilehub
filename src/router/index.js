@@ -5,7 +5,7 @@ import StoriesHome from '@/pages/StoriesHome.vue'
 import HiringHome from '@/pages/HiringHome.vue'
 import StartupsHome from '@/pages/StartupsHome.vue'
 import SMBHome from '@/pages/SMBHome.vue'
-import HiringTank from '@/pages/HiringTank.vue'
+import TechTank from '@/pages/TechTank.vue'
 
 //import CustomerDevelopment from '@/pages/CustomerDevelopment.vue'
 
@@ -21,7 +21,7 @@ import DailyBuild from '@/pages/developer/DailyBuild.vue'
 import BugFixMarket from '@/pages/developer/BugFixMarket.vue'
 import StartupConnect from '@/pages/developer/StartupConnect.vue'
 
-import HackathonInterview from '@/pages/HackathonInterview.vue'
+import InterviewHackathon from '@/pages/InterviewHackathon.vue'
 import JobPost from '@/pages/hiring/JobPost.vue'
 import OnBoarding from '@/pages/hiring/OnBoarding.vue'
 import EmployeeTraining from '@/pages/hiring/EmployeeTraining.vue'
@@ -95,7 +95,7 @@ const routes = [
     },
     ,
     {
-        path: '/hiringTank', name: 'hiring_tank', component: HiringTank, meta: { title: 'Hiring Tank', auth: false }
+        path: '/techTank', name: 'techTank', component: TechTank, meta: { title: 'Tech Tank', auth: false }
     },
     {
         path: '/hiring_home', name: 'hiring_home', component: HiringHome, meta: { title: 'Hiring Home', auth: false }
@@ -134,7 +134,7 @@ const routes = [
         path: '/jobPost', name: 'job-post', component: JobPost, meta: { title: 'Job Post', auth:false }
     },
     {
-        path: '/hackathonInterview', name: 'hackathon-interview', component: HackathonInterview, meta: { title: 'Hackathon Interview', auth:false }
+        path: '/interviewHackathon', name: 'Interview Hackathon', component: InterviewHackathon, meta: { title: 'Interview Hackathon', auth:false }
     },
     {
         path: '/onBoarding', name: 'onboarding', component: OnBoarding, meta: { title: 'OnBoarding', auth:false }

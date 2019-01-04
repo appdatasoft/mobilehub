@@ -173,7 +173,7 @@
                     <div class="ui segment">
                     <h3>Hackathon Interview</h3>
                     <p class="text-muted">Select candidates based on the engagement created on your job posting.</p>
-                    <h4><a href="/hackathonInterview">Learn More</a></h4>
+                    <h4><a href="/interviewHackathon">Learn More</a></h4>
                     </div>
                   </div>
                   </div>
@@ -199,7 +199,7 @@
                    <div class="ui segment">
                     <h3>Employee Training </h3>
                     <p class="text-muted"> Use the 360 degree view from the interview hackathon to hire the right candidates. </p>
-                    <h4><a href="/employeeTraining">Learn More</a></h4>
+                    <h4><a href="/interviewHackathon">Learn More</a></h4>
                     </div>
                   </div>
                   </div>

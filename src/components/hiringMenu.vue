@@ -5,14 +5,14 @@
     <b-navbar-toggle target="nav_collapse"/>
     <b-navbar-brand to="/"><img src="" srcset="../assets/hohlogo.png 1x" width= "20%" alt="hackohire for happy teams"></b-navbar-brand>
     <b-navbar-nav>
-      <b-nav-item v-if="!isAuthenticated" to="/hiringTank">Hiring Tank</b-nav-item>
-      <!--<b-nav-item v-if="!isAuthenticated" to="/hackathonInterview">Hackathon Interview</b-nav-item>-->
+      <b-nav-item v-if="!isAuthenticated" to="/techTank">Tech Tank</b-nav-item>
+      <b-nav-item v-if="!isAuthenticated" to="/interviewHackathon">Interview Hackathon</b-nav-item>
       </b-navbar-nav>
      <b-navbar-nav>
       <b-nav-item v-if="isAuthenticated" to="/developer">Pitch</b-nav-item>
       <b-nav-item v-if="isAuthenticated" to="/developer">Judge</b-nav-item>
       <b-nav-item v-if="isAuthenticated" to="/hiring">Audience</b-nav-item>
-      <b-nav-item v-if="isAuthenticated" to="/startups">Hackathon Interview</b-nav-item>
+      <b-nav-item v-if="isAuthenticated" to="/startups">Interview Hackathon</b-nav-item>
       </b-navbar-nav>
     <b-navbar-nav class="ml-auto">
       <b-nav-item 

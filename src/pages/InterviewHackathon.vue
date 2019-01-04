@@ -15,8 +15,8 @@
             <div class="header-content mx-auto">
              <h1 class="mb-5" id= "textsize">Hire the best fit, faster with hackathon interview.</h1>
              <h2>Cut down the hiring time & cost.</h2>
-              <!-- <a href="/signIn" class="btn btn-xl main-bt js-scroll-trigger">Attend "Tech Jobs Pitch Social" Event</a> -->
-              <a href="/signIn" class="ui massive blue inverted black button">JOIN</a>
+              <!-- <a href="/" class="btn btn-xl main-bt js-scroll-trigger">Attend "Tech Jobs Pitch Social" Event</a> -->
+              <a href="/" class="ui massive blue inverted black button">LEARN MORE</a>
             </div>
           </div>
           <div class="col-lg-5 my-auto">
@@ -102,7 +102,7 @@
             <h2 class="section-heading">Dont just fill an open position, fill it with perfect fit</h2>
             <p>Want to learn how to improve your current hiring practices?</p>
             <div class="badges">
-               <a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot</a>
+               <a href="/" class="btn btn-outline btn-xl js-scroll-trigger">LEARN MORE</a>
             </div>
           </div>
         </div>
@@ -119,7 +119,7 @@
               				<h2 class="section-heading">Don't just fill an open position but fill it with perfect fit</h2>
               				<p>Want to learn how to improve your current hiring practices?</p>
               				<div class="badges">
-               					<a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot</a>
+               					<a href="/" class="btn btn-outline btn-xl js-scroll-trigger">LEARN MORE</a>
              			 	</div>
            				 </div>
          			 </b-col>
@@ -160,7 +160,7 @@
                    <div class="ui segment">
                     <h3>Post Jobs</h3>
                     <p class="text-muted">Create Job Post and convert your job posts as a place for learning and engagement by adding Q & A plugin on all your job posts. </p>
-                  <h4><a href="/postJob">Learn More</a></h4>
+                  <h4><a href="/">Learn More</a></h4>
                   </div>
                   </div>
                   </div>
@@ -172,7 +172,7 @@
                     <div class="ui segment">
                     <h3>Hackathon Interview</h3>
                     <p class="text-muted">Select candidates based on the engagement created on your job posting.</p>
-                    <h4><a href="/hackathonInterview">Learn More</a></h4>
+                    <h4><a href="/">Learn More</a></h4>
                     </div>
                   </div>
                   </div>
@@ -186,7 +186,7 @@
                   <div class="ui segment">
                     <h3>OnBoarding</h3>
                     <p class="text-muted">Cut down the time spent on interviewing candidates by organizing interview hackathon where you can  evaluate all the candidates in 2 days.</p>
-                  <h4><a href="/onBoarding">Learn More</a></h4>
+                  <h4><a href="/">Learn More</a></h4>
                   </div>
                   </div>
                   </div>
@@ -198,7 +198,7 @@
                    <div class="ui segment">
                     <h3>Employee Training </h3>
                     <p class="text-muted"> Use the 360 degree view from the interview hackathon to hire the right candidates. </p>
-                    <h4><a href="/employeeTraining">Learn More</a></h4>
+                    <h4><a href="/">Learn More</a></h4>
                     </div>
                   </div>
                   </div>
@@ -214,7 +214,7 @@
         <div class="container1">
           <h2>Stop waiting.<br>Start hack-o-hiring.</h2>
           <div class="cta-content">
-          <a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot!</a>
+          <a href="/" class="btn btn-outline btn-xl js-scroll-trigger">LEARN MORE</a>
         </div>
       </div>
       <div class="overlay"></div>

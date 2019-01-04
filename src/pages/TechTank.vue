@@ -11,7 +11,7 @@
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
              <h1 class="mb-5" id= "textsize">Create & amplify engagement for your job post.</h1>
-             <a href="/signIn" class="ui massive blue inverted black button">JOIN</a>
+             <a href="/" class="ui massive blue inverted black button">LEARN MORE</a>
               </div>
           </div>
           <div class="col-lg-5 my-auto">
@@ -82,9 +82,9 @@
          			 <b-col>
            				 <div class="col-md-8 mx-auto">
               				<h2 class="section-heading">You, Your Team, Your Vision.</h2>
-              				<p><a href="/signIn">Prepare for your next move</a></p>
+              				<p><a href="/">Prepare for your next move</a></p>
               				<div class="badges">
-               					<a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot</a>
+               					<a href="/" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot</a>
              			 	</div>
            				 </div>
          			 </b-col>
@@ -96,7 +96,7 @@
       <div class="container">
         <div class="section-heading text-center">
           <h2>Growth Hack your Hiring</h2>
-          <p class="text-muted"><a href="/signIn">Make your dreams reality</a></p>
+          <p class="text-muted"><a href="/">Make your dreams reality</a></p>
           <hr>
         </div>
         <section>
@@ -105,9 +105,9 @@
               <b-col>
            				 <div class="col-md-8 mx-auto">
               				<h2 class="section-heading">Hire teams for Innovation.</h2>
-              				<p><a href="/signIn">Prepare for your next move</a></p>
+              				<p><a href="/">Prepare for your next move</a></p>
               				<div class="badges">
-               					<a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot</a>
+               					<a href="/" class="btn btn-outline btn-xl js-scroll-trigger">LEARN MORE</a>
              			 	</div>
            				 </div>
          			 </b-col>
@@ -126,7 +126,7 @@
         <div class="container1">
           <h2>Stop waiting.<br>Start <br>hack-o-hiring.</h2>
           <div class="cta-content">
-          <a href="/signIn" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot!</a>
+          <a href="/" class="btn btn-outline btn-xl js-scroll-trigger">LEARN MORE</a>
         </div>
       </div>
       <div class="overlay"></div>
