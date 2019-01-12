@@ -9,6 +9,7 @@ import TechTank from '@/pages/TechTank.vue'
 import GrowthHack from '@/pages/GrowthHack.vue'
 import SkillSetFit from '@/pages/SkillSetFit.vue'
 import CultureFit from '@/pages/CultureFit.vue'
+import Hackathon from '@/components/Hiring/Hackathon.vue' 
 
 
 //import CustomerDevelopment from '@/pages/CustomerDevelopment.vue'
@@ -109,6 +110,9 @@ const routes = [
     ,
     {
         path: '/techTank', name: 'techTank', component: TechTank, meta: { title: 'Tech Tank', auth: false }
+    },
+    {
+        path: '/Hackathon', name: 'Hackathon', component: Hackathon, meta: { title: 'Hackathon', auth:true }
     },
     {
         path: '/hiring_home', name: 'hiring_home', component: HiringHome, meta: { title: 'Hiring Home', auth: false }
