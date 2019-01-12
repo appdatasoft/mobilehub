@@ -2,7 +2,7 @@
   <footer class="bd-footer">
     <b-container>
       <b-row class="justify-content-md-center">
-        <div class="bd-footer-copyright">© 2018 Hack-o-hire.</div>
+        <div class="bd-footer-copyright">© 2019 Hackohire.</div>
         <br/>
         <!-- <div class="bd-footer-copyright">Privacy</div> -->
         <!-- <div class="bd-footer-copyright">Privacy</div> -->

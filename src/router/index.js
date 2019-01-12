@@ -6,6 +6,10 @@ import HiringHome from '@/pages/HiringHome.vue'
 import StartupsHome from '@/pages/StartupsHome.vue'
 import SMBHome from '@/pages/SMBHome.vue'
 import TechTank from '@/pages/TechTank.vue'
+import GrowthHack from '@/pages/GrowthHack.vue'
+import SkillSetFit from '@/pages/SkillSetFit.vue'
+import CultureFit from '@/pages/CultureFit.vue'
+
 
 //import CustomerDevelopment from '@/pages/CustomerDevelopment.vue'
 
@@ -89,6 +93,15 @@ Vue.use(Router)
 const routes = [
     {
         path: '/', name: 'home', component: Home, meta: { title: 'Home', auth: false }
+    },
+    {
+        path: '/growthHack', name: 'growthHack', component: GrowthHack, meta: { title: 'Growth Hack', auth: false }
+    },
+    {
+        path: '/skillsetFit', name: 'skillset fit', component: SkillSetFit, meta: { title: 'Skill Set Fit', auth: false }
+    },
+    {
+        path: '/cultureFit', name: 'culture fit', component: CultureFit, meta: { title: 'Culture Fit', auth: false }
     },
     {
         path: '/storiesHome', name: 'developer_home', component: StoriesHome, meta: { title: 'Developer Home', auth: false }

@@ -5,24 +5,28 @@
     <header>
     <div>
     <v-hiringmenu/>
+    <br/>
+            <br/>
     </div>
       <div class="container h-100">
         <div class="row h-100">
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
-             <h1 class="mb-5" id= "textsize">Create & amplify engagement for your job post.</h1>
-             <a href="/" class="ui massive blue inverted black button">LEARN MORE</a>
+            
+             <h1 class="mb-5" id= "textsize">Create Stories, Amplify Engagement around your Vision.</h1>
+             <a href="https://bit.ly/2GYHPtx" class="ui massive blue inverted black button">Los Angeles</a>
+             <a href="https://bit.ly/2TlFSsp" class="ui massive blue inverted black button">San Francisco</a>
+             <a href="https://bit.ly/2RmaA77" class="ui massive blue inverted black button">New York</a>
               </div>
           </div>
           <div class="col-lg-5 my-auto">
             <div class="device-container">
-              <!-- <div class="device-mockup iphone6_plus portrait white">
-                <div class="device"> -->
+              
                  <div class="screen" id="foot">
-                 <img src="../assets/hiringtank_stage3.png" class="img-fluid" alt="">
+                
+                  <img src="../assets/techtank2.png" class="img-fluid" alt="">
                </div>
-                <!-- </div>
-              </div> -->
+                
             </div>
           </div>
         </div>
@@ -32,16 +36,17 @@
     <section class="rightfit">
       <div class="cta-content">
         <div class="container1">
-          <h2>Tech Hiring Tank.</h2>
-          <h4 ahref="/">Learn More</h4>
+          <h2>What is Tech Tank?</h2>
+          <p>Tech Tank is a monthly tech event in LA, SF, NY to get live update from the 10 story makers about the investments, 
+          innovation, product development happening in the city</p>
           <div class="row">
                 <div class="col-lg-4">
                   <div class="feature-item">
                   <div style="text-align:left">
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
-                    <img class="dj_icon" src="../assets/home_1_icon.png">
+                    <img class="dj_icon" src="../assets/hiring_icon.png">
                     <h3  id="textsize3">Hiring Team</h3>
-                    <p class="text-muted">Hiring team from 10 pitching companies</p>
+                    <p class="text-muted">10 companies pitching innovation</p>
                     </div>
                   </div>
                 </div>
@@ -49,9 +54,9 @@
                   <div class="feature-item">
                   <div style="text-align:left">
                     <!--<i class="icon-camera text-primary"></i>-->
-                    <img class="bd_icon" src="../assets/home_2_icon.png">
+                    <img class="bd_icon" src="../assets/judges.png">
                     <h3  id="textsize3">Judges</h3>
-                    <p class="text-muted">5 member developer panel of judges.</p>
+                    <p class="text-muted">Panel of 5 technical talent.</p>
                     </div>
                   </div>
                 </div>
@@ -59,9 +64,9 @@
                   <div class="feature-item">
                   <div style="text-align:left">
                     <!--<i class="icon-present text-primary"></i>-->
-                    <img class="n_icon" src="../assets/home_3_icon.png">
+                    <img class="n_icon" src="../assets/audience.png">
                     <h3  id="textsize3">Audience</h3>
-                    <p class="text-muted">Experienced developers from local companies</p>
+                    <p class="text-muted">Local technical talent</p>
                     </div>
                   </div>
                 </div>
@@ -75,13 +80,14 @@
     <section>
      		 <b-container >
        			 <b-row>
-         			 <b-col>
+         			 
            		 <!--<img src="../assets/slip.gif" class="img-fluid" alt="">-->
                 <img src="../assets/animation2.gif" class="img-fluid" alt="">
+                
          			 </b-col>
          			 <b-col>
            				 <div class="col-md-8 mx-auto">
-              				<h2 class="section-heading">You, Your Team, Your Vision.</h2>
+              				<h2 class="section-heading">Rally technical talent around You, Your Team & Your Vision.</h2>
               				<p><a href="/">Prepare for your next move</a></p>
               				<div class="badges">
                					<a href="/" class="btn btn-outline btn-xl js-scroll-trigger">Request Pilot</a>

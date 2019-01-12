@@ -11,33 +11,21 @@
     </div>
       <div class="container h-100">
         <div class="row h-100">
-          <div class="col-lg-7 my-auto">
+          <div class="col-lg-5 my-auto">
             <div class="header-content mx-auto">
-             <h1 class="mb-5" id= "textsize">Hire the best fit, faster with hackathon interview.</h1>
+             <h1 class="mb-5" id= "textsize">Hire the Best Team, Faster with Interview Hackathon.</h1>
              <h2>Cut down the hiring time & cost.</h2>
               <!-- <a href="/" class="btn btn-xl main-bt js-scroll-trigger">Attend "Tech Jobs Pitch Social" Event</a> -->
               <a href="/" class="ui massive blue inverted black button">LEARN MORE</a>
             </div>
           </div>
-          <div class="col-lg-5 my-auto">
-            <div class="device-container">
-              <!-- <div class="device-mockup iphone6_plus portrait white">
-                <div class="device"> -->
-                  
-                 <!-- <div class="screen">-->
-                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                   <!-- <img src="../assets/hackathon_team.jpg" class="img-fluid" alt="">-->
-                  <!-- <video ref="videoRef" src="../assets/video.mp4" id="video-container" width="100%" autoplay loop ></video>-->
-                 <div class="screen" id="foot">
-               <!-- <img src="../assets/emulator_file1.gif" class="img-fluid" alt="">                    
-                <img src="../assets/emulator_file2.gif" class="img-fluid" alt="">-->
-                 <img src="../assets/animation1.gif" class="ui medium image fluid" alt="">
-               <!-- <img src="../assets/animation2.gif" class="img-fluid" alt="">-->
-                 </div>
+          <div class="col-lg-7 my-auto">
+          
                  
-                <!-- </div>
-              </div> -->
-            </div>
+                 <!--<img src="../assets/hack.png" class="img-fluid" alt="">-->
+                 <img src="../assets/hack.gif" class="img-fluid" alt="">
+       
+            
           </div>
         </div>
       </div>
@@ -54,8 +42,8 @@
                   <div style="text-align:left">
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
                     <img class="1_icon" src="../assets/hiring_1_icon.png">
-                    <h3  id="textsize3">Post Jobs</h3>
-                    <p class="text-muted">Create Job Post</p>
+                    <h3  id="textsize3">Create Hackathon</h3>
+                    <p class="text-muted">Provide details of job openings</p>
                     </div>
                   </div>
                 </div>
@@ -64,8 +52,8 @@
                   <div style="text-align:left">
                     <!--<i class="icon-camera text-primary"></i>-->
                     <img class="2_icon" src="../assets/hiring_2_icon.png">
-                    <h3  id="textsize3">Select Candidates</h3>
-                    <p class="text-muted">Shortlist candidates from applications</p>
+                    <h3  id="textsize3">Invite Candidates</h3>
+                    <p class="text-muted">Send out invitations to hackathon</p>
                     </div>
                   </div>
                 </div>
@@ -74,8 +62,8 @@
                   <div style="text-align:left">
                     <!--<i class="icon-present text-primary"></i>-->
                     <img class="3_icon" src="../assets/hiring_3_icon.png">
-                    <h3  id="textsize3">Interview Hackathon</h3>
-                    <p class="text-muted">Conduct Hackathon Interview</p>
+                    <h3  id="textsize3">Manage Hackathon</h3>
+                    <p class="text-muted">Code, pictures, videos all at one place</p>
                      </div>
                   </div>
                 </div>
@@ -84,9 +72,9 @@
                   <div style="text-align:left">
                     <!--<i class="icon-lock-open text-primary"></i>-->
                     <img class="4_icon" src="../assets/hiring_4_icon.png">
-                    <h3  id="textsize3">Hire </h3>
+                    <h3  id="textsize3">Hackathon Reports </h3>
 
- <p class="text-muted"> Hire candidates that meet technical skills and cultural fit </p>
+ <p class="text-muted"> Evaluation Reports of the candidates </p>
  </div>
                   </div>
                 </div>
@@ -95,19 +83,7 @@
       </div>
       <div class="overlay"></div>
     </section>
-    <!--<section class="rightfit bg-primary2 text-center" id="download">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 mx-auto">
-            <h2 class="section-heading">Dont just fill an open position, fill it with perfect fit</h2>
-            <p>Want to learn how to improve your current hiring practices?</p>
-            <div class="badges">
-               <a href="/" class="btn btn-outline btn-xl js-scroll-trigger">LEARN MORE</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>-->
+    
     <section>
      		 <b-container >
        			 <b-row>
@@ -129,25 +105,18 @@
     <section class="features" id="features">
       <div class="container">
         <div class="section-heading text-center">
-          <h2>Skill Set + Cultural Fit</h2>
-          <p class="text-muted">Cut down the hiring time</p>
+          <h2>Skill Set + Culture Fit</h2>
+        <!--  <p class="text-muted">Cut down the hiring time</p>-->
           <hr>
         </div>
         <div class="row">
           <div class="col-lg-4 my-auto">
-            <div class="device-container">
-              <!-- <div class="device-mockup iphone6_plus portrait white">
-                <div class="device"> -->
-                  <!--<div class="screen">-->
-                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                   <!-- <img src="../assets/resume.jpg" class="img-fluid" alt="">-->
+            <div class="device-container">   
                     <div class="screen" id="foot">
                 <img src="../assets/resume.gif" class="img-fluid" alt="">  
-                <!--<img src="../assets/emulator_file2.gif" class="img-fluid" alt="">     -->             
+                          
                   </div>
                  
-                <!-- </div>
-              </div> -->
             </div>
           </div>
           <div class="col-lg-8 my-auto">
@@ -158,9 +127,9 @@
                   <div style="text-align:left">
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
                    <div class="ui segment">
-                    <h3>Post Jobs</h3>
-                    <p class="text-muted">Create Job Post and convert your job posts as a place for learning and engagement by adding Q & A plugin on all your job posts. </p>
-                  <h4><a href="/">Learn More</a></h4>
+                    <h3>Skill Set Fit</h3>
+                    <p class="text-muted">We help you simulate the real working environment af your team at the hackathon as a result you can experince the candidates apprach to solving technical problems.</p>
+                  <h4><a href="/skillSetFit">Learn More</a></h4>
                   </div>
                   </div>
                   </div>
@@ -170,40 +139,15 @@
                   <div style="text-align:left">
                     <!--<i class="icon-camera text-primary"></i>-->
                     <div class="ui segment">
-                    <h3>Hackathon Interview</h3>
-                    <p class="text-muted">Select candidates based on the engagement created on your job posting.</p>
-                    <h4><a href="/">Learn More</a></h4>
+                    <h3>Culture Fit</h3>
+                    <p class="text-muted">At the hackathon, you experince how candidates collaborate in team setting while working on solving technical challenges.</p>
+                    <h4><a href="/cultureFit">Learn More</a></h4>
                     </div>
                   </div>
                   </div>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                  <div style="text-align:left">
-                    <!--<i class="icon-present text-primary"></i>-->
-                  <div class="ui segment">
-                    <h3>OnBoarding</h3>
-                    <p class="text-muted">Cut down the time spent on interviewing candidates by organizing interview hackathon where you can  evaluate all the candidates in 2 days.</p>
-                  <h4><a href="/">Learn More</a></h4>
-                  </div>
-                  </div>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                  <div style="text-align:left">
-                    <!--<i class="icon-lock-open text-primary"></i>-->
-                   <div class="ui segment">
-                    <h3>Employee Training </h3>
-                    <p class="text-muted"> Use the 360 degree view from the interview hackathon to hire the right candidates. </p>
-                    <h4><a href="/">Learn More</a></h4>
-                    </div>
-                  </div>
-                  </div>
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>
