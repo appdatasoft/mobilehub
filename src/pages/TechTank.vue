@@ -24,7 +24,8 @@
               
                  <div class="screen" id="foot">
                 
-                  <img src="../assets/techtank2.png" class="img-fluid" alt="">
+                  <!--<img src="../assets/techtank2.png" class="img-fluid" alt="">-->
+                  <img src="../assets/techtank_icon.gif" class="img-fluid" alt="">
                </div>
                 
             </div>
@@ -111,7 +112,7 @@
               <b-col>
            				 <div class="col-md-8 mx-auto">
               				<h2 class="section-heading">Hire teams for Innovation.</h2>
-              				<p><a href="/">Prepare for your next move</a></p>
+              				<p><a href="/">Plan for Success</a></p>
               				<div class="badges">
                					<a href="/" class="btn btn-outline btn-xl js-scroll-trigger">LEARN MORE</a>
              			 	</div>
@@ -127,10 +128,10 @@
         
       </div>
     </section>
-    <section class="cta2">
-      
+    <!--<section class="cta2">-->
+      <section>
         <div class="container1">
-          <h2>Stop waiting.<br>Start <br>hack-o-hiring.</h2>
+          <h2>Stop waiting.<br>Start hackohiring.</h2>
           <div class="cta-content">
           <a href="/" class="btn btn-outline btn-xl js-scroll-trigger">LEARN MORE</a>
         </div>

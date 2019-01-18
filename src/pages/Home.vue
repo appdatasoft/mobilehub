@@ -74,7 +74,7 @@
                   <div class="feature-item">
                   <div style="text-align:center">
                     <!--<i class="icon-camera text-primary"></i>-->
-                    <img class="bd_icon" src="../assets/hiringtank_icon.jpg">
+                    <img class="bd_icon" src="../assets/techtank_icon.gif">
                     <h3 id="textsize3">Tech Tank</h3>
                     <p class="text-muted"><a href="https://bit.ly/2GYHPtx">Engage with tech talent.</a></p>
                     </div>
@@ -93,8 +93,8 @@
               </div> 
       </div>
     </section>
-    <section class="cta2">
-      
+    <!--<section class="cta2">-->
+       <section>
         <div class="container1">
           <h2>Stop Waiting <br/>Start Hackohire</h2>
           <div class="cta-content">
