@@ -40,7 +40,6 @@
       </div>
       <div class="overlay"></div>
     </section>
-    
     <section>
      		 <b-container >
        			 <b-row>
@@ -64,15 +63,17 @@
     <section class="features" id="features">
       <div class="container">
         <div class="section-heading text-center">
-          <h2>Technical and Cultural Fit</h2>
+          <h2>HACKOHIRE = TECHNICAL FIT + CULTURAL FIT </h2>
           <p class="text-muted"><a href="/interviewHackathon">Learn More</a></p>
           <hr>
         </div>
-        <div class="row">
-                
+        <div class="row">  
                 <div class="col-lg-6">
                   <div class="feature-item">
-                  <div style="text-align:center">
+                  <h3 id="textsize3"><u><font color="red">Tech Hiring Manager Problem 1:</font></u></h3>
+                  <h3 id="textsize3">Unhappy with the quality of the applicants on the job boards?</h3>
+                  <div style="text-align:center"><br>
+                  <u><h3 id="textsize3"><font color="green">Solution: TECH TANK</font></h3></u>
                     <!--<i class="icon-camera text-primary"></i>-->
                     <img class="bd_icon" src="../assets/techtank_icon.gif">
                     <h3 id="textsize3">Tech Tank</h3>
@@ -82,7 +83,10 @@
                 </div>
                 <div class="col-lg-6">
                   <div class="feature-item">
+                   <h3 id="textsize3"><u><font color="red">Tech Hiring Manager Problem 2:</font></u></h3>
+                   <h3 id="textsize3">Interviewing is taking you away from your core business activities?</h3>
                   <div style="text-align:center">
+                   <h3 id="textsize3"><u><font color="green">Solution: HACKATHON INTERVIEW</font></u></h3>
                     <!--<i class="icon-camera text-primary"></i>-->
                     <img class="bd_icon" src="../assets/hackathon_icon.gif">
                     <h3 id="textsize3">Hackathon Interview</h3>
@@ -96,7 +100,7 @@
     <!--<section class="cta2">-->
        <section>
         <div class="container1">
-          <h2>Stop Waiting <br/>Start Hackohire</h2>
+          <h2>Stop wasting time and money. <br/>Start Hackohire</h2>
           <div class="cta-content">
          <!-- <a href="/interviewHackathon" class="btn btn-outline btn-xl js-scroll-trigger">Learn More</a>-->
         </div>

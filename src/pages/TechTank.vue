@@ -38,14 +38,14 @@
       <div class="cta-content">
         <div class="container1">
           <h2>What is Tech Tank?</h2>
-          <p>Tech Tank is a monthly tech event in LA, SF, NY to get live update from the 10 story makers about the investments, 
+          <p>TECK TANK is a monthly live TECH SHOW  in LA, SF, NY to watch 10 innovation story shared by 10 innovation story makers about their vision, mission & team. 
           innovation, product development happening in the city</p>
           <div class="row">
                 <div class="col-lg-4">
                   <div class="feature-item">
                   <div style="text-align:left">
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
-                    <img class="dj_icon" src="../assets/hiring_icon.png">
+                    <img class="dj_icon" src="../assets/hiring-team-icon.jpg">
                     <h3  id="textsize3">Hiring Team</h3>
                     <p class="text-muted">10 companies pitching innovation</p>
                     </div>
@@ -55,7 +55,7 @@
                   <div class="feature-item">
                   <div style="text-align:left">
                     <!--<i class="icon-camera text-primary"></i>-->
-                    <img class="bd_icon" src="../assets/judges.png">
+                    <img class="bd_icon" src="../assets/judges-icon.jpg">
                     <h3  id="textsize3">Judges</h3>
                     <p class="text-muted">Panel of 5 technical talent.</p>
                     </div>
@@ -65,7 +65,7 @@
                   <div class="feature-item">
                   <div style="text-align:left">
                     <!--<i class="icon-present text-primary"></i>-->
-                    <img class="n_icon" src="../assets/audience.png">
+                    <img class="n_icon" src="../assets/audience-icon.jpg">
                     <h3  id="textsize3">Audience</h3>
                     <p class="text-muted">Local technical talent</p>
                     </div>
@@ -131,7 +131,7 @@
     <!--<section class="cta2">-->
       <section>
         <div class="container1">
-          <h2>Stop waiting.<br>Start hackohiring.</h2>
+          <h2>Stop wasting time and money.<br>Start hackohiring.</h2>
           <div class="cta-content">
           <a href="/" class="btn btn-outline btn-xl js-scroll-trigger">LEARN MORE</a>
         </div>

@@ -1,11 +1,11 @@
 import gql from 'graphql-tag'
 export default gql`
-query listDreamCompanies {
-    listDreamCompanies {
-        items {
-          id
-          companyName
-        }
+query listCompanies{
+    listCompanies{
+      items{
+        companyId
+        companyName
+      }
     }
-}
+  }
 `

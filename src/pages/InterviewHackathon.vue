@@ -208,7 +208,7 @@
     <section class="hiring">
       
         <div class="container1">
-          <h2>Stop waiting.<br>Start hack-o-hiring.</h2>
+          <h2>Stop wasting time and money<br>Start hackohiring.</h2>
           <div class="cta-content">
           <a href="/" class="btn btn-outline btn-xl js-scroll-trigger">LEARN MORE</a>
         </div>
