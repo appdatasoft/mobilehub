@@ -3,7 +3,7 @@
     toggleable="md" 
     type="dark" class="navbar-inner">
     <b-navbar-toggle target="nav_collapse"/>
-    <b-navbar-brand to="/"><img src="" srcset="../assets/hohlogo.png 1x" width= "20%" alt="hackohire for happy teams"></b-navbar-brand>
+    <b-navbar-brand to="/"><img src="" srcset="../assets/hackohire-heart-logo.png 1x" width= "20%" alt="hackohire for happy teams"></b-navbar-brand>
     <b-navbar-nav>
       <b-nav-item v-if="!isAuthenticated" to="/storiesHome">Hack Stories</b-nav-item>
       <b-nav-item v-if="!isAuthenticated" to="/hiring_home">Dream Jobs</b-nav-item>

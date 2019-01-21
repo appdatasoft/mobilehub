@@ -6,13 +6,13 @@
     </div>
       <div class="container h-100">
         <div class="row h-100">
-          <div class="col-lg-7 my-auto">
+          <div class="col-lg-5 my-auto">
             <div class="header-content mx-auto">
             <br>
             <br>
             <br>
-             <h1 class="mb-5" id= "textsize">Learn how to get your next dream job.</h1>
-              <h2>Growth hacking your career.</h2>
+             <h1 class="mb-5" id= "textsize">Growth Hacking Tech Team Building.</h1>
+              <h2>Fast, cost-effective, hassle-free.</h2>
              <div class="row">                
               </div>
               <br>
@@ -20,10 +20,10 @@
              <a href="/growthHack" class="ui massive blue inverted black button">LEARN MORE</a>
               </div>
           </div>
-          <div class="col-lg-5 my-auto">
+          <div class="col-lg-7 my-auto">
             <div class="device-container">
                   <div class="screen" id="foot">
-                 <img src="../assets/dream_job.gif" class="img-fluid" alt="">
+                 <img src="../assets/hiring.gif" class="img-fluid" alt="">
                  </div>
             </div>
           </div>
@@ -31,82 +31,62 @@
       </div>
     </header>
     <b-container>
-   
-    <section class="features" id="features">
-      <div class="container">
-        <div class="section-heading text-center">
-          <h2>Connect & Learn from experinced mentors about your dream job.</h2>
-        <!--  <p class="text-muted">Take control of your career</p>-->
-          <hr>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 my-auto">
-            <div class="device-container">   
-                    <div class="screen" id="foot">
-                <img src="../assets/growth.gif" class="img-fluid" alt="">        
-                  </div>   
-            </div>
-          </div>
-          <div class="col-lg-8 my-auto">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                  <div style="text-align:left">
-                    <!--<i class="icon-screen-smartphone text-primary"></i>-->
-                   <div class="ui segment">
-                    <h3>Prepare for your dream job?</h3>
-                    <p class="text-muted">Do you want to know how to get the job at your dream companies?.</p>
-                  <h4><a href="/skillSetFit">Learn More</a></h4>
-                  </div>
-                  </div>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                  <div style="text-align:left">
-                    <!--<i class="icon-camera text-primary"></i>-->
-                    <div class="ui segment">
-                    <h3>Help others get their dream job.</h3>
-                    <p class="text-muted">Youe job might be a dream job for many others.</p>
-                    <h4><a href="/cultureFit">Learn More</a></h4>
-                    </div>
-                  </div>
-                  </div>
-                </div>
-              </div>  
-            </div>
-          </div>
+    <section class="rightfit">
+      <div class="cta-content">
+        <div class="container1">
+          <h2>Rally Engagement around You, Your Team & Your Vision.</h2> 
+          <p class="text-muted"><a href="/techTank">Learn More</a></p>
         </div>
       </div>
+      <div class="overlay"></div>
     </section>
+    <section>
+     		 <b-container >
+       			 <b-row>
+         			 <b-col>
+           			<!--<img src="../assets/slip.jpg" class="img-fluid" alt="">-->
+                <img src="../assets/innovation.gif" class="img-fluid" alt="">
+         			 </b-col>
+         			 <b-col>
+           				 <div class="col-md-16 mx-auto">
+              				<h2 class="section-heading">Built for  Tech Hiring  Managers by
+                    Tech Hiring Managers.</h2>
+              				<p><a href="/interviewHackathon">Learn More</a></p>
+              				<div class="badges">
+               					<a href="/techTank" class="btn btn-outline btn-xl js-scroll-trigger">Learn More</a>
+             			 	</div>
+           				 </div>
+         			 </b-col>
+         		 </b-row>
+     		 </b-container>
+    	</section> 
     <section class="features" id="features">
       <div class="container">
         <div class="section-heading text-center">
-          <h2>Take control of your career. </h2>
+          <h2>HACKOHIRE = TECHNICAL FIT + CULTURAL FIT </h2>
           <p class="text-muted"><a href="/interviewHackathon">Learn More</a></p>
           <hr>
         </div>
         <div class="row">  
                 <div class="col-lg-6">
                   <div class="feature-item">
-                  <h3 id="textsize3"><u><font color="red">Job boards are broken</font></u></h3>
-                  <h3 id="textsize3">By the time your dream job is posted on  job boards, it is too late for you to prepare for the job.</h3>
+                  <h3 id="textsize3"><u><font color="red">Tech Hiring Manager Problem 1:</font></u></h3>
+                  <h3 id="textsize3">Unhappy with the quality of the applicants on the job boards?</h3>
                   <div style="text-align:center"><br>
-                  <u><h3 id="textsize3"><font color="green">Start preparing for your next move today</font></h3></u>
+                  <u><h3 id="textsize3"><font color="green">Solution: TECH TANK</font></h3></u>
                     <!--<i class="icon-camera text-primary"></i>-->
                     <img class="bd_icon" src="../assets/techtank_icon.gif">
                     <h3 id="textsize3">Tech Tank</h3>
-                    <p class="text-muted"><a href="https://bit.ly/2GYHPtx">Engage with tech talent.</a></p>
+                    <p class="text-muted"><a href="/techTank">Engage with tech talent.</a></p>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="feature-item">
-                   <h3 id="textsize3"><u><font color="red">Interviews are broken</font></u></h3>
-                   <h3 id="textsize3">Your dream job preparation history gives you leg up with the hiring managers</h3>
+                   <h3 id="textsize3"><u><font color="red">Tech Hiring Manager Problem 2:</font></u></h3>
+                   <h3 id="textsize3">Interviewing is taking you away from your core business activities?</h3>
                   <div style="text-align:center">
-                   <h3 id="textsize3"><u><font color="green">Start your dream job preparation board.</font></u></h3>
+                   <h3 id="textsize3"><u><font color="green">Solution: HACKATHON INTERVIEW</font></u></h3>
                     <!--<i class="icon-camera text-primary"></i>-->
                     <img class="bd_icon" src="../assets/hackathon_icon.gif">
                     <h3 id="textsize3">Hackathon Interview</h3>
@@ -120,13 +100,14 @@
     <!--<section class="cta2">-->
        <section>
         <div class="container1">
-          <h2>Stop trying to ft into a job opening. <br/>Start creating your dream job.</h2>
+          <h2>Stop wasting time and money. <br/>Start Hackohire</h2>
           <div class="cta-content">
          <!-- <a href="/interviewHackathon" class="btn btn-outline btn-xl js-scroll-trigger">Learn More</a>-->
         </div>
       </div>
       <div class="overlay"></div>
     </section>
+    
     <section class="contact bg-primary1" id="contact">
       <div class="container1">
         <h2>We
@@ -193,6 +174,6 @@ section.img {
 
 <script>
 export default {
-     name: 'home'
+     name: 'TeckHiring'
 }
 </script>

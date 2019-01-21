@@ -19,13 +19,9 @@
               <a href="/" class="ui massive blue inverted black button">LEARN MORE</a>
             </div>
           </div>
-          <div class="col-lg-7 my-auto">
-          
-                 
+          <div class="col-lg-7 my-auto">   
                  <!--<img src="../assets/hack.png" class="img-fluid" alt="">-->
                  <img src="../assets/hack.gif" class="img-fluid" alt="">
-       
-            
           </div>
         </div>
       </div>
@@ -74,7 +70,6 @@
                     <!--<i class="icon-lock-open text-primary"></i>-->
                     <img class="4_icon" src="../assets/hiring_4_icon.png">
                     <h3  id="textsize3">Hackathon Reports </h3>
-
  <p class="text-muted"><a href="">Code, Presentations, Pictures, Videos</a></p>
  </div>
                   </div>

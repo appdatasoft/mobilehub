@@ -48,6 +48,7 @@
                     <img class="dj_icon" src="../assets/hiring-team-icon.jpg">
                     <h3  id="textsize3">Hiring Team</h3>
                     <p class="text-muted">10 companies pitching innovation</p>
+                    <p<a href="https://goo.gl/forms/XIXPKMqRiTUJ2lCp2">Learn More</a></a>
                     </div>
                   </div>
                 </div>

@@ -5,6 +5,7 @@
     <b-navbar-toggle target="nav_collapse"/>
     <b-navbar-brand to="/"><img src="" srcset="../assets/hohlogo.png 1x" width= "20%" alt="hackohire for happy teams"></b-navbar-brand>
     <b-navbar-nav>
+      <b-nav-item v-if="!isAuthenticated" to="/techHiring">Tech Hiring</b-nav-item>
       <b-nav-item v-if="!isAuthenticated" to="/techTank">Tech Tank</b-nav-item>
       <b-nav-item v-if="!isAuthenticated" to="/interviewHackathon">Interview Hackathon</b-nav-item>
       </b-navbar-nav>
