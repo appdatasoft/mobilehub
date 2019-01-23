@@ -43,9 +43,9 @@
           <div class="row">
                 <div class="col-lg-4">
                   <div class="feature-item">
-                  <div style="text-align:left">
+                  <div style="text-align:center">
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
-                    <img class="dj_icon" src="../assets/hiring-team-icon.jpg">
+                    <img class="dj_icon" src="../assets/hiring-team-icon.png">
                     <h3  id="textsize3">Hiring Team</h3>
                     <p class="text-muted">10 companies pitching innovation</p>
                     <p<a href="https://goo.gl/forms/XIXPKMqRiTUJ2lCp2">Learn More</a></a>
@@ -54,9 +54,9 @@
                 </div>
                 <div class="col-lg-4">
                   <div class="feature-item">
-                  <div style="text-align:left">
+                  <div style="text-align:center">
                     <!--<i class="icon-camera text-primary"></i>-->
-                    <img class="bd_icon" src="../assets/judges-icon.jpg">
+                    <img class="bd_icon" src="../assets/judges-icon.png">
                     <h3  id="textsize3">Judges</h3>
                     <p class="text-muted">Panel of 5 technical talent.</p>
                     </div>
@@ -64,9 +64,9 @@
                 </div>
                 <div class="col-lg-4">
                   <div class="feature-item">
-                  <div style="text-align:left">
+                  <div style="text-align:center">
                     <!--<i class="icon-present text-primary"></i>-->
-                    <img class="n_icon" src="../assets/audience-icon.jpg">
+                    <img class="n_icon" src="../assets/audience-icon.png">
                     <h3  id="textsize3">Audience</h3>
                     <p class="text-muted">Local technical talent</p>
                     </div>

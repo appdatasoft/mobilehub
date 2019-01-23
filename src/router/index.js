@@ -86,6 +86,9 @@ import UserLists from '@/components/UserLists.vue'
 import FirstPage from '@/pages/FirstPage.vue'
 import UserProfile from '@/components/UserProfile.vue'
 
+import DreamjobTimeline from '@/components/developer/DreamjobTimeline.vue'
+import DreamJobProfile from '@/components/developer/DreamJobProfile.vue'
+
 
 
 
@@ -305,7 +308,19 @@ const routes = [
      },
      {
         path:'/developer/dailyBuild' ,name: 'Daily_Build',component:Daily_Build,meta:{title:'Daily_Build',auth:true }
-    }
+    },
+    {
+        path:'/DreamjobTimeline',
+        name: 'DreamjobTimeline',
+        component:DreamjobTimeline,
+        meta:{title:'DreamjobTimeline',auth:true }
+       },
+       {
+        path:'/Dreamjob/:title',
+        name: 'DreamjobProfile',
+        component:DreamJobProfile,
+        meta:{title:'DreamjobProfile',auth:true }
+       },
     
 ]
 

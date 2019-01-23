@@ -16,7 +16,7 @@
              <h1 class="mb-5" id= "textsize">Hire the Best Team, Faster with Interview Hackathon.</h1>
              <h2>Cut down the hiring time & cost.</h2>
               <!-- <a href="/" class="btn btn-xl main-bt js-scroll-trigger">Attend "Tech Jobs Pitch Social" Event</a> -->
-              <a href="/" class="ui massive blue inverted black button">LEARN MORE</a>
+              <a href="https://goo.gl/forms/od2Bh2erMi1UorI13" class="ui massive blue inverted black button">LEARN MORE</a>
             </div>
           </div>
           <div class="col-lg-7 my-auto">   
@@ -50,7 +50,7 @@
                     <!--<i class="icon-camera text-primary"></i>-->
                     <img class="2_icon" src="../assets/hiring_2_icon.png">
                     <h3  id="textsize3">Screen Candidates</h3>
-                    <p class="text-muted">Invite candidates that <a href="">match</a> your goals</p>
+                    <p class="text-muted">Invite candidates that <a href="https://goo.gl/forms/fWLqSk1t8R7ZJ0CB3">match</a> your goals</p>
                     </div>
                   </div>
                 </div>
@@ -59,7 +59,7 @@
                   <div style="text-align:left">
                     <!--<i class="icon-present text-primary"></i>-->
                     <img class="3_icon" src="../assets/hiring_3_icon.png">
-                    <h3  id="textsize3">Meet Candidates Group</h3>
+                    <h3  id="textsize3">Group Hackathon</h3>
                     <p class="text-muted"><a href="">Meet</a> all the pre-screened candidates together at the Interview Hackathon</p>
                      </div>
                   </div>
@@ -70,8 +70,8 @@
                     <!--<i class="icon-lock-open text-primary"></i>-->
                     <img class="4_icon" src="../assets/hiring_4_icon.png">
                     <h3  id="textsize3">Hackathon Reports </h3>
- <p class="text-muted"><a href="">Code, Presentations, Pictures, Videos</a></p>
- </div>
+                <p class="text-muted"><a href="">Code, Presentations, Pictures, Videos</a></p>
+                  </div>
                   </div>
                 </div>
               </div>
@@ -105,7 +105,7 @@
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
                    <div class="ui segment">
                     <h3>Skill Set Fit</h3>
-                    <p class="text-muted">We help you simulate the real working environment af your team at the hackathon as a result you can experince the candidates apprach to solving technical problems.</p>
+                    <p class="text-muted">We help you simulate the real working environment of your team at the hackathon as a result you can experince the candidates apprach to solving technical problems.</p>
                   <h4><a href="/skillSetFit">Learn More</a></h4>
                   </div>
                   </div>

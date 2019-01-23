@@ -17,13 +17,13 @@
               </div>
               <br>
              <!--<a href="/growthHack" class="btn btn-xl main-bt js-scroll-trigger">LEARN MORE</a>-->
-             <a href="/growthHack" class="ui massive blue inverted black button">LEARN MORE</a>
+             <a href="https://goo.gl/forms/wktdAeVXlYA3RICt2" class="ui massive blue inverted black button">LEARN MORE</a>
               </div>
           </div>
           <div class="col-lg-5 my-auto">
             <div class="device-container">
                   <div class="screen" id="foot">
-                 <img src="../assets/dream_job.gif" class="img-fluid" alt="">
+                 <img src="../assets/dream_job.png" class="img-fluid" alt="">
                  </div>
             </div>
           </div>
@@ -31,7 +31,6 @@
       </div>
     </header>
     <b-container>
-   
     <section class="features" id="features">
       <div class="container">
         <div class="section-heading text-center">
@@ -56,8 +55,8 @@
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
                    <div class="ui segment">
                     <h3>Prepare for your dream job?</h3>
-                    <p class="text-muted">Do you want to know how to get the job at your dream companies?.</p>
-                  <h4><a href="/skillSetFit">Learn More</a></h4>
+                    <p class="text-muted">Do you want to know how to get the job at your dream companies?Post your dream job, prepare for your dream job, land your dream job.</p>
+                  <h4><a href="https://goo.gl/forms/wktdAeVXlYA3RICt2">Learn More</a></h4>
                   </div>
                   </div>
                   </div>
@@ -68,8 +67,8 @@
                     <!--<i class="icon-camera text-primary"></i>-->
                     <div class="ui segment">
                     <h3>Help others get their dream job.</h3>
-                    <p class="text-muted">Youe job might be a dream job for many others.</p>
-                    <h4><a href="/cultureFit">Learn More</a></h4>
+                    <p class="text-muted">You love your job and you want to mentor others on what it takes to do the job. This is a great opportunity to not only connect with the talent but also to hire talent quickly when a position opensup. </p>
+                    <h4><a href="https://goo.gl/forms/wktdAeVXlYA3RICt2">Learn More</a></h4>
                     </div>
                   </div>
                   </div>
@@ -84,46 +83,10 @@
       <div class="container">
         <div class="section-heading text-center">
           <h2>Take control of your career. </h2>
-          <p class="text-muted"><a href="/interviewHackathon">Learn More</a></p>
+          <p class="text-muted"><a href="https://goo.gl/forms/wktdAeVXlYA3RICt2">Learn More</a></p>
           <hr>
         </div>
-        <div class="row">  
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                  <h3 id="textsize3"><u><font color="red">Job boards are broken</font></u></h3>
-                  <h3 id="textsize3">By the time your dream job is posted on  job boards, it is too late for you to prepare for the job.</h3>
-                  <div style="text-align:center"><br>
-                  <u><h3 id="textsize3"><font color="green">Start preparing for your next move today</font></h3></u>
-                    <!--<i class="icon-camera text-primary"></i>-->
-                    <img class="bd_icon" src="../assets/techtank_icon.gif">
-                    <h3 id="textsize3">Tech Tank</h3>
-                    <p class="text-muted"><a href="https://bit.ly/2GYHPtx">Engage with tech talent.</a></p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                   <h3 id="textsize3"><u><font color="red">Interviews are broken</font></u></h3>
-                   <h3 id="textsize3">Your dream job preparation history gives you leg up with the hiring managers</h3>
-                  <div style="text-align:center">
-                   <h3 id="textsize3"><u><font color="green">Start your dream job preparation board.</font></u></h3>
-                    <!--<i class="icon-camera text-primary"></i>-->
-                    <img class="bd_icon" src="../assets/hackathon_icon.gif">
-                    <h3 id="textsize3">Hackathon Interview</h3>
-                    <p class="text-muted"><a href="/interviewHackathon">Optimize tech interviews.</a></p>
-                    </div>
-                  </div>
-                </div>  
-              </div> 
-      </div>
-    </section>
-    <!--<section class="cta2">-->
-       <section>
-        <div class="container1">
-          <h2>Stop trying to ft into a job opening. <br/>Start creating your dream job.</h2>
-          <div class="cta-content">
-         <!-- <a href="/interviewHackathon" class="btn btn-outline btn-xl js-scroll-trigger">Learn More</a>-->
-        </div>
+         
       </div>
       <div class="overlay"></div>
     </section>

@@ -17,7 +17,7 @@
               </div>
               <br>
              <!--<a href="/growthHack" class="btn btn-xl main-bt js-scroll-trigger">LEARN MORE</a>-->
-             <a href="/growthHack" class="ui massive blue inverted black button">LEARN MORE</a>
+             <a href="https://goo.gl/forms/72SfAqjTWdjEH9ec2" class="ui massive blue inverted black button">LEARN MORE</a>
               </div>
           </div>
           <div class="col-lg-7 my-auto">
@@ -40,63 +40,49 @@
       </div>
       <div class="overlay"></div>
     </section>
-    <section>
-     		 <b-container >
-       			 <b-row>
-         			 <b-col>
-           			<!--<img src="../assets/slip.jpg" class="img-fluid" alt="">-->
-                <img src="../assets/innovation.gif" class="img-fluid" alt="">
-         			 </b-col>
-         			 <b-col>
-           				 <div class="col-md-16 mx-auto">
-              				<h2 class="section-heading">Built for  Tech Hiring  Managers by
-                    Tech Hiring Managers.</h2>
-              				<p><a href="/interviewHackathon">Learn More</a></p>
-              				<div class="badges">
-               					<a href="/techTank" class="btn btn-outline btn-xl js-scroll-trigger">Learn More</a>
-             			 	</div>
-           				 </div>
-         			 </b-col>
-         		 </b-row>
-     		 </b-container>
-    	</section> 
-    <section class="features" id="features">
+     <section class="features" id="features">
       <div class="container">
-        <div class="section-heading text-center">
-          <h2>HACKOHIRE = TECHNICAL FIT + CULTURAL FIT </h2>
-          <p class="text-muted"><a href="/interviewHackathon">Learn More</a></p>
-          <hr>
-        </div>
-        <div class="row">  
-                <div class="col-lg-6">
+       
+       <div class="row">
+          
+        <!--  <div class="col-lg-8 my-auto">
+            <div class="container-fluid">
+               <!--<div class="row">-->
+                <div class="col-lg-6 my-auto">
                   <div class="feature-item">
-                  <h3 id="textsize3"><u><font color="red">Tech Hiring Manager Problem 1:</font></u></h3>
-                  <h3 id="textsize3">Unhappy with the quality of the applicants on the job boards?</h3>
-                  <div style="text-align:center"><br>
-                  <u><h3 id="textsize3"><font color="green">Solution: TECH TANK</font></h3></u>
-                    <!--<i class="icon-camera text-primary"></i>-->
+                  <div style="text-align:left">
+                    <!--<i class="icon-screen-smartphone text-primary"></i>-->
+                   <div class="ui segment">
+                    <h3>TECH TANK</h3>
                     <img class="bd_icon" src="../assets/techtank_icon.gif">
-                    <h3 id="textsize3">Tech Tank</h3>
-                    <p class="text-muted"><a href="/techTank">Engage with tech talent.</a></p>
-                    </div>
+                   
+                    <p class="text-muted">If you are Unhappy with the quality of the applicants on the job boards, TECH TANK is a monthly show in LA, NY and SF. Companies share their vision, mission, team, innovation generating interest among the tech talent.</p>
+                  <h4><a href="/techTank">Learn More</a></h4>
+                  </div>
+                  </div>
                   </div>
                 </div>
-                <div class="col-lg-6">
+                
+                <div class="col-lg-6 my-auto">
                   <div class="feature-item">
-                   <h3 id="textsize3"><u><font color="red">Tech Hiring Manager Problem 2:</font></u></h3>
-                   <h3 id="textsize3">Interviewing is taking you away from your core business activities?</h3>
-                  <div style="text-align:center">
-                   <h3 id="textsize3"><u><font color="green">Solution: HACKATHON INTERVIEW</font></u></h3>
+                  <div style="text-align:left">
                     <!--<i class="icon-camera text-primary"></i>-->
-                    <img class="bd_icon" src="../assets/hackathon_icon.gif">
-                    <h3 id="textsize3">Hackathon Interview</h3>
-                    <p class="text-muted"><a href="/interviewHackathon">Optimize tech interviews.</a></p>
+                    <div class="ui segment">
+                    <h3>INTERVIEW HACKATHON</h3>
+                     <img class="bd_icon" src="../assets/hackathon_icon.gif">
+                    <p class="text-muted">Interview process can be distracting to core business.INTERVIEW HACKATHON is a 2 day interview process conducted in the form of a hackathon. </p>
+                    <h4><a href="/interviewHackathon">Learn More</a></h4>
                     </div>
                   </div>
-                </div>  
-              </div> 
-      </div>
+                  </div>
+                </div>
+              </div>  
+            </div>
+         <!-- </div>
+        </div>
+      </div>-->
     </section>
+    
     <!--<section class="cta2">-->
        <section>
         <div class="container1">
