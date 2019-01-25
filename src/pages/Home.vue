@@ -23,7 +23,7 @@
           <div class="col-lg-5 my-auto">
             <div class="device-container">
                   <div class="screen" id="foot">
-                 <img src="../assets/dream_job.png" class="img-fluid" alt="">
+                 <img src="../assets/dreamJob_climb.gif" class="img-fluid" alt="">
                  </div>
             </div>
           </div>

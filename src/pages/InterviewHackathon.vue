@@ -40,7 +40,8 @@
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
                     <img class="1_icon" src="../assets/hiring_1_icon.png">
                     <h3  id="textsize3">Create Hackathon</h3>
-                    <p class="text-muted">Set <a href="https://goo.gl/forms/DCE3XhOpajlO06uo1">goals</a> for your hackathon</p>
+                    <p class="text-muted">Set goals for your hackathon</p>
+                     <p class="text-muted"><a href="https://goo.gl/forms/DCE3XhOpajlO06uo1">Learn More</a></p>
                     </div>
                   </div>
                 </div>
@@ -50,7 +51,8 @@
                     <!--<i class="icon-camera text-primary"></i>-->
                     <img class="2_icon" src="../assets/hiring_2_icon.png">
                     <h3  id="textsize3">Screen Candidates</h3>
-                    <p class="text-muted">Invite candidates that <a href="https://goo.gl/forms/fWLqSk1t8R7ZJ0CB3">match</a> your goals</p>
+                    <p class="text-muted">Invite candidates that match your goals</p>
+                    <p class="text-muted"><a href="https://goo.gl/forms/fWLqSk1t8R7ZJ0CB3">Learn More</a></p>
                     </div>
                   </div>
                 </div>
@@ -60,7 +62,8 @@
                     <!--<i class="icon-present text-primary"></i>-->
                     <img class="3_icon" src="../assets/hiring_3_icon.png">
                     <h3  id="textsize3">Group Hackathon</h3>
-                    <p class="text-muted"><a href="">Meet</a> all the pre-screened candidates together at the Interview Hackathon</p>
+                    <p class="text-muted">Meet all the pre-screened candidates together at the Interview Hackathon</p>
+                    <p class="text-muted"><a href="https://goo.gl/forms/fWLqSk1t8R7ZJ0CB3">Learn More</a></p>
                      </div>
                   </div>
                 </div>
@@ -70,7 +73,8 @@
                     <!--<i class="icon-lock-open text-primary"></i>-->
                     <img class="4_icon" src="../assets/hiring_4_icon.png">
                     <h3  id="textsize3">Hackathon Reports </h3>
-                <p class="text-muted"><a href="">Code, Presentations, Pictures, Videos</a></p>
+                    <p class="text-muted">Code, Presentations, Pictures, Videos</p>
+                    <p class="text-muted"><a href="https://goo.gl/forms/fWLqSk1t8R7ZJ0CB3">Learn More</a></p>
                   </div>
                   </div>
                 </div>
@@ -139,73 +143,22 @@
          			 </b-col>
          			 <b-col>
            				 <div class="col-md-8 mx-auto">
-              				<h2 class="section-heading">Don't just fill an open position but fill it with perfect fit</h2>
-              				<p>Want to learn how to improve your current hiring practices?</p>
-              				<div class="badges">
-               					<a href="/" class="btn btn-outline btn-xl js-scroll-trigger">LEARN MORE</a>
-             			 	</div>
+              				<h2 class="section-heading">Don't just fill an open position. Fill it with perfect fit</h2>
+              				<p>Learn how to improve your current hiring practices?</p>
+              			<!--	<div class="badges">-->
+               					<a href="/interviewHackathon">LEARN MORE</a>
+             			 <!--	</div>-->
            				 </div>
          			 </b-col>
          		 </b-row>
      		 </b-container>
     	</section> 
-    <section class="features" id="features">
-      <div class="container">
-        <div class="section-heading text-center">
-          <h2>Skill Set + Culture Fit</h2>
-        <!--  <p class="text-muted">Cut down the hiring time</p>-->
-          <hr>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 my-auto">
-            <div class="device-container">   
-                    <div class="screen" id="foot">
-                <img src="../assets/resume.gif" class="img-fluid" alt="">  
-                          
-                  </div>
-                 
-            </div>
-          </div>
-          <div class="col-lg-8 my-auto">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                  <div style="text-align:left">
-                    <!--<i class="icon-screen-smartphone text-primary"></i>-->
-                   <div class="ui segment">
-                    <h3>Skill Set Fit</h3>
-                    <p class="text-muted">We help you simulate the real working environment af your team at the hackathon as a result you can experince the candidates apprach to solving technical problems.</p>
-                  <h4><a href="/skillSetFit">Learn More</a></h4>
-                  </div>
-                  </div>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                  <div style="text-align:left">
-                    <!--<i class="icon-camera text-primary"></i>-->
-                    <div class="ui segment">
-                    <h3>Culture Fit</h3>
-                    <p class="text-muted">At the hackathon, you experince how candidates collaborate in team setting while working on solving technical challenges.</p>
-                    <h4><a href="/cultureFit">Learn More</a></h4>
-                    </div>
-                  </div>
-                  </div>
-                </div>
-              </div>
-              
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
     <section class="hiring">
       
         <div class="container1">
           <h2>Stop wasting time and money<br>Start hackohiring.</h2>
           <div class="cta-content">
-          <a href="/" class="btn btn-outline btn-xl js-scroll-trigger">LEARN MORE</a>
+          <a href="/techHiring" class="btn btn-outline btn-xl js-scroll-trigger">LEARN MORE</a>
         </div>
       </div>
       <div class="overlay"></div>

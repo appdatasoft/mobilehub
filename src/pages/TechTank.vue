@@ -103,7 +103,7 @@
     <section class="features" id="features">
       <div class="container">
         <div class="section-heading text-center">
-          <h2>Growth Hack your Hiring</h2>
+          <h2>Growth Hack Your Hiring</h2>
           <p class="text-muted"><a href="/">Make your dreams reality</a></p>
           <hr>
         </div>
